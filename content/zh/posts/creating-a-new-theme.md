@@ -1,71 +1,69 @@
 ---
 author: "Michael Henderson"
 date: 2014-09-28
-linktitle: Creating a New Theme
+linktitle: 创建新主题
 menu:
   main:
     parent: tutorials
 next: /tutorials/github-pages-blog
 prev: /tutorials/automated-deployments
-title: Creating a New Theme
+title: 创建新主题
 weight: 10
 ---
 
+## 简介
 
-## Introduction
+本教程将向您展示如何在 Hugo 中创建一个简单的主题。我假设您熟悉 HTML、bash 命令行，并且能够熟练使用 Markdown 来格式化内容。我将解释 Hugo 如何使用模板以及如何组织模板来创建主题。我不会介绍如何使用 CSS 来设置主题的样式。
 
-This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organize your templates to create a theme. I won't cover using CSS to style your theme.
+我们将首先使用一个非常基本的模板创建一个新网站。然后，我们将添加一些页面和帖子。在此基础上进行一些细微的调整，您将能够创建多种不同类型的网站。
 
-We'll start with creating a new site with a very basic template. Then we'll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.
+在本教程中，您输入的命令将以“$”提示符开头。输出将紧随其后。以“#”开头的行是我添加的注释，用于解释某个要点。当我显示文件更新时，最后一行的“:wq”表示保存文件。
 
-In this tutorial, commands that you enter will start with the "$" prompt. The output will follow. Lines that start with "#" are comments that I've added to explain a point. When I show updates to a file, the ":wq" on the last line means to save the file.
-
-Here's an example:
+以下是示例：
 
 ```
-## this is a comment
-$ echo this is a command
-this is a command
+## 这是一条注释
+$ echo 这是一条命令
+这是一条命令
 
-## edit the file
+## 编辑文件
 $ vi foo.md
 +++
 date = "2014-09-28"
-title = "creating a new theme"
+title = "创建新主题"
 +++
 
-bah and humbug
+胡扯和骗局
 :wq
 
-## show it
+## 显示
 $ cat foo.md
 +++
 date = "2014-09-28"
-title = "creating a new theme"
+title = "创建新主题"
 +++
 
-bah and humbug
+胡扯和骗局
 $
 ```
 
+## 一些定义
 
-## Some Definitions
+在创建主题之前，您需要了解一些概念。
 
-There are a few concepts that you need to understand before creating a theme.
+### 皮肤
 
-### Skins
+皮肤是负责网站外观和风格的文件。CSS 控制颜色和字体，JavaScript 决定操作和响应。Hugo 也使用皮肤规则将您的内容转换为网站提供给访问者的 HTML 代码。
 
-Skins are the files responsible for the look and feel of your site. It’s the CSS that controls colors and fonts, it’s the Javascript that determines actions and reactions. It’s also the rules that Hugo uses to transform your content into the HTML that the site will serve to visitors.
+创建皮肤有两种方法。最简单的方法是在 ``layouts/`` 目录中创建。如果这样做，您无需担心配置 Hugo 来识别它。Hugo 查找规则和文件的第一个位置就是 ``layouts/`` 目录，因此它总能找到皮肤。
 
-You have two ways to create a skin. The simplest way is to create it in the ```layouts/``` directory. If you do, then you don’t have to worry about configuring Hugo to recognize it. The first place that Hugo will look for rules and files is in the ```layouts/``` directory so it will always find the skin.
+第二种选择是在 ``themes/`` 目录的子目录中创建皮肤。如果这样做，您必须始终告诉 Hugo 在哪里搜索皮肤。但这需要额外的工作，所以为什么要这么做呢？
 
-Your second choice is to create it in a sub-directory of the ```themes/``` directory. If you do, then you must always tell Hugo where to search for the skin. It’s extra work, though, so why bother with it?
+在 ``layouts/`` 和 ``themes/`` 中创建皮肤之间的区别非常微妙。如果不更新构建它的模板和静态文件，``layouts/`` 中的皮肤就无法进行自定义。而另一方面，在 ``themes/`` 中创建的皮肤则可以进行自定义，这使得其他人更容易使用它。
 
-The difference between creating a skin in ```layouts/``` and creating it in ```themes/``` is very subtle. A skin in ```layouts/``` can’t be customized without updating the templates and static files that it is built from. A skin created in ```themes/```, on the other hand, can be and that makes it easier for other people to use it.
+本教程的其余部分将把在 ```themes/`` 目录中创建的皮肤称为主题。
 
-The rest of this tutorial will call a skin created in the ```themes/``` directory a theme.
-
-Note that you can use this tutorial to create a skin in the ```layouts/``` directory if you wish to. The main difference will be that you won’t need to update the site’s configuration file to use a theme.
+请注意，如果您愿意，也可以使用本教程在 ```layouts/`` 目录中创建皮肤。主要区别在于，您无需更新网站的配置文件即可使用主题。
 
 ### The Home Page
 

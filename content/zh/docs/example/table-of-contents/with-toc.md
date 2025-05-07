@@ -1,7 +1,13 @@
 ---
-title: With ToC
-weight: 1
+author: "Michael Henderson"
+date: 2014-09-28
+linktitle: 带着toc
+
+title: 带着toc
+weight: 10
 ---
+
+
 # Caput vino delphine in tamen vias
 
 ## Cognita laeva illo fracta

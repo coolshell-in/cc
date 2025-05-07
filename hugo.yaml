@@ -4,9 +4,10 @@ baseURL: https://example.com/
 title: Hugo Book
 theme: hugo-book
 
+
 # Book configuration
 disablePathToLower: true
-enableGitInfo: true
+enableGitInfo: false
 
 # Needed for mermaid/katex shortcodes
 markup:
@@ -34,17 +35,23 @@ languages:
 menu:
   # before: []
   after:
-    - name: "Github"
-      url: "https://github.com/alex-shpak/hugo-book"
+    - name: "Coolshell"
+      url: ""
       weight: 10
-    - name: "Hugo Themes"
+    - name: "Themes Hugo-Book"
       url: "https://themes.gohugo.io/themes/hugo-book/"
       weight: 20
+    # - name: "Posts"
+    #   url: "/posts/"
+    #   weight: 5
+
+
 
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
   BookTheme: "light"
+  BookAuthor: "Atom.X"
 
   # (Optional, default true) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
@@ -62,11 +69,11 @@ params:
   # (Optional, default docs) Specify root page to render child pages as menu.
   # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
   # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
-  BookSection: "*"  # 使用 "*" 或 "/" 显示所有部分，包括 posts, docs
+  BookSection: docs  # 使用 "*" 或 "/" 显示所有部分，包括 posts, 
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo: https://github.com/alex-shpak/hugo-book
+  # BookRepo: https://github.com/alex-shpak/hugo-book
 
   # (Optional, default 'commit') Specifies commit portion of the link to the page's last modified
   # commit hash for 'doc' page type.
@@ -83,7 +90,7 @@ params:
   # Configure the date format used on the pages
   # - In git information
   # - In blog posts
-  BookDateFormat: "January 2, 2006"
+  BookDateFormat: "2006-01-02"
 
   # (Optional, default true) Enables search function with flexsearch,
   # Index is built on fly, therefore it might slowdown your website.
