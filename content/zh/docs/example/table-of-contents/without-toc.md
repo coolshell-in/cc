@@ -1,7 +1,8 @@
 ---
+date: 2024-09-28
 title: Without ToC
 weight: 2
-bookToc: false
+
 ---
 
 # At me ipso nepotibus nunc celebratior genus

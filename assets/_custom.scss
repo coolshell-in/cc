@@ -1,0 +1,15 @@
+/* 增加日期和作者下方与首个标题之间的行距 */
+.book-post-meta {
+    margin-bottom: 3em; /* 3倍行距 */
+}
+  
+/* 针对文章页面的特定样式 */
+.book-post .book-post-meta {
+margin-bottom: 3.5em; /* 可以为特定页面类型调整 */
+}
+
+/* 针对文档页面的特定样式 */
+.book-page .book-post-meta {
+margin-bottom: 3.2em; /* 可以为特定页面类型调整 */
+}
+  

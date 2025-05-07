@@ -1,0 +1,10 @@
+{{ define "main" }}
+<article class="markdown">
+  <h1>{{ .Title }}</h1>
+  
+  <!-- 添加这一行来显示作者和日期 -->
+  {{ partial "docs/post-meta" . }}
+  
+  {{ .Content }}
+</article>
+{{ end }}

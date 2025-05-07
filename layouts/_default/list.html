@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <article class="markdown book-page">
+    <h1>{{ .Title }}</h1>
+    
+    {{ partial "docs/post-meta" . }}
+    
+    <div class="book-page-content">
+      {{ .Content }}
+    </div>
+    
+    {{ if .Pages }}
+    <ul>
+      {{ range sort .Pages }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a>
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </article>
+{{ end }}
+
+{{ define "toc" }}
+  {{ partial "docs/taxonomy" . }}
+{{ end }}

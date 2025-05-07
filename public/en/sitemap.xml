@@ -77,16 +77,6 @@
                 />
   </url><url>
     <loc>http://localhost:1313/docs/example/collapsed/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/zh/docs/example/collapsed/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/docs/example/collapsed/"
-                />
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
@@ -271,28 +261,8 @@
                 />
   </url><url>
     <loc>http://localhost:1313/docs/example/collapsed/3rd-level/4th-level/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/zh/docs/example/collapsed/3rd-level/4th-level/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/docs/example/collapsed/3rd-level/4th-level/"
-                />
   </url><url>
     <loc>http://localhost:1313/docs/example/collapsed/3rd-level/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/zh/docs/example/collapsed/3rd-level/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/docs/example/collapsed/3rd-level/"
-                />
   </url><url>
     <loc>http://localhost:1313/docs/example/hidden/</loc>
     <xhtml:link
