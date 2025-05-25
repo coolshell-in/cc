@@ -12,4 +12,14 @@ margin-bottom: 3.5em; /* 可以为特定页面类型调整 */
 .book-page .book-post-meta {
 margin-bottom: 3.2em; /* 可以为特定页面类型调整 */
 }
-  
+
+// /* 禁用当前页面正文下方的子页面列表 */
+.book-page .markdown > ul:last-child,
+.book-page .markdown > ol:last-child {
+  display: none;
+}
+
+/* 禁用左侧栏页面列表 */
+// .book-section-flat {
+//     display: none;
+//   }

@@ -6,7 +6,7 @@
     <description>Recent content in Introduction on Hugo Book</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>With ToC</title>
@@ -21,6 +21,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/example/table-of-contents/without-toc/</guid>
       <description>&lt;h1 id=&#34;at-me-ipso-nepotibus-nunc-celebratior-genus&#34;&gt;&#xA;  At me ipso nepotibus nunc celebratior genus&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#at-me-ipso-nepotibus-nunc-celebratior-genus&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;tanto-oblite&#34;&gt;&#xA;  Tanto oblite&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#tanto-oblite&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Lorem markdownum pectora novis patenti igne sua opus aurae feras materiaque&#xA;illic demersit imago et aristas questaque posset. Vomit quoque suo inhaesuro&#xA;clara. Esse cumque, per referri triste. Ut exponit solisque communis in tendens&#xA;vincetis agisque iamque huic bene ante vetat omina Thebae rates. Aeacus servat&#xA;admonitu concidit, ad resimas vultus et rugas vultu &lt;strong&gt;dignamque&lt;/strong&gt; Siphnon.&lt;/p&gt;&#xA;&lt;p&gt;Quam iugulum regia simulacra, plus meruit humo pecorumque haesit, ab discedunt&#xA;dixit: ritu pharetramque. Exul Laurenti orantem modo, per densum missisque labor&#xA;manibus non colla unum, obiectat. Tu pervia collo, fessus quae Cretenque Myconon&#xA;crate! Tegumenque quae invisi sudore per vocari quaque plus ventis fluidos. Nodo&#xA;perque, fugisse pectora sorores.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo Site Folding Menu Problem Analysis</title>
+      <link>http://localhost:1313/docs/example/hugo/fold-menu/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/example/hugo/fold-menu/</guid>
+      <description>&lt;p&gt;When the setting file creation date is greater than the current actual date, the folding menu cannot be displayed.&lt;/p&gt;&#xA;&lt;p&gt;For example: today is 2025-05-07, if it is set to 2035-05-07, the folding menu page will not be displayed.&lt;/p&gt;&#xA;&lt;p&gt;After checking the code, I found:&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-relationship-between-date-setting-and-collapse-menu&#34;&gt;&#xA;  The relationship between date setting and collapse menu&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#the-relationship-between-date-setting-and-collapse-menu&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Using Book theme in Hugo, special attention:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Hugo will determine whether the content should be published based on the date by default&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modify the Content Directory of the Article on the Right Column</title>
+      <link>http://localhost:1313/docs/example/hugo/config-book/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/example/hugo/config-book/</guid>
+      <description>&lt;h1 id=&#34;control-the-display-of-toc&#34;&gt;&#xA;  Control the display of TOC&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#control-the-display-of-toc&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Modify the Content Directory of the Article on the Right Column TOC&lt;/p&gt;&#xA;&lt;p&gt;The default homepage of the multi-level menu, file name _index.md, will not display the right TOC even if &lt;code&gt;bookToc: true&lt;/code&gt; is added to the front matter. The default right column displays a list of tags and categories.&lt;/p&gt;&#xA;&lt;p&gt;The TOC can be automatically displayed for non-homepages.&lt;/p&gt;&#xA;&lt;p&gt;If the content on the homepage also has multi-level titles, how to add a right column TOC to it?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Creating a New Theme</title>
@@ -49,13 +63,6 @@
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/hugoisforlovers/</guid>
       <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;&#xA;  Step 1. Install Hugo&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#step-1-install-hugo&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Go to &#xA;  &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;Hugo releases&lt;/a&gt; and download the&#xA;appropriate version for your OS and architecture.&lt;/p&gt;&#xA;&lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;&#xA;&lt;p&gt;More complete instructions are available at &#xA;  &lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;Install Hugo&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-2-build-the-docs&#34;&gt;&#xA;  Step 2. Build the Docs&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#step-2-build-the-docs&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Hugo has its own example site which happens to also be the documentation site&#xA;you are reading right now.&lt;/p&gt;&#xA;&lt;p&gt;Follow the following steps:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/docs/example/collapsed/3rd-level/4th-level/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/example/collapsed/3rd-level/4th-level/</guid>
-      <description>&lt;h1 id=&#34;4th-level-of-menu&#34;&gt;&#xA;  4th Level of Menu&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#4th-level-of-menu&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;caesorum-illa-tu-sentit-micat-vestes-papyriferi&#34;&gt;&#xA;  Caesorum illa tu sentit micat vestes papyriferi&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#caesorum-illa-tu-sentit-micat-vestes-papyriferi&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Inde aderam facti; Theseus vis de tauri illa peream. Oculos &lt;strong&gt;uberaque&lt;/strong&gt; non&#xA;regisque vobis cursuque, opus venit quam vulnera. Et maiora necemque, lege modo;&#xA;gestanda nitidi, vero? Dum ne pectoraque testantur.&lt;/p&gt;&#xA;&lt;p&gt;Venasque repulsa Samos qui, exspectatum eram animosque hinc, &#xA;  &lt;a href=&#34;http://www.creveratnon.net/apricaaetheriis&#34;&gt;aut&#xA;manes&lt;/a&gt;, Assyrii. Cupiens auctoribus&#xA;pariter rubet, profana magni super nocens. Vos ius sibilat inpar turba visae&#xA;iusto! Sedes ante dum superest &lt;strong&gt;extrema&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
