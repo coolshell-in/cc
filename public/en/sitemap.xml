@@ -181,19 +181,6 @@
                 href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/zh/tags/development/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/development/"
-                />
-  </url><url>
     <loc>http://localhost:1313/categories/Development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -205,6 +192,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/categories/Development/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/development/"
                 />
   </url><url>
     <loc>http://localhost:1313/posts/hugoisforlovers/</loc>
@@ -233,19 +233,6 @@
                 href="http://localhost:1313/tags/go/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/zh/tags/golang/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/golang/"
-                />
-  </url><url>
     <loc>http://localhost:1313/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -257,6 +244,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/categories/golang/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/golang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/golang/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/hugo/</loc>

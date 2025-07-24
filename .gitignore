@@ -1,0 +1,8 @@
+.gitbook/
+.DS_Store
+venv/
+.gitbook.yaml
+requirements.txt
+test.py
+.github/
+__pycache__
