@@ -7,7 +7,7 @@ on:
 
 env:
   HUGO_VERSION: 0.147.8
-  NODE_VERSION: 23
+  NODE_VERSION: 20  # 改为更稳定的 LTS 版本
   GO_VERSION: 1.19
   CONTENT_PATH: "content"
 
@@ -24,16 +24,13 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
-      # ===== 添加缓存步骤 =====
       - name: Cache Hugo modules
         uses: actions/cache@v3
         with:
           path: |
             ~/.cache/hugo
           key: ${{ runner.os }}-hugo-modules-${{ hashFiles('go.mod') }}
-          restore-keys: |
-            ${{ runner.os }}-hugo-modules-
-            
+          
       - name: Cache npm modules
         uses: actions/cache@v3
         with:
@@ -41,10 +38,7 @@ jobs:
             node_modules
             ~/.npm
           key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-npm-
-      # ===== 缓存结束 =====
-      
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
@@ -55,7 +49,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: npm  # 与上面的缓存步骤配合使用
+          cache: npm
 
       - name: Setup Go
         uses: actions/setup-go@v4
@@ -64,24 +58,43 @@ jobs:
 
       - name: Install dependencies
         run: |
+          git submodule update --init --recursive
           hugo mod get -u
           hugo mod verify
           npm ci
 
+      # 修复：简化 HUGO_BASEURL 计算
       - name: Build site
-        run: hugo --minify
+        run: |
+          echo "##[group]Build Environment"
+          echo "BaseURL: ${{ 
+            (github.repository == format('{0}/{0}.github.io', github.repository_owner) 
+              && format('https://{0}.github.io/', github.repository_owner) 
+              || format('https://{0}.github.io/{1}/', github.repository_owner, github.event.repository.name) 
+          }}"
+          echo "Content dir: ${{ env.CONTENT_PATH }}"
+          echo "##[endgroup]"
+          
+          hugo --minify
         env:
           HUGO_ENV: production
           HUGO_BASEURL: ${{ 
-            github.repository == format('{0}/{0}.github.io', github.repository_owner) 
-              && format('https://{0}.github.io/', github.repository_owner)
+            (github.repository == format('{0}/{0}.github.io', github.repository_owner)) 
+              && format('https://{0}.github.io/', github.repository_owner) 
               || format('https://{0}.github.io/{1}/', github.repository_owner, github.event.repository.name) 
           }}
           HUGO_CONTENT_DIR: ${{ env.CONTENT_PATH }}
+
+      - name: Verify public directory
+        run: |
+          echo "Contents of public directory:"
+          ls -la public
+          [ -f public/index.html ] || exit 1
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          branch: gh-pages
           keep_files: true
