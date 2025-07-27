@@ -1,33 +1,303 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Hugo 技术解答 on Hugo Book</title>
-    <link>http://localhost:1313/zh/docs/example/hugo/</link>
-    <description>Recent content in Hugo 技术解答 on Hugo Book</description>
-    <generator>Hugo</generator>
-    <language>zh</language>
-    <lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh/docs/example/hugo/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hugo站点折叠菜单问题分析</title>
-      <link>http://localhost:1313/zh/docs/example/hugo/fold-menu/</link>
-      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/example/hugo/fold-menu/</guid>
-      <description>&lt;p&gt;当设置文件创建日期大于当前实际日期时，折叠菜单无法显示。&lt;/p&gt;&#xA;&lt;p&gt;例如：今天是 2025-05-07，若设置为2035-05-07，折叠菜单页面将无法显示。&lt;/p&gt;&#xA;&lt;p&gt;经过检查代码，我发现：&lt;/p&gt;&#xA;&lt;h2 id=&#34;日期设置与折叠菜单的关系&#34;&gt;&#xA;  日期设置与折叠菜单的关系&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%97%a5%e6%9c%9f%e8%ae%be%e7%bd%ae%e4%b8%8e%e6%8a%98%e5%8f%a0%e8%8f%9c%e5%8d%95%e7%9a%84%e5%85%b3%e7%b3%bb&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;在Hugo中使用Book主题，特别注意事项：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Hugo默认会根据日期来确定内容是否应该发布&lt;/li&gt;&#xA;&lt;li&gt;未来日期的内容被视为&amp;quot;草稿&amp;quot;或&amp;quot;未发布&amp;quot;状态&lt;/li&gt;&#xA;&lt;li&gt;在默认配置下，未发布的内容不会在生成的站点中显示&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;解决方案&#34;&gt;&#xA;  解决方案&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;两种解决方案：&lt;/p&gt;&#xA;&lt;h3 id=&#34;方案1修改日期&#34;&gt;&#xA;  方案1：修改日期&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%96%b9%e6%a1%881%e4%bf%ae%e6%94%b9%e6%97%a5%e6%9c%9f&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;将日期设置为当前日期或过去的日期，例如：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown:/Users/projects/hugo-book/content/zh/docs/example/collapsed/3rd-level/_index.md&#34; data-lang=&#34;markdown:/Users/projects/hugo-book/content/zh/docs/example/collapsed/3rd-level/_index.md&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;date: 2023-05-07&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;linktitle: &amp;#34;第三级菜单&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title: &amp;#34;第三级菜单&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;weight: 10&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#bookCollapseSection: true&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;// ... existing code ...&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;方案2在hugo配置中启用未来内容&#34;&gt;&#xA;  方案2：在Hugo配置中启用未来内容&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%96%b9%e6%a1%882%e5%9c%a8hugo%e9%85%8d%e7%bd%ae%e4%b8%ad%e5%90%af%e7%94%a8%e6%9c%aa%e6%9d%a5%e5%86%85%e5%ae%b9&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;如果您希望保留未来日期，可以在Hugo配置文件中添加以下设置：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# config.yaml 或 config.toml&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;buildFuture&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这将告诉Hugo在构建站点时包含未来日期的内容。&lt;/p&gt;&#xA;&lt;h2 id=&#34;关于-bookcollapsesection&#34;&gt;&#xA;  关于 bookCollapseSection&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%85%b3%e4%ba%8e-bookcollapsesection&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;在某些情况下，不设置 &lt;code&gt;bookCollapseSection: true&lt;/code&gt; 也能正常显示折叠页面。这通常发生在以下情况：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;当目录结构本身已经表明该部分应该是可折叠的（例如，有子页面存在）&lt;/li&gt;&#xA;&lt;li&gt;当主题的默认行为是自动折叠具有子页面的部分&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;不过，为了确保一致的行为，建议在需要折叠的部分明确设置 &lt;code&gt;bookCollapseSection: true&lt;/code&gt;，除非您确定主题的默认行为已经满足了需求。&lt;/p&gt;&#xA;&lt;h2 id=&#34;总结&#34;&gt;&#xA;  总结&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%80%bb%e7%bb%93&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;将日期设置为当前或过去的日期，或在Hugo配置中启用 &lt;code&gt;buildFuture: true&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;根据需要决定是否使用 &lt;code&gt;bookCollapseSection: true&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;这样应该可以解决折叠菜单显示问题。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>右侧栏的文章内容目录修改</title>
-      <link>http://localhost:1313/zh/docs/example/hugo/config-book/</link>
-      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/example/hugo/config-book/</guid>
-      <description>&lt;h1 id=&#34;控制显示toc&#34;&gt;&#xA;  控制显示TOC&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%8e%a7%e5%88%b6%e6%98%be%e7%a4%batoc&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;右侧栏的文章内容目录TOC修改&lt;/p&gt;&#xA;&lt;p&gt;多级菜单的默认首页 文件名 _index.md， 即使在front matter中添加了 &lt;code&gt;bookToc: true&lt;/code&gt;，也不会显示右侧TOC，默认右侧栏显示的是tag，categories的列表。&lt;/p&gt;&#xA;&lt;p&gt;非首页则可以自动显示TOC。&lt;/p&gt;&#xA;&lt;p&gt;若首页中的内容也有多级标题，如何给其增加右侧栏TOC？&lt;/p&gt;&#xA;&lt;h2 id=&#34;方案使用内容参数强制显示toc&#34;&gt;&#xA;  方案：使用内容参数强制显示TOC&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%96%b9%e6%a1%88%e4%bd%bf%e7%94%a8%e5%86%85%e5%ae%b9%e5%8f%82%e6%95%b0%e5%bc%ba%e5%88%b6%e6%98%be%e7%a4%batoc&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;在 _index.md 文件中添加特殊参数：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;date: 2025-05-03&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;linktitle: &amp;#34;内容目录&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title: &amp;#34;右侧栏的文章内容目录修改&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;weight: 10&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bookToc: true&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;type: &amp;#34;docs&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;layout: &amp;#34;single&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;添加了 type: &amp;ldquo;docs&amp;rdquo; 和 layout: &amp;ldquo;single&amp;rdquo; 参数，这会强制Hugo使用单页面布局，而非首页布局。&lt;/p&gt;&#xA;&lt;h2 id=&#34;方案创建自定义布局文件&#34;&gt;&#xA;  方案：创建自定义布局文件&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%96%b9%e6%a1%88%e5%88%9b%e5%bb%ba%e8%87%aa%e5%ae%9a%e4%b9%89%e5%b8%83%e5%b1%80%e6%96%87%e4%bb%b6&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;如果不想直接修改主题文件，可以创建自定义布局：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;在项目根目录创建： /Users/projects/hugo-book/layouts/_default/section.html&lt;/li&gt;&#xA;&lt;li&gt;复制主题中的 single.html 内容到这个文件&lt;/li&gt;&#xA;&lt;li&gt;确保TOC部分不受首页限制&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;当然，还可以使用shortcode插入TOC等方法，这里我们推荐优先采纳不用改代码的方案。&lt;/p&gt;&#xA;&lt;h2 id=&#34;撤销默认首页底部的子页面列表&#34;&gt;&#xA;  撤销默认首页底部的子页面列表&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%92%a4%e9%94%80%e9%bb%98%e8%ae%a4%e9%a6%96%e9%a1%b5%e5%ba%95%e9%83%a8%e7%9a%84%e5%ad%90%e9%a1%b5%e9%9d%a2%e5%88%97%e8%a1%a8&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;hugo-book主题中，默认在左侧菜单中显示所有页面和子页面的文章列表。&lt;/p&gt;&#xA;&lt;p&gt;在主题有缺陷的情况下，若一个页面有子页面，可能页面正文下方，还有一个与左侧栏相同的子页面列表。&lt;/p&gt;&#xA;&lt;p&gt;所以两者重复了，我们仅仅保留一个左侧栏的文章列表即可。&lt;/p&gt;&#xA;&lt;p&gt;如何撤销默认首页底部的子菜单（文章列表）？&lt;/p&gt;&#xA;&lt;p&gt;最简单的方法是在&lt;code&gt;_custom.scss&lt;/code&gt; 增加以下代码：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;.book-page&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;.markdown&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;ul&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;:last-child&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;.book-page&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;.markdown&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;ol&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;:last-child&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;display&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; none;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后，通过配置默认首页来控制是否在左侧栏显示全部页面，在front matter中增加配置：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/zh/docs/example/hugo/func-key/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/docs/example/hugo/func-key/</guid>
-      <description>&lt;h1 id=&#34;hugo-book主题配置参数列表&#34;&gt;&#xA;  Hugo Book主题配置参数列表&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#hugo-book%e4%b8%bb%e9%a2%98%e9%85%8d%e7%bd%ae%e5%8f%82%e6%95%b0%e5%88%97%e8%a1%a8&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;以下是Hugo Book主题中所有以&lt;code&gt;book&lt;/code&gt;开头的配置参数及其功能说明，可以在&lt;code&gt;hugo.yaml&lt;/code&gt;全局配置或在页面前置元数据(frontmatter)中使用：&lt;/p&gt;&#xA;&lt;h2 id=&#34;全局配置参数在hugoyaml中使用&#34;&gt;&#xA;  全局配置参数（在hugo.yaml中使用）&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%85%a8%e5%b1%80%e9%85%8d%e7%bd%ae%e5%8f%82%e6%95%b0%e5%9c%a8hugoyaml%e4%b8%ad%e4%bd%bf%e7%94%a8&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;参数名&lt;/th&gt;&#xA;          &lt;th&gt;默认值&lt;/th&gt;&#xA;          &lt;th&gt;功能说明&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;BookTheme&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&amp;ldquo;light&amp;rdquo;&lt;/td&gt;&#xA;          &lt;td&gt;设置颜色主题：light（亮色）、dark（暗色）或auto（自动根据浏览器/系统偏好切换）&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;BookAuthor&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;-&lt;/td&gt;&#xA;          &lt;td&gt;设置站点作者信息&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;BookFlatSection&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;false&lt;/td&gt;&#xA;          &lt;td&gt;控制是否在页面底部显示子页面列表。设为false时禁用底部文章列表&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;BookToC&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;true&lt;/td&gt;&#xA;          &lt;td&gt;控制页面右侧目录的可见性。可以通过markup.tableOfContents设置控制起始和结束级别&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;BookFavicon&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&amp;ldquo;favicon.png&amp;rdquo;&lt;/td&gt;&#xA;          &lt;td&gt;设置网站图标文件路径&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;BookLogo&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;-&lt;/td&gt;&#xA;          &lt;td&gt;设置书籍/网站的logo图片路径&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;BookSection&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&amp;ldquo;docs&amp;rdquo;&lt;/td&gt;&#xA;          &lt;td&gt;指定要渲染为菜单的根页面。可以设置为&amp;rsquo;*&amp;lsquo;或&amp;rsquo;/&amp;lsquo;以渲染所有部分&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;BookRepo&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;-&lt;/td&gt;&#xA;          &lt;td&gt;设置源代码仓库位置，用于&amp;quot;最后修改&amp;quot;和&amp;quot;编辑此页面&amp;quot;链接&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;BookCommitPath&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&amp;ldquo;commit&amp;rdquo;&lt;/td&gt;&#xA;          &lt;td&gt;指定链接到页面最后修改的提交哈希的链接部分&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;BookEditPath&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;-&lt;/td&gt;&#xA;          &lt;td&gt;启用&amp;quot;编辑此页面&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;全局配置参数&#34;&gt;&#xA;  全局配置参数&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%85%a8%e5%b1%80%e9%85%8d%e7%bd%ae%e5%8f%82%e6%95%b0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;参数名&lt;/th&gt;&#xA;          &lt;th&gt;默认值&lt;/th&gt;&#xA;          &lt;th&gt;功能说明&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;BookEditPath&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;-&lt;/td&gt;&#xA;          &lt;td&gt;启用&amp;quot;编辑此页面&amp;quot;链接。默认禁用，取消注释以启用。需要&amp;rsquo;BookRepo&amp;rsquo;参数&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;BookDateFormat&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&amp;ldquo;2006-01-02&amp;rdquo;&lt;/td&gt;&#xA;          &lt;td&gt;配置页面上使用的日期格式（在git信息和博客文章中）&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;BookSearch&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;true&lt;/td&gt;&#xA;          &lt;td&gt;启用flexsearch搜索功能。索引是即时构建的，因此可能会减慢网站速度&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;BookComments&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;true&lt;/td&gt;&#xA;          &lt;td&gt;在页面上启用评论模板。默认包含Disqus模板&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;BookPortableLinks&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;false&lt;/td&gt;&#xA;          &lt;td&gt;实验性功能，启用可移植链接和markdown页面中的链接检查&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;BookServiceWorker&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;false&lt;/td&gt;&#xA;          &lt;td&gt;实验性功能，启用缓存已访问页面和资源以供离线使用的服务工作程序&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;BookTranslatedOnly&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;false&lt;/td&gt;&#xA;          &lt;td&gt;实验性功能，仅在存在翻译时才为翻译启用下拉菜单&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;BookMenuBundle&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;-&lt;/td&gt;&#xA;          &lt;td&gt;可用于全局隐藏特定部分&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;页面级配置参数在页面前置元数据中使用&#34;&gt;&#xA;  页面级配置参数（在页面前置元数据中使用）&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a1%b5%e9%9d%a2%e7%ba%a7%e9%85%8d%e7%bd%ae%e5%8f%82%e6%95%b0%e5%9c%a8%e9%a1%b5%e9%9d%a2%e5%89%8d%e7%bd%ae%e5%85%83%e6%95%b0%e6%8d%ae%e4%b8%ad%e4%bd%bf%e7%94%a8&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;参数名&lt;/th&gt;&#xA;          &lt;th&gt;默认值&lt;/th&gt;&#xA;          &lt;th&gt;功能说明&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;bookHidden&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;false&lt;/td&gt;&#xA;          &lt;td&gt;设置为true时，在左侧导航菜单中隐藏该页面及其所有子页面&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;bookCollapseSection&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;false&lt;/td&gt;&#xA;          &lt;td&gt;设置为true时，该部分在左侧菜单中默认折叠显示&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;bookFlatSection&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;false&lt;/td&gt;&#xA;          &lt;td&gt;控制是否在页面底部显示子页面列表。设为false时禁用底部文章列表&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;bookToC&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;true&lt;/td&gt;&#xA;          &lt;td&gt;控制页面右侧目录的可见性&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;bookComments&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;true&lt;/td&gt;&#xA;          &lt;td&gt;控制页面评论功能是否启用&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;bookSearchExclude&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;false&lt;/td&gt;&#xA;          &lt;td&gt;设置为true时，从搜索索引中排除该页面&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;bookHref&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;-&lt;/td&gt;&#xA;          &lt;td&gt;可以设置为外部URL，点击菜单项时将导航到该URL&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;weight&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;-&lt;/td&gt;&#xA;          &lt;td&gt;控制页面在菜单中的排序位置（数字越小越靠前）&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;no_list&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;false&lt;/td&gt;&#xA;          &lt;td&gt;设置为true时，禁止在父页面底部显示该页面&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;cascade&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;-&lt;/td&gt;&#xA;          &lt;td&gt;可以设置参数级联到所有子页面，例如&lt;code&gt;cascade: bookHidden: true&lt;/code&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;特殊用法&#34;&gt;&#xA;  特殊用法&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e7%89%b9%e6%ae%8a%e7%94%a8%e6%b3%95&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;隐藏整个部分&lt;/strong&gt;：&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo 技术解答 on Hugo Book</title><link>http://localhost:1313/zh/docs/example/hugo/</link><description>Recent content in Hugo 技术解答 on Hugo Book</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/zh/docs/example/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo站点折叠菜单问题分析</title><link>http://localhost:1313/zh/docs/example/hugo/fold-menu/</link><pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/zh/docs/example/hugo/fold-menu/</guid><description>&lt;p>当设置文件创建日期大于当前实际日期时，折叠菜单无法显示。&lt;/p>
+&lt;p>例如：今天是 2025-05-07，若设置为2035-05-07，折叠菜单页面将无法显示。&lt;/p>
+&lt;p>经过检查代码，我发现：&lt;/p>
+&lt;h2 id="日期设置与折叠菜单的关系">
+ 日期设置与折叠菜单的关系
+ &lt;a class="anchor" href="#%e6%97%a5%e6%9c%9f%e8%ae%be%e7%bd%ae%e4%b8%8e%e6%8a%98%e5%8f%a0%e8%8f%9c%e5%8d%95%e7%9a%84%e5%85%b3%e7%b3%bb">#&lt;/a>
+&lt;/h2>
+&lt;p>在Hugo中使用Book主题，特别注意事项：&lt;/p>
+&lt;ol>
+&lt;li>Hugo默认会根据日期来确定内容是否应该发布&lt;/li>
+&lt;li>未来日期的内容被视为&amp;quot;草稿&amp;quot;或&amp;quot;未发布&amp;quot;状态&lt;/li>
+&lt;li>在默认配置下，未发布的内容不会在生成的站点中显示&lt;/li>
+&lt;/ol>
+&lt;h2 id="解决方案">
+ 解决方案
+ &lt;a class="anchor" href="#%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88">#&lt;/a>
+&lt;/h2>
+&lt;p>两种解决方案：&lt;/p>
+&lt;h3 id="方案1修改日期">
+ 方案1：修改日期
+ &lt;a class="anchor" href="#%e6%96%b9%e6%a1%881%e4%bf%ae%e6%94%b9%e6%97%a5%e6%9c%9f">#&lt;/a>
+&lt;/h3>
+&lt;p>将日期设置为当前日期或过去的日期，例如：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown:/Users/projects/hugo-book/content/zh/docs/example/collapsed/3rd-level/_index.md" data-lang="markdown:/Users/projects/hugo-book/content/zh/docs/example/collapsed/3rd-level/_index.md">&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>date: 2023-05-07
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>linktitle: &amp;#34;第三级菜单&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>title: &amp;#34;第三级菜单&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>weight: 10
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>#bookCollapseSection: true
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>// ... existing code ...
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="方案2在hugo配置中启用未来内容">
+ 方案2：在Hugo配置中启用未来内容
+ &lt;a class="anchor" href="#%e6%96%b9%e6%a1%882%e5%9c%a8hugo%e9%85%8d%e7%bd%ae%e4%b8%ad%e5%90%af%e7%94%a8%e6%9c%aa%e6%9d%a5%e5%86%85%e5%ae%b9">#&lt;/a>
+&lt;/h3>
+&lt;p>如果您希望保留未来日期，可以在Hugo配置文件中添加以下设置：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># config.yaml 或 config.toml&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">buildFuture&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>这将告诉Hugo在构建站点时包含未来日期的内容。&lt;/p>
+&lt;h2 id="关于-bookcollapsesection">
+ 关于 bookCollapseSection
+ &lt;a class="anchor" href="#%e5%85%b3%e4%ba%8e-bookcollapsesection">#&lt;/a>
+&lt;/h2>
+&lt;p>在某些情况下，不设置 &lt;code>bookCollapseSection: true&lt;/code> 也能正常显示折叠页面。这通常发生在以下情况：&lt;/p>
+&lt;ol>
+&lt;li>当目录结构本身已经表明该部分应该是可折叠的（例如，有子页面存在）&lt;/li>
+&lt;li>当主题的默认行为是自动折叠具有子页面的部分&lt;/li>
+&lt;/ol>
+&lt;p>不过，为了确保一致的行为，建议在需要折叠的部分明确设置 &lt;code>bookCollapseSection: true&lt;/code>，除非您确定主题的默认行为已经满足了需求。&lt;/p>
+&lt;h2 id="总结">
+ 总结
+ &lt;a class="anchor" href="#%e6%80%bb%e7%bb%93">#&lt;/a>
+&lt;/h2>
+&lt;ol>
+&lt;li>将日期设置为当前或过去的日期，或在Hugo配置中启用 &lt;code>buildFuture: true&lt;/code>&lt;/li>
+&lt;li>根据需要决定是否使用 &lt;code>bookCollapseSection: true&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>这样应该可以解决折叠菜单显示问题。&lt;/p></description></item><item><title>右侧栏的文章内容目录修改</title><link>http://localhost:1313/zh/docs/example/hugo/config-book/</link><pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/zh/docs/example/hugo/config-book/</guid><description>&lt;h1 id="控制显示toc">
+ 控制显示TOC
+ &lt;a class="anchor" href="#%e6%8e%a7%e5%88%b6%e6%98%be%e7%a4%batoc">#&lt;/a>
+&lt;/h1>
+&lt;p>右侧栏的文章内容目录TOC修改&lt;/p>
+&lt;p>多级菜单的默认首页 文件名 _index.md， 即使在front matter中添加了 &lt;code>bookToc: true&lt;/code>，也不会显示右侧TOC，默认右侧栏显示的是tag，categories的列表。&lt;/p>
+&lt;p>非首页则可以自动显示TOC。&lt;/p>
+&lt;p>若首页中的内容也有多级标题，如何给其增加右侧栏TOC？&lt;/p>
+&lt;h2 id="方案使用内容参数强制显示toc">
+ 方案：使用内容参数强制显示TOC
+ &lt;a class="anchor" href="#%e6%96%b9%e6%a1%88%e4%bd%bf%e7%94%a8%e5%86%85%e5%ae%b9%e5%8f%82%e6%95%b0%e5%bc%ba%e5%88%b6%e6%98%be%e7%a4%batoc">#&lt;/a>
+&lt;/h2>
+&lt;p>在 _index.md 文件中添加特殊参数：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-md" data-lang="md">&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>date: 2025-05-03
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>linktitle: &amp;#34;内容目录&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>title: &amp;#34;右侧栏的文章内容目录修改&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>weight: 10
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>bookToc: true
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>type: &amp;#34;docs&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>layout: &amp;#34;single&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>添加了 type: &amp;ldquo;docs&amp;rdquo; 和 layout: &amp;ldquo;single&amp;rdquo; 参数，这会强制Hugo使用单页面布局，而非首页布局。&lt;/p>
+&lt;h2 id="方案创建自定义布局文件">
+ 方案：创建自定义布局文件
+ &lt;a class="anchor" href="#%e6%96%b9%e6%a1%88%e5%88%9b%e5%bb%ba%e8%87%aa%e5%ae%9a%e4%b9%89%e5%b8%83%e5%b1%80%e6%96%87%e4%bb%b6">#&lt;/a>
+&lt;/h2>
+&lt;p>如果不想直接修改主题文件，可以创建自定义布局：&lt;/p>
+&lt;ol>
+&lt;li>在项目根目录创建： /Users/projects/hugo-book/layouts/_default/section.html&lt;/li>
+&lt;li>复制主题中的 single.html 内容到这个文件&lt;/li>
+&lt;li>确保TOC部分不受首页限制&lt;/li>
+&lt;/ol>
+&lt;p>当然，还可以使用shortcode插入TOC等方法，这里我们推荐优先采纳不用改代码的方案。&lt;/p>
+&lt;h2 id="撤销默认首页底部的子页面列表">
+ 撤销默认首页底部的子页面列表
+ &lt;a class="anchor" href="#%e6%92%a4%e9%94%80%e9%bb%98%e8%ae%a4%e9%a6%96%e9%a1%b5%e5%ba%95%e9%83%a8%e7%9a%84%e5%ad%90%e9%a1%b5%e9%9d%a2%e5%88%97%e8%a1%a8">#&lt;/a>
+&lt;/h2>
+&lt;p>hugo-book主题中，默认在左侧菜单中显示所有页面和子页面的文章列表。&lt;/p>
+&lt;p>在主题有缺陷的情况下，若一个页面有子页面，可能页面正文下方，还有一个与左侧栏相同的子页面列表。&lt;/p>
+&lt;p>所以两者重复了，我们仅仅保留一个左侧栏的文章列表即可。&lt;/p>
+&lt;p>如何撤销默认首页底部的子菜单（文章列表）？&lt;/p>
+&lt;p>最简单的方法是在&lt;code>_custom.scss&lt;/code> 增加以下代码：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-scss" data-lang="scss">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">.book-page&lt;/span> &lt;span style="color:#a6e22e">.markdown&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span> &lt;span style="color:#f92672">ul&lt;/span>&lt;span style="color:#a6e22e">:last-child&lt;/span>&lt;span style="color:#f92672">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">.book-page&lt;/span> &lt;span style="color:#a6e22e">.markdown&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span> &lt;span style="color:#f92672">ol&lt;/span>&lt;span style="color:#a6e22e">:last-child&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">display&lt;/span>&lt;span style="color:#f92672">:&lt;/span> none;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后，通过配置默认首页来控制是否在左侧栏显示全部页面，在front matter中增加配置：&lt;/p></description></item><item><title/><link>http://localhost:1313/zh/docs/example/hugo/func-key/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/zh/docs/example/hugo/func-key/</guid><description>&lt;h1 id="hugo-book主题配置参数列表">
+ Hugo Book主题配置参数列表
+ &lt;a class="anchor" href="#hugo-book%e4%b8%bb%e9%a2%98%e9%85%8d%e7%bd%ae%e5%8f%82%e6%95%b0%e5%88%97%e8%a1%a8">#&lt;/a>
+&lt;/h1>
+&lt;p>以下是Hugo Book主题中所有以&lt;code>book&lt;/code>开头的配置参数及其功能说明，可以在&lt;code>hugo.yaml&lt;/code>全局配置或在页面前置元数据(frontmatter)中使用：&lt;/p>
+&lt;h2 id="全局配置参数在hugoyaml中使用">
+ 全局配置参数（在hugo.yaml中使用）
+ &lt;a class="anchor" href="#%e5%85%a8%e5%b1%80%e9%85%8d%e7%bd%ae%e5%8f%82%e6%95%b0%e5%9c%a8hugoyaml%e4%b8%ad%e4%bd%bf%e7%94%a8">#&lt;/a>
+&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>参数名&lt;/th>
+ &lt;th>默认值&lt;/th>
+ &lt;th>功能说明&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>BookTheme&lt;/code>&lt;/td>
+ &lt;td>&amp;ldquo;light&amp;rdquo;&lt;/td>
+ &lt;td>设置颜色主题：light（亮色）、dark（暗色）或auto（自动根据浏览器/系统偏好切换）&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>BookAuthor&lt;/code>&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>设置站点作者信息&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>BookFlatSection&lt;/code>&lt;/td>
+ &lt;td>false&lt;/td>
+ &lt;td>控制是否在页面底部显示子页面列表。设为false时禁用底部文章列表&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>BookToC&lt;/code>&lt;/td>
+ &lt;td>true&lt;/td>
+ &lt;td>控制页面右侧目录的可见性。可以通过markup.tableOfContents设置控制起始和结束级别&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>BookFavicon&lt;/code>&lt;/td>
+ &lt;td>&amp;ldquo;favicon.png&amp;rdquo;&lt;/td>
+ &lt;td>设置网站图标文件路径&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>BookLogo&lt;/code>&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>设置书籍/网站的logo图片路径&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>BookSection&lt;/code>&lt;/td>
+ &lt;td>&amp;ldquo;docs&amp;rdquo;&lt;/td>
+ &lt;td>指定要渲染为菜单的根页面。可以设置为&amp;rsquo;*&amp;lsquo;或&amp;rsquo;/&amp;lsquo;以渲染所有部分&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>BookRepo&lt;/code>&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>设置源代码仓库位置，用于&amp;quot;最后修改&amp;quot;和&amp;quot;编辑此页面&amp;quot;链接&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>BookCommitPath&lt;/code>&lt;/td>
+ &lt;td>&amp;ldquo;commit&amp;rdquo;&lt;/td>
+ &lt;td>指定链接到页面最后修改的提交哈希的链接部分&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>BookEditPath&lt;/code>&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>启用&amp;quot;编辑此页面&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="全局配置参数">
+ 全局配置参数
+ &lt;a class="anchor" href="#%e5%85%a8%e5%b1%80%e9%85%8d%e7%bd%ae%e5%8f%82%e6%95%b0">#&lt;/a>
+&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>参数名&lt;/th>
+ &lt;th>默认值&lt;/th>
+ &lt;th>功能说明&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>BookEditPath&lt;/code>&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>启用&amp;quot;编辑此页面&amp;quot;链接。默认禁用，取消注释以启用。需要&amp;rsquo;BookRepo&amp;rsquo;参数&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>BookDateFormat&lt;/code>&lt;/td>
+ &lt;td>&amp;ldquo;2006-01-02&amp;rdquo;&lt;/td>
+ &lt;td>配置页面上使用的日期格式（在git信息和博客文章中）&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>BookSearch&lt;/code>&lt;/td>
+ &lt;td>true&lt;/td>
+ &lt;td>启用flexsearch搜索功能。索引是即时构建的，因此可能会减慢网站速度&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>BookComments&lt;/code>&lt;/td>
+ &lt;td>true&lt;/td>
+ &lt;td>在页面上启用评论模板。默认包含Disqus模板&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>BookPortableLinks&lt;/code>&lt;/td>
+ &lt;td>false&lt;/td>
+ &lt;td>实验性功能，启用可移植链接和markdown页面中的链接检查&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>BookServiceWorker&lt;/code>&lt;/td>
+ &lt;td>false&lt;/td>
+ &lt;td>实验性功能，启用缓存已访问页面和资源以供离线使用的服务工作程序&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>BookTranslatedOnly&lt;/code>&lt;/td>
+ &lt;td>false&lt;/td>
+ &lt;td>实验性功能，仅在存在翻译时才为翻译启用下拉菜单&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>BookMenuBundle&lt;/code>&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>可用于全局隐藏特定部分&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="页面级配置参数在页面前置元数据中使用">
+ 页面级配置参数（在页面前置元数据中使用）
+ &lt;a class="anchor" href="#%e9%a1%b5%e9%9d%a2%e7%ba%a7%e9%85%8d%e7%bd%ae%e5%8f%82%e6%95%b0%e5%9c%a8%e9%a1%b5%e9%9d%a2%e5%89%8d%e7%bd%ae%e5%85%83%e6%95%b0%e6%8d%ae%e4%b8%ad%e4%bd%bf%e7%94%a8">#&lt;/a>
+&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>参数名&lt;/th>
+ &lt;th>默认值&lt;/th>
+ &lt;th>功能说明&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>bookHidden&lt;/code>&lt;/td>
+ &lt;td>false&lt;/td>
+ &lt;td>设置为true时，在左侧导航菜单中隐藏该页面及其所有子页面&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>bookCollapseSection&lt;/code>&lt;/td>
+ &lt;td>false&lt;/td>
+ &lt;td>设置为true时，该部分在左侧菜单中默认折叠显示&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>bookFlatSection&lt;/code>&lt;/td>
+ &lt;td>false&lt;/td>
+ &lt;td>控制是否在页面底部显示子页面列表。设为false时禁用底部文章列表&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>bookToC&lt;/code>&lt;/td>
+ &lt;td>true&lt;/td>
+ &lt;td>控制页面右侧目录的可见性&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>bookComments&lt;/code>&lt;/td>
+ &lt;td>true&lt;/td>
+ &lt;td>控制页面评论功能是否启用&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>bookSearchExclude&lt;/code>&lt;/td>
+ &lt;td>false&lt;/td>
+ &lt;td>设置为true时，从搜索索引中排除该页面&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>bookHref&lt;/code>&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>可以设置为外部URL，点击菜单项时将导航到该URL&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>weight&lt;/code>&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>控制页面在菜单中的排序位置（数字越小越靠前）&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>no_list&lt;/code>&lt;/td>
+ &lt;td>false&lt;/td>
+ &lt;td>设置为true时，禁止在父页面底部显示该页面&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>cascade&lt;/code>&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>可以设置参数级联到所有子页面，例如&lt;code>cascade: bookHidden: true&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="特殊用法">
+ 特殊用法
+ &lt;a class="anchor" href="#%e7%89%b9%e6%ae%8a%e7%94%a8%e6%b3%95">#&lt;/a>
+&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>隐藏整个部分&lt;/strong>：&lt;/p></description></item></channel></rss>

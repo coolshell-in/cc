@@ -7,14 +7,8 @@ on:
 
 env:
   HUGO_VERSION: 0.147.8
-  NODE_VERSION: 20  # 改为更稳定的 LTS 版本
   GO_VERSION: 1.19
   CONTENT_PATH: "content"
-  BASE_URL: ${{ 
-    github.repository == format('{0}/{0}.github.io', github.repository_owner) 
-      && format('https://{0}.github.io/', github.repository_owner) 
-      || format('https://{0}.github.io/{1}/', github.repository_owner, github.event.repository.name) 
-  }}
 
 jobs:
   deploy:
@@ -23,75 +17,75 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     
     steps:
+      # 步骤 1: 计算 baseURL
+      - name: Calculate baseURL
+        id: baseurl
+        run: |
+          if [ "${{ github.repository }}" = "${{ github.repository_owner }}/${{ github.repository_owner }}.github.io" ]; then
+            echo "baseURL=https://${{ github.repository_owner }}.github.io/" >> $GITHUB_ENV
+          else
+            echo "baseURL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/" >> $GITHUB_ENV
+          fi
+          echo "Calculated baseURL: ${{ env.baseURL }}"
+      
+      # 步骤 2: 检出代码和子模块
       - name: Checkout with submodules
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
 
+      # 步骤 3: 缓存 Hugo 模块
       - name: Cache Hugo modules
         uses: actions/cache@v3
         with:
-          path: |
-            ~/.cache/hugo
+          path: ~/.cache/hugo
           key: ${{ runner.os }}-hugo-modules-${{ hashFiles('go.mod') }}
           
-      - name: Cache npm modules
-        uses: actions/cache@v3
-        with:
-          path: |
-            node_modules
-            ~/.npm
-          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
-
+      # 步骤 4: 设置 Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: npm
-
+      # 步骤 5: 设置 Go
       - name: Setup Go
         uses: actions/setup-go@v4
         with:
           go-version: ${{ env.GO_VERSION }}
 
-      - name: Install dependencies
+      # 步骤 6: 安装依赖和更新模块
+      - name: Install Hugo dependencies
         run: |
+          echo "更新 Hugo 模块..."
           git submodule update --init --recursive
           hugo mod get -u
           hugo mod verify
-          npm ci
+          
+          echo "项目目录结构:"
+          ls -la
+          echo "主题目录内容:"
+          ls -la themes/hugo-book
 
-      # 修复：简化 HUGO_BASEURL 计算
+      # 步骤 7: 构建站点
       - name: Build site
         run: |
-          echo "##[group]Build Environment"
-          echo "BaseURL: ${{ 
-            (github.repository == format('{0}/{0}.github.io', github.repository_owner) 
-              && format('https://{0}.github.io/', github.repository_owner) 
-              || format('https://{0}.github.io/{1}/', github.repository_owner, github.event.repository.name) 
-          }}"
-          echo "Content dir: ${{ env.CONTENT_PATH }}"
-          echo "##[endgroup]"
-          
-          hugo --minify
+          echo "使用 Hugo 版本: $(hugo version)"
+          echo "BaseURL: ${{ env.baseURL }}"
+          echo "内容目录: ${{ env.CONTENT_PATH }}"
+          hugo --minify --baseURL "${{ env.baseURL }}" --contentDir ${{ env.CONTENT_PATH }}
         env:
           HUGO_ENV: production
-          HUGO_BASEURL: ${{ env.BASE_URL }}
-          HUGO_CONTENT_DIR: ${{ env.CONTENT_PATH }}
 
+      # 步骤 8: 验证构建结果
       - name: Verify public directory
         run: |
-          echo "Contents of public directory:"
+          echo "public 目录内容:"
           ls -la public
-          [ -f public/index.html ] || exit 1
+          [ -f public/index.html ] || (echo "错误: index.html 未生成"; exit 1)
 
+      # 步骤 9: 部署到 GitHub Pages
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -99,3 +93,4 @@ jobs:
           publish_dir: ./public
           branch: gh-pages
           keep_files: true
+          force_orphan: true  # 确保只保留最新部署

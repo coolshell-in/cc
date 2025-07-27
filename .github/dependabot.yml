@@ -1,14 +1,11 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: daily
-    time: '20:00'
-  open-pull-requests-limit: 10
-- package-ecosystem: bundler
-  directory: "/"
-  schedule:
-    interval: daily
-    time: '20:00'
-  open-pull-requests-limit: 10
+  # 保留 GitHub Actions 更新
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "20:00"
+    open-pull-requests-limit: 10
+  
+  # 移除 npm 和 bundler，因为项目中没有 package.json/Gemfile

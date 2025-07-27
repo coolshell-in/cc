@@ -31,7 +31,6 @@ languages:
     contentDir: content/zh
     weight: 2
 
-
 menu:
   # before: []
   after:
