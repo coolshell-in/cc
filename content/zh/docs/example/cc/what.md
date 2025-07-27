@@ -3,7 +3,7 @@ date: 2025-07-20
 linktitle: "定义"
 
 title: "众创空间、青年社区、数字游民"
-weight: 2
+weight: 1
 cascade:
     type: docs
     no_list: true
@@ -11,14 +11,7 @@ cascade:
 
 What 主题、定义、是什么  
 
-
-
-
 关键要素：co-living（共享居住）和co-working（共享办公）的实体空间和基础设施、基于互联网的远程工作和创意创新技能、社群运营管理能力。
-
-
-
-
 
 
 # 众创社区：概念整合与历史谱系

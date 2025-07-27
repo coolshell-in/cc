@@ -10,3 +10,4 @@ CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 git add .
 git commit -m "Update content" || true
 git push origin "$CURRENT_BRANCH"
+
