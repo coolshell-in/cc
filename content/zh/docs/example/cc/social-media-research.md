@@ -30,3 +30,19 @@
 - 如果以前是普通人和草根，在互联网上自我推销和网友互动，如果获得较大关注梁，会得到更多网友鼓励和支持，这叫屌丝逆袭、成功模范、年轻人榜样；
 
 
+// github_actions in /. - Update #1061844605 #7 ，Dependabot显示成功的绿色打勾
+
+// Deploy to GitHub Pages，Update content #4，deploy-github-pages.yml on:push，Install hugo dependencies 错误显示：
+1 Run echo "更新 Hugo 模块..."
+17 更新 Hugo 模块...
+18 go: go.mod file not found in current directory or any parent directory; see 'go help modules'
+19 Error: failed to execute 'go [mod verify]': failed to execute binary "go" with args [mod verify]: go: go.mod file not found in current directory or any parent directory; see 'go help modules'
+20 *errors.errorString
+21 Error: Process completed with exit code 1.
+
+// pages build and deployment #3, pages-build-deployment, on:dynamic, build with jekyll 错误提示：
+1 Run actions/jekyll-build-pages@v1
+/usr/bin/docker run --name ghcrioactionsjekyllbuildpagesv1013_52b25e --label c15049 --workdir /github/workspace --rm -e "INPUT_SOURCE" -e "INPUT_DESTINATION" -e "INPUT_FUTURE" -e "INPUT_BUILD_REVISION" -e "INPUT_VERBOSE" -e "INPUT_TOKEN" -e "HOME" -e "GITHUB_JOB" -e "GITHUB_REF" -e "GITHUB_SHA" -e "GITHUB_REPOSITORY" -e "GITHUB_REPOSITORY_OWNER" -e "GITHUB_REPOSITORY_OWNER_ID" -e "GITHUB_RUN_ID" -e "GITHUB_RUN_NUMBER" -e "GITHUB_RETENTION_DAYS" -e "GITHUB_RUN_ATTEMPT" -e "GITHUB_ACTOR_ID" -e "GITHUB_ACTOR" -e "GITHUB_WORKFLOW" -e "GITHUB_HEAD_REF" -e "GITHUB_BASE_REF" -e "GITHUB_EVENT_NAME" -e "GITHUB_SERVER_URL" -e "GITHUB_API_URL" -e "GITHUB_GRAPHQL_URL" -e "GITHUB_REF_NAME" -e "GITHUB_REF_PROTECTED" -e "GITHUB_REF_TYPE" -e "GITHUB_WORKFLOW_REF" -e "GITHUB_WORKFLOW_SHA" -e "GITHUB_REPOSITORY_ID" -e "GITHUB_TRIGGERING_ACTOR" -e "GITHUB_WORKSPACE" -e "GITHUB_ACTION" -e "GITHUB_EVENT_PATH" -e "GITHUB_ACTION_REPOSITORY" -e "GITHUB_ACTION_REF" -e "GITHUB_PATH" -e "GITHUB_ENV" -e "GITHUB_STEP_SUMMARY" -e "GITHUB_STATE" -e "GITHUB_OUTPUT" -e "RUNNER_OS" -e "RUNNER_ARCH" -e "RUNNER_NAME" -e "RUNNER_ENVIRONMENT" -e "RUNNER_TOOL_CACHE" -e "RUNNER_TEMP" -e "RUNNER_WORKSPACE" -e "ACTIONS_RUNTIME_URL" -e "ACTIONS_RUNTIME_TOKEN" -e "ACTIONS_CACHE_URL" -e "ACTIONS_ID_TOKEN_REQUEST_URL" -e "ACTIONS_ID_TOKEN_REQUEST_TOKEN" -e "ACTIONS_RESULTS_URL" -e GITHUB_ACTIONS=true -e CI=true -v 
+
+
+Error:  Logging at level: debug GitHub Pages: github-pages v232 GitHub Pages: jekyll v3.10.0 Theme: jekyll-theme-primer Theme source: /usr/local/bundle/gems/jekyll-theme-primer-0.6.0 Requiring: jekyll-github-metadata Requiring: jekyll-seo-tag Requiring: jekyll-coffeescript Requiring: jekyll-commonmark-ghpages Requiring: jekyll-gist Requiring: jekyll-github-metadata Requiring: jekyll-paginate Requiring: jekyll-relative-links Requiring: jekyll-optional-front-matter Requiring: jekyll-readme-index Requiring: jekyll-default-layout Requiring: jekyll-titles-from-headings GitHub Metadata: Initializing... Source: /github/workspace/. Destination: /github/workspace/./_site Incremental build: disabled. Enable with --incremental Generating... Generating: JekyllOptionalFrontMatter::Generator finished in 0.014538868 seconds. Generating: JekyllReadmeIndex::Generator finished in 0.036370078 seconds. Generating: Jekyll::Paginate::Pagination finished in 5.48e-06 seconds. Generating: JekyllRelativeLinks::Generator finished in 0.035622786 seconds. Generating: 

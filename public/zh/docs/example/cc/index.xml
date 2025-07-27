@@ -339,4 +339,12 @@
 &lt;ul>
 &lt;li>如果以前就是大明星，现在自降身段，在互联网上自我推销和网友互动，那么他们就会被网友侮辱和鄙视，这叫过气网红、掉价、堕落；&lt;/li>
 &lt;li>如果以前是普通人和草根，在互联网上自我推销和网友互动，如果获得较大关注梁，会得到更多网友鼓励和支持，这叫屌丝逆袭、成功模范、年轻人榜样；&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/ul>
+&lt;p>// github_actions in /. - Update #1061844605 #7 ，Dependabot显示成功的绿色打勾&lt;/p>
+&lt;p>// Deploy to GitHub Pages，Update content #4，deploy-github-pages.yml on:push，Install hugo dependencies 错误显示：
+1 Run echo &amp;ldquo;更新 Hugo 模块&amp;hellip;&amp;rdquo;
+17 更新 Hugo 模块&amp;hellip;
+18 go: go.mod file not found in current directory or any parent directory; see &amp;lsquo;go help modules&amp;rsquo;
+19 Error: failed to execute &amp;lsquo;go [mod verify]&amp;rsquo;: failed to execute binary &amp;ldquo;go&amp;rdquo; with args [mod verify]: go: go.mod file not found in current directory or any parent directory; see &amp;lsquo;go help modules&amp;rsquo;
+20 *errors.errorString
+21 Error: Process completed with exit code 1.&lt;/p></description></item></channel></rss>

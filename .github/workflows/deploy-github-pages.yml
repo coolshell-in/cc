@@ -17,7 +17,6 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     
     steps:
-      # 步骤 1: 计算 baseURL
       - name: Calculate baseURL
         id: baseurl
         run: |
@@ -28,47 +27,33 @@ jobs:
           fi
           echo "Calculated baseURL: ${{ env.baseURL }}"
       
-      # 步骤 2: 检出代码和子模块
       - name: Checkout with submodules
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
-
-      # 步骤 3: 缓存 Hugo 模块
-      - name: Cache Hugo modules
-        uses: actions/cache@v3
-        with:
-          path: ~/.cache/hugo
-          key: ${{ runner.os }}-hugo-modules-${{ hashFiles('go.mod') }}
           
-      # 步骤 4: 设置 Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
 
-      # 步骤 5: 设置 Go
       - name: Setup Go
         uses: actions/setup-go@v4
         with:
           go-version: ${{ env.GO_VERSION }}
 
-      # 步骤 6: 安装依赖和更新模块
       - name: Install Hugo dependencies
         run: |
           echo "更新 Hugo 模块..."
           git submodule update --init --recursive
-          hugo mod get -u
-          hugo mod verify
           
           echo "项目目录结构:"
           ls -la
           echo "主题目录内容:"
           ls -la themes/hugo-book
 
-      # 步骤 7: 构建站点
       - name: Build site
         run: |
           echo "使用 Hugo 版本: $(hugo version)"
@@ -78,14 +63,16 @@ jobs:
         env:
           HUGO_ENV: production
 
-      # 步骤 8: 验证构建结果
+      - name: Create .nojekyll file
+        run: touch public/.nojekyll
+
       - name: Verify public directory
         run: |
           echo "public 目录内容:"
           ls -la public
           [ -f public/index.html ] || (echo "错误: index.html 未生成"; exit 1)
+          [ -f public/.nojekyll ] || (echo "错误: .nojekyll 文件未生成"; exit 1)
 
-      # 步骤 9: 部署到 GitHub Pages
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -93,4 +80,4 @@ jobs:
           publish_dir: ./public
           branch: gh-pages
           keep_files: true
-          force_orphan: true  # 确保只保留最新部署
+          force_orphan: true
