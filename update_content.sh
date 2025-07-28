@@ -10,9 +10,7 @@ network_diagnostic() {
     ping -c 3 github.com
     echo "2. 测试 HTTPS 连接..."
     curl -s -o /dev/null -w "HTTPS 状态码: %{http_code}\n" https://github.com
-    echo "3. 测试 SSH 连接..."
-    ssh -T git@github.com
-    echo "4. 当前时间: $(date)"
+    echo "3. 当前时间: $(date)"
     echo "===================="
 }
 
@@ -44,7 +42,11 @@ if [ -n "$(git status --porcelain --ignore-submodules=all)" ]; then
     
     echo "推送到远程仓库 $CURRENT_BRANCH 分支..."
     
-    # 增加 Git 缓冲区大小（针对大仓库）
+    # 使用 HTTPS 协议替代 SSH
+    echo "切换到 HTTPS 协议进行推送..."
+    git remote set-url origin https://github.com/atomx-cc/cc.git
+    
+    # 增加 Git 缓冲区大小
     git config http.postBuffer 524288000  # 500MB
     
     # 使用更健壮的重试机制
@@ -54,10 +56,8 @@ if [ -n "$(git status --porcelain --ignore-submodules=all)" ]; then
     
     while [ $retry_count -lt $max_retries ] && [ "$push_success" = false ]; do
         # 设置超时（300秒=5分钟）
-        timeout 300 git push --progress origin "$CURRENT_BRANCH" && push_success=true
-        
-        if [ "$push_success" = true ]; then
-            echo "推送成功！"
+        if timeout 300 git push --progress origin "$CURRENT_BRANCH"; then
+            push_success=true
         else
             retry_count=$((retry_count + 1))
             
@@ -79,6 +79,9 @@ if [ -n "$(git status --porcelain --ignore-submodules=all)" ]; then
         echo "错误: 推送失败，已达到最大重试次数"
         echo "尝试手动推送: git push origin $CURRENT_BRANCH"
         exit 1
+    else
+        echo "推送成功！"
+        exit 0
     fi
 else
     echo "没有检测到内容变更"
