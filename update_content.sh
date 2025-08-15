@@ -42,31 +42,25 @@ if [ -n "$(git status --porcelain --ignore-submodules=all)" ]; then
     
     echo "推送到远程仓库 $CURRENT_BRANCH 分支..."
     
-    # 使用 HTTPS 协议替代 SSH
+    # 切换到 HTTPS 协议
     echo "切换到 HTTPS 协议进行推送..."
     git remote set-url origin https://github.com/atomx-cc/cc.git
     
     # 增加 Git 缓冲区大小
     git config http.postBuffer 524288000  # 500MB
     
-    # 使用更健壮的重试机制
+    # 使用更健壮的重试机制（移除了 timeout）
     max_retries=5
     retry_count=0
     push_success=false
     
     while [ $retry_count -lt $max_retries ] && [ "$push_success" = false ]; do
-        # 设置超时（300秒=5分钟）
-        if timeout 300 git push --progress origin "$CURRENT_BRANCH"; then
+        # 直接执行推送（无 timeout）
+        if git push --progress origin "$CURRENT_BRANCH"; then
             push_success=true
         else
             retry_count=$((retry_count + 1))
-            
-            # 检查超时状态
-            if [ $? -eq 124 ]; then
-                echo "推送超时 (尝试 $retry_count/$max_retries)，30秒后重试..."
-            else
-                echo "推送失败 (尝试 $retry_count/$max_retries)，30秒后重试..."
-            fi
+            echo "推送失败 (尝试 $retry_count/$max_retries)，30秒后重试..."
             
             # 网络诊断
             network_diagnostic
