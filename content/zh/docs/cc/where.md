@@ -1,6 +1,6 @@
 ---
 date: 2025-07-22
-linktitle: "地点"
+linktitle: "地理"
 
 title: "地理"
 weight: 3

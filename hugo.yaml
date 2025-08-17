@@ -34,9 +34,9 @@ languages:
 menu:
   # before: []
   after:
-    - name: "Coolshell"
-      url: ""
-      weight: 10
+    # - name: "Coolshell"
+    #   url: ""
+    #   weight: 10
     - name: "Themes Hugo-Book"
       url: "https://themes.gohugo.io/themes/hugo-book/"
       weight: 20

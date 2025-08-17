@@ -13,6 +13,7 @@ cascade:
   bookCollapseSection: true
 #     type: docs
 #     no_list: true
+bookHidden: true
 ---
 
 # Table of contents
