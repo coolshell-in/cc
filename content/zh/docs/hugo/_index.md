@@ -1,6 +1,6 @@
 ---
 date: 2004-09-28
-linktitle: "hugo-book FAQ"
+linktitle: "Hugo-Book FAQ"
 title: "Hugo 技术解答"
 description: >
   关于 Hugo 的常见问题解答。
