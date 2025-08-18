@@ -1,6 +1,7 @@
 # hugo server --minify --themesDir ../.. --baseURL=http://0.0.0.0:1313/theme/hugo-book/
 
-baseURL: https://example.com/
+baseURL: https://cc.atomx.cc/
+canonifyURLs: true
 title: Crowd Creative Community.众创社区
 theme: hugo-book
 
