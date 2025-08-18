@@ -30,7 +30,7 @@ fi
 
 # 添加内容变更（排除主题目录）
 echo "添加内容变更..."
-git add -- . ':!themes/*' ':!public/*' ':!resources/*'
+git add -f -- . ':!themes/*' ':!public/*' ':!resources/*'
 
 # 检查是否有需要提交的变更
 if [ -n "$(git status --porcelain --ignore-submodules=all)" ]; then

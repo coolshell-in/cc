@@ -5,3 +5,5 @@ venv/
 requirements.txt
 test.py
 __pycache__
+/public/
+.hugo_build.lock
