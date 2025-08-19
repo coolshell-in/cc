@@ -83,10 +83,7 @@ jobs:
       - name: Verify baseURL
         run: |
           echo "验证资源路径中的baseURL配置"
-          if grep -r "localhost:1313" public/; then
-            echo "错误: 发现本地开发URL"
-            exit 1
-          fi
+          ! grep -r "localhost:1313" public/ || exit 1
           grep -r "${{ env.baseURL }}" public/ | head -5
           [ -f public/book.min.*.css ] || (echo "错误: 主题CSS文件未生成"; exit 1)
           
@@ -98,3 +95,8 @@ jobs:
           branch: gh-pages
           keep_files: true # 保留已有文件
           force_orphan: false  # 禁用强制清空历史
+      - name: Build
+        env:
+          HUGO_ENV: production
+        run: |
+          hugo --minify --baseURL="https://cc.atomx.cc/"
