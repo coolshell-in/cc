@@ -9,6 +9,7 @@ env:
   HUGO_VERSION: 0.147.8
   GO_VERSION: 1.19
   CONTENT_PATH: "content"
+  baseURL: "https://cc.atomx.cc/"  # 新增固定baseURL
 
 jobs:
   deploy:
@@ -57,20 +58,13 @@ jobs:
       - name: Build site
         run: |
           echo "使用 Hugo 版本: $(hugo version)"
-          echo "BaseURL: ${{ env.baseURL }}"
-          echo "内容目录: ${{ env.CONTENT_PATH }}"
-          // hugo --minify --baseURL "${{ env.baseURL }}" --contentDir ${{ env.CONTENT_PATH }} // GitHub Actions动态baseURL覆盖
-          hugo --minify --baseURL "https://cc.atomx.cc/" 
-        env:
-          HUGO_ENV: production
-
-      - name: Create .nojekyll file
-        run: touch public/.nojekyll
-
-      - name: Verify public directory
-        run: |
-          echo "public 目录内容:"
-          ls -la public
+          # 修复目录权限
+          chmod -R 755 $GITHUB_WORKSPACE/content
+          
+          # 使用固定baseURL覆盖动态计算值
+          hugo --minify --baseURL "${{ env.baseURL }}"
+          
+          # 验证生成内容
           [ -f public/index.html ] || (echo "错误: index.html 未生成"; exit 1)
           [ -f public/.nojekyll ] || (echo "错误: .nojekyll 文件未生成"; exit 1)
 
