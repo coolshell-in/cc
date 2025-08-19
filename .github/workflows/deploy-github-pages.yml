@@ -64,8 +64,11 @@ jobs:
           # 创建public目录确保存在
           mkdir -p public
           
+          # 构建前清理缓存
+          rm -rf public/ resources/
+          
           # 构建并忽略特定警告
-          hugo --minify --baseURL "${{ env.baseURL }}" --ignoreVendorPaths "**/migrate-from-jekyll/**"
+          hugo --minify --baseURL "${{ env.baseURL }}" --ignoreVendorPaths "**/migrate-from-jekyll/**" --cleanDestinationDir
           
           # 强制创建.nojekyll文件
           touch public/.nojekyll
@@ -74,11 +77,24 @@ jobs:
           [ -f public/index.html ] || (echo "错误: index.html 未生成"; exit 1)
           [ -f public/.nojekyll ] || (echo "错误: .nojekyll 文件未生成"; exit 1)
 
+          # 确保CNAME文件被包含
+          cp static/CNAME public/ 2>/dev/null || true
+          
+      - name: Verify baseURL
+        run: |
+          echo "验证资源路径中的baseURL配置"
+          if grep -r "localhost:1313" public/; then
+            echo "错误: 发现本地开发URL"
+            exit 1
+          fi
+          grep -r "${{ env.baseURL }}" public/ | head -5
+          [ -f public/book.min.*.css ] || (echo "错误: 主题CSS文件未生成"; exit 1)
+          
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           branch: gh-pages
-          keep_files: true
-          force_orphan: true
+          keep_files: true # 保留已有文件
+          force_orphan: false  # 禁用强制清空历史
