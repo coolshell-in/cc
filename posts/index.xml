@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Crowd Creative Community.众创社区</title><link>https://atomx-cc.github.io/cc/posts/</link><description>Recent content on Crowd Creative Community.众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://atomx-cc.github.io/cc/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>创建新主题</title><link>https://atomx-cc.github.io/cc/posts/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://atomx-cc.github.io/cc/posts/creating-a-new-theme/</guid><description>&lt;h2 id="简介">
+ 简介
+ &lt;a class="anchor" href="#%e7%ae%80%e4%bb%8b">#&lt;/a>
+&lt;/h2>
+&lt;p>本教程将向您展示如何在 Hugo 中创建一个简单的主题。我假设您熟悉 HTML、bash 命令行，并且能够熟练使用 Markdown 来格式化内容。我将解释 Hugo 如何使用模板以及如何组织模板来创建主题。我不会介绍如何使用 CSS 来设置主题的样式。&lt;/p>
+&lt;p>我们将首先使用一个非常基本的模板创建一个新网站。然后，我们将添加一些页面和帖子。在此基础上进行一些细微的调整，您将能够创建多种不同类型的网站。&lt;/p>
+&lt;p>在本教程中，您输入的命令将以“$”提示符开头。输出将紧随其后。以“#”开头的行是我添加的注释，用于解释某个要点。当我显示文件更新时，最后一行的“:wq”表示保存文件。&lt;/p>
+&lt;p>以下是示例：&lt;/p>
+&lt;pre tabindex="0">&lt;code>## 这是一条注释
+$ echo 这是一条命令
+这是一条命令
+
+## 编辑文件
+$ vi foo.md
++++
+date = &amp;#34;2014-09-28&amp;#34;
+title = &amp;#34;创建新主题&amp;#34;
++++
+
+胡扯和骗局
+:wq
+
+## 显示
+$ cat foo.md
++++
+date = &amp;#34;2014-09-28&amp;#34;
+title = &amp;#34;创建新主题&amp;#34;
++++
+
+胡扯和骗局
+$
+&lt;/code>&lt;/pre>&lt;h2 id="一些定义">
+ 一些定义
+ &lt;a class="anchor" href="#%e4%b8%80%e4%ba%9b%e5%ae%9a%e4%b9%89">#&lt;/a>
+&lt;/h2>
+&lt;p>在创建主题之前，您需要了解一些概念。&lt;/p>
+&lt;h3 id="皮肤">
+ 皮肤
+ &lt;a class="anchor" href="#%e7%9a%ae%e8%82%a4">#&lt;/a>
+&lt;/h3>
+&lt;p>皮肤是负责网站外观和风格的文件。CSS 控制颜色和字体，JavaScript 决定操作和响应。Hugo 也使用皮肤规则将您的内容转换为网站提供给访问者的 HTML 代码。&lt;/p>
+&lt;p>创建皮肤有两种方法。最简单的方法是在 &lt;code>layouts/&lt;/code> 目录中创建。如果这样做，您无需担心配置 Hugo 来识别它。Hugo 查找规则和文件的第一个位置就是 &lt;code>layouts/&lt;/code> 目录，因此它总能找到皮肤。&lt;/p></description></item><item><title>Migrate to Hugo from Jekyll</title><link>https://atomx-cc.github.io/cc/posts/migrate-from-jekyll/</link><pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate><guid>https://atomx-cc.github.io/cc/posts/migrate-from-jekyll/</guid><description>&lt;h2 id="move-static-content-to-static">
+ Move static content to &lt;code>static&lt;/code>
+ &lt;a class="anchor" href="#move-static-content-to-static">#&lt;/a>
+&lt;/h2>
+&lt;p>Jekyll has a rule that any directory not starting with &lt;code>_&lt;/code> will be copied as-is to the &lt;code>_site&lt;/code> output. Hugo keeps all static content under &lt;code>static&lt;/code>. You should therefore move it all there.
+With Jekyll, something that looked like&lt;/p>
+&lt;pre>&lt;code>▾ &amp;lt;root&amp;gt;/
+ ▾ images/
+ logo.png
+&lt;/code>&lt;/pre>
+&lt;p>should become&lt;/p>
+&lt;pre>&lt;code>▾ &amp;lt;root&amp;gt;/
+ ▾ static/
+ ▾ images/
+ logo.png
+&lt;/code>&lt;/pre>
+&lt;p>Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code>CNAME&lt;/code>) to be moved to &lt;code>static&lt;/code>.&lt;/p></description></item><item><title>(Hu)go Template Primer</title><link>https://atomx-cc.github.io/cc/posts/goisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://atomx-cc.github.io/cc/posts/goisforlovers/</guid><description>&lt;p>Hugo uses the excellent 
+ &lt;a href="https://golang.org/">Go&lt;/a> 
+ &lt;a href="https://golang.org/pkg/html/template/">html/template&lt;/a> library for
+its template engine. It is an extremely lightweight engine that provides a very
+small amount of logic. In our experience that it is just the right amount of
+logic to be able to create a good static website. If you have used other
+template systems from different languages or frameworks you will find a lot of
+similarities in Go templates.&lt;/p>
+&lt;p>This document is a brief primer on using Go templates. The 
+ &lt;a href="https://golang.org/pkg/html/template/">Go docs&lt;/a>
+provide more details.&lt;/p></description></item><item><title>Getting Started with Hugo</title><link>https://atomx-cc.github.io/cc/posts/hugoisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://atomx-cc.github.io/cc/posts/hugoisforlovers/</guid><description>&lt;h2 id="step-1-install-hugo">
+ Step 1. Install Hugo
+ &lt;a class="anchor" href="#step-1-install-hugo">#&lt;/a>
+&lt;/h2>
+&lt;p>Go to 
+ &lt;a href="https://github.com/spf13/hugo/releases">Hugo releases&lt;/a> and download the
+appropriate version for your OS and architecture.&lt;/p>
+&lt;p>Save it somewhere specific as we will be using it in the next step.&lt;/p>
+&lt;p>More complete instructions are available at 
+ &lt;a href="https://gohugo.io/getting-started/installing/">Install Hugo&lt;/a>&lt;/p>
+&lt;h2 id="step-2-build-the-docs">
+ Step 2. Build the Docs
+ &lt;a class="anchor" href="#step-2-build-the-docs">#&lt;/a>
+&lt;/h2>
+&lt;p>Hugo has its own example site which happens to also be the documentation site
+you are reading right now.&lt;/p>
+&lt;p>Follow the following steps:&lt;/p></description></item></channel></rss>
