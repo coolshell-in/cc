@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo 技术解答 on Crowd Creative Community.众创社区</title><link>https://atomx-cc.github.io/cc/docs/hugo/</link><description>Recent content in Hugo 技术解答 on Crowd Creative Community.众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://atomx-cc.github.io/cc/docs/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo站点折叠菜单问题分析</title><link>https://atomx-cc.github.io/cc/docs/hugo/fold-menu/</link><pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate><guid>https://atomx-cc.github.io/cc/docs/hugo/fold-menu/</guid><description>&lt;p>当设置文件创建日期大于当前实际日期时，折叠菜单无法显示。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo 技术解答 on Crowd Creative Community.众创社区</title><link>https://cc.atomx.cc/docs/hugo/</link><description>Recent content in Hugo 技术解答 on Crowd Creative Community.众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cc.atomx.cc/docs/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo站点折叠菜单问题分析</title><link>https://cc.atomx.cc/docs/hugo/fold-menu/</link><pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/hugo/fold-menu/</guid><description>&lt;p>当设置文件创建日期大于当前实际日期时，折叠菜单无法显示。&lt;/p>
 &lt;p>例如：今天是 2025-05-07，若设置为2035-05-07，折叠菜单页面将无法显示。&lt;/p>
 &lt;p>经过检查代码，我发现：&lt;/p>
 &lt;h2 id="日期设置与折叠菜单的关系">
@@ -57,7 +57,7 @@
 &lt;li>将日期设置为当前或过去的日期，或在Hugo配置中启用 &lt;code>buildFuture: true&lt;/code>&lt;/li>
 &lt;li>根据需要决定是否使用 &lt;code>bookCollapseSection: true&lt;/code>&lt;/li>
 &lt;/ol>
-&lt;p>这样应该可以解决折叠菜单显示问题。&lt;/p></description></item><item><title>右侧栏的文章内容目录修改</title><link>https://atomx-cc.github.io/cc/docs/hugo/config-book/</link><pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate><guid>https://atomx-cc.github.io/cc/docs/hugo/config-book/</guid><description>&lt;h1 id="控制显示toc">
+&lt;p>这样应该可以解决折叠菜单显示问题。&lt;/p></description></item><item><title>右侧栏的文章内容目录修改</title><link>https://cc.atomx.cc/docs/hugo/config-book/</link><pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/hugo/config-book/</guid><description>&lt;h1 id="控制显示toc">
  控制显示TOC
  &lt;a class="anchor" href="#%e6%8e%a7%e5%88%b6%e6%98%be%e7%a4%batoc">#&lt;/a>
 &lt;/h1>
@@ -104,7 +104,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">.book-page&lt;/span> &lt;span style="color:#a6e22e">.markdown&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span> &lt;span style="color:#f92672">ol&lt;/span>&lt;span style="color:#a6e22e">:last-child&lt;/span> {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">display&lt;/span>&lt;span style="color:#f92672">:&lt;/span> none;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后，通过配置默认首页来控制是否在左侧栏显示全部页面，在front matter中增加配置：&lt;/p></description></item><item><title/><link>https://atomx-cc.github.io/cc/docs/hugo/func-key/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://atomx-cc.github.io/cc/docs/hugo/func-key/</guid><description>&lt;h1 id="hugo-book主题配置参数列表">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后，通过配置默认首页来控制是否在左侧栏显示全部页面，在front matter中增加配置：&lt;/p></description></item><item><title/><link>https://cc.atomx.cc/docs/hugo/func-key/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/hugo/func-key/</guid><description>&lt;h1 id="hugo-book主题配置参数列表">
  Hugo Book主题配置参数列表
  &lt;a class="anchor" href="#hugo-book%e4%b8%bb%e9%a2%98%e9%85%8d%e7%bd%ae%e5%8f%82%e6%95%b0%e5%88%97%e8%a1%a8">#&lt;/a>
 &lt;/h1>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Crowd Creative Community.众创社区</title><link>https://atomx-cc.github.io/cc/docs/shortcodes/</link><description>Recent content on Crowd Creative Community.众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://atomx-cc.github.io/cc/docs/shortcodes/index.xml" rel="self" type="application/rss+xml"/><item><title>Mermaid 图表</title><link>https://atomx-cc.github.io/cc/docs/shortcodes/mermaid/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://atomx-cc.github.io/cc/docs/shortcodes/mermaid/</guid><description>&lt;h1 id="mermaid-图表">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Crowd Creative Community.众创社区</title><link>https://cc.atomx.cc/docs/shortcodes/</link><description>Recent content on Crowd Creative Community.众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://cc.atomx.cc/docs/shortcodes/index.xml" rel="self" type="application/rss+xml"/><item><title>Mermaid 图表</title><link>https://cc.atomx.cc/docs/shortcodes/mermaid/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/shortcodes/mermaid/</guid><description>&lt;h1 id="mermaid-图表">
  Mermaid 图表
  &lt;a class="anchor" href="#mermaid-%e5%9b%be%e8%a1%a8">#&lt;/a>
 &lt;/h1>
@@ -29,7 +29,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">{{&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">mermaid&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#75715e">}}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div> &lt;/div>
 &lt;div class="flex-even markdown-inner" style="flex-grow: 1;">
-&lt;script src="https://atomx-cc.github.io/cc/mermaid.min.js">&lt;/script>
+&lt;script src="../../mermaid.min.js">&lt;/script>
  &lt;script>mermaid.initialize({
  "flowchart": {
  "useMaxWidth":true
@@ -48,7 +48,7 @@ stateDiagram-v2
  note left of State2 : This is the note to the left.
 &lt;/pre>
  &lt;/div>
-&lt;/div></description></item><item><title/><link>https://atomx-cc.github.io/cc/docs/shortcodes/buttons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://atomx-cc.github.io/cc/docs/shortcodes/buttons/</guid><description>&lt;h1 id="buttons">
+&lt;/div></description></item><item><title/><link>https://cc.atomx.cc/docs/shortcodes/buttons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/shortcodes/buttons/</guid><description>&lt;h1 id="buttons">
  Buttons
  &lt;a class="anchor" href="#buttons">#&lt;/a>
 &lt;/h1>
@@ -59,10 +59,10 @@ stateDiagram-v2
 &lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-tpl" data-lang="tpl">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">{{&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#a6e22e">button&lt;/span> &lt;span style="color:#a6e22e">relref&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;/&amp;#34;&lt;/span> &lt;span style="color:#f92672">[&lt;/span>&lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;...&amp;#34;&lt;/span>&lt;span style="color:#f92672">]&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#75715e">}}&lt;/span>Get Home&lt;span style="color:#75715e">{{&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">button&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#75715e">}}&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">{{&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#a6e22e">button&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;https://github.com/alex-shpak/hugo-book&amp;#34;&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#75715e">}}&lt;/span>Contribute&lt;span style="color:#75715e">{{&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">button&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#75715e">}}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://atomx-cc.github.io/cc/" class="book-btn">Get Home&lt;/a>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="../../" class="book-btn">Get Home&lt;/a>
 
 &lt;a href="https://github.com/alex-shpak/hugo-book" target="_blank" rel="noopener" class="book-btn">Contribute&lt;/a>
-&lt;/p></description></item><item><title/><link>https://atomx-cc.github.io/cc/docs/shortcodes/columns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://atomx-cc.github.io/cc/docs/shortcodes/columns/</guid><description>&lt;h1 id="columns">
+&lt;/p></description></item><item><title/><link>https://cc.atomx.cc/docs/shortcodes/columns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/shortcodes/columns/</guid><description>&lt;h1 id="columns">
  Columns
  &lt;a class="anchor" href="#columns">#&lt;/a>
 &lt;/h1>
@@ -94,7 +94,7 @@ stateDiagram-v2
 &lt;p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
 stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
 protulit, sed sed aere valvis inhaesuro Pallas animam: qui &lt;em>quid&lt;/em>, ignes.
-Miseratus fonte Ditis conubia.&lt;/p></description></item><item><title/><link>https://atomx-cc.github.io/cc/docs/shortcodes/details/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://atomx-cc.github.io/cc/docs/shortcodes/details/</guid><description>&lt;h1 id="details">
+Miseratus fonte Ditis conubia.&lt;/p></description></item><item><title/><link>https://cc.atomx.cc/docs/shortcodes/details/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/shortcodes/details/</guid><description>&lt;h1 id="details">
  Details
  &lt;a class="anchor" href="#details">#&lt;/a>
 &lt;/h1>
@@ -119,7 +119,7 @@ Miseratus fonte Ditis conubia.&lt;/p></description></item><item><title/><link>ht
 &lt;/h2>
 &lt;p>Lorem markdownum insigne&amp;hellip;&lt;/p>
  &lt;/div>
-&lt;/details></description></item><item><title/><link>https://atomx-cc.github.io/cc/docs/shortcodes/hints/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://atomx-cc.github.io/cc/docs/shortcodes/hints/</guid><description>&lt;h1 id="hints">
+&lt;/details></description></item><item><title/><link>https://cc.atomx.cc/docs/shortcodes/hints/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/shortcodes/hints/</guid><description>&lt;h1 id="hints">
  Hints
  &lt;a class="anchor" href="#hints">#&lt;/a>
 &lt;/h1>
@@ -142,7 +142,7 @@ stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa&lt;/p>
 &lt;blockquote class="book-hint warning">
 &lt;p>&lt;strong>Markdown content&lt;/strong>&lt;br>
 Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
-stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa&lt;/p></description></item><item><title/><link>https://atomx-cc.github.io/cc/docs/shortcodes/tabs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://atomx-cc.github.io/cc/docs/shortcodes/tabs/</guid><description>&lt;h1 id="tabs">
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa&lt;/p></description></item><item><title/><link>https://cc.atomx.cc/docs/shortcodes/tabs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/shortcodes/tabs/</guid><description>&lt;h1 id="tabs">
  Tabs
  &lt;a class="anchor" href="#tabs">#&lt;/a>
 &lt;/h1>
@@ -167,7 +167,7 @@ stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa&lt;/p><
 &lt;p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
 stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
 protulit, sed sed aere valvis inhaesuro Pallas animam: qui &lt;em>quid&lt;/em>, ignes.
-Miseratus fonte Ditis conubia.&lt;/p></description></item><item><title>KaTeX</title><link>https://atomx-cc.github.io/cc/docs/shortcodes/katex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://atomx-cc.github.io/cc/docs/shortcodes/katex/</guid><description>&lt;h1 id="katex">
+Miseratus fonte Ditis conubia.&lt;/p></description></item><item><title>KaTeX</title><link>https://cc.atomx.cc/docs/shortcodes/katex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/shortcodes/katex/</guid><description>&lt;h1 id="katex">
  KaTeX
  &lt;a class="anchor" href="#katex">#&lt;/a>
 &lt;/h1>
@@ -184,9 +184,9 @@ Miseratus fonte Ditis conubia.&lt;/p></description></item><item><title>KaTeX</ti
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /katex &amp;gt;}}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div> &lt;/div>
 &lt;div class="flex-even markdown-inner" style="flex-grow: 1;">
-&lt;link rel="stylesheet" href="https://atomx-cc.github.io/cc/katex/katex.min.css" />
-&lt;script defer src="https://atomx-cc.github.io/cc/katex/katex.min.js">&lt;/script>
-&lt;script defer src="https://atomx-cc.github.io/cc/katex/auto-render.min.js" onload="renderMathInElement(document.body);">&lt;/script>&lt;span>
+&lt;link rel="stylesheet" href="../../katex/katex.min.css" />
+&lt;script defer src="../../katex/katex.min.js">&lt;/script>
+&lt;script defer src="../../katex/auto-render.min.js" onload="renderMathInElement(document.body);">&lt;/script>&lt;span>
  \[
 f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
 \]

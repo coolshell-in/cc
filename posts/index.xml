@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Crowd Creative Community.众创社区</title><link>https://atomx-cc.github.io/cc/posts/</link><description>Recent content on Crowd Creative Community.众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://atomx-cc.github.io/cc/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>创建新主题</title><link>https://atomx-cc.github.io/cc/posts/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://atomx-cc.github.io/cc/posts/creating-a-new-theme/</guid><description>&lt;h2 id="简介">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Crowd Creative Community.众创社区</title><link>https://cc.atomx.cc/posts/</link><description>Recent content on Crowd Creative Community.众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://cc.atomx.cc/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>创建新主题</title><link>https://cc.atomx.cc/posts/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/posts/creating-a-new-theme/</guid><description>&lt;h2 id="简介">
  简介
  &lt;a class="anchor" href="#%e7%ae%80%e4%bb%8b">#&lt;/a>
 &lt;/h2>
@@ -39,7 +39,7 @@ $
  &lt;a class="anchor" href="#%e7%9a%ae%e8%82%a4">#&lt;/a>
 &lt;/h3>
 &lt;p>皮肤是负责网站外观和风格的文件。CSS 控制颜色和字体，JavaScript 决定操作和响应。Hugo 也使用皮肤规则将您的内容转换为网站提供给访问者的 HTML 代码。&lt;/p>
-&lt;p>创建皮肤有两种方法。最简单的方法是在 &lt;code>layouts/&lt;/code> 目录中创建。如果这样做，您无需担心配置 Hugo 来识别它。Hugo 查找规则和文件的第一个位置就是 &lt;code>layouts/&lt;/code> 目录，因此它总能找到皮肤。&lt;/p></description></item><item><title>Migrate to Hugo from Jekyll</title><link>https://atomx-cc.github.io/cc/posts/migrate-from-jekyll/</link><pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate><guid>https://atomx-cc.github.io/cc/posts/migrate-from-jekyll/</guid><description>&lt;h2 id="move-static-content-to-static">
+&lt;p>创建皮肤有两种方法。最简单的方法是在 &lt;code>layouts/&lt;/code> 目录中创建。如果这样做，您无需担心配置 Hugo 来识别它。Hugo 查找规则和文件的第一个位置就是 &lt;code>layouts/&lt;/code> 目录，因此它总能找到皮肤。&lt;/p></description></item><item><title>Migrate to Hugo from Jekyll</title><link>https://cc.atomx.cc/posts/migrate-from-jekyll/</link><pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/posts/migrate-from-jekyll/</guid><description>&lt;h2 id="move-static-content-to-static">
  Move static content to &lt;code>static&lt;/code>
  &lt;a class="anchor" href="#move-static-content-to-static">#&lt;/a>
 &lt;/h2>
@@ -55,7 +55,7 @@ With Jekyll, something that looked like&lt;/p>
  ▾ images/
  logo.png
 &lt;/code>&lt;/pre>
-&lt;p>Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code>CNAME&lt;/code>) to be moved to &lt;code>static&lt;/code>.&lt;/p></description></item><item><title>(Hu)go Template Primer</title><link>https://atomx-cc.github.io/cc/posts/goisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://atomx-cc.github.io/cc/posts/goisforlovers/</guid><description>&lt;p>Hugo uses the excellent 
+&lt;p>Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code>CNAME&lt;/code>) to be moved to &lt;code>static&lt;/code>.&lt;/p></description></item><item><title>(Hu)go Template Primer</title><link>https://cc.atomx.cc/posts/goisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/posts/goisforlovers/</guid><description>&lt;p>Hugo uses the excellent 
  &lt;a href="https://golang.org/">Go&lt;/a> 
  &lt;a href="https://golang.org/pkg/html/template/">html/template&lt;/a> library for
 its template engine. It is an extremely lightweight engine that provides a very
@@ -65,7 +65,7 @@ template systems from different languages or frameworks you will find a lot of
 similarities in Go templates.&lt;/p>
 &lt;p>This document is a brief primer on using Go templates. The 
  &lt;a href="https://golang.org/pkg/html/template/">Go docs&lt;/a>
-provide more details.&lt;/p></description></item><item><title>Getting Started with Hugo</title><link>https://atomx-cc.github.io/cc/posts/hugoisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://atomx-cc.github.io/cc/posts/hugoisforlovers/</guid><description>&lt;h2 id="step-1-install-hugo">
+provide more details.&lt;/p></description></item><item><title>Getting Started with Hugo</title><link>https://cc.atomx.cc/posts/hugoisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/posts/hugoisforlovers/</guid><description>&lt;h2 id="step-1-install-hugo">
  Step 1. Install Hugo
  &lt;a class="anchor" href="#step-1-install-hugo">#&lt;/a>
 &lt;/h2>
