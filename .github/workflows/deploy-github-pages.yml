@@ -4,7 +4,23 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-
+      - name: Build site
+        run: |
+          echo "使用 Hugo 版本: $(hugo version)"
+          chmod -R 755 $GITHUB_WORKSPACE/content
+          
+          # 创建public目录确保存在
+          mkdir -p public
+          
+          # 构建并忽略特定警告
+          hugo --minify --baseURL "${{ env.baseURL }}" --ignoreVendorPaths "**/migrate-from-jekyll/**"
+          
+          # 强制创建.nojekyll文件
+          touch public/.nojekyll
+          
+          # 双重验证
+          [ -f public/index.html ] || (echo "错误: index.html 未生成"; exit 1)
+          [ -f public/.nojekyll ] || (echo "错误: .nojekyll 文件未生成"; exit 1)
 env:
   HUGO_VERSION: 0.147.8
   GO_VERSION: 1.19
@@ -61,10 +77,16 @@ jobs:
           # 修复目录权限
           chmod -R 755 $GITHUB_WORKSPACE/content
           
-          # 使用固定baseURL覆盖动态计算值
-          hugo --minify --baseURL "${{ env.baseURL }}"
+          # 创建public目录确保存在
+          mkdir -p public
           
-          # 验证生成内容
+          # 构建并忽略特定警告
+          hugo --minify --baseURL "${{ env.baseURL }}" --ignoreVendorPaths "**/migrate-from-jekyll/**"
+          
+          # 强制创建.nojekyll文件
+          touch public/.nojekyll
+          
+          # 双重验证
           [ -f public/index.html ] || (echo "错误: index.html 未生成"; exit 1)
           [ -f public/.nojekyll ] || (echo "错误: .nojekyll 文件未生成"; exit 1)
 
