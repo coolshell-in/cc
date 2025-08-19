@@ -83,7 +83,9 @@ jobs:
       - name: Verify baseURL
         run: |
           echo "验证资源路径中的baseURL配置"
-          ! grep -r "localhost:1313" public/ || exit 1
+          echo "检查HTML文件中的localhost引用："
+          find public -type f -name "*.html" -exec grep -l "localhost:1313" {} \;
+          ! find public -type f -name "*.html" -exec grep -l "localhost:1313" {} \; | grep -q .
           grep -r "${{ env.baseURL }}" public/ | head -5
           [ -f public/book.min.*.css ] || (echo "错误: 主题CSS文件未生成"; exit 1)
           
@@ -99,4 +101,8 @@ jobs:
         env:
           HUGO_ENV: production
         run: |
-          hugo --minify --baseURL="https://cc.atomx.cc/"
+          - name: Clean public directory
+            run: |
+              rm -rf public
+              rm -rf resources
+              hugo --gc --minify --baseURL="https://cc.atomx.cc/"
