@@ -5,7 +5,8 @@ canonifyURLs: true
 relativeURLs: false
 title: Crowd Creative Community.众创社区
 theme: hugo-book
-
+ignoreFiles:
+  - "^land-view/.*"  # 忽略目录及其所有内容
 
 # Book configuration
 disablePathToLower: true
