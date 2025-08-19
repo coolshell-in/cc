@@ -1,80 +1,38 @@
 ---
-title: 介绍
+date: 2025-07-20
+linktitle: "众创社区"
 
-type: docs
+title: "众创社区营造"
+weight: 1
+cascade:
+    type: docs
+    no_list: true
+    bookHidden: false
 ---
 
-# 中文索引页
+最近几年“数字游民”概念的社会组织大量涌现，看起来像是青旅、共享公寓、联合办公室、创业孵化器，总之它是一个模糊不清的复合体，它具体是什么？
 
-{{% columns %}}
-## Astris ipse furtiva
+不少地产商将闲置的房子，挂上一块“数字游民”的招牌，立即摇身一变，就成了创新事物，变得时髦起来，那么本质如何？它对年轻人似乎充满吸引力和想象力，实际日常经营困难重重，如何经营这样的业态？
 
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+为了正本清源，从理解基本的概念和历史开始。
 
-<--->
+# 概述
 
-## Suis quot vota
+关键词：众创空间、共享公寓、联合办公、数字游民公社、青年社区、创业、共创
 
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
-{{% /columns %}}
+这些社会组织形态的新概念，它们有共同点，也有些差异，互相交错并联，将其共同点提炼为抽象模型，在此统一定义为“众创社区”，以此获得精准鉴定的标准。
 
 
-## Tempora nisi nunc
+# 7WH
 
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
+通过最简洁的文字和图表，描述众创社区这种社会组织形态，参考以下描述结构。
 
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
-    public_keyboard_docking += error.controller_gibibyte_plug.ip(4,
-            asciiPetaflops, software(supercomputer_compatible_status + 4));
-    dynamic_disk.indexModeLaptop = bufferTftpReality;
-    var export_vlog_sequence = trinitron_flowchart + supercomputer_cluster_rj(
-            -1, toolbar_powerpoint_query, -2 / multiprocessing_impression);
+   - What 主题、定义、是什么  
+   - When 时间线、发展周期、历史背景、活动日历表  
+   - Where 地点、周边环境、设施配套  
+   - Who 人- 组织者、团队，主体  
+   - Whom 人- 参与者、受众，客体，对象  
+   - Why should do 为什么做？动机、目标、使命、远景，三观  
+   - Which are they? 有什么？具体要素、活动、事件
+   - How to do 怎么做？特点、属性、如何运作（流程、方法、技术）    
 
-## Locis suis novi cum suoque decidit eadem
-
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab? Venit spes
-versus finis sermonibus patefecit murum nec est sine oculis. _Ille_ inmota
-macies domoque caelestia cadit tantummodo scelus procul, corde!
-
-1. Dolentem capi parte rostro alvum habentem pudor
-2. Fulgentia sanguine paret
-3. E punior consurgit lentus
-4. Vox hasta eras micantes
-
-## Facibus pharetrae indetonsusque indulsit sic incurrite foliis
-
-Nefandam et prisci palmas! Blandita cutis flectitur montis macies, te _nati_
-Latiis; turbaque inferias. Virginis tibi peracta avidusque facies caper nec, e
-at ademptae, mira.
-
-    direct *= font(inputScareware(sliHome), crossplatform.byte(
-            ppl_encryption.excel_e_rte(integratedModelModifier), timeVirtual,
-            floating_speakers.media_printer(us, yahoo, primaryPhp)));
-    friendly_metal_flatbed(cd, isoPrimaryStorage(reader), dmaMirrored);
-    if (parse_flash_cron.metalGif(1, adServiceDevice, utility)) {
-        adf -= operation_cdma_samba;
-        imapGif.switch += torrent;
-    } else {
-        pmu.disk_captcha = digital_ppp_pci + recursionTransistor(5, dram);
-        ajax_service += grayscalePythonLock;
-        google_scroll_capacity = ftp + engine_dslam_sidebar / tape - 1;
-    }
-    drive_rw = zipTftp;
-    var suffix = software_router_extension.dimm_ddr(-5,
-            kernel_digital_minisite);
-
-Vocavit toto; alas **mitis** maestus in liquidarum ab legi finitimosque dominam
-tibi subitus; Orionis vertitur nota. Currere alti etiam seroque cernitis
-innumeris miraturus amplectique collo sustinet quemque! Litora ante turba?

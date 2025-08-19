@@ -2,6 +2,7 @@
 
 baseURL: https://cc.atomx.cc/
 canonifyURLs: true
+relativeURLs: false
 title: Crowd Creative Community.众创社区
 theme: hugo-book
 
