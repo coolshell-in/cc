@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>众创社区营造 on Crowd Creative Community.众创社区</title><link>http://localhost:1313/</link><description>Recent content in 众创社区营造 on Crowd Creative Community.众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Sat, 26 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>定义</title><link>http://localhost:1313/docs/cc/what/</link><pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/cc/what/</guid><description>&lt;p>What 定义、主题、是什么？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>众创社区营造 on Crowd Creative Community.众创社区</title><link>http://localhost:1313/</link><description>Recent content in 众创社区营造 on Crowd Creative Community.众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>定义</title><link>http://localhost:1313/docs/cc/what/</link><pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/cc/what/</guid><description>&lt;p>What 定义、主题、是什么？&lt;/p>
 &lt;p>关键词：公众、创造、公社、社区、生态&lt;/p>
 &lt;h1 id="众创社区概念整合与历史谱系">
  众创社区：概念整合与历史谱系
@@ -579,6 +579,7 @@ Cohere -
  问题挑战
  &lt;a class="anchor" href="#%e9%97%ae%e9%a2%98%e6%8c%91%e6%88%98">#&lt;/a>
 &lt;/h1>
+&lt;p>目前市场普遍行情，以计算机类比社区，有硬件和数据，但是缺乏操作系统和应用软件。硬件就是基础设施条件、数据是和客流市场。也就是市场送到面前，依然无法保住收益。&lt;/p>
 &lt;p>列举实际案例，某个知名的数字游民社区2025年8月的近况。&lt;/p>
 &lt;p>该社区地处经济发达的（准一线）二线城市近郊的村镇，曾经国家领导人在20年前来参访过来，整体硬件的基础设施完备，达到或接近欧盟发达国家水平，因此这里名声在外，经常有外地的参观团来访取经，但是仅限于接待党政研学参访，长期以来却缺乏实际的项目和团队落地，如同中国普遍出现的地产模式一样，非常现代的街区和楼房盖太多，大多数时候却空无一人。&lt;/p>
 &lt;p>目前该项目由某知名地产运营商接盘商业运营，挂上乡村振兴和数字游民的牌子，招募了外来的自媒体和社区运营团队，也吸引了一些年轻人过来居住，但是整体运营疲软乏力，具体表现如下：&lt;/p>
@@ -901,37 +902,7 @@ With Jekyll, something that looked like&lt;/p>
  ▾ images/
  logo.png
 &lt;/code>&lt;/pre>
-&lt;p>Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code>CNAME&lt;/code>) to be moved to &lt;code>static&lt;/code>.&lt;/p></description></item><item><title>(Hu)go Template Primer</title><link>http://localhost:1313/posts/goisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/goisforlovers/</guid><description>&lt;p>Hugo uses the excellent 
- &lt;a href="https://golang.org/">Go&lt;/a> 
- &lt;a href="https://golang.org/pkg/html/template/">html/template&lt;/a> library for
-its template engine. It is an extremely lightweight engine that provides a very
-small amount of logic. In our experience that it is just the right amount of
-logic to be able to create a good static website. If you have used other
-template systems from different languages or frameworks you will find a lot of
-similarities in Go templates.&lt;/p>
-&lt;p>This document is a brief primer on using Go templates. The 
- &lt;a href="https://golang.org/pkg/html/template/">Go docs&lt;/a>
-provide more details.&lt;/p></description></item><item><title>Getting Started with Hugo</title><link>http://localhost:1313/posts/hugoisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/hugoisforlovers/</guid><description>&lt;h2 id="step-1-install-hugo">
- Step 1. Install Hugo
- &lt;a class="anchor" href="#step-1-install-hugo">#&lt;/a>
-&lt;/h2>
-&lt;p>Go to 
- &lt;a href="https://github.com/spf13/hugo/releases">Hugo releases&lt;/a> and download the
-appropriate version for your OS and architecture.&lt;/p>
-&lt;p>Save it somewhere specific as we will be using it in the next step.&lt;/p>
-&lt;p>More complete instructions are available at 
- &lt;a href="https://gohugo.io/getting-started/installing/">Install Hugo&lt;/a>&lt;/p>
-&lt;h2 id="step-2-build-the-docs">
- Step 2. Build the Docs
- &lt;a class="anchor" href="#step-2-build-the-docs">#&lt;/a>
-&lt;/h2>
-&lt;p>Hugo has its own example site which happens to also be the documentation site
-you are reading right now.&lt;/p>
-&lt;p>Follow the following steps:&lt;/p></description></item><item><title/><link>http://localhost:1313/docs/hugo/func-key/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/hugo/func-key/</guid><description>&lt;h1 id="hugo-book主题配置参数列表">
- Hugo Book主题配置参数列表
- &lt;a class="anchor" href="#hugo-book%e4%b8%bb%e9%a2%98%e9%85%8d%e7%bd%ae%e5%8f%82%e6%95%b0%e5%88%97%e8%a1%a8">#&lt;/a>
-&lt;/h1>
-&lt;p>以下是Hugo Book主题中所有以&lt;code>book&lt;/code>开头的配置参数及其功能说明，可以在&lt;code>hugo.yaml&lt;/code>全局配置或在页面前置元数据(frontmatter)中使用：&lt;/p>
+&lt;p>Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code>CNAME&lt;/code>) to be moved to &lt;code>static&lt;/code>.&lt;/p></description></item><item><title>Hugo Book主题配置参数列表</title><link>http://localhost:1313/docs/hugo/func-key/</link><pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/hugo/func-key/</guid><description>&lt;p>以下是Hugo Book主题中所有以&lt;code>book&lt;/code>开头的配置参数及其功能说明，可以在&lt;code>hugo.yaml&lt;/code>全局配置或在页面前置元数据(frontmatter)中使用：&lt;/p>
 &lt;h2 id="全局配置参数在hugoyaml中使用">
  全局配置参数（在hugo.yaml中使用）
  &lt;a class="anchor" href="#%e5%85%a8%e5%b1%80%e9%85%8d%e7%bd%ae%e5%8f%82%e6%95%b0%e5%9c%a8hugoyaml%e4%b8%ad%e4%bd%bf%e7%94%a8">#&lt;/a>
@@ -1123,7 +1094,131 @@ you are reading right now.&lt;/p>
 &lt;/h2>
 &lt;ol>
 &lt;li>
-&lt;p>&lt;strong>隐藏整个部分&lt;/strong>：&lt;/p></description></item><item><title/><link>http://localhost:1313/docs/shortcodes/buttons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/shortcodes/buttons/</guid><description>&lt;h1 id="buttons">
+&lt;p>&lt;strong>隐藏整个部分&lt;/strong>：&lt;/p></description></item><item><title>Hugo 页面样式丢失问题修复</title><link>http://localhost:1313/docs/hugo/page-style/</link><pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/hugo/page-style/</guid><description>&lt;h2 id="问题描述">
+ 问题描述
+ &lt;a class="anchor" href="#%e9%97%ae%e9%a2%98%e6%8f%8f%e8%bf%b0">#&lt;/a>
+&lt;/h2>
+&lt;p>在将 Hugo 站点部署到 GitHub Pages 时，本地预览正常，但通过域名访问，线上页面样式丢失。这个问题主要是由于资源引用路径配置不正确导致的。&lt;/p>
+&lt;h2 id="问题原因">
+ 问题原因
+ &lt;a class="anchor" href="#%e9%97%ae%e9%a2%98%e5%8e%9f%e5%9b%a0">#&lt;/a>
+&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;code>baseURL&lt;/code> 配置问题&lt;/p>
+&lt;ul>
+&lt;li>Hugo 在构建时使用了本地开发的 URL（&lt;code>http://localhost:1313&lt;/code>）而不是生产环境的 URL(&lt;code>https://cc.atomx.cc/&lt;/code>)&lt;/li>
+&lt;li>导致所有静态资源（CSS、JavaScript 等）的引用路径错误&lt;/li>
+&lt;li>浏览器无法正确加载样式文件&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>缓存和构建问题&lt;/p>
+&lt;ul>
+&lt;li>旧的构建缓存可能影响新的构建结果&lt;/li>
+&lt;li>构建目录中可能存在冗余或过期文件&lt;/li>
+&lt;li>CSS 文件压缩处理不当导致文件头信息丢失&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="解决方案">
+ 解决方案
+ &lt;a class="anchor" href="#%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="1-配置文件优化">
+ 1. 配置文件优化
+ &lt;a class="anchor" href="#1-%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6%e4%bc%98%e5%8c%96">#&lt;/a>
+&lt;/h3>
+&lt;p>在 &lt;code>hugo.yaml&lt;/code> 中：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 基础 URL 配置&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">baseURL&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;https://cc.atomx.cc/&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">canonifyURLs&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span> &lt;span style="color:#75715e"># 使用相对路径&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">relativeURLs&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span> &lt;span style="color:#75715e"># 启用相对 URL&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># CSS 处理优化&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">minify&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">minifyOutput&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">tdewolff&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">html&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">keepWhitespace&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">css&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">keepCSS2&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">precision&lt;/span>: &lt;span style="color:#ae81ff">0&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="2-部署工作流优化">
+ 2. 部署工作流优化
+ &lt;a class="anchor" href="#2-%e9%83%a8%e7%bd%b2%e5%b7%a5%e4%bd%9c%e6%b5%81%e4%bc%98%e5%8c%96">#&lt;/a>
+&lt;/h3>
+&lt;p>在 &lt;code>deploy-github-pages.yml&lt;/code> 中：&lt;/p>
+&lt;ol>
+&lt;li>构建前清理&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 清理缓存和构建目录&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">rm -rf public/ resources/&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>构建命令优化&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 使用优化的构建参数&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">hugo --gc --minify --baseURL &amp;#34;${{ env.baseURL }}&amp;#34; --cleanDestinationDir&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>部署配置&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 部署设置&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">deploy&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">keep_files&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span> &lt;span style="color:#75715e"># 保留已有文件&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">force_orphan&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span> &lt;span style="color:#75715e"># 禁用强制清空历史&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>验证步骤&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 验证构建结果&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">echo &amp;#34;验证资源路径中的baseURL配置&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">find public -type f -name &amp;#34;*.html&amp;#34; -exec grep -l &amp;#34;localhost:1313&amp;#34; {} \;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="最佳实践">
+ 最佳实践
+ &lt;a class="anchor" href="#%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5">#&lt;/a>
+&lt;/h2>
+&lt;ol>
+&lt;li>始终在 &lt;code>hugo.yaml&lt;/code> 中设置正确的生产环境 &lt;code>baseURL&lt;/code>&lt;/li>
+&lt;li>使用 &lt;code>canonifyURLs: false&lt;/code> 和 &lt;code>relativeURLs: true&lt;/code> 优化资源引用&lt;/li>
+&lt;li>每次构建前清理缓存和构建目录&lt;/li>
+&lt;li>添加构建验证步骤确保资源路径正确&lt;/li>
+&lt;li>使用 &lt;code>--gc&lt;/code> 和 &lt;code>--cleanDestinationDir&lt;/code> 参数确保干净构建&lt;/li>
+&lt;/ol>
+&lt;h2 id="验证方法">
+ 验证方法
+ &lt;a class="anchor" href="#%e9%aa%8c%e8%af%81%e6%96%b9%e6%b3%95">#&lt;/a>
+&lt;/h2>
+&lt;ol>
+&lt;li>检查生成的 HTML 文件中的资源引用路径&lt;/li>
+&lt;li>验证 CSS 文件是否正确生成和压缩&lt;/li>
+&lt;li>确认 &lt;code>baseURL&lt;/code> 配置在构建过程中被正确应用&lt;/li>
+&lt;li>测试页面样式在生产环境中的加载情况&lt;/li>
+&lt;/ol></description></item><item><title>(Hu)go Template Primer</title><link>http://localhost:1313/posts/goisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/goisforlovers/</guid><description>&lt;p>Hugo uses the excellent 
+ &lt;a href="https://golang.org/">Go&lt;/a> 
+ &lt;a href="https://golang.org/pkg/html/template/">html/template&lt;/a> library for
+its template engine. It is an extremely lightweight engine that provides a very
+small amount of logic. In our experience that it is just the right amount of
+logic to be able to create a good static website. If you have used other
+template systems from different languages or frameworks you will find a lot of
+similarities in Go templates.&lt;/p>
+&lt;p>This document is a brief primer on using Go templates. The 
+ &lt;a href="https://golang.org/pkg/html/template/">Go docs&lt;/a>
+provide more details.&lt;/p></description></item><item><title>Getting Started with Hugo</title><link>http://localhost:1313/posts/hugoisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/hugoisforlovers/</guid><description>&lt;h2 id="step-1-install-hugo">
+ Step 1. Install Hugo
+ &lt;a class="anchor" href="#step-1-install-hugo">#&lt;/a>
+&lt;/h2>
+&lt;p>Go to 
+ &lt;a href="https://github.com/spf13/hugo/releases">Hugo releases&lt;/a> and download the
+appropriate version for your OS and architecture.&lt;/p>
+&lt;p>Save it somewhere specific as we will be using it in the next step.&lt;/p>
+&lt;p>More complete instructions are available at 
+ &lt;a href="https://gohugo.io/getting-started/installing/">Install Hugo&lt;/a>&lt;/p>
+&lt;h2 id="step-2-build-the-docs">
+ Step 2. Build the Docs
+ &lt;a class="anchor" href="#step-2-build-the-docs">#&lt;/a>
+&lt;/h2>
+&lt;p>Hugo has its own example site which happens to also be the documentation site
+you are reading right now.&lt;/p>
+&lt;p>Follow the following steps:&lt;/p></description></item><item><title/><link>http://localhost:1313/docs/shortcodes/buttons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/shortcodes/buttons/</guid><description>&lt;h1 id="buttons">
  Buttons
  &lt;a class="anchor" href="#buttons">#&lt;/a>
 &lt;/h1>

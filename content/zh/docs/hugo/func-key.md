@@ -1,4 +1,11 @@
-# Hugo Book主题配置参数列表
+---
+date: 2025-08-10
+linktitle: "参数列表"
+title: "Hugo Book主题配置参数列表"
+weight: 11
+#bookCollapseSection: true
+---
+
 
 以下是Hugo Book主题中所有以`book`开头的配置参数及其功能说明，可以在`hugo.yaml`全局配置或在页面前置元数据(frontmatter)中使用：
 
