@@ -572,7 +572,7 @@ Cohere -
 &lt;strong>均衡&lt;/strong>：科技向善，万物共生&lt;/p></description></item><item><title>怎么做？</title><link>http://localhost:1313/docs/cc/how/</link><pubDate>Sat, 26 Jul 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/cc/how/</guid><description>&lt;p>How 怎么做？特点、属性、如何运作，流程、机制、方法、技术&lt;/p>
 &lt;p>关键词：co-living（共享居住）和co-working（共享办公）的实体空间和基础设施、基于互联网的远程工作和创意创新技能、社群运营管理能力。&lt;/p>
 &lt;p>选址：地理位置偏远，通常在城市周边的乡镇，物业的建造和管理运营成本、地租和综合生活消费更低，详情参考
- &lt;a href="http://localhost:1313/docs/cc/where/">选址 - 地理篇&lt;/a>。&lt;/p>
+ &lt;a href="./docs/cc/where/">选址 - 地理篇&lt;/a>。&lt;/p>
 &lt;p>客体：必须由年轻人作为社区主体，其中90和00后占比超过7成以上，如此让社区保持活力；&lt;/p>
 &lt;p>成本：以及居民消费必须保持尽可能极低，例如住宿低至300元/月，餐饮低至700元/月，月综合生活成本低于1000元/月；&lt;/p>
 &lt;h1 id="问题挑战">
@@ -792,7 +792,7 @@ Cohere -
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">{{&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">mermaid&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#75715e">}}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div> &lt;/div>
 &lt;div class="flex-even markdown-inner" style="flex-grow: 1;">
-&lt;script src="http://localhost:1313/mermaid.min.js">&lt;/script>
+&lt;script src="./mermaid.min.js">&lt;/script>
  &lt;script>mermaid.initialize({
  "flowchart": {
  "useMaxWidth":true
@@ -1134,7 +1134,7 @@ you are reading right now.&lt;/p>
 &lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-tpl" data-lang="tpl">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">{{&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#a6e22e">button&lt;/span> &lt;span style="color:#a6e22e">relref&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;/&amp;#34;&lt;/span> &lt;span style="color:#f92672">[&lt;/span>&lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;...&amp;#34;&lt;/span>&lt;span style="color:#f92672">]&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#75715e">}}&lt;/span>Get Home&lt;span style="color:#75715e">{{&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">button&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#75715e">}}&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">{{&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#a6e22e">button&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;https://github.com/alex-shpak/hugo-book&amp;#34;&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#75715e">}}&lt;/span>Contribute&lt;span style="color:#75715e">{{&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">button&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#75715e">}}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="http://localhost:1313/" class="book-btn">Get Home&lt;/a>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="./" class="book-btn">Get Home&lt;/a>
 
 &lt;a href="https://github.com/alex-shpak/hugo-book" target="_blank" rel="noopener" class="book-btn">Contribute&lt;/a>
 &lt;/p></description></item><item><title/><link>http://localhost:1313/docs/shortcodes/columns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/shortcodes/columns/</guid><description>&lt;h1 id="columns">
@@ -1267,9 +1267,9 @@ Miseratus fonte Ditis conubia.&lt;/p></description></item><item><title>KaTeX</ti
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /katex &amp;gt;}}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div> &lt;/div>
 &lt;div class="flex-even markdown-inner" style="flex-grow: 1;">
-&lt;link rel="stylesheet" href="http://localhost:1313/katex/katex.min.css" />
-&lt;script defer src="http://localhost:1313/katex/katex.min.js">&lt;/script>
-&lt;script defer src="http://localhost:1313/katex/auto-render.min.js" onload="renderMathInElement(document.body);">&lt;/script>&lt;span>
+&lt;link rel="stylesheet" href="./katex/katex.min.css" />
+&lt;script defer src="./katex/katex.min.js">&lt;/script>
+&lt;script defer src="./katex/auto-render.min.js" onload="renderMathInElement(document.body);">&lt;/script>&lt;span>
  \[
 f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
 \]
