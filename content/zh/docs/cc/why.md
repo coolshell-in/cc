@@ -7,6 +7,13 @@ weight: 7
 cascade:
     type: docs
     no_list: true
+categories:
+  - 社区
+tags:
+  - 目标
+  - 使命
+  - 愿景
+  - 三观
 ---
 
 关键词：Why should do 为什么做？目标、使命、愿景，三观（人生观、世界观、价值观）  

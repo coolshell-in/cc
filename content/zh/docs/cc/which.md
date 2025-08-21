@@ -7,6 +7,12 @@ weight: 6
 cascade:
     type: docs
     no_list: true
+categories:
+  - 社区
+tags:
+  - 要素
+  - 活动
+  - 事件
 ---
 
 Which are those? 具体有什么？背景、要素、活动、事件

@@ -7,6 +7,12 @@ weight: 3
 cascade:
     type: docs
     no_list: true
+categories:
+  - 社区
+tags:
+  - 地理
+  - 设施配套
+  - 周边环境
 ---
 
 

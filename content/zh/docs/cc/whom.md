@@ -7,6 +7,12 @@ weight: 5
 cascade:
     type: docs
     no_list: true
+categories:
+  - 社区
+tags:
+  - 参与者
+  - 受众对象
+  - 客体
 ---
 
 Whom 人- 参与者、受众，客体，对象  

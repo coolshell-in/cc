@@ -7,6 +7,12 @@ weight: 8
 cascade:
     type: docs
     no_list: true
+categories:
+  - 社区
+tags:
+  - 共享居住
+  - 共享办公
+  - 社区文化
 ---
 
 How 怎么做？特点、属性、如何运作，流程、机制、方法、技术  
