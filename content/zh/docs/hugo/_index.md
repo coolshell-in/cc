@@ -10,7 +10,7 @@ weight: 20
 ---
 
 # Hugo-book 常见问题
-从该主题[作者原库](https://github.com/alex-shpak/hugo-book)直接复制而来，但是有许多小缺陷，需要自行修改。
+本站引用主题[hugo-book](https://github.com/alex-shpak/hugo-book)作者原库，有许多小缺陷，本专栏是故障修复记录。
 
 这里是一些关于Hugo-book 主题配置的常见问题和解答。
 
