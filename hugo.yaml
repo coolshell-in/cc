@@ -8,6 +8,11 @@ theme: hugo-book
 ignoreFiles:
   - "^land-view/.*"  # 忽略目录及其所有内容
 
+# taxonomies:
+#   category: ""
+#   tag: ""
+
+
 # Book configuration
 disablePathToLower: true
 enableGitInfo: false
