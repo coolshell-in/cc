@@ -54,6 +54,8 @@ Whom 人- 参与者、受众，客体，对象
 
 
 案例：
+- [706青年空间](https://mp.weixin.qq.com/s/8mXlcWLqnZgFA3TOqvYl7A)
+- [Nomad List](https://nomadlist.com/)：全球数字游民城市排名和社区平台
 - [巴厘岛DN社区](https://bali.com/guide-to-moving-and-living-in-bali/digital-nomads-bali/)
 - [清迈DN社区](https://lostandlore.com/chiang-mais-best-kept-secrets-for-digital-nomads/)
 - [DNA数字游民公社](https://mp.weixin.qq.com/s/-5O0NSI9z8aJoeIQgDMExw)，盘活乡村闲置民宿，为数字游民提供月租400元床位，孵化“蓝房子乡野之家”骑行俱乐部等业态；
