@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>社区 on Crowd Creative Community.众创社区</title><link>https://cc.atomx.cc/categories/%E7%A4%BE%E5%8C%BA/</link><description>Recent content in 社区 on Crowd Creative Community.众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Sat, 26 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cc.atomx.cc/categories/%E7%A4%BE%E5%8C%BA/index.xml" rel="self" type="application/rss+xml"/><item><title>定义</title><link>https://cc.atomx.cc/docs/cc/what/</link><pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/cc/what/</guid><description>&lt;p>What 定义、主题、是什么？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>社区 on Crowd Creative Community.众创社区</title><link>https://cc.atomx.cc/categories/%E7%A4%BE%E5%8C%BA/</link><description>Recent content in 社区 on Crowd Creative Community.众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cc.atomx.cc/categories/%E7%A4%BE%E5%8C%BA/index.xml" rel="self" type="application/rss+xml"/><item><title>定义</title><link>https://cc.atomx.cc/docs/cc/what/</link><pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/cc/what/</guid><description>&lt;p>What 定义、主题、是什么？&lt;/p>
 &lt;p>关键词：公众、创造、公社、社区、生态&lt;/p>
 &lt;h1 id="概念历史谱系">
  概念/历史谱系
@@ -404,9 +404,9 @@ Cohere -
 &lt;/ul>
 &lt;p>这些艺术园区都有一个共同特点，容纳大量自由创作的独立艺术家。&lt;/p>
 &lt;hr>
-&lt;h2 id="社工">
- 社工
- &lt;a class="anchor" href="#%e7%a4%be%e5%b7%a5">#&lt;/a>
+&lt;h2 id="社工social-worker">
+ 社工（social worker）
+ &lt;a class="anchor" href="#%e7%a4%be%e5%b7%a5social-worker">#&lt;/a>
 &lt;/h2>
 &lt;p>全称社会工作者，是指在社会服务领域，为社会成员提供社会支持、社会服务、社会管理等社会活动的专业人员。&lt;/p>
 &lt;p>在欧美发达国家，社工是一种正式的职业，在中国目前还比较少，还有预备做社工的义工/志愿者（临时工）。&lt;/p>
@@ -414,13 +414,16 @@ Cohere -
 &lt;p>鼓励社区成员积极参与社区事务，培养更多的社工人才，是提升社区活力和可持续发展的重要途径。&lt;/p>
 &lt;p>通过政府和村委会促进青年参与社区事务，培养社工人才是一条捷径，会有更多人走上职业社工的道路。&lt;/p>
 &lt;hr>
-&lt;h1 id="非盈利组织">
- 非盈利组织
- &lt;a class="anchor" href="#%e9%9d%9e%e7%9b%88%e5%88%a9%e7%bb%84%e7%bb%87">#&lt;/a>
+&lt;h1 id="非盈利组织non-profits-organization">
+ 非盈利组织（Non-profits organization）
+ &lt;a class="anchor" href="#%e9%9d%9e%e7%9b%88%e5%88%a9%e7%bb%84%e7%bb%87non-profits-organization">#&lt;/a>
 &lt;/h1>
 &lt;p>公益组织、慈善基金会&lt;/p>
+&lt;p>很多人用NGO（non-govermental organization 非政府组织）指代公益或非盈利组织，其实这是个伪概念，商业公司算不算非政府组织？&lt;/p>
+&lt;p>任何正常的国家，只要不是处于原始社会，社会组织必定接受政府监管，否则就乱套了，不知道谁意淫出NGO这种词，而且还流行了很久，国内的很多公益组织都这么自称，他们要么无知，要么是别有用心。&lt;/p>
+&lt;p>非盈利组织和项目是社区的重要组成部分，甚至是未来的主力和支柱。&lt;/p>
 &lt;h2 id="环保组织">
- 环保组织
+ 环保组织（）
  &lt;a class="anchor" href="#%e7%8e%af%e4%bf%9d%e7%bb%84%e7%bb%87">#&lt;/a>
 &lt;/h2>
 &lt;hr>
@@ -429,17 +432,7 @@ Cohere -
  &lt;a class="anchor" href="#%e7%94%9f%e6%80%81%e6%9d%91">#&lt;/a>
 &lt;/h1>
 &lt;p>
- &lt;a href="https://en.wikipedia.org/wiki/Ecovillage">生态村&lt;/a>是一个传统或有共识的社区，旨在变得更加社会、文化、经济和/或环境可持续。生态村努力通过其居民的有意物理设计和行为选择对自然环境产生尽可能少的负面影响。它是通过地方拥有的、参与式的过程有意识地设计出来的，以再生和恢复其社会和自然环境。&lt;/p>
-&lt;p>大多数生态村的居民人数在50到250人之间，尽管有些较小，而传统的生态村通常要大得多。较大的生态村通常作为较小子社区的网络存在。一些生态村是通过志同道合的个人、家庭或其他小团体发展起来的——这些人在最开始时并不是成员——他们在生态村的周边定居，并事实参与社区。目前，世界各地有超过10,000个生态村。&lt;/p>
-&lt;p>
- &lt;a href="https://ecovillage.org/">全球生态村网络（GEN）&lt;/a>执行主任Kosha Joubert将其定义为：“有意识的、传统的或城市社区，通过在可持续性的所有四个方面（社会、文化、生态、经济）通过本地拥有的参与过程有意识地设计，以重建他们的社会和自然环境。”&lt;/p>
-&lt;h2 id="阿纳斯塔夏">
- 《阿纳斯塔夏》
- &lt;a class="anchor" href="#%e9%98%bf%e7%ba%b3%e6%96%af%e5%a1%94%e5%a4%8f">#&lt;/a>
-&lt;/h2>
-&lt;p>
- &lt;a href="https://www.vmegre.com">《阿纳斯塔夏》&lt;/a>（《鸣响雪松》系列的第一本）由俄罗斯作家
- &lt;a href="https://en.wikipedia.org/wiki/Vladimir_Megre">弗拉狄米尔·米格列&lt;/a>撰写，讲述了他在西伯利亚泰加林中遇见一位名为&lt;strong>阿纳斯塔夏&lt;/strong>的神秘女性的经历。她展现了与自然深层次连接、近乎“神通”的能力，并提出了“&lt;strong>祖传家园&lt;/strong>”的愿景：&lt;strong>每个家庭都应获得一公顷土地，在这片土地上通过种植多样化的植物（包括树木、作物等）创建一个自给自足、充满爱与能量的生活空间，并世代传承&lt;/strong>。&lt;/p></description></item><item><title>具体要素</title><link>https://cc.atomx.cc/docs/cc/which/</link><pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/cc/which/</guid><description>&lt;p>Which are those? 具体有什么？背景、要素、活动、事件&lt;/p>
+ &lt;a href="https://en.wikipedia.org/wiki/Ecovillage">生态村&lt;/a>是一个传统或有共识的社区，旨在变得更加社会、文化、经济和/或环境可持续。生态村努力通过其居民的有意物理设计和行为选择对自然环境产生尽可能少的负面影响。它是通过地方拥有的、参与式的过程有意识地设计出来的，以再生和恢复其社会和自然环境。&lt;/p></description></item><item><title>具体要素</title><link>https://cc.atomx.cc/docs/cc/which/</link><pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/cc/which/</guid><description>&lt;p>Which are those? 具体有什么？背景、要素、活动、事件&lt;/p>
 &lt;p>关键词：&lt;/p>
 &lt;ul>
 &lt;li>共富、乡村振兴、乡村建设&lt;/li>
@@ -652,4 +645,88 @@ Cohere -
  运营效率
  &lt;a class="anchor" href="#%e8%bf%90%e8%90%a5%e6%95%88%e7%8e%87">#&lt;/a>
 &lt;/h2>
-&lt;p>建立集体生活作息的统一时间表，类似军营和学校，加强组织化和运营管理能力，公共基础设施集中使用标准，规定安静时间段和全部公共区域的使用规则；&lt;/p></description></item></channel></rss>
+&lt;p>建立集体生活作息的统一时间表，类似军营和学校，加强组织化和运营管理能力，公共基础设施集中使用标准，规定安静时间段和全部公共区域的使用规则；&lt;/p></description></item><item><title>操作手册- 具体实施步骤</title><link>https://cc.atomx.cc/docs/cc/guide/</link><pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/cc/guide/</guid><description>&lt;p>关键词：社区新人，入门级操作手册，组织和人才发展、团队建设、社会保障、项目孵化等。&lt;/p>
+&lt;hr>
+&lt;h1 id="组织建设">
+ 组织建设
+ &lt;a class="anchor" href="#%e7%bb%84%e7%bb%87%e5%bb%ba%e8%ae%be">#&lt;/a>
+&lt;/h1>
+&lt;p>搭建运营管理团队，根据通用的方法，分为以下几个部门。&lt;/p>
+&lt;h2 id="项目运营">
+ 项目运营
+ &lt;a class="anchor" href="#%e9%a1%b9%e7%9b%ae%e8%bf%90%e8%90%a5">#&lt;/a>
+&lt;/h2>
+&lt;p>负责商业和非盈利项目从0-10的统筹规划和运营管理，是项目的过程陪伴者，项目孵化器。&lt;/p>
+&lt;h2 id="媒体运营">
+ 媒体运营
+ &lt;a class="anchor" href="#%e5%aa%92%e4%bd%93%e8%bf%90%e8%90%a5">#&lt;/a>
+&lt;/h2>
+&lt;p>负责网络和线下媒体内容制作、平台发布推广和日常运营维护，包括图文、视频等各种格式的媒体内容。&lt;/p>
+&lt;h2 id="人才发展">
+ 人才发展
+ &lt;a class="anchor" href="#%e4%ba%ba%e6%89%8d%e5%8f%91%e5%b1%95">#&lt;/a>
+&lt;/h2>
+&lt;p>负责人才招募、档案管理、HR测评、性格测试、职业心理和社会关系咨询等，解决人的心理和精神问题，提供情绪价值，凝聚人和组织建设的领导者。&lt;/p>
+&lt;p>职务要求：社工、心理咨询师、职业规划师、HR等相关专业背景。&lt;/p>
+&lt;p>参考：
+ &lt;a href="https://mp.weixin.qq.com/s/zEVLI8UMEiZNueXbEwpLeg">杭州高新区（滨江）职场&amp;amp;心理双向咨询预约开启&lt;/a>&lt;/p>
+&lt;h2 id="政商公关">
+ 政商公关
+ &lt;a class="anchor" href="#%e6%94%bf%e5%95%86%e5%85%ac%e5%85%b3">#&lt;/a>
+&lt;/h2>
+&lt;p>负责与商业、资本、政府事业部门、国际组织、非盈利基金会等各种资源渠道的对接，熟悉公共关系、舆论和社会影响力，频繁参加高层次社会活动和论坛，会主持会议、采访并做主题发言。&lt;/p>
+&lt;h2 id="设施运营">
+ 设施运营
+ &lt;a class="anchor" href="#%e8%ae%be%e6%96%bd%e8%bf%90%e8%90%a5">#&lt;/a>
+&lt;/h2>
+&lt;p>负责后勤保障、物业管理、维修维护、安全保卫、环境卫生等，确保社区的硬件设施和日常运转正常。安排社区的日程吃、住、行，确保社区成员的基本生活需求。&lt;/p>
+&lt;h1 id="新人入门途径">
+ 新人入门途径
+ &lt;a class="anchor" href="#%e6%96%b0%e4%ba%ba%e5%85%a5%e9%97%a8%e9%80%94%e5%be%84">#&lt;/a>
+&lt;/h1>
+&lt;p>这是我们建立正规和正常化的高效率团队的起步预备工作。&lt;/p>
+&lt;h2 id="生活社区">
+ 生活社区
+ &lt;a class="anchor" href="#%e7%94%9f%e6%b4%bb%e7%a4%be%e5%8c%ba">#&lt;/a>
+&lt;/h2>
+&lt;p>如果你决定离开家，探索一个陌生地方，可能需要漂泊一段时间，中国相对其他国家社会治安综合治理更好，因此没有人身安全担忧，但其他方面的社会服务水平依然有待提升。&lt;/p>
+&lt;p>首先第一步要寻找一个靠谱且低成本高性价比的吃住行解决方案。&lt;/p>
+&lt;h3 id="吃">
+ 吃
+ &lt;a class="anchor" href="#%e5%90%83">#&lt;/a>
+&lt;/h3>
+&lt;p>很多社区不提供餐饮服务，最佳选择是在大学城附近居住，使用学校食堂，通常能找到高性价比的餐饮。部分城市的政府机关食堂也开放，但是很少见，这些地方都是相对比较靠谱的餐饮，不建议在外面吃普通的餐馆，食品安全问题依然严峻。&lt;/p>
+&lt;p>要自己做饭，通过“美团优选、饿了么、京东”等本地买菜的app，可以非常方便预定食材，自己简单加工就能美美饱餐一顿，比在外面用餐更安全卫生和健康，大概同等菜品的价格低至 1/3- 1/10的价格；&lt;/p>
+&lt;h3 id="住">
+ 住
+ &lt;a class="anchor" href="#%e4%bd%8f">#&lt;/a>
+&lt;/h3>
+&lt;p>当然是现在各地的数字游民社区，或青年社区，有必要找一群志同道合的人自己创建一个，亲自制定社区规则和卫生标准。&lt;/p>
+&lt;h3 id="行游购娱">
+ 行/游购娱
+ &lt;a class="anchor" href="#%e8%a1%8c%e6%b8%b8%e8%b4%ad%e5%a8%b1">#&lt;/a>
+&lt;/h3>
+&lt;p>办理社保卡，开通市民交通卡功能，公交刷卡有折扣，要么平常很少出门，通过线上办公为主。有活动出门，呼朋唤友，几个人结伴而行，一起打车拼车。&lt;/p>
+&lt;p>其他方面，包括“游购娱”，都可以通过社区很快拼单，实现高效率低成本，高性价比，这是为何要做社区，以及社区的好处。&lt;/p>
+&lt;h3 id="极致成本">
+ 极致成本
+ &lt;a class="anchor" href="#%e6%9e%81%e8%87%b4%e6%88%90%e6%9c%ac">#&lt;/a>
+&lt;/h3>
+&lt;p>把成本节省到极致的表现是，例如洗衣服，一桶衣服2.5元，夏天衣服都比较少，可以几个人合伙洗1桶，要么一个人要攒足了一桶的量才能洗衣服，不必要每天都花2.5元洗几件轻短的衣物。&lt;/p>
+&lt;p>看一个人的品质如何，就看他们会不会生活，包括以上的生活细节品质、对性价比、高效率、低成本的追求。不要找那种肆意浪费，一切都通过多花钱解决问题的同伴和合伙人，他们只可能是拖累大家的猪队友。&lt;/p>
+&lt;h2 id="社保卡">
+ 社保卡
+ &lt;a class="anchor" href="#%e7%a4%be%e4%bf%9d%e5%8d%a1">#&lt;/a>
+&lt;/h2>
+&lt;p>如果你决定到一个地方长期生活发展，第一件事就是去办一张当地的社保卡，作为你的身份证明和金融支付工具，社保卡的办理通常是免费的。&lt;/p>
+&lt;p>下载“浙里办”APP，或登陆浏览器端 
+ &lt;a href="https://www.zjzwfw.gov.cn/">浙里办&lt;/a>办理。&lt;/p>
+&lt;p>社保卡的功能和好处，不必多言，懂得的都懂，自己上网查询。&lt;/p>
+&lt;p>在尚未有正式工作和收入之前，一定要尽可能给自己买一份最低档次的医保，生病就医有基础保障。&lt;/p>
+&lt;h2 id="职业教育培训和认证">
+ 职业教育培训和认证
+ &lt;a class="anchor" href="#%e8%81%8c%e4%b8%9a%e6%95%99%e8%82%b2%e5%9f%b9%e8%ae%ad%e5%92%8c%e8%ae%a4%e8%af%81">#&lt;/a>
+&lt;/h2>
+&lt;p>如果你已经有了职业方向，但是缺乏职业经验，或尚未鉴定职业能力，可以先参加培训和认证。&lt;/p>
+&lt;p>不同于商业化的培训和认证机构，收费少则数千，多则数万。&lt;/p>
+&lt;p>我们首选国家提供的公共服务/基础设施，包括国家职业技能培训和认证资源，大部分为公益免费，部分收费的培训和认证考试费用也非常低，大约在几百到千元。&lt;/p></description></item></channel></rss>
