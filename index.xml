@@ -113,7 +113,7 @@
 &lt;/li>
 &lt;li>
 &lt;p>2012年，北京五道口华清嘉园，
- &lt;a href="https://mp.weixin.qq.com/s/8mXlcWLqnZgFA3TOqvYl7A">706青年空间&lt;/a>，是迄今能找到的中国最早公开的民间自发形成的青年共居众创空间，已分布数十个国内城市和海外10多个国家地区，并将继续延展，具备很强的分布式和中心化的社区特征；&lt;/p>
+ &lt;a href="https://mp.weixin.qq.com/s/8mXlcWLqnZgFA3TOqvYl7A">706青年空间&lt;/a>，是迄今能找到的中国最早公开的民间自发形成的青年共居众创空间，已分布数十个国内城市和海外10多个国家地区，并将继续延展，分布式或去中心化的社区特征；&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>2015年，中国政府提出
@@ -514,7 +514,7 @@ Cohere -
  &lt;a href="https://ssir.org/about/overview#">斯坦福社会创新评论 Stanford Social Innovation Review (SSIR) &lt;/a>&lt;/p>
 &lt;p>
  &lt;a href="http://ssir.lepingfoundation.org/book/20">《斯坦福社会创新评论》中文版&lt;/a>&lt;/p>
-&lt;p>斯坦福社会创新评论：大家都在谈“共创”，它意味着什么？请看以下的Asha Curran 作者原文。&lt;/p></description></item><item><title>为什么做？</title><link>https://cc.atomx.cc/docs/cc/why/</link><pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/cc/why/</guid><description>&lt;p>关键词：Why should do 为什么做？目标、使命、愿景，三观（人生观、世界观、价值观）&lt;/p>
+&lt;p>斯坦福社会创新评论：大家都在谈“共创”，它意味着什么？请看以下的Asha Curran 作者原文。&lt;/p></description></item><item><title>缘由 - 为什么做？</title><link>https://cc.atomx.cc/docs/cc/why/</link><pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/cc/why/</guid><description>&lt;p>关键词：Why should do 为什么做？目标、使命、愿景，三观（人生观、世界观、价值观）&lt;/p>
 &lt;p>以下基于全球数字化浪潮与中国城乡转型的双重视角，系统梳理众创空间、共享公寓、数字游民公社等新型社区形态的深层动因与价值体系：&lt;/p>
 &lt;hr>
 &lt;h1 id="一为什么必须做-驱动力">
@@ -526,7 +526,7 @@ Cohere -
  &lt;a class="anchor" href="#1-%e7%94%9f%e4%ba%a7%e5%8a%9b%e5%8f%98%e9%9d%a9">#&lt;/a>
 &lt;/h2>
 &lt;ul>
-&lt;li>&lt;strong>技术赋能去中心化&lt;/strong>：5G/云计算/AI推动远程办公成熟，2025年全球数字游民超4000万，催生“地理套利”经济模式，如东南亚成欧美数字游民低成本创业和生活的首选聚集区。&lt;/li>
+&lt;li>&lt;strong>技术赋能去中心化&lt;/strong>：5G/云计算/AI 推动远程办公，2025年全球数字游民超4000万，催生“地理套利”经济模式，如东南亚成欧美数字游民低成本创业和生活的首选聚集区。&lt;/li>
 &lt;li>&lt;strong>城市病倒逼空间重构&lt;/strong>：高房价、内卷与生态恶化引发“反城市化”浪潮，远离主流大城市，到广袤的乡村小镇去，低成本、高品质的替代性生活工作空间有海量需求，如大理聚集中国大厂裸辞青年。&lt;/li>
 &lt;/ul>
 &lt;h2 id="2-城乡发展">
@@ -534,7 +534,7 @@ Cohere -
  &lt;a class="anchor" href="#2-%e5%9f%8e%e4%b9%a1%e5%8f%91%e5%b1%95">#&lt;/a>
 &lt;/h2>
 &lt;ul>
-&lt;li>&lt;strong>乡村振兴人力缺口&lt;/strong>：2017年国家战略启动后，乡村面临人才空心化，如祁门县靠“祁民公社”引青年激活茶产业。&lt;/li>
+&lt;li>&lt;strong>乡村振兴人才缺口&lt;/strong>：乡村长期面临人才空心化，2017年国家战略启动后，产业升级和共富计划有待青年回乡创业。&lt;/li>
 &lt;li>&lt;strong>闲置资源活化机遇&lt;/strong>：城镇化率达65%后，乡村空置房产超7000万套，如浙江安吉/黄山改造废弃厂房为游民基地。&lt;/li>
 &lt;li>&lt;strong>政策创新试验田&lt;/strong>：地方探索“柔性引才”，如丽水全国首发全域数字游民8条政策，最高千万创业资助，安徽黄山召集数字游民联盟会议。&lt;/li>
 &lt;/ul>
@@ -568,7 +568,7 @@ Cohere -
 &lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>后乡村性（Post-Rurality）&lt;/strong>：以“反城市不反现代”理念再造乡村。&lt;/li>
-&lt;li>&lt;strong>经济伦理&lt;/strong>：拒绝剥削压榨，建立“人才增值-乡村增收”闭环。&lt;/li>
+&lt;li>&lt;strong>经济伦理&lt;/strong>：建立“人才增值-乡村增收”闭环。&lt;/li>
 &lt;li>&lt;strong>生态伦理&lt;/strong>：共建低碳环保社区。&lt;/li>
 &lt;/ul>
 &lt;h1 id="三三观体系精神内核与行动原则">
@@ -670,7 +670,7 @@ Cohere -
  社区文化
  &lt;a class="anchor" href="#%e7%a4%be%e5%8c%ba%e6%96%87%e5%8c%96">#&lt;/a>
 &lt;/h2>
-&lt;p>每个社区的文化风格不同，主理人和运营团队的气质决定了社区的命运。线上和线下的活动、媒体内容、成员的表情、语言、肢体动作、声调散发出社区气质。&lt;/p></description></item><item><title>“法律不管的我们也不管” -- 这是一句废话</title><link>https://cc.atomx.cc/docs/cc/cases1/</link><pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/cc/cases1/</guid><description>&lt;p>以下是我和著名的DN数字（青年）游民公社客服对话实录，以此说明社区运营管理的一些关键问题。&lt;/p>
+&lt;p>每个社区的文化风格不同，主理人和运营团队的气质决定了社区的命运。线上和线下的活动、媒体内容、成员的表情、语言、肢体动作、声调散发出社区气质。&lt;/p></description></item><item><title>“法律不管的，我们也不管”</title><link>https://cc.atomx.cc/docs/cc/cases1/</link><pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/cc/cases1/</guid><description>&lt;p>以下是我和著名的DN数字（青年）游民公社客服对话实录，以此说明社区运营管理的一些关键问题。&lt;/p>
 &lt;p>DN是国内第一个公开挂牌的数字游民社区，通过同一个创始人团队，连续开了多个连锁店，尽管早期创建的社区已经不再由他们管理，但是社区继承了创始人特有的文化基因。&lt;/p>
 &lt;p>我在网上了解过他们一些情况，想报名过去体验一下，首先咨询他们最新开的DN黄山店的客服。&lt;/p>
 &lt;h2 id="dn黄山">
@@ -680,7 +680,7 @@ Cohere -
 &lt;hr>
 &lt;p>Atom：请问，DN公社的环境卫生有改善吗？据说有点脏乱差，请看这篇
  &lt;a href="https://www.jianshu.com/p/5ca0861dc1f3">网友亲身体验报告&lt;/a>，你们会开除太臭和不讲卫生的人吗？公社的卫生有标准吗？&lt;/p>
-&lt;p>DN黄山：没有，法律不管的我们也不管&lt;/p>
+&lt;p>DN黄山：没有，法律不管的，我们也不管&lt;/p>
 &lt;p>Atom：这个回复很官方，你是机器人吗？&lt;/p>
 &lt;p>DN黄山：我是外星人&lt;/p>
 &lt;p>Atom：哦，那么地球法不适用于外星人保护区了，也就是谁也管不了吧？知道了，如果遇到太臭不讲卫生的人而且屡教不改的，我可以把他打出去，反正不受当地法律管辖。&lt;/p>
@@ -731,8 +731,8 @@ Cohere -
  &lt;a class="anchor" href="#%e6%b3%95%e5%be%8b%e8%a7%84%e5%88%99">#&lt;/a>
 &lt;/h2>
 &lt;p>总算遇上个正常的客服，让人觉得这个社区还是有点希望的。&lt;/p>
-&lt;p>作为意向的租客和社区成员，尤其是一个正常人，对于“秩序和环境卫生的破坏分子”问题，我们想要的就是一个明确的规则，客服铿锵有力地回应说“会驱逐”就够了，但是前2个客服总是在绕着弯子，尽可能躲闪避开这个话题，这也是导致他们之所以很失败的原因。&lt;/p>
-&lt;p>究竟其源头，来自该社区创始人一句口头禅“法律不管的，我们也不管”，列为社区运营规则，你可以理解为一个文人洒脱式地意淫，然后底下的主理人和客服就机械地遵守，也许他们实际执行得很艰难或效果还不错，但他们用了机器人客服，或是个没有经过培训的很菜的新手客服。&lt;/p></description></item><item><title>流浪汉庇护所和青年养老院</title><link>https://cc.atomx.cc/docs/cc/cases2/</link><pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/cc/cases2/</guid><description>&lt;p>列举实际案例，某个知名的数字游民社区，我2025年8月期间亲自体验过的近况。&lt;/p>
+&lt;p>作为意向的租客和社区成员，尤其是一个正常人，对于“秩序和环境卫生的破坏分子”问题，我们想要的就是一个明确的规则，客服铿锵有力地回应说“是，会驱逐”就够了，但是前2个客服总是在绕着弯子，尽可能躲闪避开这个话题，这也是导致我对他们印象较差的原因。&lt;/p>
+&lt;p>究竟其源头，来自该社区创始人一句口头禅“法律不管的，我们也不管”，列为社区运营规则，你可以理解为一个文人洒脱式地yy，然后底下的主理人和客服就机械地遵守，也许他们实际执行得很艰难或效果还不错，但他们用了机器人客服，或是个没有经过培训的很菜的新手客服。&lt;/p></description></item><item><title>流浪汉庇护所和青年养老院</title><link>https://cc.atomx.cc/docs/cc/cases2/</link><pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate><guid>https://cc.atomx.cc/docs/cc/cases2/</guid><description>&lt;p>列举实际案例，某个知名的数字游民社区，我2025年8月期间亲自体验过的近况。&lt;/p>
 &lt;h1 id="背景">
  背景
  &lt;a class="anchor" href="#%e8%83%8c%e6%99%af">#&lt;/a>
