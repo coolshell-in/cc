@@ -13,9 +13,8 @@ margin-bottom: 3.5em; /* 可以为特定页面类型调整 */
 margin-bottom: 3.2em; /* 可以为特定页面类型调整 */
 }
 
-// /* 禁用当前页面正文下方的子页面列表 */
-.book-page .markdown > ul:last-child,
-.book-page .markdown > ol:last-child {
+/* 仅隐藏由 layouts/_default/list.html 生成的子页面列表 */
+.book-page .book-subpages-list {
   display: none;
 }
 

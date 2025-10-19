@@ -6,7 +6,7 @@ title: "团队建设"
 weight: 1
 cascade:
     type: docs
-    no_list: true
+    layout: single
 ---
 
 由于事业扩展需求，我们持续招募团队成员，包括并不限于以下部门和专业：

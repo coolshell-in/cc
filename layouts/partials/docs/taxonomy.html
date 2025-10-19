@@ -1,4 +1,5 @@
-{{ if not .IsHome }}
+{{ if and (not (default false .Site.Params.HideTaxonomies)) (not .IsHome) }}
+{{/*原有代码:{{ if not .IsHome }} */}}
 <nav>
   <ul>
   {{ range $term, $_ := .Site.Taxonomies }}

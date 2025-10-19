@@ -9,7 +9,7 @@
     </div>
     
     {{ if .Pages }}
-    <ul>
+    <ul class="book-subpages-list">
       {{ range sort .Pages }}
       <li>
         <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a>

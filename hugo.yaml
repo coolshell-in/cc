@@ -55,10 +55,10 @@ languages:
     #   weight: 5
 
 
-
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
+  HideTaxonomies: true
   BookTheme: "light"
   BookAuthor: "Atom.X"
   BookFlatSection: false   #全局禁用首页文章列表
