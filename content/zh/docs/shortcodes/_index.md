@@ -1,4 +1,0 @@
----
-bookFlatSection: false
-bookHidden: true
----

@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Crowd Creative Community.众创社区</title><link>http://localhost:1313/docs/shortcodes/</link><description>Recent content on Crowd Creative Community.众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/docs/shortcodes/index.xml" rel="self" type="application/rss+xml"/><item><title>Mermaid 图表</title><link>http://localhost:1313/docs/shortcodes/mermaid/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/shortcodes/mermaid/</guid><description>&lt;h1 id="mermaid-图表">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo 技术解答 on 众创社区</title><link>http://localhost:1313/docs/shortcodes/</link><description>Recent content in Hugo 技术解答 on 众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Wed, 15 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/docs/shortcodes/index.xml" rel="self" type="application/rss+xml"/><item><title>项目简介</title><link>http://localhost:1313/docs/shortcodes/what/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/shortcodes/what/</guid><description>&lt;p>项目简介（&amp;lt;300字）&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>成立时间：2025年10月；&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>项目规模：目前合作联盟的商业/文创/公益项目10+个，有意向待接洽项目50+个，已服务单位机构客户数十家；&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>所获荣誉：获杭州市、上城区文广旅体局、教育局、紫阳街道社区、浙江中华文化学院等教科文旅主管部门褒奖和鼓励支持；&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>核心技术：社区文化生活服务和活动运营管理&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>项目简介：一个文化生活服务组织，整合线上线下的文化资源和社区活动服务实体，满足社区居民的日益增长的精神文化生活需求；同时为联盟的文化服务组织赋能，提供媒体传播、客流共享获取、为常态化活动组织和运营管理提质增效，帮助中小型文化单位克服发展的瓶颈。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>成长过程：文化社区联盟单位创建历史&lt;/p>
+&lt;ul>
+&lt;li>2016年，修明馆/ 正心武道；&lt;/li>
+&lt;li>2019年，志心书院大米课堂；&lt;/li>
+&lt;li>2024年，紫阳文化艺术中心；&lt;/li>
+&lt;li>2025年，梅林社工服务站（拟成立）；&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Mermaid 图表</title><link>http://localhost:1313/docs/shortcodes/mermaid/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/shortcodes/mermaid/</guid><description>&lt;h1 id="mermaid-图表">
  Mermaid 图表
  &lt;a class="anchor" href="#mermaid-%e5%9b%be%e8%a1%a8">#&lt;/a>
 &lt;/h1>
@@ -48,21 +74,7 @@ stateDiagram-v2
  note left of State2 : This is the note to the left.
 &lt;/pre>
  &lt;/div>
-&lt;/div></description></item><item><title/><link>http://localhost:1313/docs/shortcodes/buttons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/shortcodes/buttons/</guid><description>&lt;h1 id="buttons">
- Buttons
- &lt;a class="anchor" href="#buttons">#&lt;/a>
-&lt;/h1>
-&lt;p>Buttons are styled links that can lead to local page or external link.&lt;/p>
-&lt;h2 id="example">
- Example
- &lt;a class="anchor" href="#example">#&lt;/a>
-&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-tpl" data-lang="tpl">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">{{&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#a6e22e">button&lt;/span> &lt;span style="color:#a6e22e">relref&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;/&amp;#34;&lt;/span> &lt;span style="color:#f92672">[&lt;/span>&lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;...&amp;#34;&lt;/span>&lt;span style="color:#f92672">]&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#75715e">}}&lt;/span>Get Home&lt;span style="color:#75715e">{{&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">button&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#75715e">}}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">{{&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#a6e22e">button&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;https://github.com/alex-shpak/hugo-book&amp;#34;&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#75715e">}}&lt;/span>Contribute&lt;span style="color:#75715e">{{&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">button&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#75715e">}}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="../../" class="book-btn">Get Home&lt;/a>
-
-&lt;a href="https://github.com/alex-shpak/hugo-book" target="_blank" rel="noopener" class="book-btn">Contribute&lt;/a>
-&lt;/p></description></item><item><title/><link>http://localhost:1313/docs/shortcodes/columns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/shortcodes/columns/</guid><description>&lt;h1 id="columns">
+&lt;/div></description></item><item><title/><link>http://localhost:1313/docs/shortcodes/columns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/shortcodes/columns/</guid><description>&lt;h1 id="columns">
  Columns
  &lt;a class="anchor" href="#columns">#&lt;/a>
 &lt;/h1>

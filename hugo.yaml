@@ -3,7 +3,7 @@
 baseURL: https://cc.atomx.cc/
 canonifyURLs: false  # 改为false
 relativeURLs: true   # 改为true
-title: Crowd Creative Community.众创社区
+title: 众创社区
 theme: hugo-book
 ignoreFiles:
   - "^land-view/.*"  # 忽略目录及其所有内容
@@ -41,15 +41,15 @@ languages:
     contentDir: content/zh
     weight: 2
 
-menu:
+  # menu: []
   # before: []
-  after:
+  # after:
     # - name: "Coolshell"
     #   url: ""
     #   weight: 10
-    - name: "Themes Hugo-Book"
-      url: "https://themes.gohugo.io/themes/hugo-book/"
-      weight: 20
+    # - name: "Themes Hugo-Book"
+    #   url: "https://themes.gohugo.io/themes/hugo-book/"
+    #   weight: 20
     # - name: "Posts"
     #   url: "/posts/"
     #   weight: 5
