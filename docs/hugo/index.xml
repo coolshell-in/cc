@@ -109,7 +109,8 @@
 &lt;p>HTTPS provides a layer of encryption that prevents others from snooping on or tampering with traffic to your site.
 When HTTPS is enforced, your site will only be served over HTTPS. 
  &lt;a href="https://docs.github.com/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https">Learn more about securing your GitHub Pages site with HTTPS.&lt;/a>&lt;/p>
-&lt;p>检查过整站代码，没有看出异常，DNS记录正常，二级域名可正常访问，前端页面也没有看出异常，为什么 &amp;ldquo;Enforce HTTPS&amp;rdquo; 仍然不可用？&lt;/p></description></item><item><title>Hugo Book主题配置参数列表</title><link>https://cc.coolshell.in/docs/hugo/func-key/</link><pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/func-key/</guid><description>&lt;p>以下是Hugo Book主题中所有以&lt;code>book&lt;/code>开头的配置参数及其功能说明，可以在&lt;code>hugo.yaml&lt;/code>全局配置或在页面前置元数据(frontmatter)中使用：&lt;/p>
+&lt;p>检查过整站代码，没有看出异常，DNS记录正常，二级域名可正常访问，前端页面也没有看出异常，为什么 &amp;ldquo;Enforce HTTPS&amp;rdquo; 仍然不可用？&lt;/p>
+&lt;p>悬疑待解决。。。&lt;/p></description></item><item><title>Hugo Book主题配置参数列表</title><link>https://cc.coolshell.in/docs/hugo/func-key/</link><pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/func-key/</guid><description>&lt;p>以下是Hugo Book主题中所有以&lt;code>book&lt;/code>开头的配置参数及其功能说明，可以在&lt;code>hugo.yaml&lt;/code>全局配置或在页面前置元数据(frontmatter)中使用：&lt;/p>
 &lt;h2 id="全局配置参数在hugoyaml中使用">
  全局配置参数（在hugo.yaml中使用）
  &lt;a class="anchor" href="#%e5%85%a8%e5%b1%80%e9%85%8d%e7%bd%ae%e5%8f%82%e6%95%b0%e5%9c%a8hugoyaml%e4%b8%ad%e4%bd%bf%e7%94%a8">#&lt;/a>
