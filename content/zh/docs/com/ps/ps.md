@@ -2,7 +2,7 @@
 date: 2025-10-15
 linktitle: "产品服务"
 
-title: "我们能提供什么？"
+title: "我们能提供什么具体的产品和服务？"
 weight: 2
 cascade:
     type: docs
@@ -69,12 +69,13 @@ cascade:
 ## 竞技赛事
 
 各年龄段的娱乐和体育类竞技，例如各种长度的马拉松、骑行、球类等的竞赛；
+
 职业技能竞赛，例如无人机/穿越机、挖掘机、叉车操作，酒店餐饮服务类等的竞赛；
 
-在没有列入奥运会或列入国家竞技体育标准项目之前，各门派功夫只能算民间民俗文化活动，把这类活动做成标准化服务，通过互联网平台促成拜师学艺和赛事活动发展。
+在没有列入奥运会或列入国家竞技体育标准项目之前，各门派传统功夫只能算民间民俗文化活动，把这类活动做成标准化服务，通过互联网平台促成拜师学艺和赛事活动发展。
 
-联盟合作的项目，例如：
-1. [青少年“武林大会”——暨“功夫萌娃”挑战赛（杭州）](https://mp.weixin.qq.com/s/C_2tm-JgfIMvDG6RJGwCfQ)
+传统体育竞技，例如：
+1. [青少年“武林大会” —— 暨“功夫萌娃”挑战赛（杭州）](https://mp.weixin.qq.com/s/C_2tm-JgfIMvDG6RJGwCfQ)
 2. [台州市射箭协会 - 烈羽门](https://mp.weixin.qq.com/s?src=3&timestamp=1760506828&ver=1&signature=RLVbOzGUiioUeZS0utQ3bGxvUYxZ8Cjuue6mk9RUMcQoNDSD3hvqhfJNqnYu5tOvz8Y7Rwbh6aqIk-wgq6UqoYy5I37UqATo3jaKaZIWdlqmnOxxSZOxgb4*Mo3Wv0M2-rKglMTrDUqc8vDsAj8972cDYxwl0*7yDS-tkZh*Xt8=)，骑马/骑射俱乐部、功夫馆；
 
 ## 产品采购

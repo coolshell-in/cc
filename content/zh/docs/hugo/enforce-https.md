@@ -15,3 +15,4 @@ When HTTPS is enforced, your site will only be served over HTTPS. [Learn more ab
 
 检查过整站代码，没有看出异常，DNS记录正常，二级域名可正常访问，前端页面也没有看出异常，为什么 "Enforce HTTPS" 仍然不可用？
 
+悬疑待解决。。。
