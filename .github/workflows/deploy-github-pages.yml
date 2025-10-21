@@ -9,7 +9,7 @@ env:
   HUGO_VERSION: 0.147.8
   GO_VERSION: 1.19
   CONTENT_PATH: "content"
-  baseURL: "https://cc.cooshell.in/"  # 固定baseURL
+  baseURL: "https://cc.coolshell.in/"  # 固定baseURL
 
 jobs:
   deploy:

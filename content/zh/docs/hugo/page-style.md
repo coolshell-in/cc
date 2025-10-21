@@ -30,7 +30,7 @@ weight: 12
 在 `hugo.yaml` 中：
 ```yaml
 # 基础 URL 配置
-baseURL: "https://cc.cooshell.in/"
+baseURL: "https://cc.coolshell.in/"
 canonifyURLs: false  # 使用相对路径
 relativeURLs: true   # 启用相对 URL
 
