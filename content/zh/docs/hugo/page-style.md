@@ -14,7 +14,7 @@ weight: 12
 ## 问题原因
 
 1. `baseURL` 配置问题
-   - Hugo 在构建时使用了本地开发的 URL（`http://localhost:1313`）而不是生产环境的 URL(`https://cc.atomx.cc/`)
+   - Hugo 在构建时使用了本地开发的 URL（`http://localhost:1313`）而不是生产环境的 URL(`https://cc.cooshell.in/`)
    - 导致所有静态资源（CSS、JavaScript 等）的引用路径错误
    - 浏览器无法正确加载样式文件
 
@@ -30,7 +30,7 @@ weight: 12
 在 `hugo.yaml` 中：
 ```yaml
 # 基础 URL 配置
-baseURL: "https://cc.atomx.cc/"
+baseURL: "https://cc.cooshell.in/"
 canonifyURLs: false  # 使用相对路径
 relativeURLs: true   # 启用相对 URL
 

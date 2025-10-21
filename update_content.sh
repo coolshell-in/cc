@@ -44,7 +44,7 @@ if [ -n "$(git status --porcelain --ignore-submodules=all)" ]; then
     
     # 切换到 HTTPS 协议
     echo "切换到 HTTPS 协议进行推送..."
-    git remote set-url origin https://github.com/atomx-cc/cc.git
+    git remote set-url origin https://github.com/cooshell-in/cc.git
     
     # 增加 Git 缓冲区大小
     git config http.postBuffer 524288000  # 500MB
