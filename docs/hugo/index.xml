@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo 技术解答 on 众创社区</title><link>https://cc.cooshell.in/docs/hugo/</link><description>Recent content in Hugo 技术解答 on 众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cc.cooshell.in/docs/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo站点折叠菜单问题分析</title><link>https://cc.cooshell.in/docs/hugo/fold-menu/</link><pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate><guid>https://cc.cooshell.in/docs/hugo/fold-menu/</guid><description>&lt;p>当设置文件创建日期大于当前实际日期时，折叠菜单无法显示。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo 技术解答 on 众创社区</title><link>https://cc.coolshell.in/docs/hugo/</link><description>Recent content in Hugo 技术解答 on 众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cc.coolshell.in/docs/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo站点折叠菜单问题分析</title><link>https://cc.coolshell.in/docs/hugo/fold-menu/</link><pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/fold-menu/</guid><description>&lt;p>当设置文件创建日期大于当前实际日期时，折叠菜单无法显示。&lt;/p>
 &lt;p>例如：今天是 2025-05-07，若设置为2035-05-07，折叠菜单页面将无法显示。&lt;/p>
 &lt;p>经过检查代码，我发现：&lt;/p>
 &lt;h2 id="日期设置与折叠菜单的关系">
@@ -57,7 +57,7 @@
 &lt;li>将日期设置为当前或过去的日期，或在Hugo配置中启用 &lt;code>buildFuture: true&lt;/code>&lt;/li>
 &lt;li>根据需要决定是否使用 &lt;code>bookCollapseSection: true&lt;/code>&lt;/li>
 &lt;/ol>
-&lt;p>这样应该可以解决折叠菜单显示问题。&lt;/p></description></item><item><title>右侧栏的文章内容目录修改</title><link>https://cc.cooshell.in/docs/hugo/config-book/</link><pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate><guid>https://cc.cooshell.in/docs/hugo/config-book/</guid><description>&lt;h1 id="控制显示toc">
+&lt;p>这样应该可以解决折叠菜单显示问题。&lt;/p></description></item><item><title>右侧栏的文章内容目录修改</title><link>https://cc.coolshell.in/docs/hugo/config-book/</link><pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/config-book/</guid><description>&lt;h1 id="控制显示toc">
  控制显示TOC
  &lt;a class="anchor" href="#%e6%8e%a7%e5%88%b6%e6%98%be%e7%a4%batoc">#&lt;/a>
 &lt;/h1>
@@ -104,7 +104,12 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">.book-page&lt;/span> &lt;span style="color:#a6e22e">.markdown&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span> &lt;span style="color:#f92672">ol&lt;/span>&lt;span style="color:#a6e22e">:last-child&lt;/span> {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">display&lt;/span>&lt;span style="color:#f92672">:&lt;/span> none;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后，通过配置默认首页来控制是否在左侧栏显示全部页面，在front matter中增加配置：&lt;/p></description></item><item><title>Hugo Book主题配置参数列表</title><link>https://cc.cooshell.in/docs/hugo/func-key/</link><pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate><guid>https://cc.cooshell.in/docs/hugo/func-key/</guid><description>&lt;p>以下是Hugo Book主题中所有以&lt;code>book&lt;/code>开头的配置参数及其功能说明，可以在&lt;code>hugo.yaml&lt;/code>全局配置或在页面前置元数据(frontmatter)中使用：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后，通过配置默认首页来控制是否在左侧栏显示全部页面，在front matter中增加配置：&lt;/p></description></item><item><title>为什么Github pages - Enforce HTTPS 仍然不可用？</title><link>https://cc.coolshell.in/docs/hugo/enforce-https/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/enforce-https/</guid><description>&lt;p>Enforce HTTPS — Unavailable for your site because your domain is not properly configured to support HTTPS (cc.coolshell.in) — 
+ &lt;a href="https://docs.github.com/articles/troubleshooting-custom-domains/#https-errors">Troubleshooting custom domains&lt;/a>&lt;/p>
+&lt;p>HTTPS provides a layer of encryption that prevents others from snooping on or tampering with traffic to your site.
+When HTTPS is enforced, your site will only be served over HTTPS. 
+ &lt;a href="https://docs.github.com/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https">Learn more about securing your GitHub Pages site with HTTPS.&lt;/a>&lt;/p>
+&lt;p>检查过整站代码，没有看出异常，DNS记录正常，二级域名可正常访问，前端页面也没有看出异常，为什么 &amp;ldquo;Enforce HTTPS&amp;rdquo; 仍然不可用？&lt;/p></description></item><item><title>Hugo Book主题配置参数列表</title><link>https://cc.coolshell.in/docs/hugo/func-key/</link><pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/func-key/</guid><description>&lt;p>以下是Hugo Book主题中所有以&lt;code>book&lt;/code>开头的配置参数及其功能说明，可以在&lt;code>hugo.yaml&lt;/code>全局配置或在页面前置元数据(frontmatter)中使用：&lt;/p>
 &lt;h2 id="全局配置参数在hugoyaml中使用">
  全局配置参数（在hugo.yaml中使用）
  &lt;a class="anchor" href="#%e5%85%a8%e5%b1%80%e9%85%8d%e7%bd%ae%e5%8f%82%e6%95%b0%e5%9c%a8hugoyaml%e4%b8%ad%e4%bd%bf%e7%94%a8">#&lt;/a>
@@ -296,7 +301,16 @@
 &lt;/h2>
 &lt;ol>
 &lt;li>
-&lt;p>&lt;strong>隐藏整个部分&lt;/strong>：&lt;/p></description></item><item><title>Hugo 页面样式丢失问题修复</title><link>https://cc.cooshell.in/docs/hugo/page-style/</link><pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate><guid>https://cc.cooshell.in/docs/hugo/page-style/</guid><description>&lt;h2 id="问题描述">
+&lt;p>&lt;strong>隐藏整个部分&lt;/strong>：&lt;/p></description></item><item><title>浏览器导致无法登陆github控制台</title><link>https://cc.coolshell.in/docs/hugo/github-debug/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/github-debug/</guid><description>&lt;p>问：如果我们可以登陆github，但是无法点击右上角头像并进入相应的管理控制台，但是换一个浏览器就好了，这是什么原因？&lt;/p>
+&lt;p>答：可能是浏览器插件或浏览器的隐私/脚本拦截设置阻止了 GitHub 的部分脚本或样式，导致头像菜单无法弹出。常见原因包括广告/追踪拦截器（uBlock、Adblock、Privacy Badger）、脚本屏蔽（NoScript、uMatrix）、阻止第三方 Cookie、禁用 JavaScript、或浏览器自身的“Shields/防护”设置。排查与解决建议：&lt;/p>
+&lt;ul>
+&lt;li>使用隐身/无扩展模式或新建配置文件打开 GitHub，确认是否为扩展引起（Chrome/Safari：Cmd+Shift+N）。&lt;/li>
+&lt;li>暂时禁用可疑扩展或将 github.com 加入白名单。&lt;/li>
+&lt;li>打开开发者工具查看 Console/Network 是否有被阻止的请求或脚本错误（Chrome：Cmd+Option+I / Cmd+Option+J）。&lt;/li>
+&lt;li>清除缓存与 Cookie，确保启用 JavaScript 并允许必要的 Cookie（尤其是第三方 Cookie）。&lt;/li>
+&lt;li>更新或切换浏览器；企业/校园网络下还需检查代理或防火墙是否注入或拦截页面资源。&lt;/li>
+&lt;/ul>
+&lt;p>在终端里通过一些命令行测试，是否存在无法网络链接github库的可能，因此可以排查出问题应该是浏览器拦截所致。&lt;/p></description></item><item><title>Hugo 页面样式丢失问题修复</title><link>https://cc.coolshell.in/docs/hugo/page-style/</link><pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/page-style/</guid><description>&lt;h2 id="问题描述">
  问题描述
  &lt;a class="anchor" href="#%e9%97%ae%e9%a2%98%e6%8f%8f%e8%bf%b0">#&lt;/a>
 &lt;/h2>
@@ -333,7 +347,7 @@
 &lt;/h3>
 &lt;p>在 &lt;code>hugo.yaml&lt;/code> 中：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 基础 URL 配置&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">baseURL&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;https://cc.cooshell.in/&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">baseURL&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;https://cc.coolshell.in/&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">canonifyURLs&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span> &lt;span style="color:#75715e"># 使用相对路径&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">relativeURLs&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span> &lt;span style="color:#75715e"># 启用相对 URL&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
