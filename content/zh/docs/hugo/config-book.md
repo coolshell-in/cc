@@ -5,7 +5,6 @@ title: "右侧栏的文章内容目录修改"
 weight: 10
 bookToc: true
 type: "docs"
-layout: "single"
 ---
 
 # 控制显示TOC

@@ -6,6 +6,7 @@ description: >
   关于 Hugo 的常见问题解答。
 bookCollapseSection: true  # 展开/折叠章节开关
 bookToc: true
+layout: "single"
 weight: 20
 ---
 
@@ -20,7 +21,7 @@ weight: 20
 
 Hugo是一个用Go语言编写的静态网站生成器，以其速度快和灵活性而闻名。
 
-## Hugo的主要优势是什么？
+## Hugo的主要优势
 
 - 极快的构建速度
 - 强大的模板系统
@@ -39,7 +40,7 @@ Hugo是一个用Go语言编写的静态网站生成器，以其速度快和灵�
 ### 2. 检测路由路径和延迟
 `traceroute example.com`
 
-### 或者使用更现代的工具
+或者使用更现代的工具
 `tracepath example.com`
 
 ### 3. 获取目标网站的IP地址
@@ -49,7 +50,8 @@ Hugo是一个用Go语言编写的静态网站生成器，以其速度快和灵�
 
 ### 4. 检测HTTP响应时间和下载速度
 `curl -w "@curl-format.txt" -o /dev/null -s https://example.com`
-# 其中 curl-format.txt 文件内容为：
+
+其中 curl-format.txt 文件内容为：
 
 ```bash
 time_namelookup:  %{time_namelookup}\n
@@ -67,24 +69,24 @@ speed_download:  %{speed_download}\n
 
 ### 6. 获取服务器物理地址信息（需要安装geoip）
 
-### geoiplookup IP地址
+geoiplookup IP地址
 
 ## 更详细的网络分析
 
-## 安装网络分析工具 (macOS)
+安装网络分析工具 (macOS)
 `brew install mtr iperf3 geoip`
 
-## 安装网络分析工具 (Ubuntu/Debian)
+安装网络分析工具 (Ubuntu/Debian)
 `sudo apt install mtr iperf3 geoip-bin dnsutils`
 
-## 使用mtr进行高级网络诊断 (结合了ping和traceroute)
+使用mtr进行高级网络诊断 (结合了ping和traceroute)
 `mtr --report --report-cycles 10 $TARGET`
 
-## 检查端口连通性
+检查端口连通性
 `telnet $TARGET 80`
 
-## 或使用nc
+或使用nc
 `nc -zv $TARGET 80`
 
-## DNS解析速度测试
+DNS解析速度测试
 `time nslookup $TARGET`
