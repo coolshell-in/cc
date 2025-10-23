@@ -1,15 +1,15 @@
 ---
 date: 2025-07-20
-linktitle: "众创社区"
+linktitle: "青年社区"
 
-title: "众创社区营造"
+title: "众创（青年）社区营造"
 weight: 1
 cascade:
     type: docs
     no_list: true
     layout: single
     # bookHidden: false
-    # bookCollapseSection: true  
+    bookCollapseSection: true  
 ---
 
 

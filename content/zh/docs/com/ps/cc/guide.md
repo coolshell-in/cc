@@ -92,14 +92,14 @@ tags:
 
 有的职业消失，同时也有些新的职业诞生，市场涌现的新职业，例如：
 
-### 生活整理师（Life Organizer）
+### 生活整理师 Life Organizer
 
 [生活整理师（Life Organizer）](https://calochina.com/)
 
 收纳整理行业最专业的研究机构CALO，同时也是最具影响力的收纳职业教育机构。
 
 
-### 社工
+### 社工 Social Worker
 [社会工作人员/ 社区工作者（社工）](https://www.zhihu.com/question/394373116)
 
 [社会工作者：搭起“连心桥”，让爱与帮助近在咫尺](http://society.people.com.cn/n1/2023/0210/c1008-32621195.html)
@@ -108,8 +108,8 @@ tags:
 
 ## 免费课程/学习资源
 
-[学习强国](https://www.xuexi.cn/)
-中有很多的免费公开课，买几套相关的专业书，再找地方实习，通常都能通过考试。
+- [学习强国](https://www.xuexi.cn/)  
+有很多的免费公开课，买几套相关的专业书，再找实习机会，并根据人力资源社会保障部公布的职业类别，考取相应的职业资格证，或通过工作经验（社保记录）评定职称。
 
-[Coursera.org](http://coursera.org) 
-免费上世界名校课程，如果你想好好练外语。
+- [Coursera.org](http://coursera.org)   
+免费上世界名校课程，全外文课程，同时可以好好练外语。

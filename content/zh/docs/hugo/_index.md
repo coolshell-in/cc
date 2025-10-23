@@ -34,33 +34,36 @@ Hugo是一个用Go语言编写的静态网站生成器，以其速度快和灵�
 ## 基本网络检测命令
 
 ### 1. 测试响应时间和连通性
-ping -c 10 example.com
+`ping -c 10 example.com`
 
 ### 2. 检测路由路径和延迟
-traceroute example.com
+`traceroute example.com`
 
 ### 或者使用更现代的工具
-tracepath example.com
+`tracepath example.com`
 
 ### 3. 获取目标网站的IP地址
-nslookup example.com
+`nslookup example.com`
 
-dig example.com
+`dig example.com`
 
 ### 4. 检测HTTP响应时间和下载速度
-curl -w "@curl-format.txt" -o /dev/null -s https://example.com
+`curl -w "@curl-format.txt" -o /dev/null -s https://example.com`
 # 其中 curl-format.txt 文件内容为：
-  # time_namelookup:  %{time_namelookup}\n
-  # time_connect:  %{time_connect}\n
-  # time_appconnect:  %{time_appconnect}\n
-  # time_pretransfer:  %{time_pretransfer}\n
-  # time_redirect:  %{time_redirect}\n
-  # time_starttransfer:  %{time_starttransfer}\n
-  # time_total:  %{time_total}\n
-  # speed_download:  %{speed_download}\n
+
+```bash
+time_namelookup:  %{time_namelookup}\n
+time_connect:  %{time_connect}\n
+time_appconnect:  %{time_appconnect}\n
+time_pretransfer:  %{time_pretransfer}\n
+time_redirect:  %{time_redirect}\n
+time_starttransfer:  %{time_starttransfer}\n
+time_total:  %{time_total}\n
+speed_download:  %{speed_download}\n
+```
 
 ### 5. 使用wget测试下载速度
-wget --output-document=/dev/null --quiet --report-speed=bits https://example.com
+`wget --output-document=/dev/null --quiet --report-speed=bits https://example.com`
 
 ### 6. 获取服务器物理地址信息（需要安装geoip）
 
