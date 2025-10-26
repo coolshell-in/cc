@@ -34,7 +34,7 @@ cascade:
 
 ---
 
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/xuwenwen.jpg" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/xuwenwen.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
 
 ### 徐雯雯
 媒体运营专家
