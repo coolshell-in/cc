@@ -10,15 +10,6 @@ cascade:
 
 （<150字/人）相关职业或学历背景，包括并不限于：历史、哲学、宗教、文学、艺术（美术、音乐、武术、书法、绘画）、人类学、社会学、公共管理、经济学、传媒、建筑/地产、图形设计、计算机/互联网等。
 
----
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/yanjie.jpg" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
-
-### 严洁
-电商运营
-
-曾任职美团、网易运营部门，熟悉互联网平台和数字化运营、数据分析和可视化、大型运营团队的管理流程、大规模流量操作、运营效率提质增效和决策辅助。211/985生物医学工程专业，喜好研读经典文化图书和传统医学。
-</div>
-</div>
 
 ---
 <div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/wangliang.jpg" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
@@ -83,7 +74,7 @@ cascade:
 ### 李先锋
 电气工程师  
 
-机电工程测控专家，曾任数家钢铁能源国企/上市公司的总工程师/技术经理，负责编制技术文档、规范工艺流程。    
+机电工程测控专家，曾任数家钢铁能源国企/上市公司总工程师/技术经理，负责编制技术文档、规范工艺流程。    
 光伏电站等新能源项目的全生命周期管理，现场安装调试及维护指导，成本控制与效率提升，组建高效团队，优化管理流程，提升售后服务至行业领先水平。
 </div>
 </div>
@@ -118,12 +109,12 @@ cascade:
 </div>
 
 ---
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/zhanglaijun.jpg" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/zhanglaijun.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
 
 ### 张来军
 商务运营
 
-曾任职百度等数家互联网科技公司，参与团购行业对美团、阿里、腾讯系的“百团大战”，熟悉互联网平台的市场营销、商务管理、地面推广、活动运营、客户服务；有AI、云计算等数字产品，以及传统行业、实体产品和农村市场的线上和线下推广经验，多次从0到1创业的丰富经历。
+曾任职百度等数家互联网公司，参与团购行业的“百团大战”，熟悉互联网平台的市场营销、商务管理、地面推广、活动运营、客户服务；有AI、云计算等数字产品，以及传统行业、实体产品和农村市场的推广经验，多次从0到1创业的丰富经历。
 </div>
 </div>
 
@@ -134,6 +125,16 @@ cascade:
 软件工程师
 
 中级IT系统集成项目管理师，曾供职于华为，任流程IT项目组工程师，参与SOA服务管控软件开发。中国电信财务项目经理，电信财务AI类软件开发管理。
+</div>
+</div>
+
+---
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/yanjie.jpg" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
+
+### 严洁
+电商运营
+
+曾任职美团、网易运营部门，熟悉互联网平台和数字化运营、数据分析和可视化、大型运营团队的管理流程、大规模流量操作、运营效率提质增效和决策辅助。211/985生物医学工程专业，喜好研读经典文化图书和传统医学。
 </div>
 </div>
 
