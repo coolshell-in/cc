@@ -12,18 +12,6 @@ cascade:
 
 
 ---
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/wangliang.jpg" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
-
-### 汪亮
-
-建筑装饰设计师
-
-中国建筑装饰协会会员，作品屡获行业大奖，并在《家装》《瑞丽家居》等行业杂志刊登。服务数十家各行业公司，包括兰贵坊、鳄鱼恤、波司登、大红鹰等知名品牌。  
-烈羽武道和咏春拳（非遗）传人，多家学校体育教练和武术馆教练，多次获上海市级传统武术比赛冠军。
-</div>
-</div>
-
----
 
 <div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/xuwenwen.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
 
@@ -51,6 +39,18 @@ cascade:
 </div>
 
 ---
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/wangliang.jpg" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
+
+### 汪亮
+
+建筑装饰设计师
+
+中国建筑装饰协会会员，作品屡获行业大奖，并在《家装》《瑞丽家居》等行业杂志刊登。服务数十家各行业公司，包括兰贵坊、鳄鱼恤、波司登、大红鹰等知名品牌。  
+烈羽武道和咏春拳（非遗）传人，多家学校体育和武术教练，多次获上海市级传统武术比赛冠军。
+</div>
+</div>
+
+---
 
 <div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/zhaobin.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">
 
@@ -58,7 +58,7 @@ cascade:
 
 ### 赵彬
  
-文教基金会管理
+文教基金会秘书长
 
 杭州紫阳文化艺术中心、志心书院、大米课堂公益文化教育基金、韵味紫阳社区发展基金会等多家文教机构管理职务。  
 浙江省儒学会、中国法学会、紫阳街道文联等多家协会成员，创办经典阅读和传统文化体验活动，服务街道社区、政府、社会组织、企业、大中小学参访研学团。
@@ -112,7 +112,7 @@ cascade:
 <div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/zhanglaijun.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
 
 ### 张来军
-商务运营
+商务运营专家
 
 曾任职百度等数家互联网公司，参与团购行业的“百团大战”，熟悉互联网平台的市场营销、商务管理、地面推广、活动运营、客户服务；有AI、云计算等数字产品，以及传统行业、实体产品和农村市场的推广经验，多次从0到1创业的丰富经历。
 </div>
@@ -132,7 +132,7 @@ cascade:
 <div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/yanjie.jpg" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
 
 ### 严洁
-电商运营
+电商运营专家
 
 曾任职美团、网易运营部门，从事互联网平台和数字化运营、数据分析和可视化、大型运营团队的管理流程、大规模流量操作、运营效率提质增效和决策辅助。211/985生物医学工程专业，喜好研读经典文化图书和传统医学。
 </div>
