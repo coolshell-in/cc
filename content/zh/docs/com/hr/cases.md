@@ -38,7 +38,7 @@ Brighter Green’s consultants
 
 世界有机农场组织(WWOOF)
 
-香港嘉道理基金会
+香港嘉道理基金会（社区伙伴PCD）
 
 全球未来研究所(GIFT)
 
