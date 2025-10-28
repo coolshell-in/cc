@@ -141,9 +141,3 @@ Playboy Enterprises, Inc. (花花公子)
 长沙国际幼儿园
 
 黄浦区明珠中学、格致中学、卢湾初级中学、浙大附中
-
-
-## 联系我们
-  
-邮件：hi@coolshell.in   
-联系人：Atom
