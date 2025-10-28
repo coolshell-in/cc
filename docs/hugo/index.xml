@@ -409,4 +409,73 @@ When HTTPS is enforced, your site will only be served over HTTPS.
 &lt;li>验证 CSS 文件是否正确生成和压缩&lt;/li>
 &lt;li>确认 &lt;code>baseURL&lt;/code> 配置在构建过程中被正确应用&lt;/li>
 &lt;li>测试页面样式在生产环境中的加载情况&lt;/li>
-&lt;/ol></description></item></channel></rss>
+&lt;/ol></description></item><item><title/><link>https://cc.coolshell.in/docs/hugo/AWD/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/AWD/</guid><description>&lt;p>为了使团队介绍在不同屏幕尺寸下都能良好显示，我们需要对CSS进行优化，实现图片和文字的自适应布局。以下是修改后的代码：
+主要改进点：&lt;/p>
+&lt;ol>
+&lt;li>添加了标题和职业信息的结构化标签，便于SEO和语义化&lt;/li>
+&lt;li>使用flex布局的自适应特性：
+flex: 1; min-width: 0; 让文字区域能够自适应剩余空间
+flex-shrink: 0; 防止图片在空间不足时被压缩&lt;/li>
+&lt;li>媒体查询适配：
+在768px以下屏幕，布局变为垂直排列
+文字居中对齐，图片下方显示
+在480px以下屏幕，进一步优化字体大小和图片尺寸&lt;/li>
+&lt;li>响应式图片：在小屏幕上图片会自适应宽度并保持比例&lt;/li>
+&lt;/ol>
+&lt;p>这样修改后，在手机竖屏查看时，图片会在上方，文字内容会完整显示在下方，避免了文字被挤压或超出屏幕的问题。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">div&lt;/span> &lt;span style="color:#a6e22e">style&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">img&lt;/span> &lt;span style="color:#a6e22e">src&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;/images/zhanglaijun.png&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">width&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;170&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">height&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;227&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">style&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1); flex-shrink: 0;&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">div&lt;/span> &lt;span style="color:#a6e22e">style&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;flex: 1; min-width: 0;&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">h3&lt;/span> &lt;span style="color:#a6e22e">style&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;margin: 0 0 0.5rem 0; font-size: 1.1em;&amp;#34;&lt;/span>&amp;gt;张来军&amp;lt;/&lt;span style="color:#f92672">h3&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">p&lt;/span> &lt;span style="color:#a6e22e">style&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;margin: 0 0 0.5rem 0; color: #666; font-weight: 500;&amp;#34;&lt;/span>&amp;gt;商务运营专家&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">p&lt;/span> &lt;span style="color:#a6e22e">style&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;margin: 0; line-height: 1.6; font-size: 0.95em;&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 曾任职百度等数家头部互联网公司，参与团购行业的&amp;#34;百团大战&amp;#34;，熟悉互联网平台的市场营销、商务管理、地面推广、活动运营、客户服务；有AI、云计算等数字产品，以及传统行业、实体产品和农村市场的推广经验，多次从0到1创业的丰富经历。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">div&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">div&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">style&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @&lt;span style="color:#66d9ef">media&lt;/span> &lt;span style="color:#f92672">(&lt;/span>&lt;span style="color:#f92672">max-width&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#f92672">768px&lt;/span>&lt;span style="color:#f92672">)&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">div&lt;/span>&lt;span style="color:#f92672">[&lt;/span>&lt;span style="color:#f92672">style&lt;/span>&lt;span style="color:#f92672">*=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;display: flex&amp;#34;&lt;/span>&lt;span style="color:#f92672">]&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">flex-direction&lt;/span>: &lt;span style="color:#66d9ef">column&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">align-items&lt;/span>: &lt;span style="color:#66d9ef">center&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">text-align&lt;/span>: &lt;span style="color:#66d9ef">center&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">div&lt;/span>&lt;span style="color:#f92672">[&lt;/span>&lt;span style="color:#f92672">style&lt;/span>&lt;span style="color:#f92672">*=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;display: flex&amp;#34;&lt;/span>&lt;span style="color:#f92672">]&lt;/span> &lt;span style="color:#f92672">img&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">width&lt;/span>: &lt;span style="color:#ae81ff">150&lt;/span>&lt;span style="color:#66d9ef">px&lt;/span> &lt;span style="color:#75715e">!important&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">height&lt;/span>: &lt;span style="color:#66d9ef">auto&lt;/span> &lt;span style="color:#75715e">!important&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">max-width&lt;/span>: &lt;span style="color:#ae81ff">100&lt;/span>&lt;span style="color:#66d9ef">%&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">margin-bottom&lt;/span>: &lt;span style="color:#ae81ff">1&lt;/span>&lt;span style="color:#66d9ef">rem&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">div&lt;/span>&lt;span style="color:#f92672">[&lt;/span>&lt;span style="color:#f92672">style&lt;/span>&lt;span style="color:#f92672">*=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;display: flex&amp;#34;&lt;/span>&lt;span style="color:#f92672">]&lt;/span> &lt;span style="color:#f92672">div&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">flex&lt;/span>: &lt;span style="color:#66d9ef">none&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">width&lt;/span>: &lt;span style="color:#ae81ff">100&lt;/span>&lt;span style="color:#66d9ef">%&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">div&lt;/span>&lt;span style="color:#f92672">[&lt;/span>&lt;span style="color:#f92672">style&lt;/span>&lt;span style="color:#f92672">*=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;display: flex&amp;#34;&lt;/span>&lt;span style="color:#f92672">]&lt;/span> &lt;span style="color:#f92672">h3&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">text-align&lt;/span>: &lt;span style="color:#66d9ef">center&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">div&lt;/span>&lt;span style="color:#f92672">[&lt;/span>&lt;span style="color:#f92672">style&lt;/span>&lt;span style="color:#f92672">*=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;display: flex&amp;#34;&lt;/span>&lt;span style="color:#f92672">]&lt;/span> &lt;span style="color:#f92672">p&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">text-align&lt;/span>: &lt;span style="color:#66d9ef">center&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @&lt;span style="color:#66d9ef">media&lt;/span> &lt;span style="color:#f92672">(&lt;/span>&lt;span style="color:#f92672">max-width&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#f92672">480px&lt;/span>&lt;span style="color:#f92672">)&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">div&lt;/span>&lt;span style="color:#f92672">[&lt;/span>&lt;span style="color:#f92672">style&lt;/span>&lt;span style="color:#f92672">*=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;display: flex&amp;#34;&lt;/span>&lt;span style="color:#f92672">]&lt;/span> &lt;span style="color:#f92672">img&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">width&lt;/span>: &lt;span style="color:#ae81ff">130&lt;/span>&lt;span style="color:#66d9ef">px&lt;/span> &lt;span style="color:#75715e">!important&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">div&lt;/span>&lt;span style="color:#f92672">[&lt;/span>&lt;span style="color:#f92672">style&lt;/span>&lt;span style="color:#f92672">*=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;display: flex&amp;#34;&lt;/span>&lt;span style="color:#f92672">]&lt;/span> &lt;span style="color:#f92672">h3&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">font-size&lt;/span>: &lt;span style="color:#ae81ff">1&lt;/span>&lt;span style="color:#66d9ef">em&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">div&lt;/span>&lt;span style="color:#f92672">[&lt;/span>&lt;span style="color:#f92672">style&lt;/span>&lt;span style="color:#f92672">*=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;display: flex&amp;#34;&lt;/span>&lt;span style="color:#f92672">]&lt;/span> &lt;span style="color:#f92672">p&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">font-size&lt;/span>: &lt;span style="color:#ae81ff">0.9&lt;/span>&lt;span style="color:#66d9ef">em&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">line-height&lt;/span>: &lt;span style="color:#ae81ff">1.5&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">style&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>请求将他们放入主题模板中，共享给有需要的页面。&lt;/p></description></item></channel></rss>
