@@ -1,6 +1,6 @@
 ---
 date: 2025-11-04
-linktitle: "驱动力"
+linktitle: "原型"
 
 title: "军事化管理，做任务兑换社区权益"
 weight: 12
