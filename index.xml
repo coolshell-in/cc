@@ -1965,7 +1965,7 @@ When HTTPS is enforced, your site will only be served over HTTPS.
 &lt;p>参考中国社区
  &lt;a href="./docs/com/ps/cc/cases1/">案例1&lt;/a> 和 
  &lt;a href="./docs/com/ps/cc/cases2/">案例2&lt;/a>纪实报告，以及我们经历的
- &lt;a href="https://house.coolshell.in/zh">欧洲青年社区&lt;/a>，可以说东西方都面临相同的窘境 - 青年消极颓废、社区治理混乱，只是水平有高低差别。&lt;/p>
+ &lt;a href="https://house.coolshell.in/zh">欧洲青年社区&lt;/a>，可以说东西方都面临相同的窘境 - 青年消极颓废、社区治理混乱，只是各自水平有些高低差别。&lt;/p>
 &lt;p>我们观察到客流和市场充沛，基础设施条件也是良好的，但是缺乏有效的组织管理能力和日常运营能力，无法获取足够收益和可持续运营。&lt;/p>
 &lt;p>为了方便理解目前的众创社区市场普遍行情，做一些类比。&lt;/p>
 &lt;h2 id="以计算机类比">
@@ -2024,10 +2024,13 @@ When HTTPS is enforced, your site will only be served over HTTPS.
 &lt;/h2>
 &lt;p>每个社区的文化风格不同，主理人和运营团队的气质决定了社区的命运。线上和线下的活动、媒体内容、成员的表情、语言、肢体动作、声调散发出社区气质。&lt;/p></description></item><item><title>军事化管理，做任务兑换社区权益</title><link>https://cc.coolshell.in/docs/com/ps/cc/task/</link><pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/com/ps/cc/task/</guid><description>&lt;p>这样的社区对你有没有吸引力？&lt;/p>
 &lt;p>没有使用手机的自由、不许摆烂和躺平。&lt;/p>
+&lt;h2 id="宽进严出">
+ 宽进严出
+ &lt;a class="anchor" href="#%e5%ae%bd%e8%bf%9b%e4%b8%a5%e5%87%ba">#&lt;/a>
+&lt;/h2>
 &lt;p>注册入住后真实社交，必须向全体社区居民公布：真实姓名、个人简历、性格测试报告；&lt;/p>
 &lt;p>经过职业规划师和心理咨询师的鉴定，给每个人贴上职业和性格标签，并且让社区全体居民随时获悉，禁止在现实世界里隐藏身份背景，日常交流可以用化名。&lt;/p>
 &lt;p>社区布置了许多任务，必须完成打卡并获得积分，才能延续社区居民资格，积分可兑换社区餐饮住宿游乐就业创业等权益，也就是积分可用于支付住宿和餐饮等各种费用花销。&lt;/p>
-&lt;p>宽进严出&lt;/p>
 &lt;p>宽进：任何人不限年龄和背景都可以进来，只要是合法身份的人，但是要经过注册和背景信息审核，筛查各种身心健康问题，包括严重精神心理疾病，预防自杀或预谋害人者，维护社区安全。&lt;/p>
 &lt;p>严出：通过一段时间各种任务的训练，严格的积分筛选后，才能确定是否能最终留下来，成为社区长期居民（超过6个月），大约60%的长期居民，40%的临时居民（不超过6个月，临时性流动人口）。&lt;/p>
 &lt;p>积分消耗完时，居民资格清场，需要重新下一轮的申请，仅仅用钱不能购买持续的居民资格。&lt;/p>
@@ -2103,8 +2106,7 @@ When HTTPS is enforced, your site will only be served over HTTPS.
  餐饮
  &lt;a class="anchor" href="#%e9%a4%90%e9%a5%ae">#&lt;/a>
 &lt;/h2>
-&lt;p>统一在食堂吃饭，有专业厨师团队负责餐饮服务，获得厨房运营的国家职业资格认证，保障较高的食品安全、清洁卫生的高标准要求，持续招募实习生，适合往职业厨师和餐饮经理方向发展的新手。&lt;/p>
-&lt;p>&lt;strong>专业的人做专业的事，反对业余参与，越来越职业化&lt;/strong>&lt;/p></description></item><item><title>浏览器导致无法登陆github控制台</title><link>https://cc.coolshell.in/docs/hugo/github-debug/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/github-debug/</guid><description>&lt;p>问：如果我们可以登陆github，但是无法点击右上角头像并进入相应的管理控制台，但是换一个浏览器就好了，这是什么原因？&lt;/p>
+&lt;p>统一在食堂吃饭，有专业厨师团队负责餐饮服务，获得厨房运营的国家职业资格认证，保障较高的食品安全、清洁卫生的高标准要求，持续招募实习生，适合往职业厨师和餐饮经理方向发展的新手。&lt;/p></description></item><item><title>浏览器导致无法登陆github控制台</title><link>https://cc.coolshell.in/docs/hugo/github-debug/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/github-debug/</guid><description>&lt;p>问：如果我们可以登陆github，但是无法点击右上角头像并进入相应的管理控制台，但是换一个浏览器就好了，这是什么原因？&lt;/p>
 &lt;p>答：可能是浏览器插件或浏览器的隐私/脚本拦截设置阻止了 GitHub 的部分脚本或样式，导致头像菜单无法弹出。常见原因包括广告/追踪拦截器（uBlock、Adblock、Privacy Badger）、脚本屏蔽（NoScript、uMatrix）、阻止第三方 Cookie、禁用 JavaScript、或浏览器自身的“Shields/防护”设置。排查与解决建议：&lt;/p>
 &lt;ul>
 &lt;li>使用隐身/无扩展模式或新建配置文件打开 GitHub，确认是否为扩展引起（Chrome/Safari：Cmd+Shift+N）。&lt;/li>
