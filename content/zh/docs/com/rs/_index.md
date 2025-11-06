@@ -8,6 +8,7 @@ cascade:
     type: docs
     no_list: true
     layout: single
-    # bookCollapseSection: true  
+    bookCollapseSection: true  
+    
 weight: 2
 ---
