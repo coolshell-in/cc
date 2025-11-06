@@ -2131,6 +2131,7 @@ When HTTPS is enforced, your site will only be served over HTTPS.
 &lt;p>办公区开门时间8:00-22:00，晚上22:00关灯，除非有特殊任务要求的人，可使用一个24小时开放的专用小办公室；&lt;/p>
 &lt;p>多人间宿舍，起床时间6:00，晚上11:00关灯，除非有特殊任务要求的人，可以更改不同作息时间；&lt;/p>
 &lt;p>每天有教练给你的任务打卡，一切都是在友善温和的气氛下进行，大家相互之间鼓励和支持，要共同协作才能更好完成任务。&lt;/p>
+&lt;p>没有强制，一切都是自愿参与，可以随时退出并退款，退出时按天扣除费用。&lt;/p>
 &lt;h2 id="任务清单">
  任务清单
  &lt;a class="anchor" href="#%e4%bb%bb%e5%8a%a1%e6%b8%85%e5%8d%95">#&lt;/a>
@@ -2160,7 +2161,7 @@ When HTTPS is enforced, your site will only be served over HTTPS.
  &lt;a class="anchor" href="#%e5%86%9b%e4%ba%8b%e5%8c%96%e7%ae%a1%e7%90%86">#&lt;/a>
 &lt;/h2>
 &lt;p>因为时代需要，许多人没有精神内驱力、没有目标方向、意志消沉、颓废、堕落。&lt;/p>
-&lt;p>&lt;strong>“现在中国的现状是：死气沉沉的年轻人、生无可恋的中年人、生机勃勃的老年人”&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>先锋说，“现在中国的现状是：死气沉沉的年轻人、生无可恋的中年人、生机勃勃的老年人”&lt;/strong>&lt;/p>
 &lt;p>目前市面上的社区都是以“躺平、摆烂”为模型设计的，我们拒绝躺平、摆烂，对摆烂社区不感兴趣。&lt;/p>
 &lt;p>该休息时，好好躺平、反对自由散漫、浪费精力和财物。&lt;/p>
 &lt;ul>
@@ -2187,8 +2188,7 @@ When HTTPS is enforced, your site will only be served over HTTPS.
 &lt;p>很多人咋一听，觉得规则太多，会导致社区没人敢来，当然规则是违反人的天性，没有任何约束，自由散漫最好，虽然一时很爽，久而久之，这人就变成废物。&lt;/p>
 &lt;p>所以人要求进步，终究是要遵守各种规则，才能变成更强的人。&lt;/p>
 &lt;p>很多人可能痛恨自己的意志力弱、不够自律、没有自我约束，买了一堆跑鞋和运动器械，但是没有动力按照计划去锻炼，需要一个很强运动氛围的地方，有教练带着一堆人去运动。&lt;/p>
-&lt;p>这是社区军事化管理运营的根本原因。&lt;/p>
-&lt;p>当人们习惯了约束和规则，融入到行为习惯和日常生活工作中，如果你经常跑马拉松，如果一天不跑5公里热身，你就觉得浑身不舒服。没有习惯跑步的人，让他们跑1公里都觉得很困难。&lt;/p></description></item><item><title>浏览器导致无法登陆github控制台</title><link>https://cc.coolshell.in/docs/hugo/github-debug/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/github-debug/</guid><description>&lt;p>问：如果我们可以登陆github，但是无法点击右上角头像并进入相应的管理控制台，但是换一个浏览器就好了，这是什么原因？&lt;/p>
+&lt;p>这是社区军事化管理运营的根本原因。&lt;/p></description></item><item><title>浏览器导致无法登陆github控制台</title><link>https://cc.coolshell.in/docs/hugo/github-debug/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/github-debug/</guid><description>&lt;p>问：如果我们可以登陆github，但是无法点击右上角头像并进入相应的管理控制台，但是换一个浏览器就好了，这是什么原因？&lt;/p>
 &lt;p>答：可能是浏览器插件或浏览器的隐私/脚本拦截设置阻止了 GitHub 的部分脚本或样式，导致头像菜单无法弹出。常见原因包括广告/追踪拦截器（uBlock、Adblock、Privacy Badger）、脚本屏蔽（NoScript、uMatrix）、阻止第三方 Cookie、禁用 JavaScript、或浏览器自身的“Shields/防护”设置。排查与解决建议：&lt;/p>
 &lt;ul>
 &lt;li>使用隐身/无扩展模式或新建配置文件打开 GitHub，确认是否为扩展引起（Chrome/Safari：Cmd+Shift+N）。&lt;/li>
