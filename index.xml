@@ -232,7 +232,7 @@
  &lt;a class="anchor" href="#%e6%b2%88%e9%b9%a4%e9%92%a6">#&lt;/a>
 &lt;/h3>
 &lt;p>传统功夫教练&lt;/p>
-&lt;p>孙式形意拳（非遗）传人，影视剧组脚本编导/武术动作指导/道具设计师/传统文化顾问，对道家非遗、服饰、文俗礼仪、风水堪舆有深入研学，浙大附中等多所中小学和武馆传统功夫教练。&lt;/p>
+&lt;p>孙式形意拳（非遗）传人，影视剧组脚本编导/武术动作指导/道具设计师/传统文化顾问，对道家、服饰、文俗礼仪、风水堪舆均有深入研学，浙大附中等多所中小学和武馆传统功夫教练。&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;hr>
@@ -2108,7 +2108,9 @@ When HTTPS is enforced, your site will only be served over HTTPS.
  &lt;a class="anchor" href="#%e7%a4%be%e5%8c%ba%e6%96%87%e5%8c%96">#&lt;/a>
 &lt;/h2>
 &lt;p>每个社区的文化风格不同，主理人和运营团队的气质决定了社区的命运。线上和线下的活动、媒体内容、成员的表情、语言、肢体动作、声调散发出社区气质。&lt;/p></description></item><item><title>军事化管理，做任务兑换社区权益</title><link>https://cc.coolshell.in/docs/com/ps/cc/prototype/</link><pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/com/ps/cc/prototype/</guid><description>&lt;p>这样的社区对你有没有吸引力？&lt;/p>
-&lt;p>没有使用手机的自由、不许摆烂和躺平。&lt;/p>
+&lt;blockquote>
+&lt;p>没有使用手机的自由、不许摆烂和躺平，不许睡懒觉、定时熄灯、集体吃饭、采取军事化管理。&lt;/p>&lt;/blockquote>
+&lt;p>大多数人看到，第一时间就皱眉摇头，反抗激烈。我随后补充几句解释，他们又都瞪大眼睛说，这样做就有吸引力了，好期待，真有这样的地方吗？&lt;/p>
 &lt;h2 id="宽进严出">
  宽进严出
  &lt;a class="anchor" href="#%e5%ae%bd%e8%bf%9b%e4%b8%a5%e5%87%ba">#&lt;/a>
@@ -2186,9 +2188,7 @@ When HTTPS is enforced, your site will only be served over HTTPS.
 &lt;p>所以人要求进步，终究是要遵守各种规则，才能变成更强的人。&lt;/p>
 &lt;p>很多人可能痛恨自己的意志力弱、不够自律、没有自我约束，买了一堆跑鞋和运动器械，但是没有动力按照计划去锻炼，需要一个很强运动氛围的地方，有教练带着一堆人去运动。&lt;/p>
 &lt;p>这是社区军事化管理运营的根本原因。&lt;/p>
-&lt;p>当人们习惯了约束和规则，融入到行为习惯和日常生活工作中，如果你经常跑马拉松，如果一天不跑5公里热身，你就觉得浑身不舒服。没有习惯跑步的人，让他们跑1公里都觉得很困难。&lt;/p>
-&lt;p>有多大的能力，就要受到多大强度的训练，任何一个行业都是如此，没有白白得来的能力，即使有某种天赋，不训练强化，潜能也会逐渐消退。&lt;/p>
-&lt;p>如果一个社区从一开始就确立了严格的规则制度，筛选出一批长期居民，这种氛围可以带动其他不具备某些良好习惯的人更容易融入。&lt;/p></description></item><item><title>浏览器导致无法登陆github控制台</title><link>https://cc.coolshell.in/docs/hugo/github-debug/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/github-debug/</guid><description>&lt;p>问：如果我们可以登陆github，但是无法点击右上角头像并进入相应的管理控制台，但是换一个浏览器就好了，这是什么原因？&lt;/p>
+&lt;p>当人们习惯了约束和规则，融入到行为习惯和日常生活工作中，如果你经常跑马拉松，如果一天不跑5公里热身，你就觉得浑身不舒服。没有习惯跑步的人，让他们跑1公里都觉得很困难。&lt;/p></description></item><item><title>浏览器导致无法登陆github控制台</title><link>https://cc.coolshell.in/docs/hugo/github-debug/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/github-debug/</guid><description>&lt;p>问：如果我们可以登陆github，但是无法点击右上角头像并进入相应的管理控制台，但是换一个浏览器就好了，这是什么原因？&lt;/p>
 &lt;p>答：可能是浏览器插件或浏览器的隐私/脚本拦截设置阻止了 GitHub 的部分脚本或样式，导致头像菜单无法弹出。常见原因包括广告/追踪拦截器（uBlock、Adblock、Privacy Badger）、脚本屏蔽（NoScript、uMatrix）、阻止第三方 Cookie、禁用 JavaScript、或浏览器自身的“Shields/防护”设置。排查与解决建议：&lt;/p>
 &lt;ul>
 &lt;li>使用隐身/无扩展模式或新建配置文件打开 GitHub，确认是否为扩展引起（Chrome/Safari：Cmd+Shift+N）。&lt;/li>
