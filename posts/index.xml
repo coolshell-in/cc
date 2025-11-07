@@ -1,4 +1,188 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>众创社区</title><link>https://cc.coolshell.in/posts/</link><description>Recent content on 众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://cc.coolshell.in/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>创建新主题</title><link>https://cc.coolshell.in/posts/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/posts/creating-a-new-theme/</guid><description>&lt;h2 id="简介">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>众创社区</title><link>https://cc.coolshell.in/posts/</link><description>Recent content on 众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cc.coolshell.in/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>《中国冷兵器匠人影响力排行榜》框架设计（文旅主导版）</title><link>https://cc.coolshell.in/posts/draft/sword/</link><pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/posts/draft/sword/</guid><description>&lt;blockquote>
+&lt;p>&lt;strong>定位&lt;/strong>：由国家文化和旅游部主导、权威学术机构支持、媒体协同传播的国家级非遗匠人评价体系&lt;br>
+&lt;strong>使命&lt;/strong>：系统性发掘、认证与推广中国传统冷兵器领域的杰出传承人，推动武备文化活态传承与国际传播&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="一榜单名称">
+ 一、榜单名称
+ &lt;a class="anchor" href="#%e4%b8%80%e6%a6%9c%e5%8d%95%e5%90%8d%e7%a7%b0">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>主名称&lt;/strong>：《中国冷兵器匠人影响力排行榜》&lt;/li>
+&lt;li>&lt;strong>副标题&lt;/strong>：&lt;em>“铸剑为铭 · 匠心载道”&lt;/em>&lt;/li>
+&lt;li>&lt;strong>英文名&lt;/strong>：&lt;em>China Cold Weapon Artisans Power List&lt;/em>&lt;/li>
+&lt;li>&lt;strong>年度标识&lt;/strong>：2025年度（首届）&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="二组织架构突出政府主导多方协同">
+ 二、组织架构（突出政府主导、多方协同）
+ &lt;a class="anchor" href="#%e4%ba%8c%e7%bb%84%e7%bb%87%e6%9e%b6%e6%9e%84%e7%aa%81%e5%87%ba%e6%94%bf%e5%ba%9c%e4%b8%bb%e5%af%bc%e5%a4%9a%e6%96%b9%e5%8d%8f%e5%90%8c">#&lt;/a>
+&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>角色&lt;/th>
+ &lt;th>机构/单位&lt;/th>
+ &lt;th>职责&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>主办单位&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>中华人民共和国文化和旅游部&lt;/strong>&lt;br>（非物质文化遗产司）&lt;/td>
+ &lt;td>政策指导、资源统筹、公信力背书&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>承办单位&lt;/strong>&lt;/td>
+ &lt;td>中国非物质文化遗产保护中心&lt;br>中国工艺美术学会&lt;/td>
+ &lt;td>组织实施、标准制定、评审协调&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>学术支持&lt;/strong>&lt;/td>
+ &lt;td>故宫博物院器物部&lt;br>国家博物馆兵器研究中心&lt;br>中国社会科学院历史研究院&lt;br>相关高校（如北师大、浙大非遗研究基地）&lt;/td>
+ &lt;td>提供历史依据、技艺鉴定、学术审核&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>媒体合作方&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>胡润百富（作为媒体与数据合作方）&lt;/strong>&lt;br>央视综合频道 / 央视频&lt;br>Bilibili纪录片频道&lt;br>抖音文化垂类&lt;/td>
+ &lt;td>数据采集、榜单包装、全媒体传播、公众互动&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>技术支持&lt;/strong>&lt;/td>
+ &lt;td>国家级材料实验室（如钢铁研究总院）&lt;br>数字文保技术团队&lt;/td>
+ &lt;td>刀剑性能检测、3D数字化建档&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>✅ &lt;strong>调整说明&lt;/strong>：&lt;br>
+胡润不再作为榜单发起方或品牌主体，而是以&lt;strong>专业媒体与数据服务机构&lt;/strong>身份参与，负责：&lt;/p>
+&lt;ul>
+&lt;li>公众影响力数据采集（社交媒体声量、搜索指数等）&lt;/li>
+&lt;li>榜单视觉设计与国际化传播&lt;/li>
+&lt;li>协助对接高端消费与收藏圈层资源&lt;/li>
+&lt;/ul>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="三评选维度权重分配">
+ 三、评选维度（权重分配）
+ &lt;a class="anchor" href="#%e4%b8%89%e8%af%84%e9%80%89%e7%bb%b4%e5%ba%a6%e6%9d%83%e9%87%8d%e5%88%86%e9%85%8d">#&lt;/a>
+&lt;/h2>
+&lt;p>采用“&lt;strong>传承为本、创新为用、影响为桥&lt;/strong>”原则，总分100分：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>维度&lt;/th>
+ &lt;th>权重&lt;/th>
+ &lt;th>说明&lt;/th>
+ &lt;th>数据来源&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>1. 技艺传承深度&lt;/strong>&lt;/td>
+ &lt;td>35%&lt;/td>
+ &lt;td>- 是否掌握国家级/省级非遗技艺&lt;br>- 师承谱系清晰度&lt;br>- 对古法（如百炼钢、夹钢、包钢）的掌握程度&lt;/td>
+ &lt;td>非遗档案、专家实地考察、口述史记录&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>2. 历史复原准确性&lt;/strong>&lt;/td>
+ &lt;td>20%&lt;/td>
+ &lt;td>- 作品是否严格依据《武经总要》《天工开物》等典籍&lt;br>- 形制、纹饰、铭文、装配符合历史时期特征&lt;/td>
+ &lt;td>学术专家盲评、博物馆比对&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>3. 文化传播与教育贡献&lt;/strong>&lt;/td>
+ &lt;td>20%&lt;/td>
+ &lt;td>- 开展公众体验活动次数&lt;br>- 出版著作/教学视频&lt;br>- 媒体报道数量与质量（含央视、纪录片）&lt;/td>
+ &lt;td>活动记录、出版物、文旅部舆情监测&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>4. 当代创新与应用&lt;/strong>&lt;/td>
+ &lt;td>15%&lt;/td>
+ &lt;td>- 与文创、影视、游戏、展览等跨界合作&lt;br>- 设计符合现代审美但不失传统精神&lt;/td>
+ &lt;td>合作案例、专利、展览证明&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>5. 社会认可与合规性&lt;/strong>&lt;/td>
+ &lt;td>10%&lt;/td>
+ &lt;td>- 获得官方非遗传承人认证级别&lt;br>- 作品合法备案（非管制刀具）&lt;br>- 无知识产权争议&lt;/td>
+ &lt;td>官方证书、公安备案记录&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="四参评资格">
+ 四、参评资格
+ &lt;a class="anchor" href="#%e5%9b%9b%e5%8f%82%e8%af%84%e8%b5%84%e6%a0%bc">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>基本条件&lt;/strong>：
+&lt;ul>
+&lt;li>为中国大陆户籍或长期在华从事冷兵器制作的匠人&lt;/li>
+&lt;li>从事刀、剑、枪、戟、弓、甲胄等传统冷兵器手工制作 ≥ 5年&lt;/li>
+&lt;li>拥有至少1项公开可验证的代表性作品（实物、影像或收藏记录）&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>优先条件&lt;/strong>：
+&lt;ul>
+&lt;li>国家级/省级非遗代表性传承人&lt;/li>
+&lt;li>有明确师承谱系且持续带徒&lt;/li>
+&lt;li>作品被博物馆、文化机构收藏&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>排除情形&lt;/strong>：
+&lt;ul>
+&lt;li>纯机械化量产仿制品制造商&lt;/li>
+&lt;li>未依法备案的管制刀具制作者&lt;/li>
+&lt;li>存在文化挪用或历史虚无主义倾向者&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="五榜单结构年度发布">
+ 五、榜单结构（年度发布）
+ &lt;a class="anchor" href="#%e4%ba%94%e6%a6%9c%e5%8d%95%e7%bb%93%e6%9e%84%e5%b9%b4%e5%ba%a6%e5%8f%91%e5%b8%83">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="1-主榜年度十大冷兵器匠人">
+ 1. &lt;strong>主榜：年度十大冷兵器匠人&lt;/strong>
+ &lt;a class="anchor" href="#1-%e4%b8%bb%e6%a6%9c%e5%b9%b4%e5%ba%a6%e5%8d%81%e5%a4%a7%e5%86%b7%e5%85%b5%e5%99%a8%e5%8c%a0%e4%ba%ba">#&lt;/a>
+&lt;/h3>
+&lt;ul>
+&lt;li>综合得分前10名&lt;/li>
+&lt;li>由文旅部颁发 &lt;strong>“国家级冷兵器文化传承推广大使”&lt;/strong> 荣誉证书&lt;/li>
+&lt;li>作品纳入 &lt;strong>“中国传统武备数字博物馆”&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-专项荣誉非排名仅表彰">
+ 2. &lt;strong>专项荣誉（非排名，仅表彰）&lt;/strong>
+ &lt;a class="anchor" href="#2-%e4%b8%93%e9%a1%b9%e8%8d%a3%e8%aa%89%e9%9d%9e%e6%8e%92%e5%90%8d%e4%bb%85%e8%a1%a8%e5%bd%b0">#&lt;/a>
+&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>荣誉名称&lt;/th>
+ &lt;th>授予对象&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>历史复原典范奖&lt;/strong>&lt;/td>
+ &lt;td>对唐横刀、汉环首刀、宋手刀等复原最精准者&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>青年传承先锋（U40）&lt;/strong>&lt;/td>
+ &lt;td>40岁以下，兼具传统功底与传播能力&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>女性匠艺之光&lt;/strong>&lt;/td>
+ &lt;td>在男性主导领域取得突破的女性匠人&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>国际文化交流贡献奖&lt;/strong>&lt;/td>
+ &lt;td>推动中日、中韩、中欧兵器文化对话者&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>📌 注：&lt;strong>不设商业性“排名炒作”&lt;/strong>，强调“表彰+推广”而非“竞争”&lt;/p></description></item><item><title>创建新主题</title><link>https://cc.coolshell.in/posts/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/posts/creating-a-new-theme/</guid><description>&lt;h2 id="简介">
  简介
  &lt;a class="anchor" href="#%e7%ae%80%e4%bb%8b">#&lt;/a>
 &lt;/h2>
@@ -55,7 +239,11 @@ With Jekyll, something that looked like&lt;/p>
  ▾ images/
  logo.png
 &lt;/code>&lt;/pre>
-&lt;p>Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code>CNAME&lt;/code>) to be moved to &lt;code>static&lt;/code>.&lt;/p></description></item><item><title/><link>https://cc.coolshell.in/posts/draft/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/posts/draft/solution/</guid><description>&lt;h2 id="制作海报和视频">
+&lt;p>Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code>CNAME&lt;/code>) to be moved to &lt;code>static&lt;/code>.&lt;/p></description></item><item><title/><link>https://cc.coolshell.in/posts/draft/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/posts/draft/draft/</guid><description>&lt;p>竞赛的玩法&lt;/p>
+&lt;p>所谓争锋论剑、铸器传薪、争强好胜、珍奇斗艳、一较高下、独步天下、奇技惊世&lt;/p>
+&lt;p>我们创建一个工匠大师工作室，把全中国和全世界的各种狠人、奇人、有绝活的工匠都集中起来一起玩，他们专注于手工创作，我们帮助做后勤服务、媒体、公关、营销、展览、论坛会议、市集、价值实现。&lt;/p>
+&lt;p>据说日本剑道很厉害，找出中国最好的一批刀剑，去和日本刀剑PK，试一下才知道谁是更好的。&lt;/p>
+&lt;p>大国崛起和文化自信的必要补充。&lt;/p></description></item><item><title/><link>https://cc.coolshell.in/posts/draft/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/posts/draft/solution/</guid><description>&lt;h2 id="制作海报和视频">
  制作海报和视频
  &lt;a class="anchor" href="#%e5%88%b6%e4%bd%9c%e6%b5%b7%e6%8a%a5%e5%92%8c%e8%a7%86%e9%a2%91">#&lt;/a>
 &lt;/h2>
