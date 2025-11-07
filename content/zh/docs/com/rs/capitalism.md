@@ -2,7 +2,7 @@
 date: 2025-10-31
 linktitle: "宾客服务"
 
-title: "商业重构，宾客服务接待手册”"
+title: "商业重构，宾客服务接待手册"
 weight: 3
 cascade:
     type: docs
