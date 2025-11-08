@@ -225,6 +225,16 @@
 &lt;/div>
 &lt;/div>
 &lt;hr>
+&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;">&lt;img src="./images/jianghao.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">&lt;div>
+&lt;h3 id="江浩">
+ 江浩
+ &lt;a class="anchor" href="#%e6%b1%9f%e6%b5%a9">#&lt;/a>
+&lt;/h3>
+&lt;p>AI软件工程师&lt;/p>
+&lt;p>AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次开发。开智学堂课程讲师，参与教研多门AI课程。Milvus社区北辰使者，撰写多篇向量数据库科普文章。对AI+汽车行业感兴趣，主要研究向量数据库、RAG、MCP和智能体等方向。&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;hr>
 &lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;">&lt;img src="./images/shenheqin.jpg" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">
 &lt;div>
 &lt;h3 id="沈鹤钦">
@@ -241,19 +251,7 @@
  汪亮
  &lt;a class="anchor" href="#%e6%b1%aa%e4%ba%ae">#&lt;/a>
 &lt;/h3>
-&lt;p>建筑装饰设计师&lt;/p>
-&lt;p>中国建筑装饰协会会员，作品屡获行业大奖，并在《家装》《瑞丽家居》等行业杂志刊登。服务数十家各行业公司，包括兰贵坊、鳄鱼恤、波司登、大红鹰等知名品牌。&lt;br>
-烈羽武道和咏春拳（非遗）传人，多家学校体育和武术教练，多次获上海市级传统武术比赛冠军。&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;hr>
-&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;">&lt;img src="./images/zhaobin.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">
-&lt;div>
-&lt;h3 id="赵彬">
- 赵彬
- &lt;a class="anchor" href="#%e8%b5%b5%e5%bd%ac">#&lt;/a>
-&lt;/h3>
-&lt;p>文教基金会秘书长&lt;/p></description></item><item><title>社区服务</title><link>http://localhost:1313/docs/com/ps/community/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/com/ps/community/</guid><description>&lt;p>我们建造和运营线上线下结合的社区（文化）生活服务综合体。&lt;/p>
+&lt;p>建筑装饰设计师&lt;/p></description></item><item><title>社区服务</title><link>http://localhost:1313/docs/com/ps/community/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/com/ps/community/</guid><description>&lt;p>我们建造和运营线上线下结合的社区（文化）生活服务综合体。&lt;/p>
 &lt;h2 id="时代背景">
  时代背景
  &lt;a class="anchor" href="#%e6%97%b6%e4%bb%a3%e8%83%8c%e6%99%af">#&lt;/a>
@@ -1996,27 +1994,9 @@ Cohere -
 &lt;p>管理办公室工作人员（业主代表）和客服小助理表情紧张、或无精打采趴在电脑前、目光无神、脸上无光，看得出来，他们并不享受这份工作。&lt;/p>
 &lt;p>社区成员亦委靡不振，生活作息混乱，缺乏青年的朝气和生机活力，一副垂垂老矣的状态，就是日语里的“丧”文化氛围浓厚，大多数青年没有正经工作可干，整日沉迷网络娱乐内容，或沉迷玄学修仙和心理疗愈塔罗星座，唯有逗猫铲屎解乏，并引起聊天群里集体讨论的兴趣。&lt;/p>
 &lt;p>社区成员自发组织的其他活动话题，可能参加人数很多，实际活动结束后也就结束了，难以引起持续的兴趣和参与共创，不能最终产生结果，也就是缺乏有效的社区创业成效，可见时下青年生态艰难。&lt;/p>
-&lt;h2 id="空调和被子">
- 空调和被子
- &lt;a class="anchor" href="#%e7%a9%ba%e8%b0%83%e5%92%8c%e8%a2%ab%e5%ad%90">#&lt;/a>
-&lt;/h2>
-&lt;p>一些小事情，能说明他们的问题。&lt;/p>
-&lt;p>小助理负责每个人的入住和问题咨询，这是我们的对话。&lt;/p>
-&lt;p>Atom：夏天不需要2-3公斤（5厘米）的厚被子，如果发放厚被子，懒惰的人就不动脑子，他们会直接盖上厚被子，感觉很热时，他们就会掌握遥控器，把空调降到甚至17度的极低温，其实没必要这么浪费。正常空调26度eco环保模式就可以，不需要设置任何其他温度和模式，太复杂，很多人还不会这些日常家电设备的合理配置。&lt;/p>
-&lt;p>小助理：有些人需要被子的，每个人不一样，万一你们空调开太低怎么办。&lt;/p>
-&lt;p>Atom：温度26，盖一个被罩就够了，不可能会感冒着凉，不需要厚被子，全部拿走。一般身体素质足矣应对这样的环境，如果实在体质很弱的人，应该去医院，想办法调理身体。&lt;/p>
-&lt;p>就这样的对话往返好几个回合，我没办法说服她，于是换下一个话题。&lt;/p>
-&lt;p>小助理：阿姨会上楼来，给你更换床单；&lt;/p>
-&lt;p>Atom：我已经把换下来的脏床单送到洗衣机旁框里，被子我找到地方存放，不用拿走了，我去找阿姨要一套干净床单，自己可以更换，天气太热，不必让阿姨去做。你们更改一下工作流程，让住客自己去找阿姨要干净床单，尽可能自己动手，免去你们额外工作量。&lt;/p>
-&lt;p>又这样对话往返好几个回合，我还是没办法说服她按照我的办法来。&lt;/p>
-&lt;p>然后小助理就不啃声了。&lt;/p>
-&lt;p>因为我不知道存放干净床单的仓库在哪儿，也就只能等阿姨上门给我送床单了。&lt;/p>
-&lt;p>等下午我返回房间，看到本来拆下来的厚被子，又被阿姨装进干净的被罩里，我算是白费口舌了。于是，我自己再此把被子拆出来，放到干净的床头柜存放。&lt;/p>
-&lt;p>主理人和小助理经常在群里劝告众人，空调不要开太低，要节能。同时又强迫我们夏天盖厚被子，导致很多人不得不把空调温度调最低。&lt;/p>
-&lt;p>这确实让我无法理解这些工作人员的反智商思维和行为模式。&lt;/p>
-&lt;h2 id="主理人隐藏-情绪压力">
- 主理人隐藏/ 情绪压力
- &lt;a class="anchor" href="#%e4%b8%bb%e7%90%86%e4%ba%ba%e9%9a%90%e8%97%8f-%e6%83%85%e7%bb%aa%e5%8e%8b%e5%8a%9b">#&lt;/a>
+&lt;h2 id="主理人隐藏">
+ 主理人隐藏
+ &lt;a class="anchor" href="#%e4%b8%bb%e7%90%86%e4%ba%ba%e9%9a%90%e8%97%8f">#&lt;/a>
 &lt;/h2>
 &lt;p>我本来想和社区的管理团队聊一下，多认识些人。&lt;/p>
 &lt;p>我刚到社区第一周，问了3个人“谁是主理人？”，但没人知道，有个已经住了几个月的人也说他不清楚。主理人怎么隐身了？&lt;/p>
@@ -2031,9 +2011,9 @@ Cohere -
 &lt;p>她没有再回话，回避了。。。&lt;/p>
 &lt;p>主动隐藏自己，且充满消极情绪的人，适合做主理人么？&lt;/p>
 &lt;p>更冒犯的一句话，我当时没说出来“若你觉得有压力，不适合做主理人，要么让我来试试！”，这些孩子的都很敏感，一不小心就触犯他们的边界，得看他们脸色说话。&lt;/p>
-&lt;h1 id="垃圾分类环境卫生">
- 垃圾分类/环境卫生
- &lt;a class="anchor" href="#%e5%9e%83%e5%9c%be%e5%88%86%e7%b1%bb%e7%8e%af%e5%a2%83%e5%8d%ab%e7%94%9f">#&lt;/a>
+&lt;h1 id="垃圾分类">
+ 垃圾分类
+ &lt;a class="anchor" href="#%e5%9e%83%e5%9c%be%e5%88%86%e7%b1%bb">#&lt;/a>
 &lt;/h1>
 &lt;p>我对该社区的环境卫生有较大意见。&lt;/p>
 &lt;p>没有垃圾分类，在自助厨房里，食材包装和厨余垃圾混在一起，夏天尤其恐怖，没有及时清理的垃圾发臭，并长出蛆虫。&lt;/p>
@@ -2047,7 +2027,27 @@ Cohere -
 &lt;p>还有2美女和帅哥说“做垃圾分类和参与社区管理，对我们有什么好处？”&lt;/p>
 &lt;p>若我是社区主理人，当时就立即把这几个人给开除了。&lt;/p>
 &lt;p>搞那么久，他们来这里就是想当爹，被人伺候着，但是不想付出义务，也不考虑社区变得更好。&lt;/p>
-&lt;p>只要他们认为与自己无利益关系的事，他们就不会去做，根本就没懂什么叫社会/社区，这种认知能力的人还能存活于世，是造物主和社会太慈悲宽容了。&lt;/p></description></item><item><title>Hugo站点折叠菜单问题分析</title><link>http://localhost:1313/docs/hugo/fold-menu/</link><pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/hugo/fold-menu/</guid><description>&lt;p>当设置文件创建日期大于当前实际日期时，折叠菜单无法显示。&lt;/p>
+&lt;p>只要他们认为与自己无利益关系的事，他们就不会去做，根本就没懂什么叫社会/社区，这种认知能力的人还能存活于世，是造物主和社会太慈悲宽容了。&lt;/p>
+&lt;p>我毫不理会他们的异常反应，又提出应该加强军事化管理，具体参考前一章“
+ &lt;a href="./docs/com/ps/cc/how/">怎么做&lt;/a>”。&lt;/p>
+&lt;p>这遭到他们更猛烈的批判，我简直就成了专制独裁的法西斯。&lt;/p>
+&lt;p>他们无法忍受我的话题，然后，都从酒桌上逃跑了。&lt;/p>
+&lt;p>这能叫社区吗？他们来这干什么？单独租房不是更自由吗？&lt;/p>
+&lt;p>唯一的解释就是，这帮人在 &lt;strong>“假公济私”，借着社区（公有制、共产主义）的名义，可以侵占更多的公共资产，付出更少的义务。&lt;/strong>，与其说他们喜欢社区，不如说他们喜欢自私懒惰。&lt;/p>
+&lt;h2 id="团结互助">
+ 团结互助
+ &lt;a class="anchor" href="#%e5%9b%a2%e7%bb%93%e4%ba%92%e5%8a%a9">#&lt;/a>
+&lt;/h2>
+&lt;p>某次集体聚餐后，所有人都跑了，2个男生自愿留下在前厅清洁，后厨只留下两个女生清洗一大堆餐具，由于看到一只类似小强的虫子，一名女生尖叫惊吓脚滑倒地并摔碎了盘碗，幸亏人没有摔坏，否则这事就比堵下水道更严重。&lt;/p>
+&lt;p>吃饭的男生很多，我在微信群里问“为什么男生不去帮忙？如果享有权利却少付出义务，缺乏团结互助的社区将可持续吗？”&lt;/p>
+&lt;p>几个主理人立即跳出来反驳，讲了一堆歪理，譬如：&lt;/p>
+&lt;ol>
+&lt;li>那个小虫子不是蟑螂，没事不要怕；&lt;/li>
+&lt;li>杀蟑螂的药物不管用，要升级了；&lt;/li>
+&lt;li>2个后厨洗碗的女生当天没有做饭，所以理应她们洗；&lt;/li>
+&lt;/ol>
+&lt;p>完全跑偏了我提出的动议“团结互助”。&lt;/p>
+&lt;p>总之，主理人对于任何问题都习惯了甩锅和抵制 “你说得不对，虽然这是个问题，但也不是我们的问题。。。”，而且他们相互之间也不能达成一致，问题焦点都无法集中，各说各话。&lt;/p></description></item><item><title>Hugo站点折叠菜单问题分析</title><link>http://localhost:1313/docs/hugo/fold-menu/</link><pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/hugo/fold-menu/</guid><description>&lt;p>当设置文件创建日期大于当前实际日期时，折叠菜单无法显示。&lt;/p>
 &lt;p>例如：今天是 2025-05-07，若设置为2035-05-07，折叠菜单页面将无法显示。&lt;/p>
 &lt;p>经过检查代码，我发现：&lt;/p>
 &lt;h2 id="日期设置与折叠菜单的关系">

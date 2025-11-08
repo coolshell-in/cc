@@ -8,8 +8,7 @@ cascade:
     no_list: true
 ---
 
-我们（<150字/人）的职业或学历背景，包括并不限于：文教、艺术、科技、计算机/互联网等。
-
+我们（<150字/人）的职业背景，包括：文教、艺术、农业、计算机/互联网等。
 
 
 ---
@@ -24,6 +23,7 @@ cascade:
 
 </div>
 </div>
+
 ---
 
 <div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/jianghao.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
