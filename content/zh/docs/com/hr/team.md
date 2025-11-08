@@ -11,6 +11,7 @@ cascade:
 我们（<150字/人）的职业或学历背景，包括并不限于：文教、艺术、科技、计算机/互联网等。
 
 
+
 ---
 
 <div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/xuwenwen.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
@@ -20,6 +21,17 @@ cascade:
 
 翻译专业CATTI 2级，多家主流媒体中英双语记者。企业品牌定位、活动运营、危机公关，熟悉北美、东南亚市场，曾带领团队承接诺奖级别嘉宾重大活动。  
 自媒体IP操盘手，运营多个爆款百万+。曾任职阿里巴巴-罗汉堂，数字经济和社会经济关系分析，ESG（环境、社会和治理）研究。
+
+</div>
+</div>
+---
+
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/jianghao.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
+
+### 江浩
+AI软件工程师
+
+AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次开发。开智学堂课程讲师，参与教研多门AI课程。Milvus社区北辰使者，撰写多篇向量数据库科普文章。对AI+汽车行业感兴趣，主要研究向量数据库、RAG、MCP和智能体等方向。
 
 </div>
 </div>
