@@ -100,7 +100,8 @@ AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次
 图形设计师  
 
 曾任腾讯、支付宝设计总监，从事IP开发、UI/UX、CI/VI、游戏、三维模型、文创品牌等视觉和概念设计。  
-自幼习画练武，师承叶问第三代（非遗）和烈羽武道传人，教授咏春拳、擒拿格斗和各种弓箭技法，现运营正心武道文创工作室，浙大附中等多所中小学传统功夫教练。[作品集](https://zx-wudao.feishu.cn/file/SgirbQvrUogEacxXgRtcPlwqnsf?from=from_copylink)
+自幼习画练武，师承叶问第三代（非遗）和烈羽武道传人，教授咏春拳、擒拿格斗和各种弓箭技法，现运营正心武道文创工作室，浙大附中等多所中小学传统功夫教练。[作品集](https://zx-wudao.feishu.cn/file/SgirbQvrUogEacxXgRtcPlwqnsf?from=from_copylink)、[个人网址](https://www.zcool.com.cn/u/728559)
+
 
 </div>
 </div>
