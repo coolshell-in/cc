@@ -2047,7 +2047,7 @@ Cohere -
 &lt;p>还有2美女和帅哥说“做垃圾分类和参与社区管理，对我们有什么好处？”&lt;/p>
 &lt;p>若我是社区主理人，当时就立即把这几个人给开除了。&lt;/p>
 &lt;p>搞那么久，他们来这里就是想当爹，被人伺候着，但是不想付出义务，也不考虑社区变得更好。&lt;/p>
-&lt;p>只要他们认为与自己无利益关系的事，他们就不会去做。这种认知能力的人还能存活于世，造物主和社会太慈悲宽容了。&lt;/p></description></item><item><title>Hugo站点折叠菜单问题分析</title><link>https://cc.coolshell.in/docs/hugo/fold-menu/</link><pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/fold-menu/</guid><description>&lt;p>当设置文件创建日期大于当前实际日期时，折叠菜单无法显示。&lt;/p>
+&lt;p>只要他们认为与自己无利益关系的事，他们就不会去做，根本就没懂什么叫社会/社区，这种认知能力的人还能存活于世，是造物主和社会太慈悲宽容了。&lt;/p></description></item><item><title>Hugo站点折叠菜单问题分析</title><link>https://cc.coolshell.in/docs/hugo/fold-menu/</link><pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/fold-menu/</guid><description>&lt;p>当设置文件创建日期大于当前实际日期时，折叠菜单无法显示。&lt;/p>
 &lt;p>例如：今天是 2025-05-07，若设置为2035-05-07，折叠菜单页面将无法显示。&lt;/p>
 &lt;p>经过检查代码，我发现：&lt;/p>
 &lt;h2 id="日期设置与折叠菜单的关系">
