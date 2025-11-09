@@ -22,7 +22,7 @@ cascade:
 
 那么社区怎么做的问题，就非常明确和简化了。
 
-具体参考前文[《社区怎么做？》](https://cc.coolshell.in/docs/com/ps/cc/how/)
+参考前文[《社区怎么做？》](https://cc.coolshell.in/docs/com/ps/cc/how/)
 
 # 注册身份
 
