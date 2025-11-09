@@ -38,7 +38,7 @@ AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次
 
 ---
 
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/shenheqin.jpg" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/shenheqin.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">
 
 <div>
 
