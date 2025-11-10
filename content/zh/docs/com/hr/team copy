@@ -3,7 +3,6 @@ date: 2025-10-15
 linktitle: "成员简介"
 title: "成员简介"
 weight: 2
-type: photo
 cascade:
     type: docs
     no_list: true
@@ -12,13 +11,11 @@ cascade:
 我们（<150字/人）的职业背景，包括：文教、艺术、农业、计算机/互联网等。
 
 
-
 ---
 
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/xuwenwen.png" width="170" height="227" style="float:left; margin-right:1rem; border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/xuwenwen.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
 
 ### 徐雯雯
-
 媒体运营专家
 
 翻译专业CATTI 2级，多家主流媒体中英双语记者。企业品牌定位、活动运营、危机公关，熟悉北美、东南亚市场，曾带领团队承接诺奖级别嘉宾重大活动。  
@@ -29,10 +26,9 @@ cascade:
 
 ---
 
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/jianghao.png" width="170" height="227" style="float:left; margin-right:1rem; border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/jianghao.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
 
 ### 江浩
-
 AI软件工程师
 
 AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次开发。开智学堂课程讲师，参与教研多门AI课程。Milvus社区北辰使者，撰写多篇向量数据库科普文章。对AI+汽车行业感兴趣，主要研究向量数据库、RAG、MCP和智能体等方向。[个人网址](https://jiangjunqiao.top)
@@ -42,7 +38,7 @@ AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次
 
 ---
 
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/shenheqin.png" width="170" height="227" style="float:left; margin-right:1rem; border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/shenheqin.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">
 
 <div>
 
@@ -55,7 +51,7 @@ AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次
 </div>
 
 ---
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/wangliang.jpg" width="170" height="227" style="float:left; margin-right:1rem; border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/wangliang.jpg" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
 
 ### 汪亮
 
@@ -68,7 +64,7 @@ AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次
 
 ---
 
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/zhaobin.png" width="170" height="227" style="float:left; margin-right:1rem; border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/zhaobin.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">
 
 <div>
 
@@ -84,7 +80,7 @@ AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次
 </div>
 
 ---
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/lixianfeng.png" width="170" height="227" style="float:left; margin-right:1rem; border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/lixianfeng.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">
 <div>
 
 ### 李先锋
@@ -96,7 +92,7 @@ AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次
 </div>
 
 ---
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/hanlong.jpg" width="170" height="227" style="float:left; margin-right:1rem; border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/hanlong.jpg" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">
 <div>
 
 
@@ -112,7 +108,7 @@ AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次
 
 ---
 
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/atom1.jpg" width="170" height="227" style="float:left; margin-right:1rem; border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/atom1.jpg" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">
 
 <div>
 
@@ -126,7 +122,7 @@ AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次
 </div>
 
 ---
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/zhanglaijun.png" width="170" height="227" style="float:left; margin-right:1rem; border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/zhanglaijun.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
 
 ### 张来军
 商务运营专家
@@ -136,7 +132,7 @@ AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次
 </div>
 
 ---
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/litiewang.png" width="170" height="227" style="float:left; margin-right:1rem; border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/litiewang.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
 
 ### 李铁旺
 软件工程师
@@ -146,7 +142,7 @@ AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次
 </div>
 
 ---
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/yanjie.jpg" width="170" height="227" style="float:left; margin-right:1rem; border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;"><img src="/images/yanjie.jpg" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);"><div>
 
 ### 严洁
 电商运营专家

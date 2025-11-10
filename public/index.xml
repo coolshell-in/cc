@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CS众创社区 on 众创社区</title><link>http://localhost:1313/</link><description>Recent content in CS众创社区 on 众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>专业职能</title><link>http://localhost:1313/docs/com/hr/profession/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/com/hr/profession/</guid><description>&lt;p>我们的技术职称/职业能力、学历专业/知识结构，包括并不限于以下：&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CS众创社区 on 众创社区</title><link>http://localhost:1313/</link><description>Recent content in CS众创社区 on 众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>专业职能</title><link>http://localhost:1313/docs/com/hr/profession/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/com/hr/profession/</guid><description>&lt;p>我们的技术职称/职业能力、学历专业/知识结构，包括并不限于以下：&lt;/p>
 &lt;h1 id="项目运营">
  项目运营
  &lt;a class="anchor" href="#%e9%a1%b9%e7%9b%ae%e8%bf%90%e8%90%a5">#&lt;/a>
@@ -214,7 +214,7 @@
 &lt;p>
  &lt;a href="https://dictionary.cambridge.org/dictionary/english-chinese-simplified/society">社会&lt;/a>是一大群以有组织的方式共同生活的人，他们会就做事的方式做出决策，并分担需要完成的工作。一个国家或几个相似国家的所有人都可以被称为一个社会，例如无阶级／多元文化／资本主义／文明的社会等。&lt;/p></description></item><item><title>成员简介</title><link>http://localhost:1313/docs/com/hr/team/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/com/hr/team/</guid><description>&lt;p>我们（&amp;lt;150字/人）的职业背景，包括：文教、艺术、农业、计算机/互联网等。&lt;/p>
 &lt;hr>
-&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;">&lt;img src="./images/xuwenwen.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">&lt;div>
+&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;">&lt;img src="./images/xuwenwen.png" width="170" height="227" style="float:left; margin-right:1rem; border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">&lt;div>
 &lt;h3 id="徐雯雯">
  徐雯雯
  &lt;a class="anchor" href="#%e5%be%90%e9%9b%af%e9%9b%af">#&lt;/a>
@@ -225,7 +225,7 @@
 &lt;/div>
 &lt;/div>
 &lt;hr>
-&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;">&lt;img src="./images/jianghao.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">&lt;div>
+&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;">&lt;img src="./images/jianghao.png" width="170" height="227" style="float:left; margin-right:1rem; border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">&lt;div>
 &lt;h3 id="江浩">
  江浩
  &lt;a class="anchor" href="#%e6%b1%9f%e6%b5%a9">#&lt;/a>
@@ -236,7 +236,7 @@
 &lt;/div>
 &lt;/div>
 &lt;hr>
-&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;">&lt;img src="./images/shenheqin.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">
+&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;">&lt;img src="./images/shenheqin.png" width="170" height="227" style="float:left; margin-right:1rem; border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">
 &lt;div>
 &lt;h3 id="沈鹤钦">
  沈鹤钦
@@ -247,7 +247,7 @@
 &lt;/div>
 &lt;/div>
 &lt;hr>
-&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;">&lt;img src="./images/wangliang.jpg" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">&lt;div>
+&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;">&lt;img src="./images/wangliang.jpg" width="170" height="227" style="float:left; margin-right:1rem; border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">&lt;div>
 &lt;h3 id="汪亮">
  汪亮
  &lt;a class="anchor" href="#%e6%b1%aa%e4%ba%ae">#&lt;/a>
@@ -2245,7 +2245,41 @@ With Jekyll, something that looked like&lt;/p>
  ▾ images/
  logo.png
 &lt;/code>&lt;/pre>
-&lt;p>Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code>CNAME&lt;/code>) to be moved to &lt;code>static&lt;/code>.&lt;/p></description></item><item><title>为什么Github pages - Enforce HTTPS 仍然不可用？</title><link>http://localhost:1313/docs/hugo/enforce-https/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/hugo/enforce-https/</guid><description>&lt;p>Enforce HTTPS — Unavailable for your site because your domain is not properly configured to support HTTPS (cc.coolshell.in) — 
+&lt;p>Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code>CNAME&lt;/code>) to be moved to &lt;code>static&lt;/code>.&lt;/p></description></item><item><title>头像规范与批量处理指南</title><link>http://localhost:1313/docs/hugo/AVATAR_GUIDELINES/</link><pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/hugo/AVATAR_GUIDELINES/</guid><description>&lt;p>本文档总结了为保证页面整洁、个人简介的头像显示一致而推荐的尺寸规范、响应策略、批量处理命令（ImageMagick）和在页面中使用的示例代码。把此文件保存到仓库后，团队成员可以统一按照规范准备或生成头像图。&lt;/p>
+&lt;hr>
+&lt;h2 id="结论要点">
+ 结论（要点）
+ &lt;a class="anchor" href="#%e7%bb%93%e8%ae%ba%e8%a6%81%e7%82%b9">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>建议纵横比：3:4（宽:高 = 3:4），与当前 170×227 接近。&lt;/li>
+&lt;li>页面显示（CSS 控制）推荐：桌面最多显示宽度 260px（已在样式中设置为 &lt;code>max-width: 260px&lt;/code>）；窄屏（&amp;lt;=640px）显示约 160–220px（目前 media query 为 45%/max 220px）。&lt;/li>
+&lt;li>源图像建议：为了在 Retina / 高分屏也清晰，源图至少为显示尺寸的 2×。例如桌面最大显示 260px → 源宽至少 520px；按 3:4，高应为 520 × 4/3 ≈ 694px。&lt;/li>
+&lt;li>推荐的源尺寸（3:4）：
+&lt;ul>
+&lt;li>2x (retina): 520 × 694 px&lt;/li>
+&lt;li>1x: 260 × 347 px&lt;/li>
+&lt;li>可选小图: 130 × 174 px&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>格式：优先 WebP（更节省带宽），保留 JPEG 作为回退；压缩质量建议 70–85%。&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="为什么采用以上规格">
+ 为什么采用以上规格
+ &lt;a class="anchor" href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%87%87%e7%94%a8%e4%bb%a5%e4%b8%8a%e8%a7%84%e6%a0%bc">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>统一的宽高比能保证在页面上排列整齐，避免某些纵向或横向拉长图片破坏布局。&lt;/li>
+&lt;li>提供 1x/2x 两套资源能兼顾常规屏与 Retina 屏幕的显示质量。&lt;/li>
+&lt;li>限制 &lt;code>max-width&lt;/code>（260px）能防止在超宽屏上头像过大，影响文本阅读。&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="html--模板-示例">
+ HTML / 模板 示例
+ &lt;a class="anchor" href="#html--%e6%a8%a1%e6%9d%bf-%e7%a4%ba%e4%be%8b">#&lt;/a>
+&lt;/h2>
+&lt;p>推荐使用 &lt;code>srcset&lt;/code> 提供 1x/2x 图像：&lt;/p></description></item><item><title>为什么Github pages - Enforce HTTPS 仍然不可用？</title><link>http://localhost:1313/docs/hugo/enforce-https/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/hugo/enforce-https/</guid><description>&lt;p>Enforce HTTPS — Unavailable for your site because your domain is not properly configured to support HTTPS (cc.coolshell.in) — 
  &lt;a href="https://docs.github.com/articles/troubleshooting-custom-domains/#https-errors">Troubleshooting custom domains&lt;/a>&lt;/p>
 &lt;p>HTTPS provides a layer of encryption that prevents others from snooping on or tampering with traffic to your site.
 When HTTPS is enforced, your site will only be served over HTTPS. 

@@ -1,0 +1,23 @@
+{{/*
+Photo page layout
+Usage: in front matter set `type: photo` (or `layout: photo`) and include your image
+in markdown as a `<figure class="photo">` block or use markdown image inside a figure.
+This layout includes the `photo-style` partial which inlines CSS for wrapping behavior.
+*/}}
+{{ define "main" }}
+  {{ partial "photo-style.html" . }}
+
+  <article class="photo-wrap">
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+
+    <section class="content">
+      {{ .Content }}
+    </section>
+
+    {{ with .Params.date }}
+      <footer class="meta">{{ . }}</footer>
+    {{ end }}
+  </article>
+{{ end }}

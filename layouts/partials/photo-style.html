@@ -1,0 +1,113 @@
+{{/*
+Inline CSS for photo pages. This partial is intentionally inline so sites that don't expose
+a head partial can still get the styles without editing theme files. If you prefer an external
+file, move these rules to `static/css/photo.css` and include via a <link> in your head.
+*/}}
+<style>
+/* Photo wrapping styles */
+.photo-wrap {
+  /* keep a readable max width for the text container */
+  max-width: 78rem;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+.photo-wrap figure.photo {
+  /* make the figure shrink to the image size */
+  display: inline-block;
+  margin: 0 1rem 1rem 0;
+}
+.photo-wrap figure.photo img {
+  float: left;
+  width: 30%; /* reduce desktop percentage so images appear smaller and neater */
+  max-width: 260px; /* lower the cap from 320px to 260px for better balance */
+  height: auto;
+  margin: 0 1rem 1rem 0;
+  shape-outside: inset(0); /* fallback */
+  -webkit-shape-outside: inset(0);
+  border-radius: 6px;
+  /* improve text flow on modern browsers */
+  /* You can change to `circle(50%)` for round-wrap images */
+}
+
+/* Support existing content that used inline flex wrappers: many pages use
+   <div style="display:flex"> <img> <div>content</div> </div>
+   In that case we turn the outer wrapper back to block and let the inner
+   wrapper act as transparent container so text becomes sibling to the img
+   and can wrap around it. This avoids changing page HTML. */
+.photo-wrap div[style*="display: flex"],
+.photo-wrap div[style*="display:flex"],
+.photo-wrap [style*="display: flex"],
+.photo-wrap [style*="display:flex"] {
+  display: block !important;
+}
+.photo-wrap div[style*="display: flex"] > div,
+.photo-wrap div[style*="display:flex"] > div,
+.photo-wrap [style*="display: flex"] > div,
+.photo-wrap [style*="display:flex"] > div {
+  display: contents !important; /* let the inner children participate in flow */
+}
+.photo-wrap div[style*="display: flex"] img,
+.photo-wrap div[style*="display:flex"] img,
+.photo-wrap [style*="display: flex"] img,
+.photo-wrap [style*="display:flex"] img {
+  float: left !important;
+  margin-right: 1rem !important;
+}
+
+/* Defensive: ensure any image inside .photo-wrap floats left even if theme
+   has strong defaults. This broad selector plus !important should win. */
+.photo-wrap img {
+  float: left !important;
+  margin-right: 1rem !important;
+  max-width: 30% !important;
+  width: auto !important;
+  height: auto !important;
+  box-sizing: border-box !important;
+}
+
+/* Make horizontal rules subtle and ensure they clear floats so they appear
+   between entries instead of being overlapped by floated images. */
+.photo-wrap hr {
+  clear: both;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,0.06);
+  margin: 1.2em 0;
+}
+
+/* Hide the automatic heading anchor (#) that's inserted by the theme for this page
+   (keeps headings clean). Scoped to .photo-wrap so it only affects photo pages. */
+.photo-wrap .anchor {
+  display: none !important;
+}
+
+/* Optional caption styling */
+.photo-wrap figure.photo figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.25rem;
+}
+
+/* Make the image a circle-shaped float for natural wrapping (optional)
+   Uncomment if you want circular shaping; keep border-radius for visuals. */
+.photo-wrap .round img {
+  shape-outside: circle(50%);
+  -webkit-shape-outside: circle(50%);
+  border-radius: 50%;
+}
+
+/* Responsive tweak: reduce image width on narrow viewports so text still wraps
+   rather than forcing strict column stacking. Adjust breakpoints to taste. */
+@media (max-width: 640px) {
+  .photo-wrap figure.photo img {
+    width: 45%;
+    max-width: 220px;
+    margin-right: 0.75rem;
+  }
+}
+
+/* If you prefer the classic mobile behavior of image above text, uncomment:
+@media (max-width: 540px) {
+  .photo-wrap figure.photo img { float: none; display:block; width:100%; margin:0 0 1rem 0; }
+}
+*/
+</style>

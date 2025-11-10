@@ -1,0 +1,10 @@
+/* Photo page styles (external version)
+   This file is optional — the layout currently inlines the same CSS via a partial.
+   If you prefer to use an external stylesheet, include a <link href="/css/photo.css"> in your head.
+*/
+.photo-wrap { max-width: 78rem; margin: 0 auto; line-height: 1.7; }
+.photo-wrap figure.photo { display: inline-block; margin: 0 1rem 1rem 0; }
+.photo-wrap figure.photo img { float: left; width: 38%; max-width: 320px; height: auto; margin: 0 1rem 1rem 0; shape-outside: inset(0); -webkit-shape-outside: inset(0); border-radius: 6px; }
+.photo-wrap figure.photo figcaption { font-size: 0.9rem; color: #666; margin-top: 0.25rem; }
+.photo-wrap .round img { shape-outside: circle(50%); -webkit-shape-outside: circle(50%); border-radius: 50%; }
+@media (max-width: 640px) { .photo-wrap figure.photo img { width: 45%; max-width: 220px; margin-right: 0.75rem; } }
