@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CS众创社区 on 众创社区</title><link>https://cc.coolshell.in/</link><description>Recent content in CS众创社区 on 众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cc.coolshell.in/index.xml" rel="self" type="application/rss+xml"/><item><title>专业职能</title><link>https://cc.coolshell.in/docs/com/hr/profession/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/com/hr/profession/</guid><description>&lt;p>我们的技术职称/职业能力、学历专业/知识结构，包括并不限于以下：&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CS众创社区 on 众创社区</title><link>https://cc.coolshell.in/</link><description>Recent content in CS众创社区 on 众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 14 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cc.coolshell.in/index.xml" rel="self" type="application/rss+xml"/><item><title>专业职能</title><link>https://cc.coolshell.in/docs/com/hr/profession/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/com/hr/profession/</guid><description>&lt;p>我们的技术职称/职业能力、学历专业/知识结构，包括并不限于以下：&lt;/p>
 &lt;h1 id="项目运营">
  项目运营
  &lt;a class="anchor" href="#%e9%a1%b9%e7%9b%ae%e8%bf%90%e8%90%a5">#&lt;/a>
@@ -212,9 +212,12 @@
  &lt;a class="anchor" href="#%e7%a4%be%e4%bc%9a">#&lt;/a>
 &lt;/h1>
 &lt;p>
- &lt;a href="https://dictionary.cambridge.org/dictionary/english-chinese-simplified/society">社会&lt;/a>是一大群以有组织的方式共同生活的人，他们会就做事的方式做出决策，并分担需要完成的工作。一个国家或几个相似国家的所有人都可以被称为一个社会，例如无阶级／多元文化／资本主义／文明的社会等。&lt;/p></description></item><item><title>成员简介</title><link>https://cc.coolshell.in/docs/com/hr/team/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/com/hr/team/</guid><description>&lt;p>我们（&amp;lt;150字/人）的职业背景，包括：文教、艺术、农业、计算机/互联网等。&lt;/p>
+ &lt;a href="https://dictionary.cambridge.org/dictionary/english-chinese-simplified/society">社会&lt;/a>是一大群以有组织的方式共同生活的人，他们会就做事的方式做出决策，并分担需要完成的工作。一个国家或几个相似国家的所有人都可以被称为一个社会，例如无阶级／多元文化／资本主义／文明的社会等。&lt;/p></description></item><item><title>成员简介</title><link>https://cc.coolshell.in/docs/com/hr/team/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/com/hr/team/</guid><description>&lt;p>职业背景（&amp;lt;150字/人）包括：文教、艺术、农业、计算机/互联网等。&lt;/p>
 &lt;hr>
-&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;">&lt;img src="./images/xuwenwen.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">&lt;div>
+&lt;picture>
+ &lt;source type="image/webp" srcset="./images/avatars/xuwenwen-260.webp 1x, ./images/avatars/xuwenwen-520.webp 2x">
+ &lt;img src="./images/avatars/xuwenwen-260.jpg" srcset="./images/avatars/xuwenwen-260.jpg 1x, ./images/avatars/xuwenwen-520.jpg 2x" width="260" height="347" alt="徐雯雯" class="avatar">
+&lt;/picture>
 &lt;h3 id="徐雯雯">
  徐雯雯
  &lt;a class="anchor" href="#%e5%be%90%e9%9b%af%e9%9b%af">#&lt;/a>
@@ -222,10 +225,11 @@
 &lt;p>媒体运营专家&lt;/p>
 &lt;p>翻译专业CATTI 2级，多家主流媒体中英双语记者。企业品牌定位、活动运营、危机公关，熟悉北美、东南亚市场，曾带领团队承接诺奖级别嘉宾重大活动。&lt;br>
 自媒体IP操盘手，运营多个爆款百万+。曾任职阿里巴巴-罗汉堂，数字经济和社会经济关系分析，ESG（环境、社会和治理）研究。&lt;/p>
-&lt;/div>
-&lt;/div>
 &lt;hr>
-&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;">&lt;img src="./images/jianghao.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">&lt;div>
+&lt;picture>
+ &lt;source type="image/webp" srcset="./images/avatars/jianghao-260.webp 1x, ./images/avatars/jianghao-520.webp 2x">
+ &lt;img src="./images/avatars/jianghao-260.jpg" srcset="./images/avatars/jianghao-260.jpg 1x, ./images/avatars/jianghao-520.jpg 2x" width="260" height="347" alt="江浩" class="avatar">
+&lt;/picture>
 &lt;h3 id="江浩">
  江浩
  &lt;a class="anchor" href="#%e6%b1%9f%e6%b5%a9">#&lt;/a>
@@ -233,26 +237,51 @@
 &lt;p>AI软件工程师&lt;/p>
 &lt;p>AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次开发。开智学堂课程讲师，参与教研多门AI课程。Milvus社区北辰使者，撰写多篇向量数据库科普文章。对AI+汽车行业感兴趣，主要研究向量数据库、RAG、MCP和智能体等方向。
  &lt;a href="https://jiangjunqiao.top">个人网址&lt;/a>&lt;/p>
-&lt;/div>
-&lt;/div>
 &lt;hr>
-&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;">&lt;img src="./images/shenheqin.png" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">
-&lt;div>
+&lt;picture>
+ &lt;source type="image/webp" srcset="./images/avatars/shenheqin-260.webp 1x, ./images/avatars/shenheqin-520.webp 2x">
+ &lt;img src="./images/avatars/shenheqin-260.jpg" srcset="./images/avatars/shenheqin-260.jpg 1x, ./images/avatars/shenheqin-520.jpg 2x" width="260" height="347" alt="沈鹤钦" class="avatar">
+&lt;/picture>
 &lt;h3 id="沈鹤钦">
  沈鹤钦
  &lt;a class="anchor" href="#%e6%b2%88%e9%b9%a4%e9%92%a6">#&lt;/a>
 &lt;/h3>
 &lt;p>传统功夫教练&lt;/p>
 &lt;p>孙式形意拳（非遗）传人，影视剧组脚本编导/武术动作指导/道具设计师/传统文化顾问，对道家、服饰、文俗礼仪、风水堪舆均有深入研学，浙大附中等多所中小学和武馆传统功夫教练。&lt;/p>
-&lt;/div>
-&lt;/div>
 &lt;hr>
-&lt;div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;">&lt;img src="./images/wangliang.jpg" width="170" height="227" style="border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1);">&lt;div>
+&lt;picture>
+ &lt;source type="image/webp" srcset="./images/avatars/wangliang-260.webp 1x, ./images/avatars/wangliang-520.webp 2x">
+ &lt;img src="./images/avatars/wangliang-260.jpg" srcset="./images/avatars/wangliang-260.jpg 1x, ./images/avatars/wangliang-520.jpg 2x" width="260" height="347" alt="汪亮" class="avatar">
+&lt;/picture>
 &lt;h3 id="汪亮">
  汪亮
  &lt;a class="anchor" href="#%e6%b1%aa%e4%ba%ae">#&lt;/a>
 &lt;/h3>
-&lt;p>建筑装饰设计师&lt;/p></description></item><item><title>社区服务</title><link>https://cc.coolshell.in/docs/com/ps/community/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/com/ps/community/</guid><description>&lt;p>我们建造和运营线上线下结合的社区（文化）生活服务综合体。&lt;/p>
+&lt;p>建筑装饰设计师&lt;/p>
+&lt;p>中国建筑装饰协会会员，作品屡获行业大奖，并在《家装》《瑞丽家居》等行业杂志刊登。服务数十家各行业公司，包括兰贵坊、鳄鱼恤、波司登、大红鹰等知名品牌。&lt;br>
+烈羽武道和咏春拳（非遗）传人，多家学校体育和武术教练，多次获上海市级传统武术比赛冠军。&lt;/p>
+&lt;hr>
+&lt;picture>
+ &lt;source type="image/webp" srcset="./images/avatars/zhaobin-260.webp 1x, ./images/avatars/zhaobin-520.webp 2x">
+ &lt;img src="./images/avatars/zhaobin-260.jpg" srcset="./images/avatars/zhaobin-260.jpg 1x, ./images/avatars/zhaobin-520.jpg 2x" width="260" height="347" alt="赵彬" class="avatar">
+&lt;/picture>
+&lt;h3 id="赵彬">
+ 赵彬
+ &lt;a class="anchor" href="#%e8%b5%b5%e5%bd%ac">#&lt;/a>
+&lt;/h3>
+&lt;p>文教基金会秘书长&lt;/p>
+&lt;p>杭州紫阳文化艺术中心、志心书院、大米课堂公益文化教育基金、韵味紫阳社区发展基金会等多家文教机构管理职务。&lt;br>
+浙江省儒学会、中国法学会、紫阳街道文联等多家协会成员，创办经典阅读和传统文化体验活动，服务街道社区、政府、社会组织、企业、大中小学参访研学团。&lt;/p>
+&lt;hr>
+&lt;picture>
+ &lt;source type="image/webp" srcset="./images/avatars/lixianfeng-260.webp 1x, ./images/avatars/lixianfeng-520.webp 2x">
+ &lt;img src="./images/avatars/lixianfeng-260.jpg" srcset="./images/avatars/lixianfeng-260.jpg 1x, ./images/avatars/lixianfeng-520.jpg 2x" width="260" height="347" alt="李先锋" class="avatar">
+&lt;/picture>
+&lt;h3 id="李先锋">
+ 李先锋
+ &lt;a class="anchor" href="#%e6%9d%8e%e5%85%88%e9%94%8b">#&lt;/a>
+&lt;/h3>
+&lt;p>电气工程师&lt;/p></description></item><item><title>社区服务</title><link>https://cc.coolshell.in/docs/com/ps/community/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/com/ps/community/</guid><description>&lt;p>我们建造和运营线上线下结合的社区（文化）生活服务综合体。&lt;/p>
 &lt;h2 id="时代背景">
  时代背景
  &lt;a class="anchor" href="#%e6%97%b6%e4%bb%a3%e8%83%8c%e6%99%af">#&lt;/a>
@@ -2245,7 +2274,36 @@ With Jekyll, something that looked like&lt;/p>
  ▾ images/
  logo.png
 &lt;/code>&lt;/pre>
-&lt;p>Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code>CNAME&lt;/code>) to be moved to &lt;code>static&lt;/code>.&lt;/p></description></item><item><title>为什么Github pages - Enforce HTTPS 仍然不可用？</title><link>https://cc.coolshell.in/docs/hugo/enforce-https/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/enforce-https/</guid><description>&lt;p>Enforce HTTPS — Unavailable for your site because your domain is not properly configured to support HTTPS (cc.coolshell.in) — 
+&lt;p>Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code>CNAME&lt;/code>) to be moved to &lt;code>static&lt;/code>.&lt;/p></description></item><item><title>批量处理- 图片裁切</title><link>https://cc.coolshell.in/docs/hugo/ImageMagick/</link><pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/ImageMagick/</guid><description>&lt;p>以团队简介页面的头像为例。&lt;/p>
+&lt;p>ImageMagick 是一款创建、编辑、合成，转换图像的命令行工具。支持格式超过 200 种，包括常见的 PNG, JPEG, GIF, HEIC, TIFF, DPX, EXR, WebP, Postscript, PDF, SVG 等。&lt;/p>
+&lt;p>功能包括调整，翻转，镜像(mirror)，旋转，扭曲，修剪和变换图像，调整图像颜色，应用各种特殊效果，或绘制文本，线条，多边形，椭圆和贝塞尔曲线等。&lt;/p>
+&lt;p>官网：https://www.imagemagick.org&lt;/p>
+&lt;p>批量处理命令（ImageMagick）在页面中使用的示例代码。&lt;/p>
+&lt;hr>
+&lt;h2 id="html--模板-示例">
+ HTML / 模板 示例
+ &lt;a class="anchor" href="#html--%e6%a8%a1%e6%9d%bf-%e7%a4%ba%e4%be%8b">#&lt;/a>
+&lt;/h2>
+&lt;p>推荐使用 &lt;code>srcset&lt;/code> 提供 1x/2x 图像：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">img&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">src&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;/images/avatars/jianghao-260.jpg&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">srcset&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;/images/avatars/jianghao-260.jpg 1x, /images/avatars/jianghao-520.jpg 2x&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">width&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;260&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">height&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;347&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">alt&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Jianghao&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;avatar&amp;#34;&lt;/span> /&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>如果想使用 WebP 并提供回退：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">picture&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">source&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;image/webp&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">srcset&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;/images/avatars/jianghao-260.webp 1x, /images/avatars/jianghao-520.webp 2x&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">img&lt;/span> &lt;span style="color:#a6e22e">src&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;/images/avatars/jianghao-260.jpg&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">srcset&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;/images/avatars/jianghao-260.jpg 1x, /images/avatars/jianghao-520.jpg 2x&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">width&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;260&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">height&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;347&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">alt&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;江浩&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;avatar&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">picture&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>在 Hugo 中你也可以用 shortcode 或模板内的 image processing 自动生成不同尺寸，但那会增加构建开销。&lt;/p>
+&lt;hr>
+&lt;h2 id="批量处理命令imagemagick">
+ 批量处理命令（ImageMagick）
+ &lt;a class="anchor" href="#%e6%89%b9%e9%87%8f%e5%a4%84%e7%90%86%e5%91%bd%e4%bb%a4imagemagick">#&lt;/a>
+&lt;/h2>
+&lt;p>下面的命令假设你把原始图片放到 &lt;code>static/images/orig/&lt;/code>，脚本会生成 &lt;code>static/images/avatars/&lt;/code> 下的 &lt;code>*-260.jpg&lt;/code> 和 &lt;code>*-520.jpg&lt;/code>。&lt;/p></description></item><item><title>为什么Github pages - Enforce HTTPS 仍然不可用？</title><link>https://cc.coolshell.in/docs/hugo/enforce-https/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/enforce-https/</guid><description>&lt;p>Enforce HTTPS — Unavailable for your site because your domain is not properly configured to support HTTPS (cc.coolshell.in) — 
  &lt;a href="https://docs.github.com/articles/troubleshooting-custom-domains/#https-errors">Troubleshooting custom domains&lt;/a>&lt;/p>
 &lt;p>HTTPS provides a layer of encryption that prevents others from snooping on or tampering with traffic to your site.
 When HTTPS is enforced, your site will only be served over HTTPS. 
@@ -2790,7 +2848,118 @@ When HTTPS is enforced, your site will only be served over HTTPS.
 &lt;li>验证 CSS 文件是否正确生成和压缩&lt;/li>
 &lt;li>确认 &lt;code>baseURL&lt;/code> 配置在构建过程中被正确应用&lt;/li>
 &lt;li>测试页面样式在生产环境中的加载情况&lt;/li>
-&lt;/ol></description></item><item><title/><link>https://cc.coolshell.in/docs/hugo/AWD/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/AWD/</guid><description>&lt;p>为了使团队介绍在不同屏幕尺寸下都能良好显示，我们需要对CSS进行优化，实现图片和文字的自适应布局。以下是修改后的代码：
+&lt;/ol></description></item><item><title>响应式图像加载方案：多尺寸自动适配</title><link>https://cc.coolshell.in/docs/hugo/srcset/</link><pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/srcset/</guid><description>&lt;p>在现代网页开发中，为了确保网页图像在不同设备（如 MacBook、4K 电视、投影仪、宽屏显示器等）上均能清晰显示且加载高效，推荐采用 &lt;strong>响应式图像加载技术&lt;/strong>。其核心是通过 HTML 的 &lt;code>srcset&lt;/code> 和 &lt;code>sizes&lt;/code> 属性，为浏览器提供多个分辨率的图片备选，由浏览器根据当前设备特性智能选择最合适的版本。&lt;/p>
+&lt;p>srcset的全称是 Responsive Images Set ，即响应式图像集2。该属性是HTML5中用于优化图像加载性能的核心特性，通过提供不同分辨率和尺寸的图像源，使浏览器根据设备特性自动选择最合适的图像显示4&lt;/p>
+&lt;p>以下以公司的团队简介网页上的头像为例。&lt;/p>
+&lt;hr>
+&lt;h2 id="-基本原理">
+ ✅ 基本原理
+ &lt;a class="anchor" href="#-%e5%9f%ba%e6%9c%ac%e5%8e%9f%e7%90%86">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;code>srcset&lt;/code>&lt;/strong>：列出多个图像资源及其对应的物理宽度（如 &lt;code>1000w&lt;/code> 表示该图宽为 1000 像素）。&lt;/li>
+&lt;li>&lt;strong>&lt;code>sizes&lt;/code>&lt;/strong>：告诉浏览器“在不同屏幕条件下，这张图预计会占多大显示空间”。&lt;/li>
+&lt;li>&lt;strong>浏览器决策&lt;/strong>：结合屏幕 DPR（设备像素比）、视口宽度、网络状况等因素，自动下载最优图像。&lt;/li>
+&lt;li>&lt;strong>回退机制&lt;/strong>：不支持 &lt;code>srcset&lt;/code> 的旧浏览器将使用 &lt;code>src&lt;/code> 中的默认图像。&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="-推荐的多尺寸头像配置">
+ 📐 推荐的多尺寸头像配置
+ &lt;a class="anchor" href="#-%e6%8e%a8%e8%8d%90%e7%9a%84%e5%a4%9a%e5%b0%ba%e5%af%b8%e5%a4%b4%e5%83%8f%e9%85%8d%e7%bd%ae">#&lt;/a>
+&lt;/h2>
+&lt;p>基于前文分析，建议为每位成员准备 &lt;strong>3 种尺寸&lt;/strong> 的头像（均为 3:4 比例）：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>尺寸名称&lt;/th>
+ &lt;th>分辨率（宽×高）&lt;/th>
+ &lt;th>适用场景&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>small&lt;/strong>&lt;/td>
+ &lt;td>600 × 800 px&lt;/td>
+ &lt;td>手机、低分辨率屏&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>medium&lt;/strong>&lt;/td>
+ &lt;td>1200 × 1600 px&lt;/td>
+ &lt;td>普通桌面、Retina 笔记本（如 MacBook）&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>large&lt;/strong>&lt;/td>
+ &lt;td>2000 × 2667 px&lt;/td>
+ &lt;td>4K 电视、高清投影、未来兼容&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>💡 文件命名建议：&lt;br>
+&lt;code>zhangsan_600x800.jpg&lt;/code>、&lt;code>zhangsan_1200x1600.jpg&lt;/code>、&lt;code>zhangsan_2000x2667.jpg&lt;/code>&lt;/p></description></item><item><title>规范手册- 团队简介页面个人头像</title><link>https://cc.coolshell.in/docs/hugo/avatars-guide/</link><pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/avatars-guide/</guid><description>&lt;blockquote>
+&lt;p>本文档为公司官网「团队简介」页面制定统一的头像图像规范，涵盖 &lt;strong>真人拍摄标准&lt;/strong> 与 &lt;strong>AI生成指南&lt;/strong>，并明确 &lt;strong>图像格式、分辨率、响应式加载&lt;/strong> 等技术要求，确保在 &lt;strong>MacBook、4K电视、投影仪、手机等所有设备&lt;/strong> 上呈现&lt;strong>专业、一致、高清&lt;/strong>的企业形象。&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="证件照标准">
+ 证件照标准
+ &lt;a class="anchor" href="#%e8%af%81%e4%bb%b6%e7%85%a7%e6%a0%87%e5%87%86">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>头像&lt;/strong>：正脸，无遮挡、整洁发型、表情中性但友好&lt;/li>
+&lt;li>&lt;strong>宽高比&lt;/strong>：3:4&lt;/li>
+&lt;li>&lt;strong>分辨率&lt;/strong>：最低 &lt;code>520 × 694 px&lt;/code>（源图 &lt;code>1200 × 1600 px&lt;/code> ）&lt;/li>
+&lt;li>&lt;strong>服装&lt;/strong>：合理得体的简约深蓝色T恤、衬衫、正装、休闲装、工装等类型均可、不带帽子&lt;/li>
+&lt;li>&lt;strong>背景&lt;/strong>：浅灰 &lt;code>#f5f7fa&lt;/code>&lt;/li>
+&lt;li>&lt;strong>格式&lt;/strong>：优先 &lt;strong>WebP&lt;/strong>，回退 &lt;strong>JPEG/JPG&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>质量要求&lt;/strong>：
+&lt;ul>
+&lt;li>&lt;strong>光线&lt;/strong>：自然柔和的光线，避免强烈阴影或过曝&lt;/li>
+&lt;li>&lt;strong>真实感&lt;/strong>：照片级真实感，清晰对焦&lt;/li>
+&lt;li>&lt;strong>细节&lt;/strong>：超细致皮肤纹理，工作室质量&lt;/li>
+&lt;li>&lt;strong>镜头建议&lt;/strong>：85mm人像镜头效果最佳&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>技术参数&lt;/strong>（适用于AI生成）：&lt;code>--ar 3:4 --v 6.0 --style raw --q 2&lt;/code>&lt;/li>
+&lt;li>&lt;strong>参考标准&lt;/strong>：接近证件照效果，参考中央政府和大公司的团队简介页面的头像&lt;/li>
+&lt;/ul>
+&lt;p>注释：&lt;/p>
+&lt;ol>
+&lt;li>分辨率：建议提供更高分辨率源图，以应对不同场景&lt;/li>
+&lt;li>背景色：浅灰 #f5f7fa 比米白 #fdfdfd 在网页上更显专业，避免过曝边缘，纯色（浅灰/白），简洁无干扰&lt;/li>
+&lt;li>图像格式：优先WebP + 回退 JPEG，比 PNG 更适合网页头像（体积更小）&lt;/li>
+&lt;/ol>
+&lt;p>这样调整后，规范更符合现代网页开发的最佳实践。&lt;/p>
+&lt;hr>
+&lt;h2 id="二真人头像拍摄制作规范">
+ 二、真人头像拍摄制作规范
+ &lt;a class="anchor" href="#%e4%ba%8c%e7%9c%9f%e4%ba%ba%e5%a4%b4%e5%83%8f%e6%8b%8d%e6%91%84%e5%88%b6%e4%bd%9c%e8%a7%84%e8%8c%83">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="1-基本构图要求">
+ 1. 基本构图要求
+ &lt;a class="anchor" href="#1-%e5%9f%ba%e6%9c%ac%e6%9e%84%e5%9b%be%e8%a6%81%e6%b1%82">#&lt;/a>
+&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>画面比例&lt;/strong>：3:4（宽:高）&lt;/li>
+&lt;li>&lt;strong>人物占比&lt;/strong>：头部至肩部或胸部上沿，&lt;strong>人脸占图像高度的 60%–70%&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>面部朝向&lt;/strong>：&lt;strong>正脸&lt;/strong>，双眼平视镜头，表情自然（可微笑）&lt;/li>
+&lt;li>&lt;strong>无遮挡&lt;/strong>：不戴墨镜、帽子、口罩；长发建议束起或不遮挡脸部&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-图像质量">
+ 2. 图像质量
+ &lt;a class="anchor" href="#2-%e5%9b%be%e5%83%8f%e8%b4%a8%e9%87%8f">#&lt;/a>
+&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>分辨率&lt;/strong>：&lt;strong>最短边 ≥ 1000 像素&lt;/strong>（最大源图）&lt;/li>
+&lt;li>&lt;strong>光线&lt;/strong>：均匀柔和自然光，避免强烈阴影、过曝或逆光&lt;/li>
+&lt;li>&lt;strong>对焦&lt;/strong>：面部清晰锐利，无模糊&lt;/li>
+&lt;li>&lt;strong>首选 WebP&lt;/strong>（体积小）&lt;/li>
+&lt;li>&lt;strong>回退 JPEG&lt;/strong>（兼容性好）&lt;/li>
+&lt;li>&lt;strong>压缩质量&lt;/strong>：70–85%&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-着装风格合理得体即可">
+ 3. 着装风格（合理得体即可）
+ &lt;a class="anchor" href="#3-%e7%9d%80%e8%a3%85%e9%a3%8e%e6%a0%bc%e5%90%88%e7%90%86%e5%be%97%e4%bd%93%e5%8d%b3%e5%8f%af">#&lt;/a>
+&lt;/h3>
+&lt;p>✅ &lt;strong>接受类型&lt;/strong>：&lt;/p></description></item><item><title>图片和文字在网页上德自适应布局</title><link>https://cc.coolshell.in/docs/hugo/AWD/</link><pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/AWD/</guid><description>&lt;p>为了使团队介绍在不同屏幕尺寸下都能良好显示，我们需要对CSS进行优化，实现图片和文字的自适应布局。以下是修改后的代码：
 主要改进点：&lt;/p>
 &lt;ol>
 &lt;li>添加了标题和职业信息的结构化标签，便于SEO和语义化&lt;/li>
@@ -2807,7 +2976,7 @@ flex-shrink: 0; 防止图片在空间不足时被压缩&lt;/li>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">div&lt;/span> &lt;span style="color:#a6e22e">style&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.2em 0;&amp;#34;&lt;/span>&amp;gt;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">img&lt;/span> &lt;span style="color:#a6e22e">src&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;/images/zhanglaijun.png&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">width&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;170&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">height&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;227&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">style&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;border-radius:6px; box-shadow:0 3px 8px rgba(0,0,0,0.1); flex-shrink: 0;&amp;#34;&lt;/span>&amp;gt;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">div&lt;/span> &lt;span style="color:#a6e22e">style&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;flex: 1; min-width: 0;&amp;#34;&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">h3&lt;/span> &lt;span style="color:#a6e22e">style&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;margin: 0 0 0.5rem 0; font-size: 1.1em;&amp;#34;&lt;/span>&amp;gt;张来军&amp;lt;/&lt;span style="color:#f92672">h3&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">h3&lt;/span> &lt;span style="color:#a6e22e">style&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;margin: 0 0 0.5rem 0; font-size: 1.1em;&amp;#34;&lt;/span>&amp;gt;Zhang&amp;lt;/&lt;span style="color:#f92672">h3&lt;/span>&amp;gt;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">p&lt;/span> &lt;span style="color:#a6e22e">style&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;margin: 0 0 0.5rem 0; color: #666; font-weight: 500;&amp;#34;&lt;/span>&amp;gt;商务运营专家&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">p&lt;/span> &lt;span style="color:#a6e22e">style&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;margin: 0; line-height: 1.6; font-size: 0.95em;&amp;#34;&lt;/span>&amp;gt;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 曾任职百度等数家头部互联网公司，参与团购行业的&amp;#34;百团大战&amp;#34;，熟悉互联网平台的市场营销、商务管理、地面推广、活动运营、客户服务；有AI、云计算等数字产品，以及传统行业、实体产品和农村市场的推广经验，多次从0到1创业的丰富经历。
@@ -2859,7 +3028,16 @@ flex-shrink: 0; 防止图片在空间不足时被压缩&lt;/li>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">style&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>请求将他们放入主题模板中，共享给有需要的页面。&lt;/p></description></item><item><title/><link>https://cc.coolshell.in/posts/draft/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/posts/draft/draft/</guid><description/></item><item><title/><link>https://cc.coolshell.in/posts/draft/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/posts/draft/solution/</guid><description>&lt;h2 id="制作海报和视频">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>将以上代码融入主题模板中，共享给有需要的页面。&lt;/p></description></item><item><title/><link>https://cc.coolshell.in/docs/hugo/rembg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/hugo/rembg/</guid><description>&lt;h2 id="抠图透明背景图">
+ 抠图/透明背景图
+ &lt;a class="anchor" href="#%e6%8a%a0%e5%9b%be%e9%80%8f%e6%98%8e%e8%83%8c%e6%99%af%e5%9b%be">#&lt;/a>
+&lt;/h2>
+&lt;p>Rembg 是用于从图像中去除背景的python库，它使用机器学习模型自动检测并剔除背景，非常适合需要图像处理的项目。&lt;/p>
+&lt;p>它支持多种格式，并且能够处理复杂的边界情况，比如头发边缘、半透明物体等，这是传统的基于颜色的方法难以做到的。
+通过 pip 进行安装：&lt;code>pip install rembg&lt;/code>&lt;/p>
+&lt;p>安装完成后，你可以直接通过命令行来使用 rembg，去除一张图片的背景并保存为 PNG 格式（PNG 支持透明背景）：
+&lt;code>rembg i input.jpg output.png&lt;/code>&lt;/p>
+&lt;p>实际抠图蛮复杂的，没有上面这个命令行这么简单，需要写几十行的脚本才能完成。&lt;/p></description></item><item><title/><link>https://cc.coolshell.in/posts/draft/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/posts/draft/draft/</guid><description/></item><item><title/><link>https://cc.coolshell.in/posts/draft/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/posts/draft/solution/</guid><description>&lt;h2 id="制作海报和视频">
  制作海报和视频
  &lt;a class="anchor" href="#%e5%88%b6%e4%bd%9c%e6%b5%b7%e6%8a%a5%e5%92%8c%e8%a7%86%e9%a2%91">#&lt;/a>
 &lt;/h2>
