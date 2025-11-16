@@ -10,14 +10,19 @@ This layout includes the `photo-style` partial which inlines CSS for wrapping be
   <article class="photo-wrap">
     <header>
       <h1>{{ .Title }}</h1>
+      {{ partial "docs/post-meta" . }}
     </header>
 
     <section class="content">
       {{ .Content }}
     </section>
 
+    {{/* 如果没有 docs/post-meta，可以改用下面的格式化输出（示例，已注释）：
     {{ with .Params.date }}
-      <footer class="meta">{{ . }}</footer>
+      <footer class="meta">{{ (time .).Format "2006-01-02" }}</footer>
+    {{ else if .Date }}
+      <footer class="meta">{{ .Date.Format "2006-01-02" }}</footer>
     {{ end }}
+    */}}
   </article>
 {{ end }}

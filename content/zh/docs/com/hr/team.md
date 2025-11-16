@@ -15,16 +15,15 @@ cascade:
 ---
 
 <picture>
-  <source type="image/webp" srcset="/images/avatars/xuwenwen-260.webp 1x, /images/avatars/xuwenwen-520.webp 2x">
-  <img src="/images/avatars/xuwenwen-260.jpg" srcset="/images/avatars/xuwenwen-260.jpg 1x, /images/avatars/xuwenwen-520.jpg 2x" width="260" height="347" alt="徐雯雯" class="avatar">
+  <source type="image/webp" srcset="/images/avatars/shenyaoyao-260.webp 1x, /images/avatars/shenyaoyao-520.webp 2x">
+  <img src="/images/avatars/shenyaoyao-260.jpg" srcset="/images/avatars/shenyaoyao-260.jpg 1x, /images/avatars/shenyaoyao-520.jpg 2x" width="260" height="347" alt="shenyaoyao" class="avatar">
 </picture>
 
-### 徐雯雯
+### 沈遥耀
 
-媒体运营专家
+书法导师
 
-翻译专业CATTI 2级，多家主流媒体中英双语记者。企业品牌定位、活动运营、危机公关，熟悉北美、东南亚市场，曾带领团队承接诺奖级别嘉宾重大活动。  
-自媒体IP操盘手，运营多个爆款百万+。曾任职阿里巴巴-罗汉堂，数字经济和社会经济关系分析，ESG（环境、社会和治理）研究。
+远方书道创始人、中国美术学院书法专业、中国硬笔书法协会会员；浙江省第七届硬笔书法大赛青年组一等奖、首届“汉文杯”全国书法大赛铜奖；作品入选收藏于：第八届“逸道雅集杯”全国书法作品展、第六届“砚德堂杯”全国书法作品展、第五届“书法之声”全国书法大赛、首届“华珍阁”杯《金刚经》全国书法作品大展、浙江科学技术出版社《风好正是扬帆时--浙江硬笔书法荟萃》。[网址](https://xhslink.com/m/9SPEQamgPvP)
 
 ---
 
@@ -37,7 +36,7 @@ cascade:
 
 AI软件工程师
 
-AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次开发。开智学堂课程讲师，参与教研多门AI课程。Milvus社区北辰使者，撰写多篇向量数据库科普文章。对AI+汽车行业感兴趣，主要研究向量数据库、RAG、MCP和智能体等方向。[个人网址](https://jiangjunqiao.top)
+AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次开发。开智学堂课程讲师，参与教研多门AI课程。Milvus社区北辰使者，撰写多篇向量数据库科普文章。对AI+汽车行业感兴趣，主要研究向量数据库、RAG、MCP和智能体等方向。[网址](https://jiangjunqiao.top)
 
 
 ---
@@ -52,6 +51,19 @@ AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次
 
 孙式形意拳（非遗）传人，影视剧组脚本编导/武术动作指导/道具设计师/传统文化顾问，对道家、服饰、文俗礼仪、风水堪舆均有深入研学，浙大附中等多所中小学和武馆传统功夫教练。
 
+---
+
+<picture>
+  <source type="image/webp" srcset="/images/avatars/xuwenwen-260.webp 1x, /images/avatars/xuwenwen-520.webp 2x">
+  <img src="/images/avatars/xuwenwen-260.jpg" srcset="/images/avatars/xuwenwen-260.jpg 1x, /images/avatars/xuwenwen-520.jpg 2x" width="260" height="347" alt="徐雯雯" class="avatar">
+</picture>
+
+### 徐雯雯
+
+媒体运营专家
+
+翻译专业CATTI 2级，多家主流媒体中英双语记者。企业品牌定位、活动运营、危机公关，熟悉北美、东南亚市场，曾带领团队承接诺奖级别嘉宾重大活动。  
+自媒体IP操盘手，运营多个爆款百万+。曾任职阿里巴巴-罗汉堂，数字经济和社会经济关系分析，ESG（环境、社会和治理）研究。
 
 ---
 
@@ -110,21 +122,21 @@ AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次
 图形设计师  
 
 曾任腾讯、支付宝设计总监，从事IP开发、UI/UX、CI/VI、游戏、三维模型、文创品牌等视觉和概念设计。  
-自幼习画练武，师承叶问第三代（非遗）和烈羽武道传人，教授咏春拳、擒拿格斗和各种弓箭技法，现运营正心武道文创工作室，浙大附中等多所中小学传统功夫教练。[作品集](https://zx-wudao.feishu.cn/file/SgirbQvrUogEacxXgRtcPlwqnsf?from=from_copylink)、[个人网址](https://www.zcool.com.cn/u/728559)
+自幼习画练武，师承叶问第三代（非遗）和烈羽武道传人，教授咏春拳、擒拿格斗和各种弓箭技法，现运营正心武道文创工作室，浙大附中等多所中小学传统功夫教练。[作品集](https://zx-wudao.feishu.cn/file/SgirbQvrUogEacxXgRtcPlwqnsf?from=from_copylink)、[网址](https://www.zcool.com.cn/u/728559)
 
 
 ---
 
 <picture>
-  <source type="image/webp" srcset="/images/avatars/atom1-260.webp 1x, /images/avatars/atom1-520.webp 2x">
-  <img src="/images/avatars/atom1-260.jpg" srcset="/images/avatars/atom1-260.jpg 1x, /images/avatars/atom1-520.jpg 2x" width="260" height="347" alt="徐凌涛" class="avatar">
+  <source type="image/webp" srcset="/images/avatars/atom-260.webp 1x, /images/avatars/atom-520.webp 2x">
+  <img src="/images/avatars/atom-260.jpg" srcset="/images/avatars/atom-260.jpg 1x, /images/avatars/atom-520.jpg 2x" width="260" height="347" alt="Atom" class="avatar">
 </picture>
 
 ### 徐凌涛
 数字产品经理
 
-曾任阿里等数家业界头部公司，生鲜农产品供应链研发和运营，从事市场调研、行业研究、平台原型设计、数据分析、合作渠道、综合项目管理等。     
-原英文翻译和IT助理，服务北京多国外交使团、奥运会、联合国等国际组织的文旅和外事活动，运营 10+ 农文旅项目。[个人网址](https://atomx.cc)
+曾任阿里、网易等数家业界头部公司，生鲜农产品供应链研发和运营，从事市场和行业调研、平台原型设计、数据分析、合作渠道、综合项目管理等。     
+原英文翻译和IT助理，驻北京外事接待部门，服务多国外交使团、外企、奥运会、国际学校、联合国分支机构等国际组织的重大文旅活动。[网址](https://atomx.cc)
 
 
 ---
