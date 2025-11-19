@@ -2,7 +2,7 @@
 date: 2025-10-15
 linktitle: "成员简介"
 title: "成员简介"
-weight: 2
+weight: 1
 type: photo
 cascade:
     type: docs

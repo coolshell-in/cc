@@ -2,7 +2,7 @@
 date: 2025-07-20
 linktitle: ""
 
-title: "CS众创社区"
+title: "酷壳众创社区"
 weight: 1
 cascade:
     type: docs
@@ -21,6 +21,6 @@ cascade:
 
 出海、跨境电商、国际贸易、全球游学、义工旅行、间隔年 Gap year
 
-训练营 Bootcamp：外语、编程、黑客、社工、中国功夫
+训练营 Bootcamp：外语、编程、黑客、社工、体育运动、户外
 
-环保、可持续发展、企业社会责任
+环保、可持续发展、社会责任
