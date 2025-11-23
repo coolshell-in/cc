@@ -2,7 +2,7 @@
 date: 2025-10-31
 linktitle: "火的研究"
 
-title: "关于火的图书、纪录片、资料”"
+title: "关于火的图书、纪录片、资料"
 weight: 3
 cascade:
     type: docs
