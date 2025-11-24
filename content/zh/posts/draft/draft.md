@@ -9,6 +9,16 @@
 
 
   
+    CSDN 创始人蒋涛
+
+    耗子叔公司 MegaEase 联合创始人赵锟
+
+    极客时间 CEO 霍太稳
+
+酷壳（程序员）客栈
+
+[终于决定，策划耗子叔的纪念直播](https://mp.weixin.qq.com/s/CA_qkfEqmZGZpusLX8kS6w)
+
 
 ---
 <picture>

@@ -49,10 +49,9 @@ cascade:
 - 《胖东来企业故事精选集》
 - [《何以胖东来》](https://book.douban.com/subject/37198971/)
 
+<!--
 ---
-
 # 建筑业- 德胜洋楼
-
 
 [德胜（苏州）洋楼有限公司](http://www.tecsunhomes.com/homepage.html)
 
@@ -64,11 +63,12 @@ cascade:
 
 [德胜-鲁班（休宁）木工学校](https://mp.weixin.qq.com/s/LAKyNslXUFTimk20TpEuhA)，颁发中国绝无仅有的匠士学位证书。
 
-
 ## 著作
 - [《养活教育》](https://book.douban.com/subject/35097167/)
 - [《劳动课与养活教育》](https://book.douban.com/subject/36273534/)
 - [《德胜员工守则》](https://book.douban.com/subject/1485568/)
+
+-->
 
 ---
 
