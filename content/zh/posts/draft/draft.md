@@ -19,6 +19,16 @@
 
 [终于决定，策划耗子叔的纪念直播](https://mp.weixin.qq.com/s/CA_qkfEqmZGZpusLX8kS6w)
 
+xie.infoq.cn
+
+写作，引起程序员社区和霍总的注意
+
+一些故事
+
+706和先锋，自以为是、精神抑郁、心比天高命比纸薄，喜欢指点江山、好为人师。
+
+
+
 
 ---
 <picture>
