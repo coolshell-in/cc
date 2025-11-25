@@ -3,7 +3,7 @@ date: 2025-10-31
 linktitle: "火的功效"
 
 title: "烧一把火，人心自聚 - 论火的“社交引力”"
-weight: 3
+weight: 2
 cascade:
     type: docs
     no_list: true
