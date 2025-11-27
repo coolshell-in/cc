@@ -3,7 +3,7 @@ date: 2025-10-02
 linktitle: "穷文富武"
 
 title: "穷文富武：能量、阶层与精神命运的千年对峙"
-weight: 10
+weight: 3
 cascade:
     type: docs
     no_list: true
