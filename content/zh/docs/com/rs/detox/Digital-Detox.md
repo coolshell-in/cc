@@ -1,7 +1,7 @@
 ---
 date: 2024-11-26
-linktitle: "数字排毒"
-title: "数字排毒：精英的无网修行，大众的数字成瘾困局"
+linktitle: "数字中毒"
+title: "数字中毒：精英的无网修行，大众的数字成瘾困局"
 weight: 1
 cascade:
     type: docs

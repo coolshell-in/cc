@@ -1,6 +1,6 @@
 ---
 date: 2025-10-15
-linktitle: "目的原则"
+linktitle: "理想原则"
 title: "愿景、使命、价值观"
 weight: 4
 cascade:
@@ -8,7 +8,7 @@ cascade:
     no_list: true
 ---
 
-我们致力于的终身事业，所追寻意义目的（Purpose）和原则（Principles）。
+我们致力于的终身事业，所追寻人生理想的意义目的（Purpose）和原则（Principles）。
 
 # 精简
 

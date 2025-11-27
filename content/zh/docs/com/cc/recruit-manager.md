@@ -3,7 +3,7 @@ date: 2025-11-25
 linktitle: "招募团队"
 
 title: "社区运营管理团队招募公告"
-weight: 6
+weight: 13
 cascade:
     type: docs
     no_list: true
