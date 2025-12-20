@@ -25,11 +25,11 @@
 
 [晏阳初](https://zh.wikipedia.org/wiki/%E6%99%8F%E9%99%BD%E5%88%9D)
 
+[晏阳初乡村建设学院](https://baike.sogou.com/v66846294.htm?fromTitle=%E6%99%8F%E9%98%B3%E5%88%9D%E4%B9%A1%E6%9D%91%E5%BB%BA%E8%AE%BE%E5%AD%A6%E9%99%A2)
+
 [梁漱溟](https://zh.wikipedia.org/wiki/%E6%A2%81%E6%BC%B1%E6%BA%9F)
 
-[晏阳初乡村建设学院](https://baike.baidu.com/item/%E6%99%8F%E9%98%B3%E5%88%9D%E4%B9%A1%E6%9D%91%E5%BB%BA%E8%AE%BE%E5%AD%A6%E9%99%A2/10971374)
-
-[梁漱溟乡村建设中心](http://wikipeacewomen.org/wpworg/zhs/?page_id=1456)
+[梁漱溟乡村建设中心](https://baike.sogou.com/v73831364.htm?fromTitle=%E6%A2%81%E6%BC%B1%E6%BA%9F%E4%B9%A1%E5%BB%BA%E4%B8%AD%E5%BF%83)
 
 [和平妇女](http://wikipeacewomen.org/)
 
