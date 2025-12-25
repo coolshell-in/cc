@@ -2,8 +2,8 @@
 date: 2010-03-15
 linktitle: "学者批判"
 
-title: "知名专家学者对温铁军的三农理论和乡村试验的批判"
-weight: 1
+title: "其他学者对三农专家理论和乡村试验的批判"
+weight: 3
 cascade:
     type: docs
     no_list: true
