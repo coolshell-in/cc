@@ -39,7 +39,8 @@ $
  &lt;a class="anchor" href="#%e7%9a%ae%e8%82%a4">#&lt;/a>
 &lt;/h3>
 &lt;p>皮肤是负责网站外观和风格的文件。CSS 控制颜色和字体，JavaScript 决定操作和响应。Hugo 也使用皮肤规则将您的内容转换为网站提供给访问者的 HTML 代码。&lt;/p>
-&lt;p>创建皮肤有两种方法。最简单的方法是在 &lt;code>layouts/&lt;/code> 目录中创建。如果这样做，您无需担心配置 Hugo 来识别它。Hugo 查找规则和文件的第一个位置就是 &lt;code>layouts/&lt;/code> 目录，因此它总能找到皮肤。&lt;/p></description></item><item><title/><link>https://cc.coolshell.in/posts/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/posts/draft/</guid><description>&lt;p>参考相关文章：
+&lt;p>创建皮肤有两种方法。最简单的方法是在 &lt;code>layouts/&lt;/code> 目录中创建。如果这样做，您无需担心配置 Hugo 来识别它。Hugo 查找规则和文件的第一个位置就是 &lt;code>layouts/&lt;/code> 目录，因此它总能找到皮肤。&lt;/p></description></item><item><title/><link>https://cc.coolshell.in/posts/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/posts/draft/</guid><description>&lt;p>联想当时参观的土豪气，可见人民大学乡村建设中心是多么地祸害，他们所接触染指的商业典范，没一个有好结果和下场。&lt;/p>
+&lt;p>参考相关文章：
  &lt;a href="Illusory-titles.md">如何构建“三农问题专家”的超级IP现象&lt;/a>&lt;/p>
 &lt;h1 id="徒弟继承虚妄头衔">
  徒弟继承虚妄头衔
