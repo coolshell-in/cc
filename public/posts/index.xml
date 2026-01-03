@@ -39,7 +39,8 @@ $
  &lt;a class="anchor" href="#%e7%9a%ae%e8%82%a4">#&lt;/a>
 &lt;/h3>
 &lt;p>皮肤是负责网站外观和风格的文件。CSS 控制颜色和字体，JavaScript 决定操作和响应。Hugo 也使用皮肤规则将您的内容转换为网站提供给访问者的 HTML 代码。&lt;/p>
-&lt;p>创建皮肤有两种方法。最简单的方法是在 &lt;code>layouts/&lt;/code> 目录中创建。如果这样做，您无需担心配置 Hugo 来识别它。Hugo 查找规则和文件的第一个位置就是 &lt;code>layouts/&lt;/code> 目录，因此它总能找到皮肤。&lt;/p></description></item><item><title/><link>http://localhost:1313/posts/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/draft/</guid><description>&lt;p>参考相关文章：
+&lt;p>创建皮肤有两种方法。最简单的方法是在 &lt;code>layouts/&lt;/code> 目录中创建。如果这样做，您无需担心配置 Hugo 来识别它。Hugo 查找规则和文件的第一个位置就是 &lt;code>layouts/&lt;/code> 目录，因此它总能找到皮肤。&lt;/p></description></item><item><title/><link>http://localhost:1313/posts/draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/draft/</guid><description>&lt;p>联想当时参观的土豪气，可见人民大学乡村建设中心是多么地祸害，他们所接触染指的商业典范，没一个有好结果和下场。&lt;/p>
+&lt;p>参考相关文章：
  &lt;a href="Illusory-titles.md">如何构建“三农问题专家”的超级IP现象&lt;/a>&lt;/p>
 &lt;h1 id="徒弟继承虚妄头衔">
  徒弟继承虚妄头衔
@@ -218,7 +219,30 @@ $
 &lt;p>电气工程师&lt;/p>
 &lt;p>曾任数家钢铁能源国企/上市公司总工程师/技术经理/机电工程测控专家，负责编制技术文档、规范工艺流程。 &lt;br>
 光伏电站等新能源项目的全生命周期管理，现场安装调试及维护指导，成本控制与效率提升，组建高效团队，优化管理流程，提升售后服务至行业领先水平。&lt;/p>
-&lt;hr></description></item><item><title/><link>http://localhost:1313/posts/goisforlovers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/goisforlovers/</guid><description>&lt;p>Hugo uses the excellent 
+&lt;hr>
+&lt;picture>
+ &lt;source type="image/webp" srcset="../images/avatars/xuwenwen-260.webp 1x, ../images/avatars/xuwenwen-520.webp 2x">
+ &lt;img src="../images/avatars/xuwenwen-260.jpg" srcset="../images/avatars/xuwenwen-260.jpg 1x, ../images/avatars/xuwenwen-520.jpg 2x" width="260" height="347" alt="徐雯雯" class="avatar">
+&lt;/picture>
+&lt;h3 id="徐雯雯">
+ 徐雯雯
+ &lt;a class="anchor" href="#%e5%be%90%e9%9b%af%e9%9b%af">#&lt;/a>
+&lt;/h3>
+&lt;p>媒体运营专家&lt;/p>
+&lt;p>翻译专业CATTI 2级，多家主流媒体中英双语记者。企业品牌定位、活动运营、危机公关，熟悉北美、东南亚市场，曾带领团队承接诺奖级别嘉宾重大活动。&lt;br>
+自媒体IP操盘手，运营多个爆款百万+。曾任职阿里巴巴-罗汉堂，数字经济和社会经济关系分析，ESG（环境、社会和治理）研究。&lt;/p>
+&lt;hr>
+&lt;picture>
+ &lt;source type="image/webp" srcset="../images/avatars/zhaobin-260.webp 1x, ../images/avatars/zhaobin-520.webp 2x">
+ &lt;img src="../images/avatars/zhaobin-260.jpg" srcset="../images/avatars/zhaobin-260.jpg 1x, ../images/avatars/zhaobin-520.jpg 2x" width="260" height="347" alt="赵彬" class="avatar">
+&lt;/picture>
+&lt;h3 id="赵彬">
+ 赵彬
+ &lt;a class="anchor" href="#%e8%b5%b5%e5%bd%ac">#&lt;/a>
+&lt;/h3>
+&lt;p>文教基金会秘书长&lt;/p>
+&lt;p>杭州紫阳文化艺术中心、志心书院、大米课堂公益文化教育基金、韵味紫阳社区发展基金会等多家文教机构管理职务。&lt;br>
+浙江省儒学会、中国法学会、紫阳街道文联等多家协会成员，创办经典阅读和传统文化体验活动，服务街道社区、政府、社会组织、企业、大中小学参访研学团。&lt;/p></description></item><item><title/><link>http://localhost:1313/posts/goisforlovers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/goisforlovers/</guid><description>&lt;p>Hugo uses the excellent 
  &lt;a href="https://golang.org/">Go&lt;/a> 
  &lt;a href="https://golang.org/pkg/html/template/">html/template&lt;/a> library for
 its template engine. It is an extremely lightweight engine that provides a very

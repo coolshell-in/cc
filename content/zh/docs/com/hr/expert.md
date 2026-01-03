@@ -9,9 +9,23 @@ cascade:
     no_list: true
 ---
 
-目前意向和已经参与社区众创的部分技术专家，职业背景（<150字/人）、行业领域，包括：文教、艺术、农业、计算机/互联网等。
+目前意向和已参与社区众创的部分技术专家，职业背景（<150字/人）、行业领域，包括：文教、艺术、农业、计算机/互联网等。
 
 持续更新。。。
+
+---
+
+<picture>
+  <source type="image/webp" srcset="/images/avatars/chenxiangzhao-260.webp 1x, /images/avatars/chenxiangzhao-520.webp 2x">
+  <img src="/images/avatars/chenxiangzhao-260.jpg" srcset="/images/avatars/chenxiangzhao-260.jpg 1x, /images/avatars/chenxiangzhao-520.jpg 2x" width="260" height="347" alt="陈向鉊" class="avatar">
+</picture>
+
+### 陈向鉊
+
+土木工程师
+
+从事中欧之间工程项目信息协调, 开放式BIM, CAD软件跨平台协同工作技术方向，基础设施环境保护评价。
+东西方古代建筑史爱好者, 多篇相关论文收录于中国教育部高校建筑类专业指导委员会年会刊物，德国埃尔福特应用技术大学建筑和城市规划专业, 达姆施塔特工业大学环境和土木工程专业。
 
 ---
 
@@ -22,9 +36,9 @@ cascade:
 
 ### 沈遥耀
 
-书法导师
+书法教师
 
-远方书道创始人、中国美术学院书法专业、中国硬笔书法协会会员；浙江省第七届硬笔书法大赛青年组一等奖、首届“汉文杯”全国书法大赛铜奖；作品入选/收藏：第八届“逸道雅集杯”书法作品展、第六届“砚德堂杯”书法作品展、第五届“书法之声”书法大赛、首届“华珍阁”杯《金刚经》书法作品展、浙江科技出版社《风好正是扬帆时--浙江硬笔书法荟萃》。[网址](https://xhslink.com/m/9SPEQamgPvP)
+远方书道创始人、中国硬笔书法协会会员；浙江省第七届硬笔书法大赛青年组一等奖、首届“汉文杯”全国书法大赛铜奖；作品入选/收藏：第八届“逸道雅集杯”书法作品展、第六届“砚德堂杯”书法作品展、第五届“书法之声”书法大赛、首届“华珍阁”杯《金刚经》书法作品展、浙江科技出版社《风好正是扬帆时--浙江硬笔书法荟萃》，中国美术学院书法专业。[网址](https://xhslink.com/m/9SPEQamgPvP)
 
 ---
 
@@ -52,22 +66,8 @@ AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次
 
 孙式形意拳（非遗）传人，影视剧组脚本编导/武术动作指导/道具设计师/传统文化顾问，对道家、服饰、文俗礼仪、风水堪舆均有深入研学，浙大附中等多所中小学和武馆传统功夫教练。
 
----
-
-<picture>
-  <source type="image/webp" srcset="/images/avatars/xuwenwen-260.webp 1x, /images/avatars/xuwenwen-520.webp 2x">
-  <img src="/images/avatars/xuwenwen-260.jpg" srcset="/images/avatars/xuwenwen-260.jpg 1x, /images/avatars/xuwenwen-520.jpg 2x" width="260" height="347" alt="徐雯雯" class="avatar">
-</picture>
-
-### 徐雯雯
-
-媒体运营专家
-
-翻译专业CATTI 2级，多家主流媒体中英双语记者。企业品牌定位、活动运营、危机公关，熟悉北美、东南亚市场，曾带领团队承接诺奖级别嘉宾重大活动。  
-自媒体IP操盘手，运营多个爆款百万+。曾任职阿里巴巴-罗汉堂，数字经济和社会经济关系分析，ESG（环境、社会和治理）研究。
 
 ---
-
 <picture>
   <source type="image/webp" srcset="/images/avatars/wangliang-260.webp 1x, /images/avatars/wangliang-520.webp 2x">
   <img src="/images/avatars/wangliang-260.jpg" srcset="/images/avatars/wangliang-260.jpg 1x, /images/avatars/wangliang-520.jpg 2x" width="260" height="347" alt="汪亮" class="avatar">
@@ -80,21 +80,17 @@ AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次
 中国建筑装饰协会会员，作品屡获行业大奖，并在《家装》《瑞丽家居》等行业杂志刊登。服务数十家各行业公司，包括兰贵坊、鳄鱼恤、波司登、大红鹰等知名品牌。  
 烈羽武道和咏春拳（非遗）传人，多家学校体育和武术教练，多次获上海市级传统武术比赛冠军，[《我，机器人与末世》](https://fanqienovel.com/author-page/2277803030225085-7012205275646006541)等多部科幻和悬疑小说作者。
 
-
 ---
-
 <picture>
-  <source type="image/webp" srcset="/images/avatars/zhaobin-260.webp 1x, /images/avatars/zhaobin-520.webp 2x">
-  <img src="/images/avatars/zhaobin-260.jpg" srcset="/images/avatars/zhaobin-260.jpg 1x, /images/avatars/zhaobin-520.jpg 2x" width="260" height="347" alt="赵彬" class="avatar">
+  <source type="image/webp" srcset="/images/avatars/cuixiaonan-260.webp 1x, /images/avatars/cuixiaonan-520.webp 2x">
+  <img src="/images/avatars/cuixiaonan-260.jpg" srcset="/images/avatars/cuixiaonan-260.jpg 1x, /images/avatars/cuixiaonan-520.jpg 2x" width="260" height="347" alt="崔晓男" class="avatar">
 </picture>
 
+### 崔晓男
 
-### 赵彬
- 
-文教基金会秘书长
+算法工程师
 
-杭州紫阳文化艺术中心、志心书院、大米课堂公益文化教育基金、韵味紫阳社区发展基金会等多家文教机构管理职务。  
-浙江省儒学会、中国法学会、紫阳街道文联等多家协会成员，创办经典阅读和传统文化体验活动，服务街道社区、政府、社会组织、企业、大中小学参访研学团。
+原科大讯飞等上市公司的软件测试工程师、大模型工程师，负责大模型应用开发，熟练掌握RAG、Agent、及主流微调与部署框架（如LLaMA-Factory、vLLM）等。从事智能家居语音唤醒引擎测试、大模型工程与算法研发，主导大宗商品期货和有机化学知识问答系统、家电智能客服、新零售评论分类、新媒体信息抽取及多模态PPT自动生成等多个项目，涵盖工具开发、知识库构建、模型微调与系统部署。
 
 
 ---
@@ -167,6 +163,7 @@ AI领域布道者，曾任比亚迪高级结构工程师，擅长CAE软件二次
 
 ---
 持续更新 ……
+
 
 ## 特别说明：
 
