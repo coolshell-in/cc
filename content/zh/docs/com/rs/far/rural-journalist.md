@@ -1,8 +1,8 @@
 ---
 date: 2013-09-22
-linktitle: "抗税事件"
+linktitle: "乡土记者"
 
-title: "老中医的大牢和三农专家的晋升"
+title: "土记者的大牢和三农专家的晋升"
 weight: 12
 cascade:
     type: docs
