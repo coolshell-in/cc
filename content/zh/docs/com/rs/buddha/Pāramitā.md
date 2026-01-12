@@ -1,6 +1,6 @@
 ---
 date: 2026-01-03
-linktitle: "赞佛偈"
+linktitle: "般若心经"
 title: "《般若波罗蜜多心经》"
 weight: 21
 cascade:
