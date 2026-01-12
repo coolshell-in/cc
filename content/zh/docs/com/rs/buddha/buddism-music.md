@@ -1,3 +1,14 @@
+---
+date: 2026-01-03
+linktitle: "赞佛偈"
+title: "赞佛偈、开经偈、忏悔偈"
+weight: 20
+cascade:
+    type: docs
+    no_list: true
+---
+
+
 ## 赞佛偈
 
 ```text
