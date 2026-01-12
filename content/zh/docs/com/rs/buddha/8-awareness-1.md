@@ -1,6 +1,6 @@
 ---
 date: 2026-01-03
-linktitle: "第一讲"
+linktitle: "人觉经1"
 title: "摘要：《八大人觉经》第一讲"
 weight: 2
 cascade:

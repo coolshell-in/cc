@@ -1,6 +1,6 @@
 ---
 date: 2026-01-10
-linktitle: "如来十号"
+linktitle: "如来名号"
 title: "释迦牟尼佛的众多名号"
 weight: 22
 cascade:
