@@ -288,4 +288,104 @@ appropriate version for your OS and architecture.&lt;/p>
 &lt;/h2>
 &lt;p>Hugo has its own example site which happens to also be the documentation site
 you are reading right now.&lt;/p>
-&lt;p>Follow the following steps:&lt;/p></description></item></channel></rss>
+&lt;p>Follow the following steps:&lt;/p></description></item><item><title/><link>http://localhost:1313/posts/whv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/whv/</guid><description>&lt;p>共享空间平台&lt;/p>
+&lt;p>为了系统解决这个问题，可以设计自建一个共享住宿的平台，更重要长远的作用是：支持年轻人低成本探索世界，从招募志愿者开始到成功创业者，参与大众创业，万众创新。&lt;/p>
+&lt;p>列举几个实体案例，参考如下：
+706青年空间 
+ &lt;a href="https://site.douban.com/143466/">https://site.douban.com/143466/&lt;/a>
+日本胶囊旅馆 
+ &lt;a href="https://www.booking.com/capsule-hotel/country/jp.zh-cn.html">https://www.booking.com/capsule-hotel/country/jp.zh-cn.html&lt;/a>&lt;/p>
+&lt;p>即使没有任何创新，直接抄以上的模型中的佼佼者都能成功。外包模式也能出高品质的产品，但是好产品不多见。其实还有更好的众包模式，适合于做目前火爆的共享平台。&lt;/p>
+&lt;p>众包模式&lt;/p>
+&lt;p>与此众包共享住宿市场相关的生态链中，无论免费公益或收费商业，发达国家地区的成熟市场配套有WHV打工度假签证，劳动换食宿，公益，义工，背包客，沙发客，穷游文化，鼓励年轻人离开家庭，学校，丢下考试题和游戏机，独立自主走向社会，探索未知的世界，这对于年轻人的正确的三观成长和创造力具有非常重大的价值。&lt;/p>
+&lt;p>相关平台
+airbnb 
+ &lt;a href="https://www.airbnb.com/">https://www.airbnb.com/&lt;/a>
+booking 
+ &lt;a href="https://www.booking.com">https://www.booking.com&lt;/a>
+wwoof 
+ &lt;a href="http://www.wwoof.net/">http://www.wwoof.net/&lt;/a>
+couchsurfing 
+ &lt;a href="https://www.couchsurfing.com/">https://www.couchsurfing.com/&lt;/a>
+helpx 
+ &lt;a href="https://www.helpx.net/">https://www.helpx.net/&lt;/a>&lt;/p>
+&lt;p>我早年作为背包客去过国内外一些地区后，非常感慨人生境遇的不同，如果有机会找到合适团队，可以做一个众包共享模式的项目，对此类共享住宿平台设计和用户体验的总结如下。
+XXX WHV打工度假网络计划&lt;/p>
+&lt;p>我与BAT系网络大厂那些眼高手低自命不凡的同事们聊过，他们没有一个看好与“公益，农村”沾边的事情，于是我不能从他们中间找人合伙，这确实需要一定的价值观和眼光才看得懂这件事。&lt;/p>
+&lt;hr>
+&lt;p>城市周末休闲农庄&lt;/p>
+&lt;p>皓哥，&lt;/p>
+&lt;p>我不想因为大家没有合作点，以后就只能互相看看博客，或就此永别老死不想见。我还是非常想能够设计一种项目，兼顾商业和公益，让更多人参与。就我个人能够胜任的一些职业能力和经历，毫无疑问，做一个农庄吧。&lt;/p>
+&lt;p>由于城市各行业几乎已经满负荷运营，思路转移到乡村和广袤的土地上，广阔天地，大有作为。&lt;/p>
+&lt;p>将客群目标从外地游客转换成本地居民为主。&lt;/p>
+&lt;p>农庄选择
+经营方式：&lt;/p>
+&lt;ul>
+&lt;li>众筹自建：发布项目方案，招募创始会员，从0开始众筹，投资，选址，建造，经营，一切都要自己亲自做一遍；&lt;/li>
+&lt;li>合作运营：筛选合适农庄，与其签约合作，从事平台开发，运营推广，带动客流和经营项目创新与转型升级；&lt;/li>
+&lt;/ul>
+&lt;p>客群定位：城市人群周末休闲的农庄
+地理位置：1-3线城市周边自驾2小时内&lt;/p>
+&lt;p>不要一次招募10个农庄合作，而是先从1-2个开始，经营好一个，然后开始第二个，尽力每一个都能有明显的提升。&lt;/p>
+&lt;p>对程序员和城市人群的益处
+作为对抗现代城市病的一种有效方法，问题例如：空气污染，不健康食物，运动过少，体重超标。&lt;/p>
+&lt;ol>
+&lt;li>市民：定期到郊野呼吸清新空气，从事农作，爬山，体育，休闲户外活动，有益修复身心健康；&lt;/li>
+&lt;li>程序员：满足远程工作的便捷；&lt;/li>
+&lt;li>亲子家庭：给小孩一个自然成长的乐园，现在自然教育也日益流行，成为人们谈论的热点；&lt;/li>
+&lt;/ol>
+&lt;p>招募义工
+一些需要体力脑力的活儿当地农民干不了，由于偏远地区年轻人较少，需要招募青壮年劳力，按照wwoof劳动换食宿，国际青年旅舍的标准操作。
+当然包括平台开发，也可以招募程序员义工，兑换积分可以住宿，吃饭和体力劳动，这里体力劳动可以成为一种不需要付费的健身锻炼项目。&lt;/p>
+&lt;p>参考案例
+为常驻中国的老外提供餐饮和周末休闲服务的农庄，重点是吃饭，参阅citiweekend，timeout, that&amp;rsquo;s beijing等杂志， 一些老外论坛
+
+ &lt;a href="http://www.timeoutshanghai.com/">http://www.timeoutshanghai.com/&lt;/a>
+
+ &lt;a href="https://www.thatsmags.com/beijing">https://www.thatsmags.com/beijing&lt;/a>
+
+ &lt;a href="https://www.thebeijinger.com/directory">https://www.thebeijinger.com/directory&lt;/a>
+
+ &lt;a href="https://www.booking.com/hotel/">https://www.booking.com/hotel/&lt;/a> （以住宿为主，附带餐饮）&lt;/p>
+&lt;p>为入境的短期游客服务的一些农庄，参阅lonly planet等
+
+ &lt;a href="https://www.lonelyplanet.com/china/beijing">https://www.lonelyplanet.com/china/beijing&lt;/a>&lt;/p>
+&lt;p>eg. 怀柔的长城院子
+
+ &lt;a href="http://theschoolhouseatmutianyu.com/cn/">http://theschoolhouseatmutianyu.com/cn/&lt;/a>
+
+ &lt;a href="https://brickyardatmutianyu.com/cn/dining/">https://brickyardatmutianyu.com/cn/dining/&lt;/a>&lt;/p>
+&lt;p>乡居生活的关键问题：&lt;/p>
+&lt;ol>
+&lt;li>建筑如何防虫？&lt;/li>
+&lt;li>社会关系如何维护？&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ol>
+&lt;p>劳动换食宿&lt;/p>
+&lt;p>作为一个普通农民，难得有机会接触到精英阶层的生活理念和饮食方式。他们的厨师为什么能把这么日常普通的东西做得这么好？像艺术品一样，我吃货大国的《舌尖上的中国》也很感人，展现的多是平民的艰辛日常，略带忧伤和无奈。&lt;/p>
+&lt;p>这让我经常想起拿他们和本土厨师的对比，还有我们的服务员，农民和工人等，普遍收入低福利差，有的人甚至命运惨淡，是整个社会的底层，别说基层劳动者没机会做国际化的跨文化交流，大多数老板可能都从未出去旅游过，一辈子就在一个岗位上兢兢业业求温饱，服务业普遍没有太多上升空间。我希望有更多的中国农民和厨师也像他们一样，不需要每日忙于种地或做饭，也来点艺术创作，也在镜头前展示健美的身材和高超的技巧，并登上时尚杂志。&lt;/p>
+&lt;p>于是又想起几年前写的一个打工换食宿的项目方案，或许能够从这方面给他们提供一些升级的机会。项目方案概述文件链接：
+中国劳动换食宿平台概述2
+参考wwoof&lt;/p>
+&lt;p>案例：
+某传统中式餐馆，效益还不错，但是终归没有脱离本地消费的小圈子，在本地很有名气，但外地人并不知道。可帮助他们发布公告，面向全球招募一些其他国家的厨师过来交流，例如墨西哥菜，法国菜，意大利菜等等。一方面增加基层劳动者的跨文化交流，提升员工士气和管理能力，另外一方面有利于菜式创新和品牌知名度打造。希望这种低成本或零成本方式打开眼界，将有利于低端行业的水平能力的提升。&lt;/p>
+&lt;hr>
+&lt;h2 id="民宿弊端">
+ 民宿弊端
+ &lt;a class="anchor" href="#%e6%b0%91%e5%ae%bf%e5%bc%8a%e7%ab%af">#&lt;/a>
+&lt;/h2>
+&lt;p>参考前文：
+ &lt;a href="https://atomx.cc/zh/posts/agri-env/design-living-space-and-manage-community/">设计生活社区-乐创客-v0.0&lt;/a>&lt;/p>
+&lt;p>以常见招募义工的民宿为例，因为经营单位很小且多元化，非标准，导致管理成本高，效率低，营收少，很多难以为继。&lt;/p>
+&lt;p>所以，民宿的花花绿绿装饰是（投资者）老板们的审美，因为他们喜欢，并代表一种集体的情怀，把自己有限的青春和资产奉献给广大的穷游族们，不按市场规律操作，注定会是一场乌托邦的梦想，但是依然会前仆后继，后浪推前浪地扑向沙滩。&lt;/p>
+&lt;p>为什么大型连锁酒店不愿意招募义工？因为有非常标准化的职业培训管理体系，义工反而是一种高成本的操作方式。&lt;/p>
+&lt;p>关键点是将服务业的管理标准化，作为软件平台的核心功能，在招募前，中，后进行帮扶管理，但是不能与一般的住宿预定平台airbnb类重复，应摘取最核心功能即可。&lt;/p>
+&lt;p>对于任何一种类型的服务业，其最核心的抽象模型标准都是一样的，具体操作不同，可以因地制宜，因人而异，与人机交互设计的基本原则相同：&lt;/p>
+&lt;ol>
+&lt;li>安全卫生；&lt;/li>
+&lt;li>用户体验；&lt;/li>
+&lt;li>便捷高效；&lt;/li>
+&lt;li>成本可控；&lt;/li>
+&lt;li>易于管理；&lt;/li>
+&lt;li>性价比高；&lt;/li>
+&lt;/ol></description></item></channel></rss>
