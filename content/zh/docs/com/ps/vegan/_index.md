@@ -2,7 +2,7 @@
 date: 2026-03-01
 linktitle: "餐饮管理"
 title: "餐饮管理"
-weight: 1
+weight: 8
 
 cascade:
     type: docs

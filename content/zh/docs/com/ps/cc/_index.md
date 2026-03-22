@@ -3,7 +3,7 @@ date: 2025-07-20
 linktitle: "青年社区"
 
 title: "众创（青年）社区营造"
-weight: 1
+weight: 5
 cascade:
     type: docs
     no_list: true

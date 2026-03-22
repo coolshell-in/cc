@@ -10,7 +10,7 @@ cascade:
     layout: single
     bookCollapseSection: true  
     
-weight: 10
+weight: 6
 ---
 
 
