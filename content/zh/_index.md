@@ -2,7 +2,7 @@
 date: 2025-07-20
 linktitle: ""
 
-title: "酷壳众创社区"
+title: "文档"
 weight: 1
 cascade:
     type: docs

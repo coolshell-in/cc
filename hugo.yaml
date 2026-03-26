@@ -3,7 +3,7 @@
 baseURL: https://cc.coolshell.in/
 canonifyURLs: false  # 改为false
 relativeURLs: true   # 改为true
-title: 众创社区
+title: 酷壳众创社区
 theme: hugo-book
 ignoreFiles:
   - "^land-view/.*"  # 忽略目录及其所有内容

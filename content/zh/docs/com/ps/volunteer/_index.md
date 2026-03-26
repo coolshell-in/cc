@@ -1,7 +1,7 @@
 ---
 date: 2018-06-01
-linktitle: "义工平台"
-title: "三农义工平台方案"
+linktitle: "旅居平台"
+title: "三农旅居平台方案"
 description: >
   
 cascade:
