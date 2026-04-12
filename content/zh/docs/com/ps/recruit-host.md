@@ -1,6 +1,6 @@
 ---
 date: 2025-11-05
-linktitle: "社区招募"
+linktitle: "招募地主"
 
 title: "招募社区运营管理者、地主和投资者"
 weight: 10
