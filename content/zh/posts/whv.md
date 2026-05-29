@@ -11,7 +11,11 @@
 
 
 列举几个实体案例，参考如下：
-706青年空间 https://site.douban.com/143466/
+
+- 2012年，北京五道口华清嘉园，[706青年空间](https://mp.weixin.qq.com/s/8mXlcWLqnZgFA3TOqvYl7A)，是一个社会学话题的青年聚会空间（无法准确定义/探索社会/迷茫待业青年），已分布数十个国内城市和海外10多个国家地区，呈现分布式或去中心化的社区特征；
+
+[706青年空间 - 豆瓣](https://site.douban.com/143466/)
+
 日本胶囊旅馆 https://www.booking.com/capsule-hotel/country/jp.zh-cn.html
 
 
@@ -25,7 +29,7 @@
 
 相关平台
 airbnb https://www.airbnb.com/
- booking https://www.booking.com
+booking https://www.booking.com
 wwoof http://www.wwoof.net/
 couchsurfing https://www.couchsurfing.com/
 helpx https://www.helpx.net/
@@ -113,6 +117,7 @@ https://brickyardatmutianyu.com/cn/dining/
 
 
 于是又想起几年前写的一个打工换食宿的项目方案，或许能够从这方面给他们提供一些升级的机会。项目方案概述文件链接：
+
 中国劳动换食宿平台概述2
 参考wwoof 
 

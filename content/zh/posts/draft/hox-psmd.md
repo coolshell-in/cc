@@ -2,20 +2,6 @@
 
 陈天桥/哲理/概念 ➡️ 黄勇刚/建模/标准协议 ➡️ 黄常谦/部署/操作系统 ➡️ 各种创业项目/平台/应用
 
-[天桥脑科学研究院](https://cheninstitute.cn/)
-
-[天桥脑科学研究院 - DLAB科学数据工场](https://www.dlab.org.cn)
-
-[陈天桥博客](https://chennative.ai/)
-
-[天桥脑科学研究院 - 科普公众号](https://mp.weixin.qq.com/s/KjeRMR59jTJLRyCsRRrgcg)
-
-[天桥脑科学研究院 - 科普视频号- 大圆镜](https://chennative.ai/)
-
-[AI - Tanka](https://www.tanka.ai/zh/)
-
-[AI - MiroThinker](https://dr.miromind.ai/)
-
 
 
 ## 基础
