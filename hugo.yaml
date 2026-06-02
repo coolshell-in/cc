@@ -7,6 +7,7 @@ title: 酷壳众创社区
 theme: hugo-book
 ignoreFiles:
   - "^land-view/.*"  # 忽略目录及其所有内容
+  - "^content/zh/posts/draft/.*"  # 忽略所有草稿文件
 
 # taxonomies:
 #   category: ""

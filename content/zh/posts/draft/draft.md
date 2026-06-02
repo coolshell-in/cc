@@ -1,5 +1,7 @@
-
---- 
+---
+title: 草稿
+draft: true
+---
 
 喀什文化旅游投资（集团）有限责任公司
 https://www.kswlt.cn/
