@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>项目研究 on 酷壳众创社区</title><link>https://cc.coolshell.in/docs/com/rs/</link><description>Recent content in 项目研究 on 酷壳众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cc.coolshell.in/docs/com/rs/index.xml" rel="self" type="application/rss+xml"/><item><title>消费和生产合作社概述</title><link>https://cc.coolshell.in/docs/com/rs/X-coop/</link><pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/com/rs/X-coop/</guid><description>&lt;p>&lt;strong>中国以及世界范围内的合作社法规普遍明确包括消费型合作社和生产型合作社&lt;/strong>。这两类是合作社最基础、最常见的组织形式之一。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>项目研究 on 酷壳众创社区</title><link>https://cc.coolshell.in/docs/com/rs/</link><description>Recent content in 项目研究 on 酷壳众创社区</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cc.coolshell.in/docs/com/rs/index.xml" rel="self" type="application/rss+xml"/><item><title>《ISO/IEC SQuaRE系统与软件质量模型》简介</title><link>https://cc.coolshell.in/docs/com/rs/ISO-IEC-SQuaRE/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/com/rs/ISO-IEC-SQuaRE/</guid><description>&lt;p>本系列标准由&lt;strong>国际标准化组织&lt;/strong>（ISO）联合制定，全称为：&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>系统与软件工程 — 系统和软件质量需求与评价&lt;/strong>（SQuaRE）— 系统与软件质量模型&lt;/p>&lt;/blockquote>
+&lt;p>该系列标准为评估和改进软件及系统质量提供了&lt;strong>全面、系统的框架&lt;/strong>，广泛应用于软件开发、测试、验收与质量管理全过程，旨在帮助开发者、项目经理和质量保证人员准确理解并满足用户对质量的需求。&lt;/p>
+&lt;h1 id="新国际标准-20232024">
+ 新国际标准 （2023–2024）
+ &lt;a class="anchor" href="#%e6%96%b0%e5%9b%bd%e9%99%85%e6%a0%87%e5%87%86-20232024">#&lt;/a>
+&lt;/h1>
+&lt;p>以下是替代 ISO/IEC 25010:2011 的&lt;strong>最新标准&lt;/strong>及其官方链接：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>标准号&lt;/th>
+ &lt;th>标题&lt;/th>
+ &lt;th>链接&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>ISO/IEC 25010:2023&lt;/strong>&lt;/td>
+ &lt;td>系统与软件工程 — SQuaRE — 系统与软件质量模型（更新版）&lt;/td>
+ &lt;td>
+ &lt;a href="https://www.iso.org/standard/78176.html">https://www.iso.org/standard/78176.html&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>ISO/IEC 25002:2024&lt;/strong>&lt;/td>
+ &lt;td>SQuaRE — 质量模型通用指南&lt;/td>
+ &lt;td>
+ &lt;a href="https://www.iso.org/standard/78175.html">https://www.iso.org/standard/78175.html&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>ISO/IEC 25019:2023&lt;/strong>&lt;/td>
+ &lt;td>SQuaRE — 数据质量模型&lt;/td>
+ &lt;td>
+ &lt;a href="https://www.iso.org/standard/78177.html">https://www.iso.org/standard/78177.html&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>✅ 建议：如需开展符合最新国际实践的质量评估，请优先采用 &lt;strong>ISO/IEC 25010:2023&lt;/strong> 及其配套标准。&lt;/p>&lt;/blockquote>
+&lt;h2 id="应用价值">
+ &lt;strong>应用价值&lt;/strong>
+ &lt;a class="anchor" href="#%e5%ba%94%e7%94%a8%e4%bb%b7%e5%80%bc">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>提供&lt;strong>统一的质量语言&lt;/strong>，促进开发、测试与用户之间的沟通&lt;/li>
+&lt;li>支持&lt;strong>质量需求建模&lt;/strong>，将用户期望转化为可验证的技术指标&lt;/li>
+&lt;li>指导&lt;strong>测试用例设计&lt;/strong>与&lt;strong>质量评估体系构建&lt;/strong>&lt;/li>
+&lt;li>有助于&lt;strong>减少返工、提升用户满意度&lt;/strong>，建立可持续的软件工程实践&lt;/li>
+&lt;/ul>
+&lt;p>在 ISO/IEC 系列标准中，每个质量特性都配有明确的定义、度量方法和评估准则，帮助开发者和评估者&lt;strong>量化并客观比较软件质量&lt;/strong>。此外，标准还提供了将这些质量特性与软件需求有效关联的方法，确保在&lt;strong>设计与实现的早期阶段&lt;/strong>就能系统性地纳入质量考量。&lt;/p>
+&lt;p>通过深入理解并切实应用 ISO/IEC 系列标准，组织不仅能显著&lt;strong>提高软件项目的成功率&lt;/strong>，还能持续优化工程流程，强化产品竞争力。因此，该标准对&lt;strong>软件开发团队、项目经理、质量保障人员以及所有关注软件质量与性能的利益相关方&lt;/strong>，都具有重要的实践指导意义和长期参考价值。&lt;/p>
+&lt;p>✅ &lt;strong>建议&lt;/strong>：此版本可直接用于技术白皮书、内部培训材料、项目质量管理规范或投标文档中的“质量保障依据”章节。如需更简洁或更学术化的表述，也可进一步调整。&lt;/p>
+&lt;hr>
+&lt;p>以下是对您提供文案的&lt;strong>去重与整合版本&lt;/strong>，保留所有关键信息，消除重复描述（如标准名称、摘要、八大特性等仅出现一次），结构清晰、逻辑连贯，适合作为正式文档或参考资料使用：&lt;/p>
+&lt;hr>
+&lt;h1 id="旧国际标准2011">
+ 旧国际标准（2011）
+ &lt;a class="anchor" href="#%e6%97%a7%e5%9b%bd%e9%99%85%e6%a0%87%e5%87%862011">#&lt;/a>
+&lt;/h1>
+&lt;blockquote>
+&lt;p>&lt;strong>状态：已撤销&lt;/strong>（Withdrawn）&lt;br>
+该标准已于 &lt;strong>2024 年 3 月 4 日&lt;/strong> 正式撤销，不再作为现行国际标准使用。&lt;br>
+官方页面：
+ &lt;a href="https://www.iso.org/standard/35733.html">ISO/IEC 25010:2011&lt;/a>&lt;/p></description></item><item><title>消费和生产合作社概述</title><link>https://cc.coolshell.in/docs/com/rs/X-coop/</link><pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/com/rs/X-coop/</guid><description>&lt;p>&lt;strong>中国以及世界范围内的合作社法规普遍明确包括消费型合作社和生产型合作社&lt;/strong>。这两类是合作社最基础、最常见的组织形式之一。&lt;/p>
 &lt;hr>
 &lt;h2 id="一国际视角合作社类型与法律框架">
  一、国际视角：合作社类型与法律框架
@@ -111,4 +175,40 @@
 &lt;ul>
 &lt;li>&lt;strong>世界上第一个现代合作社&lt;/strong>（1844年英国罗虚戴尔公平先锋社）就是&lt;strong>消费合作社&lt;/strong>，可见其历史地位。&lt;/li>
 &lt;li>中国当前政策更侧重&lt;strong>生产型、服务型合作社&lt;/strong>（助力乡村振兴），但&lt;strong>消费合作理念正在社区支持农业（CSA）、基于互联网电商的社区团购等新形式中复兴&lt;/strong>。&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/ul></description></item><item><title>WCAG 2概述：ISO/IEC 40500与Web无障碍标准</title><link>https://cc.coolshell.in/docs/com/rs/WCAG2-ISO-IEC-40500/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/com/rs/WCAG2-ISO-IEC-40500/</guid><description>&lt;p>以下是对 W3C 官方页面 &lt;strong>
+ &lt;a href="https://www.w3.org/WAI/standards-guidelines/wcag/#iso">https://www.w3.org/WAI/standards-guidelines/wcag/#iso&lt;/a>&lt;/strong> 中相关内容的简明介绍：&lt;/p>
+&lt;hr>
+&lt;h2 id="-wcag-与-iso-标准的关系">
+ 🌐 &lt;strong>WCAG 与 ISO 标准的关系&lt;/strong>
+ &lt;a class="anchor" href="#-wcag-%e4%b8%8e-iso-%e6%a0%87%e5%87%86%e7%9a%84%e5%85%b3%e7%b3%bb">#&lt;/a>
+&lt;/h2>
+&lt;p>该页面是 **W3C Web Accessibility Initiative **(WAI) 官网中关于 &lt;strong>Web 内容无障碍指南&lt;/strong>（WCAG） 的权威说明部分，特别聚焦于 &lt;strong>WCAG 与国际标准化组织&lt;/strong>（ISO）。&lt;/p>
+&lt;h3 id="核心内容要点">
+ 核心内容要点：
+ &lt;a class="anchor" href="#%e6%a0%b8%e5%bf%83%e5%86%85%e5%ae%b9%e8%a6%81%e7%82%b9">#&lt;/a>
+&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>WCAG 是什么&lt;/strong>？&lt;/p>
+&lt;ul>
+&lt;li>WCAG（Web Content Accessibility Guidelines）是由 W3C 制定的一套技术标准，旨在让残障人士（如视障、听障、运动障碍用户）能够平等访问和使用网页内容。&lt;/li>
+&lt;li>当前主流版本为 &lt;strong>WCAG 2.1&lt;/strong>（2018年发布），&lt;strong>WCAG 2.2&lt;/strong> 已于 2023 年成为正式推荐标准。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>WCAG 与 ISO 的关系&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>ISO/IEC 40500:2012&lt;/strong> 是 &lt;strong>WCAG 2.0&lt;/strong> 的正式国际标准版本。&lt;/li>
+&lt;li>该标准由 &lt;strong>ISO 和 IEC&lt;/strong>（国际电工委员会）联合发布，&lt;strong>完全等同采用&lt;/strong>（identical adoption）W3C 的 WCAG 2.0 技术内容，未作任何修改。&lt;/li>
+&lt;li>这使得 WCAG 2.0 获得了全球政府、采购机构和法律体系的正式认可（例如用于公共采购或立法引用）。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>为何重要&lt;/strong>？&lt;/p>
+&lt;ul>
+&lt;li>虽然 W3C 本身是非营利标准组织，但通过 ISO/IEC 认证，WCAG 被纳入&lt;strong>正式的国际标准体系&lt;/strong>，增强了其在政策、法规和跨国项目中的权威性与可执行性。&lt;/li>
+&lt;li>各国政府（如欧盟、加拿大、澳大利亚、日本等）在制定数字无障碍法律时，常直接引用 &lt;strong>ISO/IEC 40500&lt;/strong> 或 &lt;strong>WCAG 2.1/2.2&lt;/strong> 作为合规基准。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>后续版本是否纳入 ISO&lt;/strong>？&lt;/p></description></item></channel></rss>
