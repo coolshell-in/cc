@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>会议纪要 - AI时代人生重置与结构拆解</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body { background-color: #F7F8FA; color: #111; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; padding: 12px; font-size: 12px; }
+.header { display: flex; flex-direction: column; gap: 4px; padding-bottom: 10px; border-bottom: 1px solid #EBEBEB; margin-bottom: 16px; }
+.header-title { font-size: 20px; font-weight: bold; color: #006EFF; }
+.header-attendees { font-size: 12px; color: #888; }
+.summary { font-size: 12px; background-color: #F2F7FF; border-left: 3px solid #006EFF; border-radius: 0 6px 6px 0; padding: 10px 12px; margin-bottom: 16px; line-height: 1.6; color: #333; }
+.logic-chain { display: flex; flex-wrap: nowrap; align-items: stretch; justify-content: space-between; gap: 6px; margin-bottom: 16px; overflow-x: auto; }
+.chain-node { flex: 1; min-width: 0; background: #FFF; border: 1px solid #EBEBEB; border-radius: 6px; padding: 8px 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
+.chain-node h4 { margin: 0 0 3px 0; font-size: 11px; color: #006EFF; display: flex; align-items: center; gap: 3px; white-space: nowrap; }
+.chain-node p { margin: 0; font-size: 11px; color: #555; line-height: 1.4; font-weight: bold; }
+.chain-arrow { display: flex; align-items: center; justify-content: center; color: #C0C4CC; font-size: 14px; font-weight: bold; padding: 0 1px; flex-shrink: 0; }
+.module-block { background-color: #FFF; border-radius: 10px; padding: 16px; margin-bottom: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.03); }
+.module-title { font-size: 15px; font-weight: bold; margin: 0 0 12px 0; color: #111; display: flex; align-items: center; gap: 6px; }
+.density-table { width: 100%; border-collapse: collapse; text-align: left; font-size: 12px; }
+.density-table th { color: #111; font-weight: 700; padding: 8px 10px; border-bottom: 1px solid #F0F0F0; background-color: #F8F9FA; }
+.density-table td { padding: 8px 10px; border-bottom: 1px solid #F0F0F0; color: #333; line-height: 1.5; }
+.density-table tr:last-child td { border-bottom: none; }
+.insight-stack { display: flex; flex-direction: column; gap: 8px; }
+.insight-item { position: relative; padding: 10px 14px 10px 28px; border-radius: 6px; font-size: 12px; color: #222; line-height: 1.5; border: 1px solid transparent; }
+.insight-item::before { content: '✦'; position: absolute; left: 10px; top: 10px; font-size: 12px; }
+.insight-item:nth-child(4n+1) { background-color: #FFF9F0; border-color: #FFE4C4; }
+.insight-item:nth-child(4n+1)::before { color: #FF9D00; }
+.insight-item:nth-child(4n+2) { background-color: #F4FBF7; border-color: #C3E6CB; }
+.insight-item:nth-child(4n+2)::before { color: #00A870; }
+.insight-item:nth-child(4n+3) { background-color: #F8F6FF; border-color: #D8D0FF; }
+.insight-item:nth-child(4n+3)::before { color: #7B61FF; }
+.insight-item:nth-child(4n+4) { background-color: #F0F6FF; border-color: #C2D7FF; }
+.insight-item:nth-child(4n+4)::before { color: #006EFF; }
+.todo-title { color: #00B3A1; }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <div class="header-title">AI时代人生重置——结构拆解与超级个体OPC</div>
+    <div class="header-attendees">👥 葛叔、若兰</div>
+</div>
+
+<div class="summary">
+葛叔分享以"拆结构再重组"为核心的方法论，从菜品、品牌、商业模式到人才逐一拆解，提出AI时代一人公司（OPC）应具备AI训练师、网络生态架构师、首席选品官三重角色；与会者探讨大健康营养师在AI冲击下的职业重构方向。
+</div>
+
+<!-- 横向逻辑链 -->
+<div class="logic-chain">
+    <div class="chain-node">
+        <h4>🔨 结构拆解</h4>
+        <p>菜品/品牌/模式/人四层拆解还原底层结构</p>
+    </div>
+    <div class="chain-arrow">➔</div>
+    <div class="chain-node">
+        <h4>🤖 OPC人才重构</h4>
+        <p>AI时代超级个体三角角色模型定义</p>
+    </div>
+    <div class="chain-arrow">➔</div>
+    <div class="chain-node">
+        <h4>💼 行业应用探讨</h4>
+        <p>营养师群体AI冲击与人物红利转型方向</p>
+    </div>
+</div>
+
+<!-- 模块1：结构拆解 -->
+<div class="module-block">
+    <div class="module-title">🔨 结构拆解 —— 菜品、品牌、商业模式与人的分层解构</div>
+    <table class="density-table">
+        <thead>
+            <tr>
+                <th>拆解对象</th>
+                <th>核心结构要素</th>
+                <th>关键结论</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>一道菜</td>
+                <td>水、油、原料、调料、烹饪方法</td>
+                <td>非标品标准化，控制五要素即可稳定复制风味</td>
+            </tr>
+            <tr>
+                <td>品牌（三生有幸）</td>
+                <td>救生（恢复）/护生（维护）/养生（促进）</td>
+                <td>模糊概念拆为三层业务，对应用户全生命周期管理</td>
+            </tr>
+            <tr>
+                <td>文化（真善美）</td>
+                <td>蒸功夫（真）/日行一膳（善）/堂主（美）</td>
+                <td>将抽象价值观落地为可执行的品牌行为与感知</td>
+            </tr>
+            <tr>
+                <td>商业模式</td>
+                <td>结构共享 / 内容招商 / 三生万物</td>
+                <td>工具包开放+信任先行+人群聚合催生新业务闭环</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- 模块2：OPC人才重构 -->
+<div class="module-block">
+    <div class="module-title">🤖 OPC人才重构 —— AI时代一人公司三角角色模型</div>
+    <div class="insight-stack">
+        <div class="insight-item">
+            <strong>AI训练师（提效）</strong>：掌握与AI对话及Prompt工程，用AI把重复性认知劳动外包，释放时间做关键判断。
+        </div>
+        <div class="insight-item">
+            <strong>网络生态架构师（放大）</strong>：搭建社群与协作网络，聚拢分散资源形成生态，让更多人参与共建。
+        </div>
+        <div class="insight-item">
+            <strong>首席选品官（把关）</strong>：信息过载时代替用户严选，以专业筛选建立信任与商业价值，守住交付底线。
+        </div>
+        <div class="insight-item">
+            <strong>结构即生存操作系统</strong>：三者相互咬合缺一不可，拆出结构后按图纸施工，从感觉驱动升级为系统驱动。
+        </div>
+    </div>
+</div>
+
+<!-- 模块3：行业应用探讨 -->
+<div class="module-block">
+    <div class="module-title">💼 行业应用探讨 —— 大健康营养师职业重构与人物红利</div>
+    <div class="insight-stack">
+        <div class="insight-item">
+            <strong>基础咨询被AI替代</strong>：初级营养建议可由AI免费提供，仅提供信息输出的公共营养师面临市场挤压。
+        </div>
+        <div class="insight-item">
+            <strong>人的核心价值是信用背书</strong>：AI可免责输出，但最终判断与责任承担仍需真人，信任与人设是护城河。
+        </div>
+        <div class="insight-item">
+            <strong>人员→人才→人物升级</strong>：从业者需从执行层向"人物"（垂直领域影响力个体）进化，抓住人物红利时代。
+        </div>
+        <div class="insight-item">
+            <strong>跨界赋能方向</strong>：结合商业运作能力为营养师补人货场结构短板，助其向细分专精或IP化转型。
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

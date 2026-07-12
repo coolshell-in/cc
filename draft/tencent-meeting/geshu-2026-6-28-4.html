@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>会议纪要 - AI时代人生重置与大健康布局</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body { background-color: #F7F8FA; color: #111; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; padding: 12px; font-size: 12px; line-height: 1.5; }
+.header { display: flex; flex-direction: column; gap: 4px; padding-bottom: 10px; border-bottom: 1px solid #EBEBEB; margin-bottom: 16px; }
+.header-title { font-size: 20px; font-weight: bold; color: #006EFF; }
+.header-attendees { font-size: 12px; color: #888; }
+.summary { font-size: 12px; background-color: #F2F7FF; border-left: 3px solid #006EFF; border-radius: 0 6px 6px 0; padding: 10px 12px; margin-bottom: 16px; color: #333; line-height: 1.7; }
+
+.logic-chain { display: flex; flex-wrap: nowrap; align-items: stretch; justify-content: space-between; gap: 8px; margin-bottom: 16px; overflow-x: auto; }
+.chain-node { flex: 1; min-width: 0; background: #FFF; border: 1px solid #EBEBEB; border-radius: 6px; padding: 10px 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
+.chain-node h4 { margin: 0 0 4px 0; font-size: 12px; color: #006EFF; display: flex; align-items: center; gap: 4px; white-space: nowrap; }
+.chain-node p { margin: 0; font-size: 11px; color: #555; font-weight: bold; line-height: 1.4; }
+.chain-arrow { display: flex; align-items: center; justify-content: center; color: #C0C4CC; font-size: 16px; font-weight: bold; padding: 0 2px; flex-shrink: 0; }
+
+.module-block { background-color: #FFF; border-radius: 10px; padding: 16px; margin-bottom: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.03); }
+.module-title { font-size: 15px; font-weight: bold; margin: 0 0 12px 0; color: #111; display: flex; align-items: center; gap: 6px; }
+
+.density-table { width: 100%; border-collapse: collapse; text-align: left; font-size: 12px; }
+.density-table th { color: #111; font-weight: 700; padding: 8px 10px; border-bottom: 1px solid #F0F0F0; background-color: #F8F9FA; }
+.density-table td { padding: 8px 10px; border-bottom: 1px solid #F0F0F0; color: #333; }
+.density-table tr:last-child td { border-bottom: none; }
+
+.insight-stack { display: flex; flex-direction: column; gap: 8px; }
+.insight-item { position: relative; padding: 10px 14px 10px 28px; border-radius: 6px; font-size: 12px; color: #222; line-height: 1.5; border: 1px solid transparent; }
+.insight-item::before { content: '\2726'; position: absolute; left: 10px; top: 10px; font-size: 12px; }
+.insight-item:nth-child(4n+1) { background-color: #FFF9F0; border-color: #FFE4C4; }
+.insight-item:nth-child(4n+1)::before { color: #FF9D00; }
+.insight-item:nth-child(4n+2) { background-color: #F4FBF7; border-color: #C3E6CB; }
+.insight-item:nth-child(4n+2)::before { color: #00A870; }
+.insight-item:nth-child(4n+3) { background-color: #F8F6FF; border-color: #D8D0FF; }
+.insight-item:nth-child(4n+3)::before { color: #7B61FF; }
+.insight-item:nth-child(4n+4) { background-color: #F0F6FF; border-color: #C2D7FF; }
+.insight-item:nth-child(4n+4)::before { color: #006EFF; }
+
+.todo-title { color: #00B3A1; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-title">AI时代人生重置与大健康饮食生态布局研讨</div>
+  <div class="header-attendees">👥 若兰、葛叔、Atom、马燕、sea 等 6 人</div>
+</div>
+
+<div class="summary">
+围绕AI时代个体重置与大健康产业机遇，探讨清淡饮食文化复兴、杭州实体研产布局（食品研究所/选品中心）、浙江省中小学生膳食标准落地及学生早餐营养改善，并明确以"吃货拯救世界—美食疗愈"为价值对齐路径，邀约各方线下深化合作。
+</div>
+
+<!-- 横向逻辑链 -->
+<div class="logic-chain">
+  <div class="chain-node">
+    <h4>🍵 饮食文化</h4>
+    <p>重辣泛滥致味觉退化，淡者居尊是身心自护</p>
+  </div>
+  <div class="chain-arrow">➔</div>
+  <div class="chain-node">
+    <h4>🏭 实体布局</h4>
+    <p>萧山办公+双浦食品所+食药同源选品中心</p>
+  </div>
+  <div class="chain-arrow">➔</div>
+  <div class="chain-node">
+    <h4>🎓 学生营养</h4>
+    <p>牵头省膳食标准，主攻早餐改善陈粮问题</p>
+  </div>
+  <div class="chain-arrow">➔</div>
+  <div class="chain-node">
+    <h4>🤖 AI重置与生态</h4>
+    <p>算法为活法服务，吃货标签对齐，普惠品牌</p>
+  </div>
+</div>
+
+<!-- 模块1 饮食文化 -->
+<div class="module-block">
+  <div class="module-title">🍵 饮食文化 —— 杭帮菜边缘化与清淡饮食哲学</div>
+  <div class="insight-stack">
+    <div class="insight-item"><strong>重辣火锅泛滥</strong>：杭州外来人口与都市焦虑驱动重口味消费，本土清淡杭帮菜被边缘化，长期致味觉退化。</div>
+    <div class="insight-item"><strong>道德经引证</strong>："五味令人口爽""嗜欲深则天机浅"，重口味是隐蔽自残与焦虑转移，淡者居尊方为自尊。</div>
+    <div class="insight-item"><strong>八卦田典故</strong>：南宋赵构籍田礼耕遗址，现有有机餐厅取当地食材，可作为健康饮食文化载体。</div>
+  </div>
+</div>
+
+<!-- 模块2 实体布局 -->
+<div class="module-block">
+  <div class="module-title">🏭 实体布局 —— 杭州萧山与双浦镇研产空间规划</div>
+  <table class="density-table">
+    <thead>
+      <tr><th>场地名称</th><th>位置</th><th>面积/状态</th><th>功能定位</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>办公场地</td><td>萧山联合中心</td><td>600㎡ · 装修收尾</td><td>日常运营与团队办公</td></tr>
+      <tr><td>真功夫食品研究所</td><td>双浦镇双林村别墅</td><td>装修中</td><td>食药同源产品研发</td></tr>
+      <tr><td>食药同源选品中心</td><td>双浦镇</td><td>1000㎡可扩3500㎡</td><td>选品展示与渠道对接</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- 模块3 学生营养 -->
+<div class="module-block">
+  <div class="module-title">🎓 学生营养 —— 浙江省膳食标准与早餐主食改善</div>
+  <div class="insight-stack">
+    <div class="insight-item"><strong>标准牵头起草</strong>：葛叔牵头起草浙江省中小学生膳食营养标准，若兰团队已为学校做营养配餐与菜谱。</div>
+    <div class="insight-item"><strong>陈粮倾销痛点</strong>：学校食堂常成储备粮倾销渠道，主食质量差，是结构性营养盲区需社会力量介入。</div>
+    <div class="insight-item"><strong>早餐切入策略</strong>：以改善学生早餐主食结构为抓手，带动全天营养摄入，定位"难而正确"的长期事业。</div>
+  </div>
+</div>
+
+<!-- 模块4 AI重置与生态 -->
+<div class="module-block">
+  <div class="module-title">🤖 AI重置与生态 —— 人生重置、价值对齐与普惠品牌愿景</div>
+  <div class="insight-stack">
+    <div class="insight-item"><strong>AI时代重置</strong>：个体需暂停重启，AI是新产业革命，小团队更灵活，主动放手大厂是心性选择非被动失业。</div>
+    <div class="insight-item"><strong>价值对齐路径</strong>："吃货"是人机价值对齐重要标签，"算法为活法服务"，通过美食疗愈人心落地。</div>
+    <div class="insight-item"><strong>品牌与生态</strong>：打造普惠国民品牌"真功夫"，让农耕文明在后工业时代扎根；sea愿从产学研投资端链接市场，马燕愿一线落地执行。</div>
+  </div>
+</div>
+
+<!-- 待办 -->
+<div class="module-block">
+  <div class="module-title todo-title">📝 待办事项</div>
+  <table class="density-table">
+    <thead>
+      <tr><th>事项</th><th>责任人</th><th>截止时间</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>杭州线下深度交流葛叔实体布局</td><td>葛叔、若兰、徐凌涛</td><td>待定</td></tr>
+      <tr><td>骊琳(Sea)线下喝茶详聊护生·救生·养生垂直落地及产学研链接</td><td>骊琳(Sea)、葛叔</td><td>待定</td></tr>
+      <tr><td>跟进南德业务布局，准备新疆特产与健康社群配合</td><td>马燕、徐凌涛、小白</td><td>待定</td></tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
