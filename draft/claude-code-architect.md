@@ -1,4 +1,20 @@
-Claude Code  AI 架构师认证 https://www.anthropic.com/learn
+# Claude Code 教程
+
+[Claude Code 教程](https://www.runoob.com/claude-code/claude-code-tutorial.html)
+
+[Claude Code 中文全面上手指南](https://github.com/lhfer/claude-howto-zh-cn)
+
+
+--- 
+
+[Claude code docs](https://code.claude.com/docs/zh-CN/overview)
+
+Andrew NG - [Claude Code: A Highly Agentic Coding Assistant](https://www.deeplearning.ai/courses/claude-code-a-highly-agentic-coding-assistant)
+
+这些课程都需要调用 Claude Code API，建议先申请 [Claude Code API](https://www.anthropic.com/claude-code) 账号。
+
+
+# Claude Code  AI 架构师认证 https://www.anthropic.com/learn
 
 
 ## Claude Certified Architect (CCA-F)

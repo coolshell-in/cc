@@ -4,6 +4,16 @@ draft: true
 ---
 
 
+## 《企业管理手册》
+
+[AiDocs《公司章程模板2026》](https://aidocx.ai/zh/blog/articles-of-association-template-2026)
+
+[《阿里巴巴员工手册和规章制度范本完整版》](https://www.renrendoc.com/paper/378922958.html)
+
+[《胖东来- 企业文化手册》](https://www.azpdl.cn/)
+
+
+
 姜小白，招聘技术人员，抖音平台开发
 
 
