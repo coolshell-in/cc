@@ -16,13 +16,13 @@ weight: 2
 
 # 图书
 
-[非常官司：反思牟其中现象](https://book.douban.com/subject/1066668/)
+[《非常官司：反思牟其中现象》](https://book.douban.com/subject/1066668/)
 
-[我给牟其中当律师](https://book.douban.com/subject/2106041/)
+[《我给牟其中当律师》](https://book.douban.com/subject/2106041/)
 
-[牟其中之谜](https://book.douban.com/subject/24523891/)
+[《牟其中之谜》](https://book.douban.com/subject/24523891/)
 
-[牟其中：大陆首富发迹史](https://book.douban.com/subject/24523882/)
+[《牟其中：大陆首富发迹史》](https://book.douban.com/subject/24523882/)
 
 
 **获得牟总首肯认可的2本书**
