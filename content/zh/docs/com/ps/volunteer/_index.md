@@ -1,7 +1,7 @@
 ---
 date: 2018-06-01
 linktitle: "旅居平台"
-title: "三农旅居平台方案"
+title: "旅居平台方案"
 description: >
   
 cascade:
@@ -13,6 +13,7 @@ cascade:
 weight: 6
 ---
 
+以下是最初的方案，主要为三农发展方向定制，由于种种局限性，后来扩展到不限于是否三农方向。
 
 引导年轻人向三农流动的方案 The Solution For Youth Flowing to Agri.Dept, Farmers & Rural Area
 
