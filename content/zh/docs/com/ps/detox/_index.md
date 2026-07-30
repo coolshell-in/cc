@@ -1,7 +1,7 @@
 ---
 date: 2025-10-01
-linktitle: "数字排毒"
-title: "数字排毒"
+linktitle: "数字中毒"
+title: "数字中毒"
 description: >
   
 cascade:
