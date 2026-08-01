@@ -135,3 +135,8 @@ minify:
     css:
       keepCSS2: true
       precision: 0
+# 将 /digital-detox/ 路径映射到 static 目录下的 HTML 文件
+url:
+  - from: /digital-detox/
+    to: /digital-detox.html
+    status: 200

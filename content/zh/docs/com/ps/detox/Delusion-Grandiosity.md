@@ -2,7 +2,7 @@
 date: 2024-11-27
 linktitle: "认知幻觉"
 title: "认知幻觉：数字时代的认知异化与精神困局"
-weight: 2
+weight: 21
 cascade:
     type: docs
     no_list: true
