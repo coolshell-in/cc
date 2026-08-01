@@ -1,1 +1,148 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on 酷壳众创</title><link>https://cc.coolshell.in/docs/</link><description>Recent content in Docs on 酷壳众创</description><generator>Hugo</generator><language>zh</language><lastBuildDate/><atom:link href="https://cc.coolshell.in/docs/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on 酷壳众创</title><link>https://cc.coolshell.in/docs/</link><description>Recent content in Docs on 酷壳众创</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://cc.coolshell.in/docs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://cc.coolshell.in/docs/digital-detox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/digital-detox/</guid><description>&lt;!DOCTYPE html>
+&lt;html lang="zh-CN">
+&lt;head>
+ &lt;meta charset="UTF-8">
+ &lt;!-- 确保移动端完美缩放 -->
+ &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ &lt;title>数字排毒 · 官方落地页&lt;/title>
+ &lt;style>
+ /* 全局重置与基础样式 */
+ * { margin: 0; padding: 0; box-sizing: border-box; }
+ body { 
+ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+ line-height: 1.6; 
+ color: #333; 
+ background-color: #fafafa; 
+ width: 100%;
+ overflow-x: hidden; /* 防止宽屏或移动端出现横向滚动条 */
+ }
+ 
+ /* 全局容器：限制最大宽度，确保宽屏下内容不会无限拉伸 */
+ .container { 
+ max-width: 680px; 
+ margin: 0 auto; 
+ padding: 20px; 
+ width: 100%;
+ }
+ 
+ /* 01 首屏样式：统一为上下居中单列 */
+ .hero { 
+ display: flex; 
+ flex-direction: column; /* 强制上下排列 */
+ align-items: center; 
+ justify-content: center; 
+ gap: 30px; 
+ padding: 50px 30px; 
+ background: #fff; 
+ border-radius: 16px; 
+ margin-bottom: 40px; 
+ box-shadow: 0 4px 20px rgba(0,0,0,0.04); 
+ text-align: center; /* 文字居中 */
+ }
+ .hero-text h1 { font-size: 2rem; color: #00695c; line-height: 1.3; margin-bottom: 15px; }
+ .hero-text p { font-size: 1.1rem; color: #666; margin-bottom: 25px; }
+ .hero-img { 
+ width: 100%; 
+ border-radius: 12px; 
+ overflow: hidden; 
+ background: #e0f2f1; 
+ aspect-ratio: 16/9; /* 固定图片比例，防止宽屏下图片过高 */
+ display: flex; align-items: center; justify-content: center; color: #888; 
+ }
+ .hero-img img { width: 100%; height: 100%; object-fit: cover; }
+
+ /* 按钮组 */
+ .btn-group a { 
+ display: inline-block; padding: 12px 24px; margin: 5px; 
+ background-color: #00897b; color: #fff; text-decoration: none; 
+ border-radius: 30px; font-weight: bold; transition: 0.3s; font-size: 0.95rem; 
+ }
+ .btn-group a:hover { background-color: #00695c; transform: translateY(-2px); }
+ .btn-outline { background: transparent !important; border: 2px solid #00897b; color: #00897b !important; }
+ .btn-outline:hover { background: #00897b !important; color: #fff !important; }
+
+ /* 通用板块样式 */
+ .section { margin-bottom: 50px; }
+ .section-title { font-size: 1.8rem; color: #00695c; text-align: center; margin-bottom: 30px; }
+ 
+ /* 02 症状网格：强制单列 */
+ .symptom-grid { display: flex; flex-direction: column; gap: 20px; }
+ .symptom-card { 
+ background: #fff; padding: 30px; border-radius: 12px; 
+ text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.03); 
+ }
+ .symptom-card .icon-box { 
+ width: 70px; height: 70px; margin: 0 auto 15px; background: #e0f2f1; 
+ border-radius: 50%; display: flex; align-items: center; justify-content: center; overflow: hidden; 
+ }
+ .symptom-card .icon-box img { width: 100%; height: 100%; object-fit: cover; }
+ .symptom-card h3 { font-size: 1.1rem; color: #333; margin-bottom: 8px; }
+ .symptom-card p { font-size: 0.9rem; color: #888; }
+
+ /* 03 科学依据：强制单列 */
+ .science-row { 
+ display: flex; flex-direction: column; align-items: center; 
+ gap: 20px; background: #fff; padding: 30px; border-radius: 16px; 
+ box-shadow: 0 4px 20px rgba(0,0,0,0.04); margin-bottom: 25px;
+ }
+ .science-img { 
+ width: 100%; border-radius: 12px; overflow: hidden; 
+ background: #e0f2f1; aspect-ratio: 16/9; 
+ display: flex; align-items: center; justify-content: center; color: #888; 
+ }
+ .science-img img { width: 100%; height: 100%; object-fit: cover; }
+ .science-text { width: 100%; text-align: center; }
+ .science-text h3 { font-size: 1.3rem; color: #00695c; margin-bottom: 10px; }
+ .science-text p { color: #666; margin-bottom: 8px; font-size: 0.95rem; }
+
+ /* 04 解决方案步骤：强制单列 */
+ .steps { display: flex; flex-direction: column; gap: 20px; }
+ .step { text-align: center; padding: 20px; background: #fff; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.03); }
+ .step-num { 
+ width: 45px; height: 45px; background: #00897b; color: #fff; border-radius: 50%; 
+ display: flex; align-items: center; justify-content: center; 
+ font-size: 1.1rem; font-weight: bold; margin: 0 auto 15px; 
+ }
+ .step h4 { color: #333; margin-bottom: 8px; font-size: 1.1rem; }
+ .step p { font-size: 0.9rem; color: #888; }
+
+ /* 05 产品卡片：强制单列 */
+ .product-grid { display: flex; flex-direction: column; gap: 25px; }
+ .product-card { 
+ background: #fff; border-radius: 16px; overflow: hidden; 
+ box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: 0.3s; 
+ }
+ .product-card:hover { transform: translateY(-3px); }
+ .product-img { 
+ width: 100%; height: 180px; background: #e0f2f1; 
+ display: flex; align-items: center; justify-content: center; color: #888; overflow: hidden; 
+ }
+ .product-img img { width: 100%; height: 100%; object-fit: cover; }
+ .product-info { padding: 25px; text-align: center; }
+ .product-info h3 { font-size: 1.2rem; color: #00695c; margin-bottom: 10px; }
+ .product-info .tag { 
+ display: inline-block; background: #e0f2f1; color: #00897b; 
+ padding: 3px 10px; border-radius: 20px; font-size: 0.8rem; margin-bottom: 10px; 
+ }
+ .product-info p { font-size: 0.9rem; color: #666; }
+
+ /* 底部样式 */
+ .footer { 
+ text-align: center; padding: 50px 25px; background: #00695c; 
+ color: #fff; border-radius: 16px; margin-top: 50px; 
+ }
+ .footer h2 { font-size: 1.8rem; margin-bottom: 15px; line-height: 1.3; }
+ .footer p { opacity: 0.9; margin-bottom: 25px; font-size: 0.95rem; }
+ .footer .btn-group a { background: #fff; color: #00695c; }
+ .footer .btn-group a:hover { background: #e0f2f1; }
+
+ /* 彻底移除所有响应式媒体查询，因为布局已全局统一 */
+ &lt;/style>
+&lt;/head>
+&lt;body>
+ &lt;div class="container">
+ &lt;!-- 01 首屏 -->
+ &lt;div class="hero">
+ &lt;div class="hero-text">
+ &lt;h1>挣脱算法绑架&lt;br>完成你的「数字排毒」&lt;/h1>
+ &lt;p>科学断联 · 修复专注 · 回归真实生活&lt;/p></description></item></channel></rss>
