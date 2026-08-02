@@ -283,7 +283,118 @@ layout: "detox"
         </div>
     </div>
 
-    <!-- 06 底部 -->
+    <!-- 06 合作伙伴 -->
+    <div class="section">
+        <h2 class="section-title">合作伙伴</h2>
+        <style>
+            /* 局部样式：仅用于合作伙伴网格 */
+            .partner-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr); /* 强制每行3个 */
+                gap: 20px;
+            }
+            .partner-card {
+                background: #fff;
+                border-radius: 12px;
+                padding: 20px 15px;
+                text-align: center;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+                transition: 0.3s;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                height: 100%;
+                text-decoration: none; /* 移除链接下划线 */
+                color: inherit;
+            }
+            .partner-card:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            }
+            .partner-logo-box {
+                width: 100%;
+                height: 100px; /* 固定高度区域给Logo */
+                margin-bottom: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+            }
+            .partner-logo-box img {
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: contain; /* 保持Logo比例不变形 */
+            }
+            .partner-name {
+                font-size: 1rem;
+                font-weight: bold;
+                color: #333;
+                margin-bottom: 5px;
+            }
+            .partner-desc {
+                font-size: 0.8rem;
+                color: #888;
+                line-height: 1.4;
+            }
+
+            /* 移动端适配：虽然全局是单列，但合作伙伴在极小屏幕下也可以保持3列或变为2列，这里保持3列以符合“每行3家”的需求，若屏幕过窄会自动压缩 */
+            @media (max-width: 480px) {
+                .partner-grid {
+                    grid-template-columns: repeat(3, 1fr); 
+                    gap: 10px;
+                }
+                .partner-card {
+                    padding: 15px 5px;
+                }
+                .partner-logo-box {
+                    height: 40px;
+                }
+                .partner-name {
+                    font-size: 0.85rem;
+                }
+                .partner-desc {
+                    font-size: 0.7rem;
+                    display: none; /* 手机端空间不足时隐藏描述，只留名字和Logo */
+                }
+            }
+        </style>
+        
+        <div class="partner-grid">
+            <!-- 合作伙伴 1: 读客文化 -->
+            <a href="https://www.dookbook.com" target="_blank" class="partner-card">
+                <div class="partner-logo-box">
+                    <!-- 请替换为实际的读客文化Logo地址 -->
+                    <img src="/images/dd/logo/logo-dook-m.jpeg" alt="读客文化">
+                </div>
+              
+                <div class="partner-desc">阅读激发个人成长</div>
+            </a>
+
+            <!-- 合作伙伴 2: 谷粒来了 -->
+            <a href="https://www.gulilane.com" target="_blank" class="partner-card">
+                <div class="partner-logo-box">
+                    <!-- 请替换为实际的谷粒来了Logo地址 -->
+                    <img src="/images/dd/logo/logo-guli-m.jpeg" alt="谷粒来了">
+                </div>
+                
+                <div class="partner-desc">定制营养健康管理咨询</div>
+            </a>
+
+            <!-- 合作伙伴 3: 大圆镜科普 -->
+            <a href="https://www.dyj.live/" target="_blank" class="partner-card">
+                <div class="partner-logo-box">
+                    <!-- 请替换为实际的大圆镜科普Logo地址 -->
+                    <img src="/images/dd/logo/logo-dyj-m.jpeg" alt="大圆镜科普">
+                </div>
+
+                <div class="partner-desc">AI原生代的世界认知入口</div>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- 07 底部 -->
     <div class="footer" id="contact">
         <h2>掌控自己的命运<br>逃离网络科技牢笼</h2>
         <p>从今天开始，科学数字排毒，拿回你的时间、专注力与生活。</p>
