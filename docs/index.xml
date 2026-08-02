@@ -21,8 +21,9 @@
  .container { 
  max-width: 900px; 
  margin: 0 auto; 
- padding: 20px; 
+ padding: 20px 15px; 
  width: 100%;
+ box-sizing: border-box; /* 确保 padding 包含在宽度内，不会撑破屏幕 */
  }
  
  /* 01 首屏样式：统一为上下居中单列 */
