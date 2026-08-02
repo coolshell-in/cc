@@ -19,7 +19,7 @@
  
  /* 全局容器：限制最大宽度，确保宽屏下内容不会无限拉伸 */
  .container { 
- max-width: 680px; 
+ max-width: 850px; 
  margin: 0 auto; 
  padding: 20px; 
  width: 100%;
