@@ -292,9 +292,9 @@
 网址：#
 社交媒体：#&lt;/p>
 &lt;p>&lt;strong>【logo】logo-zjlibrary.png&lt;/strong>
-名称：浙江省、杭州市及各区图书馆
+名称：浙江图书馆
 属地：浙江省杭州市
-主营业务：公共阅读推广、全民书香文化与科普教育服务
+主营业务：长三角区域图书馆网络中心
 网址：https://www.zjlib.cn
 社交媒体：浙江/杭州图书馆&lt;/p>
 &lt;p>&lt;strong>【logo】logo-zhengxinwudao.png&lt;/strong>
@@ -327,6 +327,12 @@
 主营业务：素食餐饮经营，传递简约健康的自然生活方式
 网址：#
 社交媒体：素馨阁&lt;/p>
+&lt;p>&lt;strong>【logo】logo-qinchun.png&lt;/strong>
+名称：庆春朴门
+属地：浙江杭州市
+主营业务：米其林推荐蔬食料理
+网址：
+社交媒体：&lt;/p>
 &lt;hr>
 &lt;h2 id="it技术社区合作">
  IT技术社区合作
@@ -337,13 +343,7 @@
 属地：北京、成都
 主营业务：自然与人文地理科普图文及视频创作、地理类图书出版（如《这里是中国》系列）、相关文创开发
 网址：http://www.iloveplanet.cn/
-社交媒体：公众号/视频号/B站/知乎：星球研究所&lt;/p>
-&lt;p>&lt;strong>【logo】logo-coursera.png&lt;/strong>
-名称：Coursera
-属地：美国（加利福尼亚州山景城 Mountain View）
-主营业务：全球性在线教育平台，提供与顶尖大学及企业合作的在线课程、专业证书、专项课程及在线学位
-网址：www.coursera.org
-社交媒体：公众号/视频号：Coursera&lt;/p></description></item><item><title>官方落地页图片设计</title><link>https://cc.coolshell.in/docs/com/ps/detox/photo/</link><pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/com/ps/detox/photo/</guid><description>&lt;p>落地页“图大于文”，用视觉冲击代替长篇大论，精简文案，把核心信息提炼成短句，并为每个板块预留了清晰的图片占位符。&lt;/p>
+社交媒体：公众号/视频号/B站/知乎：星球研究所&lt;/p></description></item><item><title>官方落地页图片设计</title><link>https://cc.coolshell.in/docs/com/ps/detox/photo/</link><pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/com/ps/detox/photo/</guid><description>&lt;p>落地页“图大于文”，用视觉冲击代替长篇大论，精简文案，把核心信息提炼成短句，并为每个板块预留了清晰的图片占位符。&lt;/p>
 &lt;p>源代码参考文件“content/zh/docs/landing-page.html”&lt;/p>
 &lt;p>只需要把设计好的图片替换掉 &lt;code>src&lt;/code> 里的路径即可：&lt;/p>
 &lt;h3 id="-图片预留位置清单">

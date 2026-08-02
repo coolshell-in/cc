@@ -7911,9 +7911,9 @@ When HTTPS is enforced, your site will only be served over HTTPS.
 网址：#
 社交媒体：#&lt;/p>
 &lt;p>&lt;strong>【logo】logo-zjlibrary.png&lt;/strong>
-名称：浙江省、杭州市及各区图书馆
+名称：浙江图书馆
 属地：浙江省杭州市
-主营业务：公共阅读推广、全民书香文化与科普教育服务
+主营业务：长三角区域图书馆网络中心
 网址：https://www.zjlib.cn
 社交媒体：浙江/杭州图书馆&lt;/p>
 &lt;p>&lt;strong>【logo】logo-zhengxinwudao.png&lt;/strong>
@@ -7946,6 +7946,12 @@ When HTTPS is enforced, your site will only be served over HTTPS.
 主营业务：素食餐饮经营，传递简约健康的自然生活方式
 网址：#
 社交媒体：素馨阁&lt;/p>
+&lt;p>&lt;strong>【logo】logo-qinchun.png&lt;/strong>
+名称：庆春朴门
+属地：浙江杭州市
+主营业务：米其林推荐蔬食料理
+网址：
+社交媒体：&lt;/p>
 &lt;hr>
 &lt;h2 id="it技术社区合作">
  IT技术社区合作
@@ -7956,13 +7962,7 @@ When HTTPS is enforced, your site will only be served over HTTPS.
 属地：北京、成都
 主营业务：自然与人文地理科普图文及视频创作、地理类图书出版（如《这里是中国》系列）、相关文创开发
 网址：http://www.iloveplanet.cn/
-社交媒体：公众号/视频号/B站/知乎：星球研究所&lt;/p>
-&lt;p>&lt;strong>【logo】logo-coursera.png&lt;/strong>
-名称：Coursera
-属地：美国（加利福尼亚州山景城 Mountain View）
-主营业务：全球性在线教育平台，提供与顶尖大学及企业合作的在线课程、专业证书、专项课程及在线学位
-网址：www.coursera.org
-社交媒体：公众号/视频号：Coursera&lt;/p></description></item><item><title>计划、资金、成效、活动</title><link>https://cc.coolshell.in/docs/com/ps/cc/plan/</link><pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/com/ps/cc/plan/</guid><description>&lt;p>通过公益基金和风险投资机构，获取种子孵化机会，资金用途和计划执行情况，概述如下。&lt;/p>
+社交媒体：公众号/视频号/B站/知乎：星球研究所&lt;/p></description></item><item><title>计划、资金、成效、活动</title><link>https://cc.coolshell.in/docs/com/ps/cc/plan/</link><pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/com/ps/cc/plan/</guid><description>&lt;p>通过公益基金和风险投资机构，获取种子孵化机会，资金用途和计划执行情况，概述如下。&lt;/p>
 &lt;h2 id="时代背景">
  时代背景
  &lt;a class="anchor" href="#%e6%97%b6%e4%bb%a3%e8%83%8c%e6%99%af">#&lt;/a>
@@ -10171,6 +10171,7 @@ flex-shrink: 0; 防止图片在空间不足时被压缩&lt;/li>
  &lt;/style>
 &lt;/head>
 &lt;body>
+ 
  &lt;div class="container">
  &lt;!-- 01 首屏 -->
  &lt;div class="hero">
