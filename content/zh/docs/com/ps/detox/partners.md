@@ -33,9 +33,9 @@ cascade:
 社交媒体：\#
 
 **【logo】logo-zjlibrary.png**
-名称：浙江省、杭州市及各区图书馆
+名称：浙江图书馆
 属地：浙江省杭州市
-主营业务：公共阅读推广、全民书香文化与科普教育服务
+主营业务：长三角区域图书馆网络中心
 网址：https://www.zjlib.cn
 社交媒体：浙江/杭州图书馆
 
@@ -74,6 +74,15 @@ cascade:
 网址：\#
 社交媒体：素馨阁
 
+
+**【logo】logo-qinchun.png**
+名称：庆春朴门
+属地：浙江杭州市
+主营业务：米其林推荐蔬食料理
+网址：
+社交媒体：
+
+
 ---
 
 ## IT技术社区合作
@@ -90,7 +99,7 @@ cascade:
 名称：Coursera
 属地：美国（加利福尼亚州山景城 Mountain View）
 主营业务：全球性在线教育平台，提供与顶尖大学及企业合作的在线课程、专业证书、专项课程及在线学位
-网址：www.coursera.org
+网址：https://www.coursera.org
 社交媒体：公众号/视频号：Coursera
 
 
@@ -118,14 +127,14 @@ cascade:
 **【logo】logo-dajingyuan.png**
 名称：大圆镜科普
 属地：全国
-主营业务：脑科学心理学与数字健康科普
+主营业务：AI原生代的世界认知入口
 网址：https://www.dyj.live/video
 社交媒体：天桥脑科学研究院下属自媒体、国产科普视频AIGC的天花板
 
 **【logo】logo-aimiromind.png**
 名称：AI-MiroMind
 属地：全球
-主营业务：AI心理疗愈、专注力训练与数字成瘾干预工具研发
+主营业务：发现式智能和通用推理引擎
 网址：https://dr.miromind.ai/
 社交媒体：陈天桥旗下AI公司
 
