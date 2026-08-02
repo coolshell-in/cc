@@ -27,8 +27,9 @@ layout: "detox"
         .container { 
             max-width: 900px; 
             margin: 0 auto; 
-            padding: 20px; 
+            padding: 20px 15px; 
             width: 100%;
+            box-sizing: border-box; /* 确保 padding 包含在宽度内，不会撑破屏幕 */
         }
         
         /* 01 首屏样式：统一为上下居中单列 */
@@ -286,7 +287,7 @@ layout: "detox"
 
     <!-- 06 合作伙伴 -->
     <div class="section">
-        <h2 class="section-title">合作伙伴</h2>
+        <h2 class="section-title">支持合作方</h2>
         <style>
             /* 局部样式：仅用于合作伙伴网格 */
                     /* 合作伙伴网格：自适应列数 */
