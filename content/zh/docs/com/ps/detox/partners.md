@@ -2,7 +2,7 @@
 date: 2026-07-30
 linktitle: "合作伙伴 "
 title: "合作伙伴、赞助商、媒体渠道"
-weight: 14
+weight: 24
 cascade:
     type: docs
     no_list: true

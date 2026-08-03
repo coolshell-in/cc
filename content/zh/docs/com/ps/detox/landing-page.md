@@ -1,8 +1,8 @@
 ---
 date: 2026-07-30
-linktitle: "落地页"
+linktitle: "网页设计"
 title: "官方落地页设计"
-weight: 13
+weight: 23
 cascade:
     type: docs
     no_list: true
@@ -104,4 +104,3 @@ cascade:
 
 **底部按钮**：立即加入社群｜领取免费工具包｜咨询定制方案
 
-> （注：部分内容可能由 AI 生成）

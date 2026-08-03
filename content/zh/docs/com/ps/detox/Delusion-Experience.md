@@ -2,7 +2,7 @@
 date: 2024-11-29
 linktitle: "体验幻觉"
 title: "体验幻觉：被算法精心编排的“活着感”"
-weight: 23
+weight: 13
 cascade:
     type: docs
     no_list: true

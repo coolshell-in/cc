@@ -2,7 +2,7 @@
 date: 2026-07-30
 linktitle: "页面图片"
 title: "官方落地页图片设计"
-weight: 15
+weight: 25
 cascade:
     type: docs
     no_list: true
