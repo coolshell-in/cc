@@ -43,7 +43,7 @@ cascade:
 ### 凯盛融英
 
 [Capvision 凯盛融英-全行业专家智库平台](https://www.capvision.com/us/)是中国最早、规模最大、最具影响力的专家网络（Expert Network）。  
-我们与凯盛自2014年开始首次合作，重要的专家咨询业务都通过凯盛平台管理。
+我们与凯盛自2014年开始首次合作，重要的专家咨询业务都通过凯盛平台管理开展。
 
 ### 智纲智库
 [智纲智库](https://www.zgzkchina.com)（王志纲工作室）于1994年由著名战略咨询专家王志纲创立，是中国本土最具影响力的民间智库与战略咨询机构之一。其核心是为政府和企业提供战略咨询服务，愿景是“打造中国最好的战略思想库”，智纲找到的第一个全职学徒就是华与华的创始人- 华杉。
@@ -77,7 +77,7 @@ cascade:
 
 ### 著作
 
-- [胖东来培训指导手册2024 - 幸福生命状态](https://pdl.feishu.cn/docx/G5zvdVGHio9NOwxGMaicLey5nVg)
+- [胖东来培训指导手册2024 - 幸福生命状态](https://pdl.feishu.cn/wiki/Kc5TwZUdIiYcmpknRfbcd2TOnKe)
 - [胖东来民主管理](https://pdl.feishu.cn/wiki/Sm5lwCPsMiwwUMkFMGpc8fbKnTt)
 - 《胖东来企业故事精选集》
 - [《何以胖东来》](https://book.douban.com/subject/37198971/)

@@ -69,6 +69,9 @@ WWOOF是一个国际松散组织，不同于国际青年旅社的加盟模式，
 
 > 官网：[https://www.helpx.net](https://www.helpx.net)
 
+近似helpx的平台：[https://www.workaway.info](https://www.workaway.info)
+
+
 ---
 
 ## 互惠生
