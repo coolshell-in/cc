@@ -1,11 +1,13 @@
 ---
 date: 2024-11-26
-linktitle: "数字排毒"
-title: "数字排毒：挣脱网络成瘾，回归现实生活"
+linktitle: "数字中毒"
+title: "数字中毒、数字成瘾、网瘾"
 weight: 11
 cascade:
     type: docs
     no_list: true
+    layout: single
+    bookCollapseSection: true  
 ---
 
 关键词：数字排毒/ 数字戒毒/ Digital Detoxation/ Digital Detox
