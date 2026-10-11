@@ -11,7 +11,7 @@ cascade:
 
 关键词：企业社会责任、可持续发展、公益、非盈利、社工
 
-我们承接政府和公益基金会的托管项目，包括并不限于：教科文卫、环境/动物保护、残障、助学、扶贫、心理咨询、职业辅导、临终关怀、养老事业等。
+承接政府和公益基金会的托管项目，包括并不限于：教科文卫、环境/动物保护、残障、助学、扶贫、心理咨询、职业辅导、临终关怀、养老事业等。
 
 ## 公益事业
 
@@ -43,8 +43,6 @@ ESG 是关注环境、社会以及治理绩效的投资理念和评价标准，�
 IBM: [什么是 ESG (环境、社会和治理) ？](https://www.ibm.com/cn-zh/think/topics/environmental-social-and-governance)
 
 [团体标准 - 企业 ESG 管理体系 ESG management systems for enterprise](http://www.cecc.com.cn/upload/202506/13/202506131415144848.pdf)
-
-[《企业环境社会治理（ESG）评价指南》（征求意见稿）](https://www.acef.com.cn/uploads/soft/240924/7-240924111630.pdf)
 
 全国标准信息公共服务平台 - [企业环境、社会及治理(ESG)信息披露及报告编制指南](https://std.samr.gov.cn/gb/search/gbDetailed?id=3618192DF2DB15F5E06397BE0A0AAF4D)
 

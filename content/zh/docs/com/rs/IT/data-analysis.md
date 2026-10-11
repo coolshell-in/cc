@@ -1,3 +1,13 @@
+---
+date: 2026-06-05
+linktitle: "数据工具"
+
+title: "数据分析第三方工具渠道"
+weight: 11
+cascade:
+    type: docs
+    no_list: true
+---
 
 ### 🌐 二、阿里系公开数据渠道（无需商家账号！）
 | 平台 | 可查询内容 | 操作路径 | 知识库依据 |

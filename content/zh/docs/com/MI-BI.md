@@ -2,7 +2,7 @@
 date: 2025-10-15
 linktitle: "理想原则"
 title: "愿景、使命、价值观"
-weight: 4
+weight: 2
 cascade:
     type: docs
     no_list: true

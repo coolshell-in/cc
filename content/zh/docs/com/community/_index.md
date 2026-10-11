@@ -3,10 +3,13 @@ date: 2025-10-15
 linktitle: "社区运营"
 
 title: "社区运营"
-weight: 1
+weight: 10
 cascade:
     type: docs
     no_list: true
+    layout: single
+    # bookHidden: false
+    bookCollapseSection: true  
 ---
 
 
