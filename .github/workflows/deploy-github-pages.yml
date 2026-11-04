@@ -85,5 +85,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           branch: gh-pages
-          keep_files: true # 保留已有文件
+          keep_files: false # 全量替换：删除线上已不存在于构建产物中的旧文件（改名/迁移遗留的孤儿页面）
           force_orphan: false  # 禁用强制清空历史
