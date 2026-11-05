@@ -1,7 +1,7 @@
 ---
 date: 2026-01-01
-linktitle: "参禅闻道"
-title: "参禅闻道"
+linktitle: "参禅问道"
+title: "参禅问道"
 description: >
   
 cascade:
