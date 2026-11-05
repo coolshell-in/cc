@@ -7325,7 +7325,113 @@ When HTTPS is enforced, your site will only be served over HTTPS.
  &lt;a class="anchor" href="#%e8%81%94%e7%b3%bb%e6%88%91%e4%bb%ac">#&lt;/a>
 &lt;/h2>
 &lt;p>公司介绍 
- &lt;a href="https://qizhong.land/">https://qizhong.land/&lt;/a>&lt;/p></description></item><item><title>WCAG 2概述：ISO/IEC 40500与Web无障碍标准</title><link>https://cc.coolshell.in/docs/rs/IT/WCAG2-ISO-IEC-40500/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/rs/IT/WCAG2-ISO-IEC-40500/</guid><description>&lt;p>以下是对 W3C 官方页面 &lt;strong>
+ &lt;a href="https://qizhong.land/">https://qizhong.land/&lt;/a>&lt;/p></description></item><item><title>系统镜像制作自动化需求文档（最终版）</title><link>https://cc.coolshell.in/docs/rs/IT/OS-image-creation/</link><pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/rs/IT/OS-image-creation/</guid><description>&lt;p>目录名称：OS&amp;amp;App/Proxy&lt;/p>
+&lt;ul>
+&lt;li>clean-login-data.sh&lt;/li>
+&lt;li>pure-app-custom.sh&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>&lt;strong>版本&lt;/strong>：2.0&lt;br>
+&lt;strong>适用系统&lt;/strong>：Ubuntu 26.04 LTS 及同系列 Linux 发行版（x86-64）&lt;br>
+&lt;strong>目标&lt;/strong>：智能体根据当前系统配置，动态生成并执行系统镜像制作脚本，支持 &lt;code>dd+gzip&lt;/code> 和 &lt;code>fsarchiver&lt;/code> 两种工具（用户可选）&lt;br>
+&lt;strong>约束&lt;/strong>：不写死任何磁盘路径，所有设备名、挂载点均由脚本运行时动态获取&lt;/p>&lt;/blockquote>
+&lt;h2 id="一总体目标">
+ 一、总体目标
+ &lt;a class="anchor" href="#%e4%b8%80%e6%80%bb%e4%bd%93%e7%9b%ae%e6%a0%87">#&lt;/a>
+&lt;/h2>
+&lt;p>为 Ubuntu 系统制作一份&lt;strong>可移植的系统镜像&lt;/strong>，用于批量部署到其他 x86-64 电脑。智能体需完成以下工作：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>自动探测&lt;/strong>当前系统的磁盘、分区、引导模式、文件系统等。&lt;/li>
+&lt;li>&lt;strong>交互选择&lt;/strong>目标存储设备、备份工具（&lt;code>dd&lt;/code> 或 &lt;code>fsarchiver&lt;/code>）。&lt;/li>
+&lt;li>&lt;strong>动态生成&lt;/strong>适配当前系统的备份脚本（不含任何硬编码路径）。&lt;/li>
+&lt;li>&lt;strong>执行备份&lt;/strong>，并将镜像文件、系统信息、恢复指南保存到用户指定的外部存储。&lt;/li>
+&lt;li>&lt;strong>输出完整恢复手册&lt;/strong>，便于在目标机器上还原系统。&lt;/li>
+&lt;/ol>
+&lt;h2 id="二核心原则">
+ 二、核心原则
+ &lt;a class="anchor" href="#%e4%ba%8c%e6%a0%b8%e5%bf%83%e5%8e%9f%e5%88%99">#&lt;/a>
+&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>原则&lt;/th>
+ &lt;th>说明&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>动态探测&lt;/strong>&lt;/td>
+ &lt;td>所有设备名（&lt;code>/dev/sdX&lt;/code>）、分区号、挂载点均由脚本运行时解析，绝不写死。&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>双工具可选&lt;/strong>&lt;/td>
+ &lt;td>用户可在 &lt;code>dd+gzip&lt;/code>（传统块级复制）和 &lt;code>fsarchiver&lt;/code>（文件级备份，支持异机恢复）之间选择。&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>交互确认&lt;/strong>&lt;/td>
+ &lt;td>关键操作（目标盘选择、覆盖确认、空间警告）需用户明确确认。&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>日志完整&lt;/strong>&lt;/td>
+ &lt;td>所有操作记录到日志文件，便于排查。&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>幂等性&lt;/strong>&lt;/td>
+ &lt;td>脚本可重复执行，不会破坏已有备份（每次生成新时间戳目录）。&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="三推荐工具对比">
+ 三、推荐工具对比
+ &lt;a class="anchor" href="#%e4%b8%89%e6%8e%a8%e8%8d%90%e5%b7%a5%e5%85%b7%e5%af%b9%e6%af%94">#&lt;/a>
+&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>特性&lt;/th>
+ &lt;th>&lt;code>dd + gzip&lt;/code>&lt;/th>
+ &lt;th>&lt;code>fsarchiver&lt;/code>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>原理&lt;/td>
+ &lt;td>块级复制（逐扇区）&lt;/td>
+ &lt;td>文件系统级备份（只备份文件数据）&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>分区大小要求&lt;/td>
+ &lt;td>目标分区 ≥ 源分区&lt;/td>
+ &lt;td>目标分区 ≥ 源数据量（可灵活调整）&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>压缩支持&lt;/td>
+ &lt;td>通过管道调用 &lt;code>gzip&lt;/code>/&lt;code>pigz&lt;/code>&lt;/td>
+ &lt;td>内置压缩（gzip/lzo/lzma）&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>多核加速&lt;/td>
+ &lt;td>需额外安装 &lt;code>pigz&lt;/code>&lt;/td>
+ &lt;td>原生支持多线程&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>校验和&lt;/td>
+ &lt;td>无内建校验（可手动生成）&lt;/td>
+ &lt;td>每个文件带校验和&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>恢复灵活性&lt;/td>
+ &lt;td>只能整分区恢复&lt;/td>
+ &lt;td>可恢复单个文件（但不推荐）&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>依赖&lt;/td>
+ &lt;td>&lt;code>dd&lt;/code>、&lt;code>gzip&lt;/code>（系统自带）&lt;/td>
+ &lt;td>需单独安装 &lt;code>fsarchiver&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>推荐策略&lt;/strong>：&lt;/p></description></item><item><title>WCAG 2概述：ISO/IEC 40500与Web无障碍标准</title><link>https://cc.coolshell.in/docs/rs/IT/WCAG2-ISO-IEC-40500/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/rs/IT/WCAG2-ISO-IEC-40500/</guid><description>&lt;p>以下是对 W3C 官方页面 &lt;strong>
  &lt;a href="https://www.w3.org/WAI/standards-guidelines/wcag/#iso">https://www.w3.org/WAI/standards-guidelines/wcag/#iso&lt;/a>&lt;/strong> 中相关内容的简明介绍：&lt;/p>
 &lt;hr>
 &lt;h2 id="-wcag-与-iso-标准的关系">
@@ -7997,7 +8103,134 @@ When HTTPS is enforced, your site will only be served over HTTPS.
  &lt;a class="anchor" href="#%e6%ae%96%e6%b0%91%e5%8e%86%e5%8f%b2">#&lt;/a>
 &lt;/h3>
 &lt;p>温教授经常喜欢讲：&lt;strong>殖民历史、漫长的黑暗的中世纪&lt;/strong>，在小毛驴的读书清单里，我看过一本《拉丁美洲被切开的血管》。&lt;/p>
-&lt;p>他总是替第三世界国家的殖民历史哀叹，这种朴素的情感和大爱无疆是怎么来的？&lt;/p></description></item><item><title>社区运营管理团队招募公告</title><link>https://cc.coolshell.in/docs/cc/recruit-manager/</link><pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/cc/recruit-manager/</guid><description>&lt;p>&lt;strong>携手顶级文旅资本，共建全球领先的数字游牧生活新范式&lt;/strong>&lt;/p>
+&lt;p>他总是替第三世界国家的殖民历史哀叹，这种朴素的情感和大爱无疆是怎么来的？&lt;/p></description></item><item><title>Ubuntu 学习指南：从入门到进阶</title><link>https://cc.coolshell.in/docs/rs/IT/Ubuntu-user-guide/</link><pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/rs/IT/Ubuntu-user-guide/</guid><description>&lt;blockquote>
+&lt;p>适用于 Ubuntu 22.04 / 24.04 / 26.04 及衍生版本&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="一学习路线总览">
+ 一、学习路线总览
+ &lt;a class="anchor" href="#%e4%b8%80%e5%ad%a6%e4%b9%a0%e8%b7%af%e7%ba%bf%e6%80%bb%e8%a7%88">#&lt;/a>
+&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>阶段&lt;/th>
+ &lt;th>目标&lt;/th>
+ &lt;th>建议时长&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>入门&lt;/td>
+ &lt;td>熟悉桌面环境和基本操作&lt;/td>
+ &lt;td>1-2 天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>命令行&lt;/td>
+ &lt;td>掌握常用终端命令&lt;/td>
+ &lt;td>1-2 周&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>系统管理&lt;/td>
+ &lt;td>服务、用户、磁盘、网络管理&lt;/td>
+ &lt;td>2-4 周&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>开发环境&lt;/td>
+ &lt;td>搭建开发工具链，编写 Shell 脚本&lt;/td>
+ &lt;td>持续实践&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="二阶段一入门--熟悉桌面环境">
+ 二、阶段一：入门 — 熟悉桌面环境
+ &lt;a class="anchor" href="#%e4%ba%8c%e9%98%b6%e6%ae%b5%e4%b8%80%e5%85%a5%e9%97%a8--%e7%86%9f%e6%82%89%e6%a1%8c%e9%9d%a2%e7%8e%af%e5%a2%83">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>学会用 &lt;strong>Activities（活动）&lt;/strong> 搜索应用、管理窗口&lt;/li>
+&lt;li>熟悉 &lt;strong>文件管理器 (Nautilus)&lt;/strong> 的基本操作&lt;/li>
+&lt;li>了解 &lt;strong>Settings&lt;/strong> 里的网络、显示、电源等设置&lt;/li>
+&lt;li>学会通过 &lt;strong>App Center / Snap&lt;/strong> 安装软件&lt;/li>
+&lt;/ul>
+&lt;h3 id="常用快捷键">
+ 常用快捷键
+ &lt;a class="anchor" href="#%e5%b8%b8%e7%94%a8%e5%bf%ab%e6%8d%b7%e9%94%ae">#&lt;/a>
+&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>快捷键&lt;/th>
+ &lt;th>功能&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>Super&lt;/code>&lt;/td>
+ &lt;td>打开活动概览&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>Super + A&lt;/code>&lt;/td>
+ &lt;td>显示应用程序列表&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>Super + L&lt;/code>&lt;/td>
+ &lt;td>锁屏&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>Super + D&lt;/code>&lt;/td>
+ &lt;td>显示桌面&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>Alt + Tab&lt;/code>&lt;/td>
+ &lt;td>切换窗口&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>Ctrl + Alt + T&lt;/code>&lt;/td>
+ &lt;td>打开终端&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>Super + 方向键&lt;/code>&lt;/td>
+ &lt;td>窗口贴靠（左/右/最大化）&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>Print Screen&lt;/code>&lt;/td>
+ &lt;td>截图&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="三阶段二命令行--核心能力">
+ 三、阶段二：命令行 — 核心能力
+ &lt;a class="anchor" href="#%e4%b8%89%e9%98%b6%e6%ae%b5%e4%ba%8c%e5%91%bd%e4%bb%a4%e8%a1%8c--%e6%a0%b8%e5%bf%83%e8%83%bd%e5%8a%9b">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="31-文件与目录操作">
+ 3.1 文件与目录操作
+ &lt;a class="anchor" href="#31-%e6%96%87%e4%bb%b6%e4%b8%8e%e7%9b%ae%e5%bd%95%e6%93%8d%e4%bd%9c">#&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>ls &lt;span style="color:#75715e"># 列出目录内容&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ls -la &lt;span style="color:#75715e"># 列出详细信息（含隐藏文件）&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd /path/to/dir &lt;span style="color:#75715e"># 切换目录&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd ~ &lt;span style="color:#75715e"># 回到主目录&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd .. &lt;span style="color:#75715e"># 回到上级目录&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pwd &lt;span style="color:#75715e"># 显示当前路径&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cp src dest &lt;span style="color:#75715e"># 复制文件&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cp -r src dest &lt;span style="color:#75715e"># 复制目录&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mv src dest &lt;span style="color:#75715e"># 移动/重命名&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rm file &lt;span style="color:#75715e"># 删除文件&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rm -rf dir &lt;span style="color:#75715e"># 强制递归删除目录（慎用！）&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mkdir dir &lt;span style="color:#75715e"># 创建目录&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mkdir -p a/b/c &lt;span style="color:#75715e"># 递归创建多级目录&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>touch file &lt;span style="color:#75715e"># 创建空文件 / 更新时间戳&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>find /path -name &lt;span style="color:#e6db74">&amp;#34;*.txt&amp;#34;&lt;/span> &lt;span style="color:#75715e"># 按名称查找文件&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>tree &lt;span style="color:#75715e"># 以树形结构显示目录&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="32-文件权限">
+ 3.2 文件权限
+ &lt;a class="anchor" href="#32-%e6%96%87%e4%bb%b6%e6%9d%83%e9%99%90">#&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>chmod &lt;span style="color:#ae81ff">755&lt;/span> file &lt;span style="color:#75715e"># 设置权限（rwxr-xr-x）&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>chmod +x script.sh &lt;span style="color:#75715e"># 添加执行权限&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>chown user:group file &lt;span style="color:#75715e"># 修改所有者&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>权限数字对照表：&lt;/strong>&lt;/p></description></item><item><title>社区运营管理团队招募公告</title><link>https://cc.coolshell.in/docs/cc/recruit-manager/</link><pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/cc/recruit-manager/</guid><description>&lt;p>&lt;strong>携手顶级文旅资本，共建全球领先的数字游牧生活新范式&lt;/strong>&lt;/p>
 &lt;p>我们正站在远程工作与深度旅居融合的时代前沿。依托全球知名数字游牧平台 &lt;strong>Nomads&lt;/strong>（原Nomad List）作为社区运营孵化器，并获得&lt;!--**华侨城集团、中国旅游集团、中交建城市投资公司**等-->数家国内头部文旅与央企城市投资开发集团的关注与投资支持，我们将启动系列中国本土高端数字游牧社区项目。&lt;/p>
 &lt;p>该项目旨在打造集“远程办公+品质居住+文化连接+可持续生活”于一体的新型复合空间，成为中国数字游牧生活方式的标杆样板。现面向全球公开招募&lt;strong>社区运营管理核心团队&lt;/strong>，诚邀志同道合的伙伴共同执笔这一未来生活的蓝图。&lt;/p>
 &lt;hr>
