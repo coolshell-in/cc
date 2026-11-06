@@ -310,16 +310,16 @@
 &lt;p>&lt;strong>状态：已撤销&lt;/strong>（Withdrawn）&lt;br>
 该标准已于 &lt;strong>2024 年 3 月 4 日&lt;/strong> 正式撤销，不再作为现行国际标准使用。&lt;br>
 官方页面：
- &lt;a href="https://www.iso.org/standard/35733.html">ISO/IEC 25010:2011&lt;/a>&lt;/p></description></item><item><title>系统镜像制作自动化需求文档（最终版）</title><link>https://cc.coolshell.in/docs/rs/IT/OS-image-creation/</link><pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/rs/IT/OS-image-creation/</guid><description>&lt;p>目录名称：OS&amp;amp;App/Proxy&lt;/p>
-&lt;ul>
-&lt;li>clean-login-data.sh&lt;/li>
-&lt;li>pure-app-custom.sh&lt;/li>
-&lt;/ul>
-&lt;blockquote>
+ &lt;a href="https://www.iso.org/standard/35733.html">ISO/IEC 25010:2011&lt;/a>&lt;/p></description></item><item><title>系统镜像制作自动化需求文档（最终版）</title><link>https://cc.coolshell.in/docs/rs/IT/OS-image-creation/</link><pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/rs/IT/OS-image-creation/</guid><description>&lt;blockquote>
 &lt;p>&lt;strong>版本&lt;/strong>：2.0&lt;br>
 &lt;strong>适用系统&lt;/strong>：Ubuntu 26.04 LTS 及同系列 Linux 发行版（x86-64）&lt;br>
 &lt;strong>目标&lt;/strong>：智能体根据当前系统配置，动态生成并执行系统镜像制作脚本，支持 &lt;code>dd+gzip&lt;/code> 和 &lt;code>fsarchiver&lt;/code> 两种工具（用户可选）&lt;br>
 &lt;strong>约束&lt;/strong>：不写死任何磁盘路径，所有设备名、挂载点均由脚本运行时动态获取&lt;/p>&lt;/blockquote>
+&lt;p>检索github库的相关文件，目录名称：OS&amp;amp;App/Proxy&lt;/p>
+&lt;ul>
+&lt;li>clean-login-data.sh&lt;/li>
+&lt;li>pure-app-custom.sh&lt;/li>
+&lt;/ul>
 &lt;h2 id="一总体目标">
  一、总体目标
  &lt;a class="anchor" href="#%e4%b8%80%e6%80%bb%e4%bd%93%e7%9b%ae%e6%a0%87">#&lt;/a>

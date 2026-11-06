@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>文档 on 酷壳众创</title><link>https://cc.coolshell.in/</link><description>Recent content in 文档 on 酷壳众创</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Sun, 25 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cc.coolshell.in/index.xml" rel="self" type="application/rss+xml"/><item><title>名山寺庙参访记</title><link>https://cc.coolshell.in/docs/buddha/temple-visit/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/temple-visit/</guid><description>&lt;p>由于2025年终的个人总结，我立下目标在今年要深度学习和体验佛法，到寺庙参访是必不可少的部分，从年初到目前已经在3个寺庙挂单（住宿）做义工，并跟着寺庙时间表参加早晚课和法事活动，按照世俗知见的标准看，这三家各有特色和优势劣势。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>文档 on 酷壳众创</title><link>https://cc.coolshell.in/</link><description>Recent content in 文档 on 酷壳众创</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Sun, 01 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cc.coolshell.in/index.xml" rel="self" type="application/rss+xml"/><item><title>名山寺庙参访记</title><link>https://cc.coolshell.in/docs/buddha/temple-visit/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/temple-visit/</guid><description>&lt;p>由于2025年终的个人总结，我立下目标在今年要深度学习和体验佛法，到寺庙参访是必不可少的部分，从年初到目前已经在3个寺庙挂单（住宿）做义工，并跟着寺庙时间表参加早晚课和法事活动，按照世俗知见的标准看，这三家各有特色和优势劣势。&lt;/p>
 &lt;p>如同商业和教育领域的特征，庙不在于知名度和规模的大，而在于精。&lt;/p>
 &lt;p>优势就不说了，因为世俗民众对寺庙和僧人的期待本来就高，犹如对大学教授的膜拜，既然有那么大的头衔，就应该是高知的样子和科教成就。&lt;/p>
 &lt;p>单讲一下这里某些劣势或不合理的部分，一些经典案例。&lt;/p>
@@ -5526,7 +5526,7 @@ Cohere -
 &lt;li>创始人：刘星冶（店主），普通市民创办，无行业头衔。&lt;/li>
 &lt;li>业务范围：公益组织，位于青岛八大峡海边的小型素食餐厅，七年多不间断为 80 岁以上老人、残障人士等免费提供午餐，受助者从最初 6 人增至 138 人；2026 年黄晓明公益团队到店帮厨后走红，半月内获捐物资堆满仓库，志愿者从 20 余人扩至 300 余人。&lt;/li>
 &lt;li>公司文化：只善不利的&amp;quot;笨办法&amp;quot;——不收银、只服务；坚持为行动不便老人轮班送餐（保温袋、按户登记）；志愿者中不少本身就是受助老人，&amp;ldquo;以老助老&amp;quot;接力求助；刘星冶称&amp;quot;会继续做下去，让更多老人吃上热乎饭&amp;rdquo;，被网友称为&amp;quot;海边最暖的餐厅&amp;quot;。&lt;/li>
-&lt;/ul></description></item><item><title>关于科学和佛学的书籍推荐</title><link>https://cc.coolshell.in/docs/buddha/translate/science-buddha/</link><pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/translate/science-buddha/</guid><description>&lt;p>搜电子书 
+&lt;/ul></description></item><item><title>关于科学和佛学的书籍推荐</title><link>https://cc.coolshell.in/docs/buddha/scriptures/science-buddha/</link><pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/scriptures/science-buddha/</guid><description>&lt;p>搜电子书 
  &lt;a href="https://www.scribd.com/">https://www.scribd.com/&lt;/a>&lt;/p>
 &lt;p>
  &lt;a href="https://books.fo/document/220737?page=1">杨振宁谈“物理学与佛教”&lt;/a>&lt;/p>
@@ -7325,16 +7325,16 @@ When HTTPS is enforced, your site will only be served over HTTPS.
  &lt;a class="anchor" href="#%e8%81%94%e7%b3%bb%e6%88%91%e4%bb%ac">#&lt;/a>
 &lt;/h2>
 &lt;p>公司介绍 
- &lt;a href="https://qizhong.land/">https://qizhong.land/&lt;/a>&lt;/p></description></item><item><title>系统镜像制作自动化需求文档（最终版）</title><link>https://cc.coolshell.in/docs/rs/IT/OS-image-creation/</link><pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/rs/IT/OS-image-creation/</guid><description>&lt;p>目录名称：OS&amp;amp;App/Proxy&lt;/p>
-&lt;ul>
-&lt;li>clean-login-data.sh&lt;/li>
-&lt;li>pure-app-custom.sh&lt;/li>
-&lt;/ul>
-&lt;blockquote>
+ &lt;a href="https://qizhong.land/">https://qizhong.land/&lt;/a>&lt;/p></description></item><item><title>系统镜像制作自动化需求文档（最终版）</title><link>https://cc.coolshell.in/docs/rs/IT/OS-image-creation/</link><pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/rs/IT/OS-image-creation/</guid><description>&lt;blockquote>
 &lt;p>&lt;strong>版本&lt;/strong>：2.0&lt;br>
 &lt;strong>适用系统&lt;/strong>：Ubuntu 26.04 LTS 及同系列 Linux 发行版（x86-64）&lt;br>
 &lt;strong>目标&lt;/strong>：智能体根据当前系统配置，动态生成并执行系统镜像制作脚本，支持 &lt;code>dd+gzip&lt;/code> 和 &lt;code>fsarchiver&lt;/code> 两种工具（用户可选）&lt;br>
 &lt;strong>约束&lt;/strong>：不写死任何磁盘路径，所有设备名、挂载点均由脚本运行时动态获取&lt;/p>&lt;/blockquote>
+&lt;p>检索github库的相关文件，目录名称：OS&amp;amp;App/Proxy&lt;/p>
+&lt;ul>
+&lt;li>clean-login-data.sh&lt;/li>
+&lt;li>pure-app-custom.sh&lt;/li>
+&lt;/ul>
 &lt;h2 id="一总体目标">
  一、总体目标
  &lt;a class="anchor" href="#%e4%b8%80%e6%80%bb%e4%bd%93%e7%9b%ae%e6%a0%87">#&lt;/a>
@@ -9292,7 +9292,7 @@ flex-shrink: 0; 防止图片在空间不足时被压缩&lt;/li>
  课程免费，考试收费
  &lt;a class="anchor" href="#%e8%af%be%e7%a8%8b%e5%85%8d%e8%b4%b9%e8%80%83%e8%af%95%e6%94%b6%e8%b4%b9">#&lt;/a>
 &lt;/h2>
-&lt;p>预定（假设估算）南德网课公开标明原价10万/人/年，最终定价为0/人/年，任何人注册后都可以免费自由学习。然后可自行决定是否参加网络自动化的测验考试，标准收费为100元/人/年，测验考试内容大多是有标准答案的客观题，测试结果将比较精准，此举多赢，对网络平台上的三方参与者有益：&lt;/p></description></item><item><title>赞佛偈、开经偈、忏悔偈</title><link>https://cc.coolshell.in/docs/buddha/translate/buddism-music/</link><pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/translate/buddism-music/</guid><description>&lt;h2 id="赞佛偈">
+&lt;p>预定（假设估算）南德网课公开标明原价10万/人/年，最终定价为0/人/年，任何人注册后都可以免费自由学习。然后可自行决定是否参加网络自动化的测验考试，标准收费为100元/人/年，测验考试内容大多是有标准答案的客观题，测试结果将比较精准，此举多赢，对网络平台上的三方参与者有益：&lt;/p></description></item><item><title>赞佛偈、开经偈、忏悔偈</title><link>https://cc.coolshell.in/docs/buddha/scriptures/buddism-music/</link><pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/scriptures/buddism-music/</guid><description>&lt;h2 id="赞佛偈">
  赞佛偈
  &lt;a class="anchor" href="#%e8%b5%9e%e4%bd%9b%e5%81%88">#&lt;/a>
 &lt;/h2>
@@ -9568,7 +9568,7 @@ flex-shrink: 0; 防止图片在空间不足时被压缩&lt;/li>
 &lt;li>
  &lt;a href="https://www.ximalaya.com/jiankang/3881168/74298553">喜马拉雅- 尹烨×梁冬：看待转基因需用科学思辨态度&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>梁先生已经和牟总做过多次直接会面的交流，两个聪明的大脑有很多的灵感碰撞，关键问题是他们二位下面的团队是否有具体的方案，将灵感转化为实际落地的行动。&lt;/p></description></item><item><title>《般若波罗蜜多心经》</title><link>https://cc.coolshell.in/docs/buddha/translate/P%C4%81ramit%C4%81/</link><pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/translate/P%C4%81ramit%C4%81/</guid><description>&lt;p>（简称《心经》）是汉传佛教中最短小精悍、流传最广的一部大乘经典，浓缩了般若思想的核心要义——“色即是空，空即是色”。&lt;/p>
+&lt;p>梁先生已经和牟总做过多次直接会面的交流，两个聪明的大脑有很多的灵感碰撞，关键问题是他们二位下面的团队是否有具体的方案，将灵感转化为实际落地的行动。&lt;/p></description></item><item><title>《般若波罗蜜多心经》</title><link>https://cc.coolshell.in/docs/buddha/scriptures/P%C4%81ramit%C4%81/</link><pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/scriptures/P%C4%81ramit%C4%81/</guid><description>&lt;p>（简称《心经》）是汉传佛教中最短小精悍、流传最广的一部大乘经典，浓缩了般若思想的核心要义——“色即是空，空即是色”。&lt;/p>
 &lt;p>现今最通行的260字汉译本，由唐代高僧玄奘大师（602–664）于公元7世纪翻译。玄奘西行印度求法17年，带回大量梵本佛典，《心经》即为其归国后所译。&lt;/p>
 &lt;p>此译本语言凝练、义理精准，成为汉传佛教早晚课诵、抄经、持诵的首选。&lt;/p>
 &lt;hr>
@@ -9808,7 +9808,7 @@ flex-shrink: 0; 防止图片在空间不足时被压缩&lt;/li>
  八、一乘 vs 方便——佛无问自说的究竟法门
  &lt;a class="anchor" href="#%e5%85%ab%e4%b8%80%e4%b9%98-vs-%e6%96%b9%e4%be%bf%e4%bd%9b%e6%97%a0%e9%97%ae%e8%87%aa%e8%af%b4%e7%9a%84%e7%a9%b6%e7%ab%9f%e6%b3%95%e9%97%a8">#&lt;/a>
 &lt;/h3>
-&lt;p>其他法门都是佛应机而说的&lt;strong>方便权教&lt;/strong>；唯独净土法门是佛&lt;strong>无问自说&lt;/strong>，不待请问，直接把自己内证的佛果功德和盘托出，是&amp;quot;&lt;strong>一切诸佛之所咨嗟&lt;/strong>&amp;ldquo;的一乘了义，所以持名一法即持一切诸佛名，即得一切诸佛护念。&lt;/p></description></item><item><title>止观、定慧双修</title><link>https://cc.coolshell.in/docs/buddha/translate/concept/</link><pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/translate/concept/</guid><description>&lt;h2 id="止观">
+&lt;p>其他法门都是佛应机而说的&lt;strong>方便权教&lt;/strong>；唯独净土法门是佛&lt;strong>无问自说&lt;/strong>，不待请问，直接把自己内证的佛果功德和盘托出，是&amp;quot;&lt;strong>一切诸佛之所咨嗟&lt;/strong>&amp;ldquo;的一乘了义，所以持名一法即持一切诸佛名，即得一切诸佛护念。&lt;/p></description></item><item><title>止观、定慧双修</title><link>https://cc.coolshell.in/docs/buddha/scriptures/concept/</link><pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/scriptures/concept/</guid><description>&lt;h2 id="止观">
  止观
  &lt;a class="anchor" href="#%e6%ad%a2%e8%a7%82">#&lt;/a>
 &lt;/h2>
@@ -9927,7 +9927,7 @@ flex-shrink: 0; 防止图片在空间不足时被压缩&lt;/li>
  &lt;a class="anchor" href="#%e6%80%bb%e7%bb%93">#&lt;/a>
 &lt;/h3>
 &lt;blockquote>
-&lt;p>&lt;strong>“止”让心静下来，“观”让心看清楚；静而能照，照而能悟，是为止观之道。&lt;/strong>&lt;/p></description></item><item><title>释迦牟尼佛的众多名号</title><link>https://cc.coolshell.in/docs/buddha/translate/Shakyamuni-buddha-name/</link><pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/translate/Shakyamuni-buddha-name/</guid><description>&lt;p>释迦牟尼佛最常见的尊称是 &lt;strong>“如来十号”&lt;/strong> ，这是佛经中描述佛陀功德的十个核心称号。此外还有其他重要尊称。&lt;/p>
+&lt;p>&lt;strong>“止”让心静下来，“观”让心看清楚；静而能照，照而能悟，是为止观之道。&lt;/strong>&lt;/p></description></item><item><title>释迦牟尼佛的众多名号</title><link>https://cc.coolshell.in/docs/buddha/scriptures/Shakyamuni-buddha-name/</link><pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/scriptures/Shakyamuni-buddha-name/</guid><description>&lt;p>释迦牟尼佛最常见的尊称是 &lt;strong>“如来十号”&lt;/strong> ，这是佛经中描述佛陀功德的十个核心称号。此外还有其他重要尊称。&lt;/p>
 &lt;p>以下为您以简单格式列出：&lt;/p>
 &lt;h3 id="一核心尊称如来十号">
  一、核心尊称：如来十号
@@ -10137,7 +10137,7 @@ flex-shrink: 0; 防止图片在空间不足时被压缩&lt;/li>
  ③ 数字排毒·封闭式排毒训练营（重度修复/精英疗愈）
  &lt;a class="anchor" href="#-%e6%95%b0%e5%ad%97%e6%8e%92%e6%af%92%e5%b0%81%e9%97%ad%e5%bc%8f%e6%8e%92%e6%af%92%e8%ae%ad%e7%bb%83%e8%90%a5%e9%87%8d%e5%ba%a6%e4%bf%ae%e5%a4%8d%e7%b2%be%e8%8b%b1%e7%96%97%e6%84%88">#&lt;/a>
 &lt;/h3>
-&lt;p>&lt;strong>适用人群&lt;/strong>：重度沉迷、失眠焦虑严重、专注力崩坏、高压高管、深度内耗人群&lt;/p></description></item><item><title>《大佛顶首楞严神咒》</title><link>https://cc.coolshell.in/docs/buddha/translate/Shurangama-Mantra/</link><pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/translate/Shurangama-Mantra/</guid><description>&lt;p>《大佛顶首楞严神咒》（简称《楞严咒》）是汉传佛教中&lt;strong>最长、最威德、最殊胜的陀罗尼&lt;/strong>之一，被誉为“&lt;strong>咒中之王&lt;/strong>”。出自《大佛顶如来密因修证了义诸菩萨万行首楞严经》（简称《楞严经》）第七卷，由释迦牟尼佛从“无见顶相”放光化佛亲宣。&lt;/p>
+&lt;p>&lt;strong>适用人群&lt;/strong>：重度沉迷、失眠焦虑严重、专注力崩坏、高压高管、深度内耗人群&lt;/p></description></item><item><title>《大佛顶首楞严神咒》</title><link>https://cc.coolshell.in/docs/buddha/scriptures/Shurangama-Mantra/</link><pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/scriptures/Shurangama-Mantra/</guid><description>&lt;p>《大佛顶首楞严神咒》（简称《楞严咒》）是汉传佛教中&lt;strong>最长、最威德、最殊胜的陀罗尼&lt;/strong>之一，被誉为“&lt;strong>咒中之王&lt;/strong>”。出自《大佛顶如来密因修证了义诸菩萨万行首楞严经》（简称《楞严经》）第七卷，由释迦牟尼佛从“无见顶相”放光化佛亲宣。&lt;/p>
 &lt;hr>
 &lt;h2 id="基本概况">
  基本概况
@@ -10214,7 +10214,51 @@ flex-shrink: 0; 防止图片在空间不足时被压缩&lt;/li>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>大众熏修希胜进，十地顿超无难事。
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>三门清净绝非虞，檀信皈依增福慧。
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>这首《回向偈》在汉传佛教最规范、最通行的日常课诵中，就是专门设计用来跟随在《楞严咒》之后，作为早课的核心回向部分。&lt;/p></description></item><item><title>合作伙伴、赞助商、媒体渠道</title><link>https://cc.coolshell.in/docs/detox/partners/</link><pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/detox/partners/</guid><description>&lt;h2 id="健康管理--商品合作">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>这首《回向偈》在汉传佛教最规范、最通行的日常课诵中，就是专门设计用来跟随在《楞严咒》之后，作为早课的核心回向部分。&lt;/p></description></item><item><title>《金刚般若波罗蜜经》</title><link>https://cc.coolshell.in/docs/buddha/scriptures/The-Diamond-Sutra/</link><pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/scriptures/The-Diamond-Sutra/</guid><description>&lt;p>《金刚经》全称《金刚般若波罗蜜经》The Diamond Perfection of Wisdom Sutra，姚秦鸠摩罗什译，为般若部核心经典。全经以须菩提问“云何应住，云何降伏其心”起，佛陀以“应无所住而生其心”为纲，反复阐明“凡所有相，皆是虚妄”：菩萨度尽众生而实无众生得度，布施持戒而不著色声香味触法，佛身、佛法、世界、微尘皆不可执为实有。&lt;/p>
+&lt;p>经末以四句偈作结——“一切有为法，如梦幻泡影，如露亦如电，应作如是观”，教人以缘起性空之智观照世间，断人我、法我二执，生清净信心。其要不在否定现象，而在破除对现象的执取，故名“金刚”，喻智慧锋利能断一切虚妄。禅宗六祖惠能闻“应无所住而生其心”而悟，此经遂成汉传佛教最广为流通之经典之一。&lt;/p>
+&lt;p>《金刚经》里被反复称颂的“四句偈”，是佛陀在开示般若智慧时的核心法要，概括了缘起性空的真谛。它们不仅是经文中的精华，也是修行者理解佛法、实践般若的重要指南。&lt;/p>
+&lt;h2 id="金刚经的四句偈">
+ 《金刚经》的“四句偈”
+ &lt;a class="anchor" href="#%e9%87%91%e5%88%9a%e7%bb%8f%e7%9a%84%e5%9b%9b%e5%8f%a5%e5%81%88">#&lt;/a>
+&lt;/h2>
+&lt;p>**先说一个常被忽略的事实：经文本身并没有指明“四句偈”到底是哪四句。**经中多处提到“受持、读诵、为人解说四句偈”的福德胜过无量布施，却未指定具体文句，历代注家各有取择。&lt;/p>
+&lt;p>&lt;strong>最通行的一解&lt;/strong>，是第三十二品《应化非真分》末尾那首：&lt;/p>
+&lt;blockquote>
+&lt;p>一切有为法，如梦幻泡影。
+如露亦如电，应作如是观&lt;/p>&lt;/blockquote>
+&lt;p>这一首被称为“六如偈”，镇江焦山罗汉崖唐代摩崖石刻即以此四句题作“金刚经四句偈”，唐僧贞观书。&lt;/p>
+&lt;p>&lt;strong>释义&lt;/strong>（依传统解）：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>一切有为法&lt;/strong>——因缘和合而生、有生住异灭的一切现象，含山河大地、身体器物，也含思想情绪与执念。&lt;/li>
+&lt;li>&lt;strong>如梦幻泡影&lt;/strong>——梦喻虚假感知，幻喻幻术变现，泡喻起灭无常，影喻镜中虚像，共同指出“看似实有，实无永恒自性”。&lt;/li>
+&lt;li>&lt;strong>如露亦如电&lt;/strong>——露水日出即散、电光一闪即逝，进一步强调存在之短暂。&lt;/li>
+&lt;li>&lt;strong>应作如是观&lt;/strong>——要主动以这样的眼光去看，不执得失成败爱恨。&lt;/li>
+&lt;/ul>
+&lt;p>要点在于：&lt;strong>这不是否定现象的存在，而是否定其“永恒实有”的自性&lt;/strong>，不是断灭空，而是“性空缘起”——认真做事而不执结果，珍惜情感而不强求永恒。&lt;/p>
+&lt;p>&lt;strong>其他常被当作“四句偈”的经文&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>第五品“凡所有相，皆是虚妄；若见诸相非相，即见如来”；&lt;/li>
+&lt;li>第二十六品“若以色见我，以音声求我，是人行邪道，不能见如来”；&lt;/li>
+&lt;li>第十品“应无所住而生其心”（仅两句，常被视为全经心法总纲）。&lt;/li>
+&lt;/ul>
+&lt;p>所以古人讲：不必执定哪四句，能通达缘起性空之义者，即是四句偈。&lt;/p>
+&lt;h2 id="金刚赞释义">
+ 《金刚赞》释义
+ &lt;a class="anchor" href="#%e9%87%91%e5%88%9a%e8%b5%9e%e9%87%8a%e4%b9%89">#&lt;/a>
+&lt;/h2>
+&lt;p>《金刚赞》不是《金刚经》原文，而是后世丛林唱诵的一首赞偈，全文六句：&lt;/p>
+&lt;blockquote>
+&lt;p>断疑生信，绝相超宗，顿忘人法解真空，般若味重重，四句融通，福德叹无穷&lt;/p>&lt;/blockquote>
+&lt;p>逐句解：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>断疑生信&lt;/strong>——断除对佛法真理的疑惑与错误知见，生起坚固清净的信心，这是智慧生起的基础。&lt;/li>
+&lt;li>&lt;strong>绝相超宗&lt;/strong>——超越一切形相名相，也超越宗派、教义、文字的局限，不落两边、不执一法。&lt;/li>
+&lt;li>&lt;strong>顿忘人法解真空&lt;/strong>——“人”指人我执，“法”指法我执；当下放下二执，方能契证缘起性空的实相。&lt;/li>
+&lt;li>&lt;strong>般若味重重&lt;/strong>——二执既忘，般若智慧自然显发，其清凉自在的法喜滋味层层无穷。&lt;/li>
+&lt;li>&lt;strong>四句融通&lt;/strong>——此句正与前面的“四句偈”呼应：四句之旨不是四段文字，而是圆融一味，一句通则句句通。&lt;/li>
+&lt;li>&lt;strong>福德叹无穷&lt;/strong>——赞叹经中受持四句偈、为人演说的福德不可思量，与《金刚经》“其福胜彼”之语相应。&lt;/li>
+&lt;/ul>
+&lt;p>整首赞的结构是：&lt;strong>由信入（断疑生信）→ 由解破（绝相超宗、顿忘人法）→ 由证受（般若味重重）→ 归结于四句偈与福德&lt;/strong>，等于把《金刚经》的“信、解、行、证”压缩成了六句。&lt;/p></description></item><item><title>合作伙伴、赞助商、媒体渠道</title><link>https://cc.coolshell.in/docs/detox/partners/</link><pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/detox/partners/</guid><description>&lt;h2 id="健康管理--商品合作">
  健康管理 / 商品合作
  &lt;a class="anchor" href="#%e5%81%a5%e5%ba%b7%e7%ae%a1%e7%90%86--%e5%95%86%e5%93%81%e5%90%88%e4%bd%9c">#&lt;/a>
 &lt;/h2>
@@ -10288,7 +10332,7 @@ flex-shrink: 0; 防止图片在空间不足时被压缩&lt;/li>
 属地：北京、成都
 主营业务：自然与人文地理科普图文及视频创作、地理类图书出版（如《这里是中国》系列）、相关文创开发
 网址：http://www.iloveplanet.cn/
-社交媒体：公众号/视频号/B站/知乎：星球研究所&lt;/p></description></item><item><title>《佛说阿弥陀经》白话文和注释</title><link>https://cc.coolshell.in/docs/buddha/translate/amitabha-sutra/</link><pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/translate/amitabha-sutra/</guid><description>&lt;h2 id="原文">
+社交媒体：公众号/视频号/B站/知乎：星球研究所&lt;/p></description></item><item><title>《佛说阿弥陀经》白话文和注释</title><link>https://cc.coolshell.in/docs/buddha/scriptures/amitabha-sutra/</link><pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/scriptures/amitabha-sutra/</guid><description>&lt;h2 id="原文">
  原文
  &lt;a class="anchor" href="#%e5%8e%9f%e6%96%87">#&lt;/a>
 &lt;/h2>
@@ -10494,7 +10538,7 @@ flex-shrink: 0; 防止图片在空间不足时被压缩&lt;/li>
 &lt;li>&lt;strong>首屏图&lt;/strong>：这是转化率的关键，建议用真人场景+留白，文字不要压在图片复杂区域。&lt;/li>
 &lt;li>&lt;strong>图片格式&lt;/strong>：图标用 &lt;code>PNG&lt;/code>（透明底），场景图用 &lt;code>JPG&lt;/code> 或 &lt;code>WebP&lt;/code>（压缩到 200KB 以内，保证秒开）。&lt;/li>
 &lt;/ol>
-&lt;p>设计好图片后，只需替换代码里 &lt;code>src=&amp;quot;/images/xxx.jpg&amp;quot;&lt;/code> 的路径即可。&lt;/p></description></item><item><title>供香、供水偈咒</title><link>https://cc.coolshell.in/docs/buddha/translate/Am%E1%B9%9Bta-Kumbh%C4%ABbh%C4%81va-Mantra/</link><pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/translate/Am%E1%B9%9Bta-Kumbh%C4%ABbh%C4%81va-Mantra/</guid><description>&lt;h2 id="供香供水咒">
+&lt;p>设计好图片后，只需替换代码里 &lt;code>src=&amp;quot;/images/xxx.jpg&amp;quot;&lt;/code> 的路径即可。&lt;/p></description></item><item><title>供香、供水偈咒</title><link>https://cc.coolshell.in/docs/buddha/scriptures/Am%E1%B9%9Bta-Kumbh%C4%ABbh%C4%81va-Mantra/</link><pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/scriptures/Am%E1%B9%9Bta-Kumbh%C4%ABbh%C4%81va-Mantra/</guid><description>&lt;h2 id="供香供水咒">
  供香供水咒
  &lt;a class="anchor" href="#%e4%be%9b%e9%a6%99%e4%be%9b%e6%b0%b4%e5%92%92">#&lt;/a>
 &lt;/h2>
@@ -10617,7 +10661,117 @@ flex-shrink: 0; 防止图片在空间不足时被压缩&lt;/li>
  &lt;strong>总结&lt;/strong>
  &lt;a class="anchor" href="#%e6%80%bb%e7%bb%93">#&lt;/a>
 &lt;/h3>
-&lt;p>莲因寺将此咒与净土法门紧密结合，强调「以供养摄众生念佛，以佛力成往生愿」。忏云和尚认为，此咒是「弥陀愿力的有声显化」，修行者持诵时若能与念佛相应，必能自他两利，共登彼岸。&lt;/p></description></item><item><title>文旅艺术园区经营概略</title><link>https://cc.coolshell.in/docs/art-park/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/art-park/</guid><description>&lt;p>关键词：文旅艺术园区；闲置地产；旅居义工；国际交流；ESG；AI 数字化转型升级；工匠精神&lt;/p>
+&lt;p>莲因寺将此咒与净土法门紧密结合，强调「以供养摄众生念佛，以佛力成往生愿」。忏云和尚认为，此咒是「弥陀愿力的有声显化」，修行者持诵时若能与念佛相应，必能自他两利，共登彼岸。&lt;/p></description></item><item><title>Taiguanglin禅师</title><link>https://cc.coolshell.in/docs/buddha/tai-chan/</link><pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/tai-chan/</guid><description>&lt;blockquote>
+&lt;p>Taiguanglin 禅师自述为「再来人」，官网有「投胎前的法身名号」「再来人传法者」等提法，《坐禅问答录》第一章记其修行历程，来中国修行的韩国僧人，2014 年发帖后返回韩国。本文只记可核实的部分。&lt;/p>&lt;/blockquote>
+&lt;h2 id="禅师与坐禅">
+ 禅师与《坐禅》
+ &lt;a class="anchor" href="#%e7%a6%85%e5%b8%88%e4%b8%8e%e5%9d%90%e7%a6%85">#&lt;/a>
+&lt;/h2>
+&lt;p>2014 年 2 月 25 日在百度贴吧开帖回答佛法修行问题，7 月 25 日最后一次回帖，前后刚好 5 个月，以现代通俗语言讲解坐禅实修而广受追随（《关于本站》原文）。&lt;/p>
+&lt;ul>
+&lt;li>《坐禅》第一部汇集当年贴吧开示，从宇宙的起源入手阐述佛门修行方法，提供一套从零基础到四禅的打坐次第；&lt;/li>
+&lt;li>《坐禅》第二部为 2024 年时隔十年的再次开示；&lt;/li>
+&lt;li>另有《坐禅问答录》，以及禅师讲金刚经、心经、圆觉经的白话讲解，并设「Tai师答疑」与留言板两个栏目。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>线上阅读：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+ &lt;a href="https://taiguanglin.org/">官网首页&lt;/a>&lt;/li>
+&lt;li>
+ &lt;a href="https://taiguanglin.org/about/">关于本站&lt;/a>（禅师与《坐禅》缘起、贴吧开帖始末）&lt;/li>
+&lt;li>
+ &lt;a href="https://taiguanglin.org/asktai/">Tai师答疑&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="参照日本电影禅与道元禅师">
+ 参照：日本电影《禅》与道元禅师
+ &lt;a class="anchor" href="#%e5%8f%82%e7%85%a7%e6%97%a5%e6%9c%ac%e7%94%b5%e5%bd%b1%e7%a6%85%e4%b8%8e%e9%81%93%e5%85%83%e7%a6%85%e5%b8%88">#&lt;/a>
+&lt;/h2>
+&lt;p>日本传记电影《禅》（2009，导演高桥伴明，主演中村勘太郎，改编自大谷哲夫小说《永平之风——道元的生涯》）的主人公，是日本曹洞宗开山祖师&lt;strong>道元禅师&lt;/strong>（希玄道元，1200—1253）。&lt;/p>
+&lt;p>他于&lt;strong>南宋&lt;/strong>嘉定十六年（1223）随师明全入宋求法：先上天童山从住持无际了派参学未契，历游阿育王寺、径山、天台山万年寺等地；后重返天童，于新住持&lt;strong>天童如净&lt;/strong>座下因「身心脱落」公案开悟并得印可，1227 年归国。1233 年在京都深草建兴圣寺（日本最早的禅堂），1243 年（一说 1244）应波多野义重之请至越前开创&lt;strong>永平寺&lt;/strong>，为日本曹洞宗大本山，倡「只管打坐」，后人称其禅风为默照禅。&lt;/p>
+&lt;h2 id="禅师所述修行次第">
+ 禅师所述修行次第
+ &lt;a class="anchor" href="#%e7%a6%85%e5%b8%88%e6%89%80%e8%bf%b0%e4%bf%ae%e8%a1%8c%e6%ac%a1%e7%ac%ac">#&lt;/a>
+&lt;/h2>
+&lt;p>依原书第四章末，近乎逐字：&lt;/p>
+&lt;ul>
+&lt;li>从入门开始，念《地藏经》、念《大悲咒》等——用来灭文字妄想；&lt;/li>
+&lt;li>一有空就念佛，开始练双盘，不要着急；&lt;/li>
+&lt;li>用三年、四年打通全身&lt;strong>筋脉&lt;/strong>进入欲界禅定；&lt;/li>
+&lt;li>从这里开始参思情，一路参到三禅——如果你年轻就到四禅更好；&lt;/li>
+&lt;li>然后发心出来度众生，用实际行动来传法度人，直到你死亡为止。&lt;/li>
+&lt;/ul>
+&lt;p>那你的一生很圆满，就算不能证得阿罗汉果，也会去极乐世界！&lt;/p>
+&lt;h2 id="仙佛阶层">
+ 仙佛阶层
+ &lt;a class="anchor" href="#%e4%bb%99%e4%bd%9b%e9%98%b6%e5%b1%82">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;strong>依据分三层，全文据此标注：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>原书&lt;/strong>：第一章总论第 01—03 节讲三界二十八天，第 07 节讲五乘佛法；第二章第 04 节、第三章第 03 节、第四章讲功夫次第。&lt;/li>
+&lt;li>&lt;strong>佛教通说&lt;/strong>：天层名称与禅定的对应关系属经论通说，原书采用这套通说。但「某品天对应某段功夫」的细部判位无法逐条核实，凡属通说此处都标明，对照原书时请以原书为准。&lt;/li>
+&lt;li>&lt;strong>第三方图&lt;/strong>：网传「五乘佛法」结构图出自 B 站 UP 主「Taiguanglin讲禅修」的视频（非官网内容），自下而上标注：初禅、二禅、三禅、四禅（色界）→ 八定 → 无量空入处定、无量识入处定、无所有入处定、非想非非想入处定（四无色定·无色界）→ 九次第定 → &lt;strong>受想定&lt;/strong>。该图对应的原书章节是&lt;strong>第一章总论第 07 节「五乘佛法」&lt;/strong>，不是「第 12 集」（编号来自视频分集）。&lt;/li>
+&lt;/ul>
+&lt;h3 id="阶层功夫天层对照">
+ 阶层—功夫—天层对照
+ &lt;a class="anchor" href="#%e9%98%b6%e5%b1%82%e5%8a%9f%e5%a4%ab%e5%a4%a9%e5%b1%82%e5%af%b9%e7%85%a7">#&lt;/a>
+&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>书中阶层&lt;/th>
+ &lt;th>功夫&lt;/th>
+ &lt;th>对应天层（通说）&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>人天乘福德法&lt;/td>
+ &lt;td>修福修德、做人做事，积资粮&lt;/td>
+ &lt;td>欲界人道、六欲天（通说：修十善业生天）&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>声闻乘离苦法·第 1 阶&lt;/td>
+ &lt;td>&lt;strong>欲界禅定&lt;/strong>：净化身体、打通筋脉，灭文字妄想、收摄六根&lt;/td>
+ &lt;td>仍在&lt;strong>欲界&lt;/strong>（通说称五趣杂居地），未离欲，不感色界天身&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>声闻乘·第 2 阶&lt;/td>
+ &lt;td>&lt;strong>初禅&lt;/strong>（离生喜乐）&lt;/td>
+ &lt;td>色界初禅三天：梵众天、梵辅天、大梵天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>声闻乘·第 3 阶&lt;/td>
+ &lt;td>&lt;strong>二禅&lt;/strong>（定生喜乐）&lt;/td>
+ &lt;td>二禅三天：少光天、无量光天、光音天（玄奘新译极光净天）&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>声闻乘·第 4 阶&lt;/td>
+ &lt;td>&lt;strong>三禅&lt;/strong>（离喜妙乐）&lt;/td>
+ &lt;td>三禅三天：少净天、无量净天、遍净天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>声闻乘·第 5 阶&lt;/td>
+ &lt;td>&lt;strong>四禅&lt;/strong>（舍念清净）；原书合前五阶称「五禅」&lt;/td>
+ &lt;td>四禅诸天——名单有楞严、俱舍两系，见下节&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>罗汉乘解脱法&lt;/td>
+ &lt;td>原书：「声闻如何修无色界定成为罗汉」「罗汉乘解脱法有无色界四禅」&lt;/td>
+ &lt;td>无色界四天：空无边处天、识无边处天、无所有处天、非想非非想处天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>菩萨乘六度法&lt;/td>
+ &lt;td>灭九种分别心（原书称此段为「罗汉九禅」）&lt;/td>
+ &lt;td>已出三界，不在二十八天之内；原书另提「去了兜率天跟弥勒菩萨学也可以」&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>佛乘寂灭法&lt;/td>
+ &lt;td>灭十一种妄想；菩萨十地＋等觉地共十一地&lt;/td>
+ &lt;td>超越三界二十八天&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>原书第 07 节的五乘次第为「人天乘福德法、声闻乘离苦法、罗汉乘解脱法、菩萨乘六度法、佛乘寂灭法」，与传统「人、天、声闻、缘觉、菩萨」五乘不同——原书不设缘觉乘，另立罗汉乘与佛乘。&lt;/p></description></item><item><title>文旅艺术园区经营概略</title><link>https://cc.coolshell.in/docs/art-park/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/art-park/</guid><description>&lt;p>关键词：文旅艺术园区；闲置地产；旅居义工；国际交流；ESG；AI 数字化转型升级；工匠精神&lt;/p>
 &lt;p>文旅艺术园区的经营，本质上是文化资本与空间资源的创造性转化过程。在当代城市更新与产业升级的背景下，如何盘活闲置地产、激活艺术价值、拓展国际交流、弘扬工匠精神并拥抱AI和数字化浪潮，成为决定园区可持续发展的关键命题。本文拟从五个维度探讨文旅艺术园区的经营策略，以期为文化空间的运营提供理论参考与实践路径。&lt;/p>
 &lt;h2 id="闲置地产的候鸟式转化策略">
  &lt;strong>闲置地产的“候鸟式”转化策略&lt;/strong>
@@ -10817,11 +10971,7 @@ AI原生代的世界认知入口
  &lt;a class="anchor" href="#%e9%a4%90%e9%a5%ae%e4%b8%9a--%e6%b5%b7%e5%ba%95%e6%8d%9e">#&lt;/a>
 &lt;/h2>
 &lt;p>
- &lt;a href="https://www.haidilao.com/">海底捞&lt;/a>&lt;/p></description></item><item><title/><link>https://cc.coolshell.in/docs/buddha/translate/Longevity-health/</link><pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/translate/Longevity-health/</guid><description>&lt;h2 id="寿康宝鉴">
- 《寿康宝鉴》
- &lt;a class="anchor" href="#%e5%af%bf%e5%ba%b7%e5%ae%9d%e9%89%b4">#&lt;/a>
-&lt;/h2>
-&lt;p>在
+ &lt;a href="https://www.haidilao.com/">海底捞&lt;/a>&lt;/p></description></item><item><title>《寿康宝鉴》</title><link>https://cc.coolshell.in/docs/buddha/scriptures/Longevity-health/</link><pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/scriptures/Longevity-health/</guid><description>&lt;p>在
  &lt;a href="https://www.putixia.org/big5/wenku/read_91424.html">“保身广嗣要义”&lt;/a>篇中说：“古时候的男子三十岁才娶妻，女子二十才出嫁。就是要使其身体发育成熟，所以婚后一次交合就受孕，生下的孩子体质健康，将来也能长寿。”&lt;/p>
 &lt;p>但是在这同一篇中，隔了几段后，又写着：“今天制定如下规矩，作为节欲保身的根本：二十岁时应当七天一次为准，三十岁时十四天一次，四十岁时则应二十八天一次。”&lt;/p>
 &lt;p>这就前后不一致了，可能该文作者褚尚书当时也没搞清楚所谓健康如法的方式，应该多少天一次合适？&lt;/p>
@@ -10904,7 +11054,7 @@ AI原生代的世界认知入口
 &lt;h2 id="p寺庙">
  p寺庙
  &lt;a class="anchor" href="#p%e5%af%ba%e5%ba%99">#&lt;/a>
-&lt;/h2></description></item><item><title>虚云长老《应无所住》开示</title><link>https://cc.coolshell.in/docs/buddha/translate/xuyun/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/translate/xuyun/</guid><description>&lt;p>
+&lt;/h2></description></item><item><title>虚云长老《应无所住》开示</title><link>https://cc.coolshell.in/docs/buddha/xuyun/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/xuyun/</guid><description>&lt;p>
  &lt;a href="https://www.putixia.org/wenku/list_2.html">「虚云长老」作品全集&lt;/a>&lt;/p>
 &lt;p>长老擅讲故事，很多内容被收录在后来学生们编辑出版的《应无所住 - 虚云长老》一书中。&lt;/p>
 &lt;h1 id="云居山方便开示1955-年">
@@ -10959,7 +11109,7 @@ AI原生代的世界认知入口
 &lt;/h2>
 &lt;p>五月二十一日开示：&lt;/p>
 &lt;p>虚云长老开示《楞严经》大旨。佛说 &amp;ldquo;如我按指，海印发光，汝暂举心，尘劳先起&amp;rdquo;，众生与佛之别正在于此。全经由阿难发起，着重说一个 &amp;ldquo;淫&amp;rdquo; 字：阿难乞食经历淫室，遭摩登伽女先梵天咒摄人淫席、将毁戒体，如来顶放光明、化身宣咒，敕文殊以咒往护，救回阿难。&lt;/p>
-&lt;p>阿难悲泣自恨 &amp;ldquo;一向多闻，未全道力&amp;rdquo;，殷勤启请成佛最初方便，佛遂说出整部《楞严》。长老指出阿难非做不得主，而是菩萨示现、以慈悲令众生舍爱。他引《圆觉经》&amp;ldquo;皆因淫欲而正性命&amp;rdquo;&amp;quot; 轮回爱为根本 &amp;ldquo;，归结为&amp;rdquo; 三界轮回淫为本，六道往返爱为基 &amp;ldquo;，警策自性不明的众生莫在财色名食睡五欲中滚来滚去。&lt;/p></description></item><item><title>《印光法师文钞》节选</title><link>https://cc.coolshell.in/docs/buddha/translate/yinguang/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/translate/yinguang/</guid><description>&lt;p>净土宗第十三祖
+&lt;p>阿难悲泣自恨 &amp;ldquo;一向多闻，未全道力&amp;rdquo;，殷勤启请成佛最初方便，佛遂说出整部《楞严》。长老指出阿难非做不得主，而是菩萨示现、以慈悲令众生舍爱。他引《圆觉经》&amp;ldquo;皆因淫欲而正性命&amp;rdquo;&amp;quot; 轮回爱为根本 &amp;ldquo;，归结为&amp;rdquo; 三界轮回淫为本，六道往返爱为基 &amp;ldquo;，警策自性不明的众生莫在财色名食睡五欲中滚来滚去。&lt;/p></description></item><item><title>《印光法师文钞》节选</title><link>https://cc.coolshell.in/docs/buddha/yinguang/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/yinguang/</guid><description>&lt;p>净土宗第十三祖
  &lt;a href="https://wenchao.foyue.org/">《印光法师文钞》文白对照全集&lt;/a>，共 10 部 2565 篇，含增广、续编、三编及补编，另收《印光法师答念佛600问》。&lt;/p>
 &lt;ul>
 &lt;li>
@@ -11016,7 +11166,7 @@ AI原生代的世界认知入口
 &lt;p>D寺庙闻名天下，我们去挂单住一段时间，前期体验很糟糕，因为早上4点左右特别吵闹，很多人去上早课，但是还有很多不去上课的义工在睡觉，那些早起的人把房门嘭地一声关上此起彼伏，导致我刚去的时候睡不好。这个体验很差，这应该投诉到相关部门，要么把门做一些改造，关门的时候不要发出巨大响声，要么让物业管理员提示所有人，小心关开门，不要惊醒其他还在休息的人。&lt;/p>
 &lt;p>有一天早上我突然悟到了，这就是提醒我们早起精进。也就没必要改进什么门和管理制度了，本来到寺庙的所有人都应该精进的，但是开缘给一些义工，不强制要求上早晚课，允许睡懒觉，其实这已经是非常大的宽容度了，还提更多要求就很过分了。&lt;/p>
 &lt;p>所以，我每天早上虽然不上课，但是也会4点起来盘腿而坐，默念弥陀圣号。&lt;/p>
-&lt;hr></description></item><item><title/><link>https://cc.coolshell.in/docs/buddha/translate/Mah%C4%81-Karu%E1%B9%87%C4%81-Dh%C4%81ra%E1%B9%87%C4%AB/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/translate/Mah%C4%81-Karu%E1%B9%87%C4%81-Dh%C4%81ra%E1%B9%87%C4%AB/</guid><description>&lt;h2 id="大悲咒">
+&lt;hr></description></item><item><title/><link>https://cc.coolshell.in/docs/buddha/scriptures/Mah%C4%81-Karu%E1%B9%87%C4%81-Dh%C4%81ra%E1%B9%87%C4%AB/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/buddha/scriptures/Mah%C4%81-Karu%E1%B9%87%C4%81-Dh%C4%81ra%E1%B9%87%C4%AB/</guid><description>&lt;h2 id="大悲咒">
  大悲咒
  &lt;a class="anchor" href="#%e5%a4%a7%e6%82%b2%e5%92%92">#&lt;/a>
 &lt;/h2>
