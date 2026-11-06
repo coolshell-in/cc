@@ -1,15 +1,12 @@
 ---
 date: 2026-10-18
-linktitle: "粗制滥造"
-title: ""
+linktitle: "《寿康宝鉴》"
+title: "《寿康宝鉴》"
 weight: 100
 cascade:
 type: docs
 no_list: true
 ---
-
-
-## 《寿康宝鉴》
 
 在[“保身广嗣要义”](https://www.putixia.org/big5/wenku/read_91424.html)篇中说：“古时候的男子三十岁才娶妻，女子二十才出嫁。就是要使其身体发育成熟，所以婚后一次交合就受孕，生下的孩子体质健康，将来也能长寿。”
 

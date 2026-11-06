@@ -10,15 +10,15 @@ cascade:
 ---
 
 
-目录名称：OS&App/Proxy
-- clean-login-data.sh
-- pure-app-custom.sh
-
-
 > **版本**：2.0  
 > **适用系统**：Ubuntu 26.04 LTS 及同系列 Linux 发行版（x86-64）  
 > **目标**：智能体根据当前系统配置，动态生成并执行系统镜像制作脚本，支持 `dd+gzip` 和 `fsarchiver` 两种工具（用户可选）  
 > **约束**：不写死任何磁盘路径，所有设备名、挂载点均由脚本运行时动态获取
+
+
+检索github库的相关文件，目录名称：OS&App/Proxy
+- clean-login-data.sh
+- pure-app-custom.sh
 
 
 ## 一、总体目标
