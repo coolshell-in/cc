@@ -10,7 +10,7 @@ cascade:
     layout: single
     bookCollapseSection: true  
     
-weight: 1
+weight: 6
 ---
 
 以下是最初的方案，主要为三农发展方向定制，由于种种局限性，后来扩展到不限于是否三农方向。
