@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>旅居平台方案 on 酷壳众创</title><link>https://cc.coolshell.in/docs/traveler/</link><description>Recent content in 旅居平台方案 on 酷壳众创</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://cc.coolshell.in/docs/traveler/index.xml" rel="self" type="application/rss+xml"/><item><title>低成本深度旅居生态系统</title><link>https://cc.coolshell.in/docs/traveler/vs/</link><pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/traveler/vs/</guid><description>&lt;p>覆盖人生不同阶段的“低成本深度旅居生态系统”，通过某种形式的“价值交换”来抵消旅居的核心成本（住宿、餐饮），从而实现深度体验。以下为这五种模式的人群画像与工作旅居方式。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>旅居平台方案 on 酷壳众创</title><link>https://cc.coolshell.in/docs/traveler/</link><description>Recent content in 旅居平台方案 on 酷壳众创</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cc.coolshell.in/docs/traveler/index.xml" rel="self" type="application/rss+xml"/><item><title>低成本深度旅居生态系统</title><link>https://cc.coolshell.in/docs/traveler/vs/</link><pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/traveler/vs/</guid><description>&lt;p>覆盖人生不同阶段的“低成本深度旅居生态系统”，通过某种形式的“价值交换”来抵消旅居的核心成本（住宿、餐饮），从而实现深度体验。以下为这五种模式的人群画像与工作旅居方式。&lt;/p>
 &lt;hr>
 &lt;h2 id="互惠生">
  互惠生
@@ -169,7 +169,86 @@
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;p>&lt;strong>最终结论&lt;/strong>：这五种模式勾勒出一条清晰的路径——&lt;strong>年轻人用“体力/时间”交换体验，壮年人用“技能”交换自由，长者用“智慧”交换价值与康养&lt;/strong>。它们共同证明，深度旅居不再是奢侈的消费，而是一种可以通过创造性价值交换来实现的生活方式选择。选择哪种模式，取决于你的人生阶段和你所拥有的、愿意交换的核心资本。&lt;/p></description></item><item><title>打工度假和海外义工平台案例</title><link>https://cc.coolshell.in/docs/traveler/cases/</link><pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/traveler/cases/</guid><description>&lt;p>义工旅行源起自西方学生和年轻人的间隔年（gap year），他们在年轻的时候有时间停下学业和工作，去不同的文化环境和不同的行业领域，体验不同的人生，当具备这样的状态和行动力，人生成功的定义就不受限于生计，而是为了创造更伟大的未来 ……&lt;/p>
+&lt;p>&lt;strong>最终结论&lt;/strong>：这五种模式勾勒出一条清晰的路径——&lt;strong>年轻人用“体力/时间”交换体验，壮年人用“技能”交换自由，长者用“智慧”交换价值与康养&lt;/strong>。它们共同证明，深度旅居不再是奢侈的消费，而是一种可以通过创造性价值交换来实现的生活方式选择。选择哪种模式，取决于你的人生阶段和你所拥有的、愿意交换的核心资本。&lt;/p></description></item><item><title>义工平台原型和功能结构</title><link>https://cc.coolshell.in/docs/traveler/arc/</link><pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/traveler/arc/</guid><description>&lt;p>依据前文多个义工平台的案例，抽取其通用的原型/模型，描述平台结构如下。&lt;/p>
+&lt;h2 id="用户类型">
+ 用户类型
+ &lt;a class="anchor" href="#%e7%94%a8%e6%88%b7%e7%b1%bb%e5%9e%8b">#&lt;/a>
+&lt;/h2>
+&lt;p>平台用户分为两种，自然人people和单位community。&lt;/p>
+&lt;h3 id="个人">
+ 个人
+ &lt;a class="anchor" href="#%e4%b8%aa%e4%ba%ba">#&lt;/a>
+&lt;/h3>
+&lt;p>个人People等同于客人guest，是自然人个体，在海外平台都需要付费注册。&lt;/p>
+&lt;ul>
+&lt;li>职能&lt;/li>
+&lt;/ul>
+&lt;p>按照与主人Host预先的约定，提供以下服务。&lt;/p>
+&lt;p>工作3-4hrs/d&lt;/p>
+&lt;p>年轻活力思维&lt;/p>
+&lt;p>专业知识技能创意&lt;/p>
+&lt;p>陪伴对话交流协作&lt;/p>
+&lt;ul>
+&lt;li>基本信息&lt;/li>
+&lt;/ul>
+&lt;p>昵称&lt;/p>
+&lt;p>logo&lt;/p>
+&lt;p>邮箱&lt;/p>
+&lt;p>密码&lt;/p>
+&lt;ul>
+&lt;li>实名认证&lt;/li>
+&lt;/ul>
+&lt;p>真实姓名（文本）&lt;/p>
+&lt;p>真实头像&lt;/p>
+&lt;p>性别（单选）&lt;/p>
+&lt;p>生日（日期单选）&lt;/p>
+&lt;p>国籍（单选/多选）&lt;/p>
+&lt;p>护照/身份证图片/编号（图片/数字）&lt;/p>
+&lt;p>常住地址（文本）&lt;/p>
+&lt;p>手机/座机（数字）&lt;/p>
+&lt;p>常用语言（多选）&lt;/p>
+&lt;p>自我介绍（文本框）&lt;/p>
+&lt;p>用户协议（勾选框）&lt;/p>
+&lt;ul>
+&lt;li>身份标签&lt;/li>
+&lt;/ul>
+&lt;p>People自然人可以绑定到一个Community单位中，形成所属关系，每个People人将打一个身份标签，类型：&lt;/p>
+&lt;p>单位主管（负责人、法定代表人），证明与单位关系后，具备给任何自然人打身份标签的权限；&lt;/p>
+&lt;p>单位员工（正职，实习生），可以显示所归属的单位，经过其本人同意，才能显示身份标签；&lt;/p>
+&lt;p>志愿者（短期服务中……），可以显示所述的单位，经过其本人同意，才能显示身份标签；&lt;/p>
+&lt;p>尚没有加入任何一家单位（短期服务）的人，没有任何标签，就是个体的自然人，可以转化为志愿者。&lt;/p>
+&lt;h3 id="单位">
+ 单位
+ &lt;a class="anchor" href="#%e5%8d%95%e4%bd%8d">#&lt;/a>
+&lt;/h3>
+&lt;p>单位Community在大多等同于主人host，单位是法人主体，持有营业执照，许多人集合的共同体组织，在海外平台通常免费注册。&lt;/p>
+&lt;ul>
+&lt;li>Host 主人职能&lt;/li>
+&lt;/ul>
+&lt;p>按照预先的约定，提供以下服务。&lt;/p>
+&lt;p>吃饭/住宿&lt;/p>
+&lt;p>业余休闲&lt;/p>
+&lt;p>就业创业&lt;/p>
+&lt;p>用户类型可以综合多样化，包括农场/ 工厂/ 旅舍/社区/ 学校/ 寺庙/ 公益组织等等。&lt;/p>
+&lt;ul>
+&lt;li>基本信息&lt;/li>
+&lt;/ul>
+&lt;p>简称&lt;/p>
+&lt;p>logo&lt;/p>
+&lt;p>邮箱&lt;/p>
+&lt;p>密码&lt;/p>
+&lt;ul>
+&lt;li>实名认证&lt;/li>
+&lt;/ul>
+&lt;p>单位全称（文本）&lt;/p>
+&lt;p>单位类型（多选，例如：公司、农场、学校、工坊、餐厅、旅馆、社区- 村委会、公益组织）&lt;/p>
+&lt;p>创建日期（日期单选）&lt;/p>
+&lt;p>国籍（单选）&lt;/p>
+&lt;p>营业执照图片/编号（图片/数字）&lt;/p>
+&lt;p>住所地址（文本）&lt;/p>
+&lt;p>手机/座机（数字）&lt;/p>
+&lt;p>单位简介（文本框）&lt;/p>
+&lt;p>用户协议（勾选框）&lt;/p></description></item><item><title>打工度假和海外义工平台案例</title><link>https://cc.coolshell.in/docs/traveler/cases/</link><pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/traveler/cases/</guid><description>&lt;p>义工旅行源起自西方学生和年轻人的间隔年（gap year），他们在年轻的时候有时间停下学业和工作，去不同的文化环境和不同的行业领域，体验不同的人生，当具备这样的状态和行动力，人生成功的定义就不受限于生计，而是为了创造更伟大的未来 ……&lt;/p>
 &lt;h2 id="平台原型">
  平台原型
  &lt;a class="anchor" href="#%e5%b9%b3%e5%8f%b0%e5%8e%9f%e5%9e%8b">#&lt;/a>
@@ -240,7 +319,7 @@
 &lt;p>官网：
  &lt;a href="https://www.helpx.net">https://www.helpx.net&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;p>近似helpx的平台：
- &lt;a href="https://www.workaway.info">https://www.workaway.info&lt;/a>&lt;/p></description></item><item><title>劳动换食宿和打工度假网络计划</title><link>https://cc.coolshell.in/docs/traveler/volunteer/</link><pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/traveler/volunteer/</guid><description>&lt;p>人类的很多决策都是基于大环境所做出的反应 - 时代背景。&lt;/p>
+ &lt;a href="https://www.workaway.info">https://www.workaway.info&lt;/a>&lt;/p></description></item><item><title>劳动换食宿和旅居义工的时代背景</title><link>https://cc.coolshell.in/docs/traveler/dynasty/</link><pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/traveler/dynasty/</guid><description>&lt;p>人类的很多决策都是基于大环境所做出的反应 - 时代背景。&lt;/p>
 &lt;h2 id="逆城市化">
  逆城市化
  &lt;a class="anchor" href="#%e9%80%86%e5%9f%8e%e5%b8%82%e5%8c%96">#&lt;/a>
@@ -350,86 +429,7 @@
  &lt;a class="anchor" href="#%e5%9b%bd%e5%ae%b6%e6%94%bf%e7%ad%96">#&lt;/a>
 &lt;/h2>
 &lt;p>
- &lt;a href="https://www.gov.cn/gongbao/content/2018/content_5266232.htm">中共中央 国务院关于实施乡村振兴战略的意见&lt;/a>&lt;/p></description></item><item><title>义工平台原型和功能结构</title><link>https://cc.coolshell.in/docs/traveler/arc/</link><pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/traveler/arc/</guid><description>&lt;p>依据前文多个义工平台的案例，抽取其通用的原型/模型，描述平台结构如下。&lt;/p>
-&lt;h2 id="用户类型">
- 用户类型
- &lt;a class="anchor" href="#%e7%94%a8%e6%88%b7%e7%b1%bb%e5%9e%8b">#&lt;/a>
-&lt;/h2>
-&lt;p>平台用户分为两种，自然人people和单位community。&lt;/p>
-&lt;h3 id="个人">
- 个人
- &lt;a class="anchor" href="#%e4%b8%aa%e4%ba%ba">#&lt;/a>
-&lt;/h3>
-&lt;p>个人People等同于客人guest，是自然人个体，在海外平台都需要付费注册。&lt;/p>
-&lt;ul>
-&lt;li>职能&lt;/li>
-&lt;/ul>
-&lt;p>按照与主人Host预先的约定，提供以下服务。&lt;/p>
-&lt;p>工作3-4hrs/d&lt;/p>
-&lt;p>年轻活力思维&lt;/p>
-&lt;p>专业知识技能创意&lt;/p>
-&lt;p>陪伴对话交流协作&lt;/p>
-&lt;ul>
-&lt;li>基本信息&lt;/li>
-&lt;/ul>
-&lt;p>昵称&lt;/p>
-&lt;p>logo&lt;/p>
-&lt;p>邮箱&lt;/p>
-&lt;p>密码&lt;/p>
-&lt;ul>
-&lt;li>实名认证&lt;/li>
-&lt;/ul>
-&lt;p>真实姓名（文本）&lt;/p>
-&lt;p>真实头像&lt;/p>
-&lt;p>性别（单选）&lt;/p>
-&lt;p>生日（日期单选）&lt;/p>
-&lt;p>国籍（单选/多选）&lt;/p>
-&lt;p>护照/身份证图片/编号（图片/数字）&lt;/p>
-&lt;p>常住地址（文本）&lt;/p>
-&lt;p>手机/座机（数字）&lt;/p>
-&lt;p>常用语言（多选）&lt;/p>
-&lt;p>自我介绍（文本框）&lt;/p>
-&lt;p>用户协议（勾选框）&lt;/p>
-&lt;ul>
-&lt;li>身份标签&lt;/li>
-&lt;/ul>
-&lt;p>People自然人可以绑定到一个Community单位中，形成所属关系，每个People人将打一个身份标签，类型：&lt;/p>
-&lt;p>单位主管（负责人、法定代表人），证明与单位关系后，具备给任何自然人打身份标签的权限；&lt;/p>
-&lt;p>单位员工（正职，实习生），可以显示所归属的单位，经过其本人同意，才能显示身份标签；&lt;/p>
-&lt;p>志愿者（短期服务中……），可以显示所述的单位，经过其本人同意，才能显示身份标签；&lt;/p>
-&lt;p>尚没有加入任何一家单位（短期服务）的人，没有任何标签，就是个体的自然人，可以转化为志愿者。&lt;/p>
-&lt;h3 id="单位">
- 单位
- &lt;a class="anchor" href="#%e5%8d%95%e4%bd%8d">#&lt;/a>
-&lt;/h3>
-&lt;p>单位Community在大多等同于主人host，单位是法人主体，持有营业执照，许多人集合的共同体组织，在海外平台通常免费注册。&lt;/p>
-&lt;ul>
-&lt;li>Host 主人职能&lt;/li>
-&lt;/ul>
-&lt;p>按照预先的约定，提供以下服务。&lt;/p>
-&lt;p>吃饭/住宿&lt;/p>
-&lt;p>业余休闲&lt;/p>
-&lt;p>就业创业&lt;/p>
-&lt;p>用户类型可以综合多样化，包括农场/ 工厂/ 旅舍/社区/ 学校/ 寺庙/ 公益组织等等。&lt;/p>
-&lt;ul>
-&lt;li>基本信息&lt;/li>
-&lt;/ul>
-&lt;p>简称&lt;/p>
-&lt;p>logo&lt;/p>
-&lt;p>邮箱&lt;/p>
-&lt;p>密码&lt;/p>
-&lt;ul>
-&lt;li>实名认证&lt;/li>
-&lt;/ul>
-&lt;p>单位全称（文本）&lt;/p>
-&lt;p>单位类型（多选，例如：公司、农场、学校、工坊、餐厅、旅馆、社区- 村委会、公益组织）&lt;/p>
-&lt;p>创建日期（日期单选）&lt;/p>
-&lt;p>国籍（单选）&lt;/p>
-&lt;p>营业执照图片/编号（图片/数字）&lt;/p>
-&lt;p>住所地址（文本）&lt;/p>
-&lt;p>手机/座机（数字）&lt;/p>
-&lt;p>单位简介（文本框）&lt;/p>
-&lt;p>用户协议（勾选框）&lt;/p></description></item><item><title>深度旅居关键词释义</title><link>https://cc.coolshell.in/docs/traveler/keywords/</link><pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/traveler/keywords/</guid><description>&lt;h2 id="间隔年">
+ &lt;a href="https://www.gov.cn/gongbao/content/2018/content_5266232.htm">中共中央 国务院关于实施乡村振兴战略的意见&lt;/a>&lt;/p></description></item><item><title>深度旅居关键词释义</title><link>https://cc.coolshell.in/docs/traveler/keywords/</link><pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/traveler/keywords/</guid><description>&lt;h2 id="间隔年">
  间隔年
  &lt;a class="anchor" href="#%e9%97%b4%e9%9a%94%e5%b9%b4">#&lt;/a>
 &lt;/h2>
@@ -522,4 +522,222 @@
  优点与风险
  &lt;a class="anchor" href="#%e4%bc%98%e7%82%b9%e4%b8%8e%e9%a3%8e%e9%99%a9">#&lt;/a>
 &lt;/h3>
-&lt;p>&lt;strong>优点：&lt;/strong>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;strong>优点：&lt;/strong>&lt;/p></description></item><item><title>招募框架使用指南</title><link>https://cc.coolshell.in/docs/traveler/helper-guide/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/traveler/helper-guide/</guid><description>&lt;p>本指南配合《义工·学徒·Helper 招募方案模板（Host 填写版）》使用。指南讲标准与判断，模板负责逐栏填写。读完本指南第 2 至 5 节，再打开模板；填完用第 7 节自检，即可得到一份可直接对外发布的完整方案。&lt;/p>
+&lt;h1 id="两份文件怎么分工">
+ 两份文件怎么分工
+ &lt;a class="anchor" href="#%e4%b8%a4%e4%bb%bd%e6%96%87%e4%bb%b6%e6%80%8e%e4%b9%88%e5%88%86%e5%b7%a5">#&lt;/a>
+&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>文件&lt;/th>
+ &lt;th>解决什么&lt;/th>
+ &lt;th>谁读&lt;/th>
+ &lt;th>什么时候用&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>本指南&lt;/strong>&lt;/td>
+ &lt;td>每一栏写什么、写到什么程度、依据是什么&lt;/td>
+ &lt;td>负责人与经办人&lt;/td>
+ &lt;td>填模板前通读；遇到争议时回查&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>招募方案模板&lt;/strong>&lt;/td>
+ &lt;td>栏目、字段、勾选项、对外发布版与签署页&lt;/td>
+ &lt;td>填写人&lt;/td>
+ &lt;td>逐栏填写，填完即为成稿&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>**建议顺序：**先做第 2 节的三个决定，再按第 3 节逐项填写，然后走第 4 节筛选与行前，第 5 节确认合规，最后用第 7 节自检。&lt;/p>
+&lt;h1 id="填写前的三个决定">
+ 填写前的三个决定
+ &lt;a class="anchor" href="#%e5%a1%ab%e5%86%99%e5%89%8d%e7%9a%84%e4%b8%89%e4%b8%aa%e5%86%b3%e5%ae%9a">#&lt;/a>
+&lt;/h1>
+&lt;h2 id="合作模式是什么">
+ 合作模式是什么
+ &lt;a class="anchor" href="#%e5%90%88%e4%bd%9c%e6%a8%a1%e5%bc%8f%e6%98%af%e4%bb%80%e4%b9%88">#&lt;/a>
+&lt;/h2>
+&lt;p>同一段招募文案，放在三种关系里，法律性质完全不同。模式定错，后面的工时、报酬、签证都会跟着错。&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>模式&lt;/th>
+ &lt;th>本质&lt;/th>
+ &lt;th>回报方式&lt;/th>
+ &lt;th>典型工时与时长&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>义工&lt;/strong>&lt;br>Volunteer&lt;/td>
+ &lt;td>基于公益或理念认同的无偿参与，不以营利为目的&lt;/td>
+ &lt;td>无现金报酬；可提供食宿、培训、服务证明&lt;/td>
+ &lt;td>按项目定，多为每周 1 至 3 天，单次数小时至数周&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>换宿帮手&lt;/strong>&lt;br>Helper&lt;/td>
+ &lt;td>以劳动交换食宿的非雇佣安排，HelpX、Workaway 属此类&lt;/td>
+ &lt;td>免费食宿与在地体验，通常不含现金&lt;/td>
+ &lt;td>平均每天 4 小时，区间 2 至 6 小时；建议不少于 2 周&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>学徒&lt;/strong>&lt;br>Apprentice&lt;/td>
+ &lt;td>以学习技能为目的的培训型参与，可能带少量补贴&lt;/td>
+ &lt;td>食宿加技能传授，补贴视约定&lt;/td>
+ &lt;td>数周至数月，按学习计划排期&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="工时与回报怎么定">
+ 工时与回报怎么定
+ &lt;a class="anchor" href="#%e5%b7%a5%e6%97%b6%e4%b8%8e%e5%9b%9e%e6%8a%a5%e6%80%8e%e4%b9%88%e5%ae%9a">#&lt;/a>
+&lt;/h2>
+&lt;p>主流换宿平台的通行做法是用工时换食宿。首次合作建议取区间中下段，更容易形成稳定合作；写得偏高，来的人容易在第二天就失望。&lt;/p></description></item><item><title>义工·学徒·Helper 招募方案模板（Host 填写版）</title><link>https://cc.coolshell.in/docs/traveler/helper-recruit/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://cc.coolshell.in/docs/traveler/helper-recruit/</guid><description>&lt;p>&lt;strong>填写说明：&lt;/strong>【　】内为待填内容；“□”为选项，按实际勾选并删除不适用项；“／”为分隔，保留适用的那一项即可。各栏对应的写法标准，见《招募框架使用指南》同章节。全部填完后，第 9 节即为可直接对外发布的一页版启事。&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>项目&lt;/th>
+ &lt;th>填写&lt;/th>
+ &lt;th>项目&lt;/th>
+ &lt;th>填写&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>方案编号&lt;/strong>&lt;/td>
+ &lt;td>【】&lt;/td>
+ &lt;td>&lt;strong>填写人&lt;/strong>&lt;/td>
+ &lt;td>【】&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>所属机构&lt;/strong>&lt;/td>
+ &lt;td>【】&lt;/td>
+ &lt;td>&lt;strong>版本与日期&lt;/strong>&lt;/td>
+ &lt;td>【第几版】／【年月日】&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h1 id="基本信息速览">
+ 基本信息速览
+ &lt;a class="anchor" href="#%e5%9f%ba%e6%9c%ac%e4%bf%a1%e6%81%af%e9%80%9f%e8%a7%88">#&lt;/a>
+&lt;/h1>
+&lt;p>这一节是全文的索引。建议最后回来核对一次，确保与后文各节完全一致；对外发布时，对方第一眼看的就是这些参数。&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>项目&lt;/th>
+ &lt;th>填写&lt;/th>
+ &lt;th>项目&lt;/th>
+ &lt;th>填写&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>合作模式&lt;/strong>&lt;/td>
+ &lt;td>□义工　□换宿帮手　□学徒　□其他【】&lt;/td>
+ &lt;td>&lt;strong>岗位名称&lt;/strong>&lt;/td>
+ &lt;td>【】&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>需求人数&lt;/strong>&lt;/td>
+ &lt;td>同时【】人；累计【】人&lt;/td>
+ &lt;td>&lt;strong>最短时长&lt;/strong>&lt;/td>
+ &lt;td>【】周，可延至【】周&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>起止日期&lt;/strong>&lt;/td>
+ &lt;td>【起】至【止】&lt;/td>
+ &lt;td>&lt;strong>每日工时&lt;/strong>&lt;/td>
+ &lt;td>【】小时（【时段】至【时段】）&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>每周休息&lt;/strong>&lt;/td>
+ &lt;td>【】天，固定为【星期几】&lt;/td>
+ &lt;td>&lt;strong>现金报酬&lt;/strong>&lt;/td>
+ &lt;td>□不提供（义工与换宿默认）　□提供补贴【】元／月（仅学徒或明确补贴情形），发放方式【】&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>住宿&lt;/strong>&lt;/td>
+ &lt;td>□独住　□合住【】人间　□其他【】&lt;/td>
+ &lt;td>&lt;strong>餐食&lt;/strong>&lt;/td>
+ &lt;td>每日【】餐；休息日□供餐 □不供餐&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>保险&lt;/strong>&lt;/td>
+ &lt;td>□参与者自购并提交凭证（必需）　□机构另投公众责任险，险种【】&lt;/td>
+ &lt;td>&lt;strong>联系人&lt;/strong>&lt;/td>
+ &lt;td>【】／【电话与微信】&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h1 id="机构简介">
+ 机构简介
+ &lt;a class="anchor" href="#%e6%9c%ba%e6%9e%84%e7%ae%80%e4%bb%8b">#&lt;/a>
+&lt;/h1>
+&lt;p>写好这一段的标准只有一个：一个从没来过的人读完，能在脑子里排出你这里的一天。&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>项目&lt;/th>
+ &lt;th>填写&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>机构全称&lt;/strong>&lt;/td>
+ &lt;td>【】&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>机构性质&lt;/strong>&lt;/td>
+ &lt;td>□企业　□民非　□个体　□合作社　□其他【】&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>所在地&lt;/strong>&lt;/td>
+ &lt;td>【省市区】；详细地址【】&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>交通&lt;/strong>&lt;/td>
+ &lt;td>距最近高铁站【】分钟；机场【】分钟；超市【】分钟。是否接站：□是，地点【】　□否&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>主营业务&lt;/strong>&lt;/td>
+ &lt;td>【一句话说清做什么】&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>规模&lt;/strong>&lt;/td>
+ &lt;td>现有【】位伙伴；日均接待【】；场地【】处&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>成立与沿革&lt;/strong>&lt;/td>
+ &lt;td>【年份】创办；【两到三个关键节点】&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>核心理念&lt;/strong>&lt;/td>
+ &lt;td>【一句话，说清为什么做这件事】&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>典型工作日&lt;/strong>&lt;/td>
+ &lt;td>【从早到晚的时间线，建议四到六句，写到几点起床、几点开档、几点收工】&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>本次招募原因&lt;/strong>&lt;/td>
+ &lt;td>【真实原因，不用包装】&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>希望一起完成&lt;/strong>&lt;/td>
+ &lt;td>【具体目标，可核验】&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>公开联系方式&lt;/strong>&lt;/td>
+ &lt;td>联系人【】；电话【】；微信【】；邮箱【】&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h1 id="负责人简介">
+ 负责人简介
+ &lt;a class="anchor" href="#%e8%b4%9f%e8%b4%a3%e4%ba%ba%e7%ae%80%e4%bb%8b">#&lt;/a>
+&lt;/h1>
+&lt;p>这一栏决定对方敢不敢来。除了资历，更要写清你是谁、怎么带人、能教到什么程度。&lt;/p></description></item></channel></rss>
