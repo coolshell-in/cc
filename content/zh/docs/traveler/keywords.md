@@ -3,7 +3,7 @@ date: 2018-06-01
 linktitle: "关键词"
 
 title: "深度旅居关键词释义"
-weight: 3
+weight: 5
 cascade:
     type: docs
     no_list: true

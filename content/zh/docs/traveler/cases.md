@@ -3,7 +3,7 @@ date: 2018-06-01
 linktitle: "平台案例"
 
 title: "打工度假和海外义工平台案例"
-weight: 1
+weight: 3
 cascade:
     type: docs
     no_list: true

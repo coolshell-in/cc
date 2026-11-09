@@ -3,7 +3,7 @@ date: 2018-06-10
 linktitle: "旅居模式"
 
 title: "低成本深度旅居生态系统"
-weight: 1
+weight: 2
 cascade:
     type: docs
     no_list: true

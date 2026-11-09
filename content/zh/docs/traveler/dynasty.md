@@ -1,9 +1,9 @@
 ---
 date: 2024-11-06
-linktitle: "义工招募"
+linktitle: "时代背景"
 
-title: "劳动换食宿和打工度假网络计划"
-weight: 2
+title: "劳动换食宿和旅居义工的时代背景"
+weight: 4
 cascade:
     type: docs
     no_list: true
