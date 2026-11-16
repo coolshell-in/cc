@@ -1,41 +1,35 @@
 ---
-title: Introduction
+date: 2025-07-20
+linktitle: ""
+
+title: "Coolshell Documents"
+weight: 1
+cascade:
 type: docs
+no_list: true
+bookHidden: false
 ---
 
-# Acerbo datus maxime
+Open Source Community
 
-{{% columns %}}
-## Astris ipse furtiva
+Shared apartments, youth communities, studios, coder inns, tech parks, co-working spaces
 
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+Entrepreneurship, industry and market research, finance, accounting/tax/legal, compliance, auditing
 
-<--->
+Quality management systems ISO, EHS (environment/health/safety), standard certification, Six Sigma, lean manufacturing
 
-## Suis quot vota
+Rural revitalization, old houses/farm courtyards, farms and ranches, horticulture, agricultural managers/rural CEOs, agro-cultural tourism
 
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
-{{% /columns %}}
+Cultural heritage/century-old brands/established shops, craftsmanship, DIY handicrafts, cultural and creative industries, holiday markets, local lifestyle
 
+Going global, digital nomadism, cross-border e-commerce, international trade, global study tours, volunteer travel, gap years
 
-## Tempora nisi nunc
+Public welfare, non-profits, ESG (environment/social/governance), social work, sustainable development, nature education, social responsibility, food safety
 
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
+Bootcamps, open courses, foreign languages, AI, programming, geek culture, sports, outdoor activities, data analysis, customer satisfaction, documentaries
 
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
+Metaphysics/theology, religious beliefs, philosophy, spirit, psychology, logic of thinking, ideas, consciousness, mindfulness, introspection, cognitive science, neuroscience, human-computer interaction design, Digital Detox, health
 
-## Locis suis novi cum suoque decidit eadem
+---
 
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
+These are some of the keywords of projects we have done or doing that can be publicly shared.
